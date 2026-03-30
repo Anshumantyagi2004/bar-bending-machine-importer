@@ -1,0 +1,89 @@
+"use client"
+import React, { useState } from "react"
+import { categories, products } from "@/Data/data"
+
+export default function CategorySection() {
+    const [activeCategory, setActiveCategory] = useState("all")
+    const [visibleCount, setVisibleCount] = useState(8);
+
+    const filteredProducts = activeCategory === "all"
+        ? products : products.filter((product) => product.category === activeCategory)
+
+    const visibleProducts = filteredProducts.slice(0, visibleCount);
+
+    return (
+        <section className="bg-white py-10 px-4 md:px-10">
+            <h2 className="text-2xl md:text-5xl font-bold text-amber-500 mb-6 text-center">
+                Product By Categories
+                <span className="block h-1 w-30 bg-amber-500 mt-4 rounded-sm justify-self-center"></span>
+            </h2>
+
+            <div className="flex flex-wrap gap-3 mb-6">
+                <button onClick={() => setActiveCategory("all")}
+                    className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-300
+            ${activeCategory === "all" ? "bg-amber-500 text-white shadow-md scale-105" : "bg-gray-100 text-gray-700 hover:bg-amber-100"}`}>
+                    All
+                </button>
+
+                {categories.map((category) => {
+                    const Icon = category.icon
+                    return (
+                        <button key={category.id} onClick={() => setActiveCategory(category.id)}
+                            className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-300
+                ${activeCategory === category.id ? "bg-amber-500 text-white shadow-md scale-105" : "bg-gray-100 text-gray-700 hover:bg-amber-100"}`}>
+                            <Icon size={18} />
+                            {category.name}
+                        </button>
+                    )
+                })}
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                {visibleProducts.map((product) => (
+                    <div key={product.id} className="group border border-gray-200 hover:border-amber-300 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
+                        <div className="h-60 bg-gray-100 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
+                            <img
+                                src={product.image?.src}
+                                alt={product.name}
+                                className="h-full w-full object-cover"
+                            />
+                        </div>
+
+                        <div className="flex flex-col flex-grow px-2">
+                            <h3 className="text-lg items-center font-semibold text-gray-800 group-hover:text-amber-600 line-clamp-2 min-h-[3.5rem]">
+                                {product.name}
+                            </h3>
+
+                            <p className="text-black my-1">
+                                Model: {product.model}
+                            </p>
+
+                            <div className="mt-auto flex text-black gap-1">
+                                Category:
+                                <span className="inline-block text-sm bg-amber-100 text-amber-700 px-3 py-1 rounded-full">
+                                    {product.category}
+                                </span>
+                            </div>
+                        </div>
+                    </div>))}
+            </div>
+            {visibleCount < filteredProducts.length && (
+                <div className="flex justify-center mt-6 gap-2 items-center">
+                    <button
+                        onClick={() => setVisibleCount((prev) => prev + 8)}
+                        className="px-6 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition"
+                    >
+                        View More
+                    </button>
+                    {visibleCount > 8 && (
+                        <button onClick={() => { setVisibleCount(8); window.scrollTo({ top: 500, behavior: "smooth" }); }}
+                            className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition"
+                        >
+                            View Less
+                        </button>
+                    )}
+                </div>
+            )}
+        </section>
+    )
+}
