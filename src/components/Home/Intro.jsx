@@ -1,62 +1,109 @@
 import React from "react";
-import { Wrench, ShieldCheck, Headphones } from "lucide-react";
+import { Users, Briefcase, Award, Headphones } from "lucide-react";
 
 export default function Intro() {
-    return (
-        <section className="bg-amber-50 py-10">
-            <div className="px-4 md:px-15 mx-auto grid md:grid-cols-2 gap-10 items-center">
+    return (<>
+        <section className="bg-amber-50 py-10 px-4 md:px-15">
+            <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div>
-                    <h2 className="text-2xl md:text-5xl font-bold text-gray-800 mb-4">
-                        India’s Leading{" "}
-                        <span className="text-amber-500">Bar Bending Machine Importer</span>
+                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                        India’s Trusted{" "}
+                        <span className="text-amber-500">Bar Bending Machine</span>{" "}
+                        Importer
+                    </h1>
+
+                    <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-4">
+                        High-Quality Imported Construction Machinery for Modern Infrastructure
                     </h2>
 
-                    <p className="text-gray-800 text-lg mb-6 leading-relaxed">
-                       Founded in 2013, Shree Shakti Infratech is a leading <strong>Bar Bending Machine Importer</strong> and an ISO 9001:2013 certified company. We specialize in delivering high-quality imported construction machinery known for durability, precision, and superior performance. With a diverse portfolio of over 100 products—including Bar Cutting Machines, Concrete Mixers, Hoists, and Safety Equipment—we provide complete, end-to-end solutions for modern construction needs, backed by reliable 24/7 service support.
+                    <p className="text-gray-600 leading-relaxed mb-5">
+                        Founded in 2013, <strong>Shree Shakti Infratech</strong> has established
+                        itself as a trusted and leading{" "}
+                        <strong>Bar Bending Machine Importer</strong> in India, delivering
+                        high-performance construction machinery designed for precision,
+                        durability, and efficiency.
                     </p>
 
-                    <p className="text-gray-800 text-lg mb-8 leading-relaxed">
-                       More than just a <strong>Bar Bending Machine Importer</strong>, we are committed to offering comprehensive solutions with expert technical assistance and prompt after-sales service. Our focus is to help builders and contractors achieve maximum productivity and long-term success through advanced imported machinery, consistent quality, and dependable support.
+                    <p className="text-gray-600 leading-relaxed mb-6">
+                        As an ISO-certified company, we are committed to providing advanced
+                        imported machines that meet the growing demands of modern construction
+                        and infrastructure development. With years of experience, we offer
+                        reliable, cost-effective, and technologically advanced solutions to
+                        enhance productivity and construction quality.
                     </p>
 
-                    {/* FEATURES */}
-                    {/* <div className="space-y-4">
-                        <div className="flex items-center gap-3">
-                            <Wrench className="text-amber-600" size={22} />
-                            <span className="text-gray-700">
-                                Advanced & Durable Machinery
-                            </span>
-                        </div>
+                    {/* BUTTONS */}
+                    <div className="flex gap-4 flex-wrap">
+                        <button className="bg-[#3C2012] hover:bg-[#351b0e] text-white px-7 py-3 rounded-lg shadow-md transition">
+                            Explore Products
+                        </button>
 
-                        <div className="flex items-center gap-3">
-                            <ShieldCheck className="text-amber-600" size={22} />
-                            <span className="text-gray-700">
-                                ISO Certified Quality Assurance
-                            </span>
-                        </div>
-
-                        <div className="flex items-center gap-3">
-                            <Headphones className="text-amber-600" size={22} />
-                            <span className="text-gray-700">
-                                24/7 After-Sales Support
-                            </span>
-                        </div>
-                    </div> */}
-
-                    {/* CTA */}
-                    <button className="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg shadow-md transition">
-                        Explore Products
-                    </button>
+                        <button className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg transition">
+                            Contact Us
+                        </button>
+                    </div>
                 </div>
 
-                <div className="h-80 md:h-130 w-120 overflow-hidden rounded-2xl flex items-center justify-center">
-                    <img
-                        src="/smog-gun.webp"
-                        alt="Construction Machinery"
-                        className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    />
+                <div className="relative flex justify-center">
+
+                    {/* Background Shape */}
+                    <div className="absolute w-[90%] h-[90%] bg-amber-200 rounded-3xl right-0 top-10"></div>
+
+                    {/* Image Card */}
+                    <div className="relative bg-amber-300/40 backdrop-blur-md p-6 rounded-3xl shadow-xl">
+                        <img
+                            src="/smog-gun.webp"
+                            alt="Construction Machine"
+                            className="w-full max-w-md object-contain"
+                        />
+                    </div>
+
                 </div>
             </div>
         </section>
-    );
+
+        <section className="py-15 px-4 md:px-15 w-full bg-cover bg-center relative"
+            style={{ backgroundImage: "url('/bannner.webp')" }}
+        >
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-white/60 backdrop-blur-sm"></div>
+            <div className="relative grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div className="group border border-[#3C2012] rounded-xl p-6 hover:shadow-lg transition duration-300 hover:-translate-y-2">
+                    <Users
+                        className="mx-auto mb-3 text-[#3C2012] group-hover:scale-110 transition duration-300"
+                        size={40}
+                    />
+                    <h3 className="text-3xl font-bold text-[#3C2012]">500+</h3>
+                    <p className="text-black text-base mt-1">Happy Clients</p>
+                </div>
+
+                <div className="group border border-[#3C2012] rounded-xl p-6 hover:shadow-lg transition duration-300 hover:-translate-y-2">
+                    <Briefcase
+                        className="mx-auto mb-3 text-[#3C2012] group-hover:scale-110 transition duration-300"
+                        size={40}
+                    />
+                    <h3 className="text-3xl font-bold text-[#3C2012]">50+</h3>
+                    <p className="text-black text-base mt-1">Projects Completed</p>
+                </div>
+
+                <div className="group border border-[#3C2012] rounded-xl p-6 hover:shadow-lg transition duration-300 hover:-translate-y-2">
+                    <Award
+                        className="mx-auto mb-3 text-[#3C2012] group-hover:scale-110 transition duration-300"
+                        size={40}
+                    />
+                    <h3 className="text-3xl font-bold text-[#3C2012]">10+</h3>
+                    <p className="text-black text-base mt-1">Years Experience</p>
+                </div>
+
+                <div className="group border border-[#3C2012] rounded-xl p-6 hover:shadow-lg transition duration-300 hover:-translate-y-2">
+                    <Headphones
+                        className="mx-auto mb-3 text-[#3C2012] group-hover:scale-110 transition duration-300"
+                        size={40}
+                    />
+                    <h3 className="text-3xl font-bold text-[#3C2012]">24/7</h3>
+                    <p className="text-black text-base mt-1">Support</p>
+                </div>
+            </div>
+        </section>
+    </>);
 }

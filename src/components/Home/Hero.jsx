@@ -59,14 +59,14 @@ export default function HeroCarousel() {
 
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
-            <h2 className="text-3xl md:text-5xl font-bold text-white">
+            <h2 className="text-3xl md:text-5xl font-bold text-amber-500">
               {slide.title}
             </h2>
             <p className="mt-3 text-white text-sm md:text-lg">
               {slide.desc}
             </p>
 
-            <button className="mt-5 bg-amber-500 text-white px-6 py-2 rounded-full hover:bg-amber-600 transition">
+            <button className="mt-5 bg-[#3C2012] text-white text-lg font-bold px-6 py-2 rounded-full hover:bg-[#2e180d] transition">
               Explore Products
             </button>
           </div>
