@@ -3,23 +3,23 @@ import React from "react";
 const industries = [
     {
         title: "Construction & Infrastructure Projects",
-        image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+        image: "",
     },
     {
         title: "Real Estate Development",
-        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa",
+        image: "",
     },
     {
         title: "Road and Highway Construction",
-        image: "https://images.unsplash.com/photo-1504215680853-026ed2a45def",
+        image: "",
     },
     {
         title: "Industrial Projects",
-        image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc",
+        image: "",
     },
     {
         title: "Builders and Contractors",
-        image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd",
+        image: "",
     },
 ];
 
