@@ -3,9 +3,8 @@ import Category from "@/components/Home/Category";
 import CoreProduct from "@/components/Home/CoreProduct";
 import ContactCTA from "@/components/Home/Cta";
 import HeroCarousel from "@/components/Home/Hero";
-import IndustriesSection from "@/components/Home/Industries";
 import Intro from "@/components/Home/Intro";
-import MissionAndVision from "@/components/Home/MissionAndVision";
+import IndustriesSection from "@/components/Home/IndustriesSection";
 import TrustedPartner from "@/components/Home/TrustedPartner";
 import WhyUs from "@/components/Home/WhyUs";
 
@@ -18,7 +17,6 @@ export default function Home() {
       <AboutUs />
       <CoreProduct />
       <WhyUs />
-      <MissionAndVision />
       <IndustriesSection />
       <ContactCTA />
       <TrustedPartner />

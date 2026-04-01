@@ -1,47 +1,72 @@
+'use client'
 import React from 'react'
 import { ShieldCheck, Settings, Zap, Wrench } from "lucide-react";
-export default function MissionAndVision() {
+import { FaBuilding, FaHome, FaRoad, FaIndustry, FaHardHat } from "react-icons/fa";
+import { motion } from "framer-motion";
+export default function IndustriesSection() {
+    const industries = [
+        { title: "Construction & Infrastructure Projects", icon: FaHardHat, color: "bg-orange-100 text-orange-600" },
+        { title: "Real Estate Development", icon: FaHome, color: "bg-green-100 text-green-600" },
+        { title: "Road and Highway Construction", icon: FaRoad, color: "bg-blue-100 text-blue-600" },
+        { title: "Industrial Projects", icon: FaIndustry, color: "bg-purple-100 text-purple-600" },
+        { title: "Builders and Contractors", icon: FaBuilding, color: "bg-pink-100 text-pink-600" },
+    ];
+
+    const cardVariants = {
+        hidden: { opacity: 0, y: 30 },
+        visible: (i) => ({
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 0.4,
+                delay: i * 0.08, // smoother stagger
+                ease: "easeOut",
+            },
+        }),
+    };
+
     return (<>
-        <section
-            className="relative py-10 px-5 md:px-15 bg-cover bg-center"
-            style={{ backgroundImage: "url('/banner-1.webp')" }}
-        >
-            {/* OVERLAY */}
+        <section className="relative py-10 px-5 md:px-15 bg-cover bg-center"
+            style={{ backgroundImage: "url('/banner-1.webp')" }}>
             <div className="absolute inset-0 bg-black/30"></div>
 
             <div className="relative">
                 <div className="text-center mb-6">
                     <h2 className="text-3xl md:text-5xl font-bold text-white">
-                        Our <span className="text-amber-400">Vision & Mission</span>
+                        Industries We Serve
                     </h2>
                     <div className="w-24 h-1 bg-[#3C2012] mx-auto mt-2 rounded"></div>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8">
-                    <div className="group bg-white backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 hover:-translate-y-2">
-                        <h3 className="text-3xl font-semibold text-[#3C2012] mb-4 text-center">
-                            Our Vision
-                        </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    {industries.map((item, index) => {
+                        const Icon = item.icon;
+                        return (
+                            <motion.div
+                                key={index}
+                                custom={index}
+                                variants={cardVariants}
+                                initial="hidden"
+                                animate="visible"
+                                whileHover={{
+                                    y: -10,
+                                    scale: 1.04,
+                                }}
+                                className="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center justify-center p-6 cursor-pointer transform-gpu will-change-transform"
+                            >
+                                <motion.div
+                                    whileHover={{ rotate: 8, scale: 1.15 }}
+                                    transition={{ type: "spring", stiffness: 250, damping: 15 }}
+                                    className={`p-4 rounded-full mb-4 ${item.color}`}
+                                >
+                                    <Icon className="text-3xl" />
+                                </motion.div>
 
-                        <p className="text-gray-800 leading-relaxed text-base">
-                            To become India’s most trusted and innovative construction machinery
-                            importer, known for delivering world-class products, exceptional service,
-                            and long-term value to customers.
-                        </p>
-                    </div>
-
-                    <div className="group bg-white backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 hover:-translate-y-2">
-                        <h3 className="text-3xl font-semibold text-[#3C2012] mb-4 text-center">
-                            Our Mission
-                        </h3>
-
-                        <ul className="space-y-3 text-gray-800">
-                            <li>✔ Provide high-quality imported construction machinery</li>
-                            <li>✔ Enhance productivity and efficiency</li>
-                            <li>✔ Deliver reliable after-sales support</li>
-                            <li>✔ Build long-term relationships based on trust</li>
-                        </ul>
-                    </div>
+                                <h3 className="text-sm font-semibold text-gray-800 text-center leading-snug">
+                                    {item.title}
+                                </h3>
+                            </motion.div>);
+                    })}
                 </div>
             </div>
         </section>

@@ -1,14 +1,39 @@
-import React from "react";
+'use client'
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Users, Briefcase, Award, Headphones } from "lucide-react";
-
 export default function Intro() {
+    const images = [
+        "/smog-gun.webp",
+        "/helmet.webp",
+        "/1.webp",
+        "/boot.webp",
+        "/roller.webp",
+        "/theodolte.webp",
+    ];
+
+    const [current, setCurrent] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrent((prev) => (prev + 1) % images.length);
+        }, 4000);
+        return () => clearInterval(interval);
+    }, []);
+
     return (<>
-        <section className="bg-amber-50 py-10 px-4 md:px-15">
+        <section className="bg-amber-50 py-10 px-4 md:px-15 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-10 items-center">
-                <div>
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                <motion.div
+                    initial={{ opacity: 0, x: -40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6 }}
+                >
+                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-2">
                         India’s Trusted{" "}
-                        <span className="text-amber-500">Bar Bending Machine</span>{" "}
+                        <span className="text-amber-500">
+                            Bar Bending Machine
+                        </span>{" "}
                         Importer
                     </h1>
 
@@ -16,49 +41,67 @@ export default function Intro() {
                         High-Quality Imported Construction Machinery for Modern Infrastructure
                     </h2>
 
-                    <p className="text-gray-600 leading-relaxed mb-5">
+                    <p className="text-gray-600 leading-relaxed mb-4">
                         Founded in 2013, <strong>Shree Shakti Infratech</strong> has established
                         itself as a trusted and leading{" "}
-                        <strong>Bar Bending Machine Importer</strong> in India, delivering
-                        high-performance construction machinery designed for precision,
-                        durability, and efficiency.
+                        <strong>Bar Bending Machine Importer in India</strong>, delivering
+                        high-performance construction machinery built for precision,
+                        durability, and long-term reliability.
                     </p>
 
-                    <p className="text-gray-600 leading-relaxed mb-6">
+                    <p className="text-gray-600 leading-relaxed mb-4">
                         As an ISO-certified company, we are committed to providing advanced
-                        imported machines that meet the growing demands of modern construction
-                        and infrastructure development. With years of experience, we offer
-                        reliable, cost-effective, and technologically advanced solutions to
-                        enhance productivity and construction quality.
+                        imported machines that meet the evolving demands of modern construction
+                        and infrastructure projects. Our solutions are designed to enhance
+                        productivity, improve efficiency, and ensure superior construction quality.
                     </p>
 
                     {/* BUTTONS */}
                     <div className="flex gap-4 flex-wrap">
-                        <button className="bg-[#3C2012] hover:bg-[#351b0e] text-white px-7 py-3 rounded-lg shadow-md transition">
+                        <motion.button
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="bg-[#3C2012] text-white px-7 py-3 rounded-lg shadow-md"
+                        >
                             Explore Products
-                        </button>
+                        </motion.button>
 
-                        <button className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg transition">
+                        <motion.button
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg"
+                        >
                             Contact Us
-                        </button>
+                        </motion.button>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="relative flex justify-center">
+                <motion.div
+                    initial={{ opacity: 0, x: 40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6 }}
+                    className="relative flex justify-center"
+                >
+                    <div className="absolute w-[95%] h-[95%] bg-gradient-to-br from-amber-200 to-orange-300 rounded-3xl blur-2xl opacity-50"></div>
 
-                    {/* Background Shape */}
-                    <div className="absolute w-[90%] h-[90%] bg-amber-200 rounded-3xl right-0 top-10"></div>
-
-                    {/* Image Card */}
-                    <div className="relative bg-amber-300/40 backdrop-blur-md p-6 rounded-3xl shadow-xl">
-                        <img
-                            src="/smog-gun.webp"
-                            alt="Construction Machine"
-                            className="w-full max-w-md object-contain"
-                        />
+                    <div className="relative w-[380px] h-[380px] md:w-[450px] md:h-[450px] 
+                    bg-white/40 backdrop-blur-lg p-6 rounded-3xl shadow-xl overflow-hidden flex items-center justify-center"
+                    >
+                        <AnimatePresence mode="wait">
+                            <motion.img
+                                key={current}
+                                src={images[current]}
+                                alt="Machine"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.6 }}
+                                className="max-w-full max-h-full object-contain 
+                                will-change-transform mix-blend-multiply"
+                            />
+                        </AnimatePresence>
                     </div>
-
-                </div>
+                </motion.div>
             </div>
         </section>
 
