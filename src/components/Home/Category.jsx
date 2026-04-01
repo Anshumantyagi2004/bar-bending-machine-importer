@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react"
 import { categories, products } from "@/Data/data"
+import Link from "next/link";
 
 export default function CategorySection() {
     const [activeCategory, setActiveCategory] = useState("all")
@@ -40,7 +41,7 @@ export default function CategorySection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
                 {visibleProducts.map((product) => (
-                    <div key={product.id} className="group border border-gray-200 hover:border-gray-400 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
+                    <Link href={`products/${product?.slug}`} key={product.id} className="group border border-gray-200 hover:border-gray-400 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
                         <div className="h-60 w-82 bg-gray-50 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
                             <img
                                 src={product.image?.src}
@@ -65,11 +66,11 @@ export default function CategorySection() {
                                 </span>
                             </div>
                         </div>
-                    </div>))}
+                    </Link>))}
             </div>
             {visibleCount < filteredProducts.length && (
                 <div className="flex justify-center mt-6 gap-2 items-center">
-                    <button                        onClick={() => setVisibleCount((prev) => prev + 8)}
+                    <button onClick={() => setVisibleCount((prev) => prev + 8)}
                         className="px-6 py-2 font-bold bg-[#3C2012] text-white rounded-lg hover:bg-[#2e180d] transition"
                     >
                         View More
