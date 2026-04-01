@@ -21,7 +21,7 @@ export default function Popup({ showPopup, setShowPopup }) {
           ✕
         </button>
 
-        <h2 className="text-2xl font-bold mb-4 text-amber-500">
+        <h2 className="text-2xl font-bold mb-4 text-amber-500 text-center">
           Get a Quote
         </h2>
 
@@ -41,7 +41,7 @@ export default function Popup({ showPopup, setShowPopup }) {
             placeholder="Phone Number"
             className="border border-amber-300 p-2 rounded focus:outline-none focus:ring-1 focus:ring-amber-400"
           />
-          <textarea
+          <textarea rows={4}
             placeholder="Your Requirement"
             className="border border-amber-300 p-2 rounded focus:outline-none focus:ring-1 focus:ring-amber-400"
           ></textarea>

@@ -4,21 +4,14 @@ import { Heart, ShoppingCart, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+import Popup from "@/components/Main/Popup";
+import toast from "react-hot-toast";
 
 export default function ProductDetail({ product, relatedProducts = [] }) {
   const [activeImage, setActiveImage] = useState(product.image);
   const [showPopup, setShowPopup] = useState(false);
+  const [addWishlist, setAddWishlist] = useState(false);
   const [status, setStatus] = useState("");
-  // zoom states
-  const [isZoomed, setIsZoomed] = useState(false);
-  const [origin, setOrigin] = useState("50% 50%");
-
-  const handleMouseMove = (e) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    setOrigin(`${x}% ${y}%`);
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -45,6 +38,16 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
       setStatus("❌ Failed to send. Please check your connection.");
     }
   };
+
+  const handleWishlist = async (e) => {
+    if (addWishlist) {
+      setAddWishlist(false)
+      toast.error("Product removed from Wishlist")
+    } else {
+      setAddWishlist(true)
+      toast.success("Product added to Wishlist")
+    }
+  }
 
   return (<>
     <section className="px-4 md:px-10 py-10 bg-amber-50">
@@ -91,39 +94,43 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
               WhatsApp Now
             </a>
 
-            <button className="flex items-center justify-center gap-2 border border-amber-500 text-amber-500 px-6 py-3 rounded-lg hover:bg-amber-500 hover:text-white transition font-semibold">
+            <button onClick={() => setShowPopup(true)} className="flex items-center justify-center gap-2 border border-amber-500 text-amber-500 px-6 py-3 rounded-lg hover:bg-amber-500 hover:text-white transition font-semibold">
               <MessageCircle size={18} />
               Enquire Now
             </button>
           </div>
         </div>
 
-        {/* RIGHT SIDE (Product Info) */}
         <div className="space-y-5">
-          {/* Title */}
           <h1 className="text-2xl md:text-4xl font-bold text-[#3C2012]">
             {product.name}
           </h1>
 
-          {/* Price */}
           <p className="text-2xl font-bold text-amber-500">
             ₹ {product.price || "Get Latest Price"}
           </p>
 
-          {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="flex items-center justify-center gap-2 bg-[#3C2012] text-white px-6 py-3 rounded-lg hover:bg-amber-500 transition font-semibold">
               <ShoppingCart size={18} />
               Add to Cart
             </button>
 
-            <button className="flex items-center justify-center gap-2 border border-[#3C2012] text-[#3C2012] px-6 py-3 rounded-lg hover:bg-[#3C2012] hover:text-white transition font-semibold">
-              <Heart size={18} />
+            <button onClick={handleWishlist}
+              className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold transition duration-300 border
+                ${addWishlist
+                  ? "bg-[#3C2012] text-white border-[#3C2012] hover:bg-white hover:text-[#3C2012]"
+                  : "bg-white text-[#3C2012] border-[#3C2012] hover:bg-[#3C2012] hover:text-white"
+                }`}
+            >
+              <Heart
+                size={18}
+                className={`transition ${addWishlist ? "fill-white" : "fill-none"}`}
+              />
               Wishlist
             </button>
           </div>
 
-          {/* Specifications */}
           <div className="bg-white rounded-xl shadow border mt-6 overflow-hidden">
             <h2 className="bg-amber-500 text-white px-4 py-3 font-semibold">
               Specifications
@@ -193,9 +200,9 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
           Related Products
           <span className="block h-1 w-30 bg-[#3C2012] mt-4 rounded-sm justify-self-center"></span>
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {relatedProducts.map((product) => (
-            <Link href={`products/${product?.slug}`} key={product.id} className="group border border-gray-200 hover:border-gray-400 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
+            <Link href={`/products/${product?.slug}`} key={product.id} className="group border border-gray-200 hover:border-gray-400 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
               <div className="h-60 w-82 bg-gray-50 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
                 <img
                   src={product.image?.src}
@@ -233,5 +240,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
         </button>
       </Link>
     </div>
+
+    <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
   </>);
 }
