@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bar Bending Machine Importer",
-  description: "Bar Bending Machine Importer",
+  title: "Bar Bending Machine Importer in India",
+  description: "Bar Bending Machine Importer - Shree Shakti Infratech offers highly accurate machines with efficient performance.",
 };
 
 export default function RootLayout({ children }) {

@@ -7,6 +7,7 @@ import Intro from "@/components/Home/Intro";
 import IndustriesSection from "@/components/Home/IndustriesSection";
 import TrustedPartner from "@/components/Home/TrustedPartner";
 import WhyUs from "@/components/Home/WhyUs";
+import FormSection from "@/components/Main/FormSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <IndustriesSection />
       <ContactCTA />
       <TrustedPartner />
+      <FormSection />
     </div>
   );
 }
