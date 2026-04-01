@@ -1,11 +1,15 @@
-import { MapPin, Phone } from "lucide-react";
+"use client";
+
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { MapPin, Phone, X } from "lucide-react";
 
 export default function Footer() {
+  const [open, setOpen] = useState(false);
   return (
     <footer className="bg-gray-900 text-gray-300">
       {/* Top Grid */}
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-
         {/* Company Info */}
         <div>
           <img src="/logo.webp" alt="logo" className="h-20 mb-3 bg-white px-2 py-1 rounded-md w-40" />
@@ -66,14 +70,58 @@ export default function Footer() {
             customer service and business practices.
           </p>
 
-          <div className="mt-4">
-            <span className="bg-amber-500 text-white px-3 py-1 rounded-full text-sm">
-              Trust Elite Certified
-            </span>
+          <div className="mt-4 flex justify-center md:justify-start">
+            <img
+              src="/trustseal.webp"
+              alt="Trust Seal"
+              onClick={() => setOpen(true)}
+              className="h-20 cursor-pointer hover:scale-105 transition"
+            />
           </div>
         </div>
-
       </div>
+
+      {/* Popup */}
+      <AnimatePresence>
+        {open && (
+          <>
+            {/* Overlay */}
+            <motion.div
+              className="fixed inset-0 bg-black/70 z-40"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setOpen(false)}
+            />
+
+            {/* Modal */}
+            <motion.div
+              className="fixed inset-0 z-50 flex items-center justify-center px-4"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+            >
+              <div className="relative bg-white rounded-xl shadow-lg max-w-2xl w-full">
+
+                {/* Close Button */}
+                <button
+                  onClick={() => setOpen(false)}
+                  className="absolute top-3 right-3 text-gray-600 hover:text-black"
+                >
+                  <X size={24} />
+                </button>
+
+                {/* Image */}
+                <img
+                  src="/cert.webp"
+                  alt="Trust Seal Large"
+                  className="w-full h-auto object-contain rounded"
+                />
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
 
       {/* Bottom Bar */}
       <div className="border-t flex justify-around border-gray-700 text-center py-4 text-base text-gray-300">
