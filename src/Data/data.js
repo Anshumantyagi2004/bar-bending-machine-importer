@@ -28,6 +28,7 @@ export const products = [
     // bar processing category
     {
         id: 1,
+        price: 62000,
         slug: "automatic-bar-bending-machine-32-40mm",
         name: "Automatic Bar Bending Machine 32-40 MM ",
         category: "bar-processing-machines",
@@ -49,71 +50,63 @@ export const products = [
         videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=CDNXOBrADoc3jM5l",
 
         description: [
-            { type: "h2", text: "Product Overview of Automatic Bar Bender" },
+            { type: "h2", text: "Automatic Bar Bending Machine 32–40 MM Importer in India" },
+            {
+                type: "p",
+                text: 'Shree Shakti Infratech is a trusted importer of high-quality Automatic Bar Bending Machines (32–40 MM) in India, delivering advanced solutions for modern construction and infrastructure projects. Our machines are designed to handle heavy-duty rebar bending tasks with exceptional precision, efficiency, and durability.'
+            },
+            {
+                type: "p",
+                text: 'With years of industry expertise, we provide reliable and performance-driven machinery that meets the growing demands of contractors, builders, and engineering companies. Our imported bar bending machines are manufactured using advanced technology, ensuring consistent output and long operational life.',
+            },
 
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "Shree Shakti Infratech is a reputed <strong>Automatic Bar Bender Supplier</strong> in India, offering high-performance machines for bending bars efficiently and accurately.",
-                    "As a trusted <strong>Automatic Bar Bender Supplier</strong>, we deliver durable and reliable machines widely used in construction, civil engineering, and industrial projects.",
-                    "We are recognized as a professional <strong>Automatic Bar Bender Supplier</strong>, catering to contractors, builders, and infrastructure developers nationwide.",
-                    "Our automatic bar benders are engineered for precision, speed, and safety, making us the preferred <strong>Automatic Bar Bender Supplier</strong> across multiple sectors.",
+                    "Heavy-duty motor for powerful performance",
+                    "Digital control panel for precise angle settings",
+                    "मजबूत gearbox system for smooth operation",
+                    "High bending capacity (32 MM to 40 MM)",
+                    "Low maintenance and energy-efficient design",
+                    "Compact and robust structure",
                 ],
             },
 
-            { type: "h2", text: "Key Features of Automatic Bar Bender" },
-
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Speed Operation:</strong> As an expert <strong>Automatic Bar Bender Supplier</strong>, we provide machines capable of bending bars quickly with minimal manual effort.",
-                    "<strong>Durable Construction:</strong> Being a reliable <strong>Automatic Bar Bender Supplier</strong>, our machines are made with robust steel and precision-engineered components for long-term performance.",
-                    "<strong>Accurate Bending:</strong> We are a professional <strong>Automatic Bar Bender Supplier</strong> offering machines with precise angle control for consistent bending results.",
-                    "<strong>User-Friendly Controls:</strong> As a trusted <strong>Automatic Bar Bender Supplier</strong>, we ensure the machines have simple and safe operational panels for hassle-free use.",
-                    "<strong>Versatile Bar Sizes:</strong> Shree Shakti Infratech is a <strong>Automatic Bar Bender Supplier</strong> providing machines suitable for various bar diameters and lengths.",
-                    "<strong>Low Maintenance:</strong> As a leading <strong>Automatic Bar Bender Supplier</strong>, our systems are designed for minimal upkeep and high operational efficiency.",
+                    "Construction of residential and commercial buildings.",
+                    "Infrastructure projects like bridges and flyovers.",
+                    "Road and highway construction.",
+                    "Industrial and factory structures.",
+                    "Precast concrete plants.",
                 ],
             },
 
-            { type: "h2", text: "Applications of Automatic Bar Bender" },
-
+            { type: "h2", text: "High-Performance 32–40 MM Bar Bending Machines" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Contractors rely on us as their <strong>Automatic Bar Bender Supplier</strong> for efficient bending of reinforcement bars at building sites.",
-                    "<strong>Infrastructure Projects:</strong> Our machines are widely used in roads, bridges, and highway projects for accurate bar shaping.",
-                    "<strong>Industrial Fabrication:</strong> As a dependable <strong>Automatic Bar Bender Supplier</strong>, we provide machines for factories and workshops that require precise bar bending.",
-                    "<strong>Civil Engineering Projects:</strong> Engineers and project developers trust our machines for producing consistent bar shapes and angles.",
-                    "<strong>Government & Public Works:</strong> Recognized as a reliable <strong>Automatic Bar Bender Supplier</strong>, we supply machines for large-scale infrastructure and public construction projects.",
+                    "Accurate angle bending with minimal error.",
+                    "High-speed operations for increased productivity.",
+                    "Strong and durable construction for long-term use.",
+                    "User-friendly controls for easy operation.",
+                    "Enhanced safety features for operator protection.",
                 ],
             },
 
-            { type: "h2", text: "Additional Information on Automatic Bar Bender" },
-
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?", },
             {
                 type: "ul",
                 items: [
-                    "As a professional <strong>Automatic Bar Bender Supplier</strong>, we provide models suitable for different bar diameters and operational requirements.",
-                    "Our machines comply with international quality and safety standards, making us a preferred <strong>Automatic Bar Bender Supplier</strong> in India.",
-                    "Shree Shakti Infratech, a trusted <strong>Automatic Bar Bender Supplier</strong>, also provides customization options for unique project requirements.",
-                    "We are a dependable <strong>Automatic Bar Bender Supplier</strong> with easy availability of spare parts and maintenance support.",
-                    "Being a reliable <strong>Automatic Bar Bender Supplier</strong>, we ensure excellent after-sales service for maximum client satisfaction.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Automatic Bar Bender Supplier?",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> We are a leading <strong>Automatic Bar Bender Supplier</strong> providing robust and efficient solutions.",
-                    "<strong>Customized Solutions:</strong> As an experienced <strong>Automatic Bar Bender Supplier</strong>, we deliver machines tailored to specific operational needs.",
-                    "<strong>Reliable Support:</strong> Customers trust us as their <strong>Automatic Bar Bender Supplier</strong> due to our professional service and guidance.",
-                    "<strong>Competitive Pricing:</strong> We are a professional <strong>Automatic Bar Bender Supplier</strong> offering cost-effective machines without compromising quality.",
-                    "<strong>Proven Expertise:</strong> With years of experience as a <strong>Automatic Bar Bender Supplier</strong>, we supply high-performance, precise bar bending solutions.",
+                    "Trusted importer of advanced construction machinery.",
+                    "High-quality machines sourced from reliable global manufacturers.",
+                    "Competitive pricing with excellent value.",
+                    "Prompt delivery across India.",
+                    "Dedicated after-sales support and service.",
+                    "Customized solutions as per project requirements.",
                 ],
             },
         ],
@@ -131,13 +124,13 @@ export const products = [
             { label: "Voltage", value: "440 volt" },
         ],
 
-        metaTitle: "Rebar Bender 500 - High-Quality Construction Equipment",
-        metaDescription:
-            "Buy Rebar Bender 500 for efficient and precise rebar bending in construction projects. Durable, reliable, and best price available.",
+        metaTitle: "Automatic Bar Bending Machine 32–40 MM Importer in India | Shree Shakti Infratech",
+        metaDescription: "Leading importer of Automatic Bar Bending Machine 32–40 MM in India. Get high-performance, durable and precise rebar bending machines for construction projects.",
     },
 
     {
         id: 2,
+        price: 64000,
         slug: "bar-bending-machine",
         name: "Bar Bending Machine",
         category: "bar-processing-machines",
@@ -156,66 +149,56 @@ export const products = [
                 alt: " Bar Bending Machine",
             },
         ],
-
         videoUrl: "https://youtu.be/MRStEcGSAgo?si=o8cFN3ixD4_R46et",
 
         description: [
-            { type: "h2", text: "Product Overview of  Bar Bending Machine" },
+            { type: "h2", text: "Bar Bending Machine Importer in India" },
+            {
+                type: "p",
+                text: '<strong>Shree Shakti Infratech</strong> is a reliable importer of high-quality <strong>Bar Bending Machines in India</strong>, offering advanced and efficient solutions for modern construction needs. Our imported machines are designed with cutting-edge technology to deliver precise bending, high productivity, and long-lasting performance.'
+            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "Shree Shakti Infratech is a reputed <strong> Bar Bending Machine Supplier</strong> in India, providing advanced machines designed for accurate and effortless bar bending.",
-                    "As a trusted <strong> Bar Bending Machine Supplier</strong>, we deliver high-quality machines suitable for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized as a professional <strong> Bar Bending Machine Supplier</strong>, catering to contractors, civil engineers, and project developers nationwide.",
-                    "Our  bar bending machines combine precision, efficiency, and safety, making us the preferred <strong> Bar Bending Machine Supplier</strong> for diverse construction applications.",
+                    "Precision bending with accurate angle control.",
+                    "Powerful motor for heavy-duty operations.",
+                    "Advanced control system for ease of use.",
+                    "मजबूत gearbox for smooth functioning.",
+                    "Durable construction for long service life.",
+                    "Low maintenance and energy-efficient design.",
                 ],
             },
-            { type: "h2", text: "Key Features of Bar Bending Machine" },
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Efficient Operation:</strong> As an expert <strong> Bar Bending Machine Supplier</strong>, our machines perform fast and accurate bending for improved productivity.",
-                    "<strong>Robust Build:</strong> Being a reliable <strong> Bar Bending Machine Supplier</strong>, the machine is made with durable steel components for long-lasting performance.",
-                    "<strong>Precise Bending Angles:</strong> We are a professional <strong> Bar Bending Machine Supplier</strong> ensuring consistent and accurate bar shaping every time.",
-                    "<strong>Simple Controls:</strong> As a trusted <strong> Bar Bending Machine Supplier</strong>, our machines feature user-friendly panels for safe and hassle-free operation.",
-                    "<strong>Adaptable Bar Sizes:</strong> Shree Shakti Infratech provides machines suitable for a wide range of bar diameters and lengths.",
-                    "<strong>Low Maintenance:</strong> Our systems are designed for easy upkeep, reducing downtime and operational costs.",
+                    "Residential and commercial construction.",
+                    "Infrastructure projects (bridges, flyovers, roads).",
+                    "Industrial construction.",
+                    "Precast concrete production units",
                 ],
             },
-            { type: "h2", text: "Applications of  Bar Bending Machine" },
+
+            { type: "h2", text: "High-Quality Imported Bar Bending Machines" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Widely used by contractors for efficient bending of reinforcement bars at building and commercial sites.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highway, bridge, and metro construction requiring precise bar shapes.",
-                    "<strong>Industrial Workshops:</strong> Factories and fabrication units rely on our machines for consistent and high-speed bar bending.",
-                    "<strong>Civil Engineering:</strong> Engineers use our machines for accurate bar shaping to meet project specifications.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong> Bar Bending Machine Supplier</strong>, supplying machines for public infrastructure development.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on  Bar Bending Machine" },
-            {
-                type: "ul",
-                items: [
-                    "We offer multiple models suitable for varying bar diameters and bending requirements.",
-                    "Machines comply with international quality and safety standards.",
-                    "Customization options are available to meet unique project needs.",
-                    "Easy availability of spare parts ensures minimal downtime.",
-                    "Strong after-sales support guarantees maximum client satisfaction.",
-                ],
+                type: "p",
+                text: 'Our range of imported bar bending machines is built for heavy-duty applications and consistent output. These machines are ideal for shaping reinforcement bars used in large-scale construction projects such as buildings, bridges, highways, and industrial structures. '
             },
             {
                 type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your  Bar Bending Machine Supplier?",
+                text: "Why Choose Shree Shakti Infratech?",
             },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong> Bar Bending Machine Supplier</strong> delivering reliable and precise solutions.",
-                    "<strong>Customized Solutions:</strong> Machines tailored to specific project and operational requirements.",
-                    "<strong>Reliable Support:</strong> Professional guidance and prompt after-sales service for all customers.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising quality and performance.",
-                    "<strong>Industry Expertise:</strong> Years of experience providing high-performance bar bending solutions nationwide.",
+                    "Trusted importer of advanced construction machinery.",
+                    "High-quality machines sourced from reliable global manufacturers.",
+                    "Competitive pricing with excellent value.",
+                    "Prompt delivery across India.",
+                    "Dedicated after-sales support and service.",
+                    "Customized solutions as per project requirements.",
                 ],
             },
         ],
@@ -239,9 +222,8 @@ export const products = [
             { label: "Voltage", value: "440 V" },
             { label: "Production Capacity", value: "100" },
         ],
-        metaTitle: " Bar Bending Machine",
-        metaDescription:
-            "Efficient and high-performance  bar bending machine for precise reinforcement bar shaping in construction and infrastructure projects.",
+        metaTitle: "Bar Bending Machine Importer in India | High-Quality Rebar Benders",
+        metaDescription: "Leading importer of bar bending machines in India. Get durable, high-performance rebar bending machines for construction and infrastructure projects.",
     },
 
     {

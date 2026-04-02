@@ -7,14 +7,14 @@ const StickyButtons = () => {
     return (<>
         <a href="https://wa.me/+918826544443" target="_blank"
             rel="noopener noreferrer" aria-label="Chat on WhatsApp with Shree Shakti Infratech"
-            className="block fixed bottom-22 right-5 z-50 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
+            className="block fixed bottom-22 right-5 z-40 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
         >
             <FaWhatsapp size={28} />
         </a>
 
         <a href="tel:+918826544443" target="_blank"
             rel="noopener noreferrer" aria-label="Chat on WhatsApp with Shree Shakti Infratech"
-            className="block fixed bottom-7.5 right-5 z-50 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-600 transition"
+            className="block fixed bottom-7.5 right-5 z-40 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-600 transition"
         >
             <Phone size={27} />
         </a>

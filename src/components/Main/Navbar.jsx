@@ -1,6 +1,5 @@
 "use client";
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import {
   Menu,
@@ -12,7 +11,6 @@ import {
   Newspaper,
   ShoppingCart,
 } from "lucide-react";
-
 import Popup from "./Popup";
 import Link from "next/link";
 import CartSidebar from "./CartSidebar";
@@ -21,13 +19,34 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const [cartItems, setCartItems] = useState([
-    {
-      name: "Bar Bending Machine",
-      price: 50000,
-      image: "/machine.png",
-    },
-  ]);
+  const [cartItems, setCartItems] = useState([]);
+
+  useEffect(() => {
+    const storedCart = localStorage.getItem("cart");
+    if (storedCart) {
+      setCartItems(JSON.parse(storedCart));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+  }, [cartItems]);
+
+  useEffect(() => {
+    const updateCart = () => {
+      const storedCart = localStorage.getItem("cart");
+      if (storedCart) {
+        setCartItems(JSON.parse(storedCart));
+      }
+    };
+
+    window.addEventListener("cartUpdated", updateCart);
+
+    return () => {
+      window.removeEventListener("cartUpdated", updateCart);
+    };
+  }, []);
+
   const pathname = usePathname();
 
   const linkClass = (path) =>
@@ -65,7 +84,7 @@ export default function Navbar() {
             <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 bg-[#3C2012] text-white px-5 py-2 rounded-full font-semibold transition-all duration-200 shadow-md hover:scale-105">
               <ShoppingCart size={18} /> Cart
               <span className="absolute -top-2 -right-2 bg-amber-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                1
+                {cartItems.length}
               </span>
             </button>
 
@@ -80,7 +99,7 @@ export default function Navbar() {
             <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 text-[#3C2012] px-3 py-2 rounded-lg transition font-semibold">
               <ShoppingCart size={24} />
               <span className="absolute -top-1.5 -right-1.5 bg-amber-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                2
+                {cartItems.length}
               </span>
             </button>
             <button className="bg-amber-500 hover:bg-amber-600 px-3 py-2 rounded-md text-white" onClick={() => setIsOpen(!isOpen)}>

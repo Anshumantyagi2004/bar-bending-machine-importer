@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import Popup from "@/components/Main/Popup";
 import toast from "react-hot-toast";
+import { CheckCircle } from "lucide-react";
 
 export default function ProductDetail({ product, relatedProducts = [] }) {
   const [activeImage, setActiveImage] = useState(product.image);
@@ -37,6 +38,46 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
       setStatus("❌ Failed to send. Please check your connection.");
     }
   };
+
+  const addToCart = (product) => {
+    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existingIndex = storedCart.findIndex(
+      (item) => item.name === product.name
+    );
+
+    let updatedCart;
+
+    if (existingIndex !== -1) {
+      updatedCart = storedCart.map((item, index) =>
+        index === existingIndex
+          ? { ...item, qty: (item.qty || 1) + 1 }
+          : item
+      );
+
+      toast.success("Quantity updated");
+    } else {
+      updatedCart = [...storedCart, { ...product, qty: 1 }];
+
+      toast.success("Added to cart");
+    }
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    window.dispatchEvent(new Event("cartUpdated"));
+  };
+
+  const sections = [];
+  let currentSection = null;
+
+  // Group content by h2
+  product.description.forEach((block) => {
+    if (block.type === "h2") {
+      if (currentSection) sections.push(currentSection);
+      currentSection = { title: block.text, content: [] };
+    } else {
+      currentSection?.content.push(block);
+    }
+  });
+
+  if (currentSection) sections.push(currentSection);
 
   return (<>
     <section className="px-4 md:px-10 py-10 bg-amber-50">
@@ -80,16 +121,16 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
             {product.name}
           </h1>
 
-          <p className="text-2xl font-bold text-amber-500">
-            ₹ {product.price || "Get Latest Price"}
+          <p className="text-xl font-bold text-amber-500">
+            ₹ {product.price}/Piece <a href="tel:+918826544443" className="ml-2 transition hover:underline hover:text-amber-500 text-base text-[#3C2012]">Get Latest Price</a>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="flex items-center justify-center gap-2 bg-[#3C2012] text-white px-6 py-3 rounded-lg hover:bg-amber-500 transition font-semibold">
+            <button onClick={() => addToCart(product)} className="flex items-center justify-center gap-2 bg-[#3C2012] text-white px-6 py-3 rounded-lg hover:bg-amber-500 transition font-semibold">
               <ShoppingCart size={18} />
               Add to Cart
             </button>
-            
+
             <a href={`https://wa.me/+918826544443?text=Hello, I am interested in ${product.name}`}
               target="_blank"
               className="flex items-center justify-center gap-2 border border-green-500 text-green-500 px-6 py-3 rounded-lg hover:bg-green-500 hover:text-white transition font-semibold"
@@ -128,40 +169,80 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-12 bg-white rounded-xl shadow border">
-        <h2 className="bg-[#3C2012] text-white px-6 py-3 rounded-t-xl text-xl font-semibold">
-          Description
+      <div className="max-w-7xl mx-auto mt-12 px-4">
+        <h2 className="text-3xl font-bold text-[#3C2012] mb-6 text-center">
+          Product Overview
+          <span className="block h-1 w-30 bg-amber-500 mt-2 rounded-sm justify-self-center"></span>
         </h2>
 
-        <div className="p-6 space-y-4 text-gray-700">
-          {product.description.map((block, i) => {
-            if (block.type === "h2")
-              return (
-                <h2 key={i} className="text-xl font-bold text-[#3C2012]">
-                  {block.text}
-                </h2>
-              );
+        <div className="grid md:grid-cols-2 gap-6">
+          {sections.map((section, i) => (
+            <div key={i} className="bg-white rounded-2xl shadow-md border p-6 hover:shadow-lg transition" >
+              <h3 className="text-xl font-semibold text-[#3C2012] mb-4 border-l-4 border-[#3C2012] pl-3">
+                {section.title}
+              </h3>
 
-            if (block.type === "p")
-              return (
-                <p
-                  key={i}
-                  dangerouslySetInnerHTML={{ __html: block.text }}
-                />
-              );
-
-            if (block.type === "ul")
-              return (
-                <ul key={i} className="list-disc ml-6 space-y-2">
-                  {block.items.map((item, j) => (
-                    <li
+              {section.content.map((block, j) => {
+                if (block.type === "p") {
+                  return (
+                    <p
                       key={j}
-                      dangerouslySetInnerHTML={{ __html: item }}
+                      className="text-gray-600 leading-relaxed mb-4"
+                      dangerouslySetInnerHTML={{ __html: block.text }}
                     />
-                  ))}
-                </ul>
-              );
-          })}
+                  );
+                }
+
+                if (block.type === "ul") {
+                  return (
+                    <ul key={j} className="space-y-2">
+                      {block.items.map((item, k) => (
+                        <li
+                          key={k}
+                          className="flex items-start gap-2 text-gray-700"
+                        >
+                          <CheckCircle
+                            size={18}
+                            className="text-green-600 mt-1"
+                          />
+                          <span
+                            dangerouslySetInnerHTML={{ __html: item }}
+                          />
+                        </li>
+                      ))}
+                    </ul>
+                  );
+                }
+              })}
+            </div>
+          ))}
+          <div className="bg-white rounded-2xl shadow-md border p-6 hover:shadow-lg transition flex flex-col h-full">
+            <div className="flex-grow">
+              <h3 className="text-xl font-semibold text-[#3C2012] mb-4 border-l-4 border-[#3C2012] pl-3">
+                Get in Touch
+              </h3>
+
+              <p className="text-black text-base mb-2">
+                If you are looking for a dependable Bar Bending Machine importer, Shree
+                Shakti Infratech provides the perfect combination of quality,
+                performance, and affordability.
+              </p>
+
+              <p className="text-black text-sm mb-2">
+                Contact us today to get expert advice and the best machine for your
+                project.
+              </p>
+            </div>
+
+            <div className="mt-auto flex justify-center pt-4">
+              <button                onClick={() => setShowPopup(true)}
+                className="flex items-center gap-2 border border-amber-500 text-amber-500 px-6 py-3 rounded-lg hover:bg-amber-500 hover:text-white transition font-semibold"
+              >
+                <MessageCircle size={18} />
+                Contact Now
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -195,8 +276,8 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
 
                 <div className="mt-auto flex text-black gap-1">
                   Category:
-                  <span className="inline-block text-sm bg-[#ffe7db] text-[#3C2012] px-3 py-1 rounded-full">
-                    {product.category}
+                  <span className="inline-block capitalize text-sm bg-[#ffe7db] text-[#3C2012] px-3 py-1 rounded-full">
+                    {product.category.replace(/-/g, " ")}
                   </span>
                 </div>
               </div>
