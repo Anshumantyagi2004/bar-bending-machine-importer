@@ -1,9 +1,11 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import { ShieldCheck, Settings, Zap, Wrench } from "lucide-react";
 import { FaBuilding, FaHome, FaRoad, FaIndustry, FaHardHat } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Popup from '../Main/Popup';
 export default function IndustriesSection() {
+    const [showPopup, setShowPopup] = useState(false);
     const industries = [
         { title: "Construction & Infrastructure Projects", icon: FaHardHat, color: "bg-orange-100 text-orange-600" },
         { title: "Real Estate Development", icon: FaHome, color: "bg-green-100 text-green-600" },
@@ -26,7 +28,7 @@ export default function IndustriesSection() {
     };
 
     return (<>
-        <section className="relative py-10 px-5 md:px-15 bg-cover bg-center"
+        <section className="relative py-10 px-4 md:px-15 bg-cover bg-center w-full"
             style={{ backgroundImage: "url('/banner-1.webp')" }}>
             <div className="absolute inset-0 bg-black/30"></div>
 
@@ -73,7 +75,7 @@ export default function IndustriesSection() {
 
         <section className="py-10 px-4 md:px-15 bg-amber-50">
             <div className="grid md:grid-cols-2 gap-10 items-start">
-                <div className='items-start'>
+                <div className='items-center md:items-start flex flex-col'>
                     <h2 className="text-3xl md:text-5xl font-bold text-black mb-4 leading-tight">
                         Commitment to Quality
                     </h2>
@@ -89,8 +91,8 @@ export default function IndustriesSection() {
                         outcomes while reducing operational costs and ensuring long-term efficiency.
                     </p>
 
-                    <button className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg transition">
-                        Contact Us
+                    <button onClick={() => setShowPopup(true)} className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg transition">
+                        Contact Now
                     </button>
                 </div>
 
@@ -166,5 +168,6 @@ export default function IndustriesSection() {
                 </div>
             </div>
         </section>
+        <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
     </>)
 }

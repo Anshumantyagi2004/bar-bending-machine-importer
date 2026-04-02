@@ -10,7 +10,6 @@ import toast from "react-hot-toast";
 export default function ProductDetail({ product, relatedProducts = [] }) {
   const [activeImage, setActiveImage] = useState(product.image);
   const [showPopup, setShowPopup] = useState(false);
-  const [addWishlist, setAddWishlist] = useState(false);
   const [status, setStatus] = useState("");
 
   const handleSubmit = async (e) => {
@@ -38,16 +37,6 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
       setStatus("❌ Failed to send. Please check your connection.");
     }
   };
-
-  const handleWishlist = async (e) => {
-    if (addWishlist) {
-      setAddWishlist(false)
-      toast.error("Product removed from Wishlist")
-    } else {
-      setAddWishlist(true)
-      toast.success("Product added to Wishlist")
-    }
-  }
 
   return (<>
     <section className="px-4 md:px-10 py-10 bg-amber-50">
@@ -84,21 +73,6 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
               </button>
             ))}
           </div>
-
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href={`https://wa.me/+918826544443?text=Hello, I am interested in ${product.name}`}
-              target="_blank"
-              className="flex items-center justify-center gap-2 border border-green-500 text-green-500 px-6 py-3 rounded-lg hover:bg-green-500 hover:text-white transition font-semibold"
-            >
-              <FaWhatsapp size={18} />
-              WhatsApp Now
-            </a>
-
-            <button onClick={() => setShowPopup(true)} className="flex items-center justify-center gap-2 border border-amber-500 text-amber-500 px-6 py-3 rounded-lg hover:bg-amber-500 hover:text-white transition font-semibold">
-              <MessageCircle size={18} />
-              Enquire Now
-            </button>
-          </div>
         </div>
 
         <div className="space-y-5">
@@ -115,19 +89,18 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
               <ShoppingCart size={18} />
               Add to Cart
             </button>
-
-            <button onClick={handleWishlist}
-              className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold transition duration-300 border
-                ${addWishlist
-                  ? "bg-[#3C2012] text-white border-[#3C2012] hover:bg-white hover:text-[#3C2012]"
-                  : "bg-white text-[#3C2012] border-[#3C2012] hover:bg-[#3C2012] hover:text-white"
-                }`}
+            
+            <a href={`https://wa.me/+918826544443?text=Hello, I am interested in ${product.name}`}
+              target="_blank"
+              className="flex items-center justify-center gap-2 border border-green-500 text-green-500 px-6 py-3 rounded-lg hover:bg-green-500 hover:text-white transition font-semibold"
             >
-              <Heart
-                size={18}
-                className={`transition ${addWishlist ? "fill-white" : "fill-none"}`}
-              />
-              Wishlist
+              <FaWhatsapp size={18} />
+              WhatsApp Now
+            </a>
+
+            <button onClick={() => setShowPopup(true)} className="flex items-center justify-center gap-2 border border-amber-500 text-amber-500 px-6 py-3 rounded-lg hover:bg-amber-500 hover:text-white transition font-semibold">
+              <MessageCircle size={18} />
+              Enquire Now
             </button>
           </div>
 

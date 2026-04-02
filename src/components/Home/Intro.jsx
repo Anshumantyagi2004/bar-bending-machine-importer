@@ -2,14 +2,13 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Users, Briefcase, Award, Headphones } from "lucide-react";
+import Link from "next/link";
 export default function Intro() {
     const images = [
+        '/products/bpm/SPIRAL BENDING MACHINE/1.webp',
         "/smog-gun.webp",
-        "/helmet.webp",
-        "/1.webp",
-        "/boot.webp",
-        "/roller.webp",
-        "/theodolte.webp",
+        "/products/cm/180230Ltr. MINI CONCRETE MIXER/1.webp",
+        '/products/tv/POWER FLOATER  POWER TROWEL/1.webp',
     ];
 
     const [current, setCurrent] = useState(0);
@@ -28,6 +27,7 @@ export default function Intro() {
                     initial={{ opacity: 0, x: -40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
+                    className="items-center md:items-start flex flex-col"
                 >
                     <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-2">
                         India’s Trusted{" "}
@@ -61,17 +61,17 @@ export default function Intro() {
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="bg-[#3C2012] text-white px-7 py-3 rounded-lg shadow-md"
+
                         >
-                            Explore Products
+                            <Link href={'/products'} className="bg-[#3C2012] text-white px-7 py-3 rounded-lg shadow-md">Explore Products</Link>
                         </motion.button>
 
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg"
+
                         >
-                            Contact Us
+                            <Link href={'/contact-us'} className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg">Contact Us</Link>
                         </motion.button>
                     </div>
                 </motion.div>

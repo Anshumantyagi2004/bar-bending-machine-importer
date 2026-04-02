@@ -39,10 +39,10 @@ export default function CategorySection() {
                 })}
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
                 {visibleProducts.map((product) => (
                     <Link href={`products/${product?.slug}`} key={product.id} className="group border border-gray-200 hover:border-gray-400 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
-                        <div className="h-60 w-82 bg-gray-50 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
+                        <div className="h-60 sm:w-82 w-full bg-gray-50 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
                             <img
                                 src={product.image?.src}
                                 alt={product.name}
@@ -61,8 +61,8 @@ export default function CategorySection() {
 
                             <div className="mt-auto flex text-black gap-1">
                                 Category:
-                                <span className="inline-block text-sm bg-[#ffe7db] text-[#3C2012] px-3 py-1 rounded-full">
-                                    {product.category}
+                                <span className="inline-block capitalize text-sm bg-[#ffe7db] text-[#3C2012] px-3 py-1 rounded-full">
+                                    {product.category.replace(/-/g, " ")}
                                 </span>
                             </div>
                         </div>

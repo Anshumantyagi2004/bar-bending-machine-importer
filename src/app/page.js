@@ -16,8 +16,8 @@ export default function Home() {
       <Category />
       <Intro />
       <AboutUs />
-      <CoreProduct />
       <WhyUs />
+      <CoreProduct />
       <IndustriesSection />
       <ContactCTA />
       <TrustedPartner />

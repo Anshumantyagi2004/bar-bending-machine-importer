@@ -1,27 +1,27 @@
 import {
-  Settings,
-  Truck,
-  Wind,
-  Wrench,
-  Construction,
-  FlaskConical,
-  MoveUpRight,
-  ShieldCheck,
-  Ruler,
-  CloudFog,
+    Settings,
+    Truck,
+    Wind,
+    Wrench,
+    Construction,
+    FlaskConical,
+    MoveUpRight,
+    ShieldCheck,
+    Ruler,
+    CloudFog,
 } from "lucide-react"
 
 export const categories = [
-  { id: "bar-processing-machines", name: "Bar Processing", icon: Settings },
-  { id: "concrete-mixers", name: "Concrete Mixers", icon: Truck },
-  { id: "anti-fog-cannon-machine", name: "Anti-Fog Cannon", icon: Wind },
-  { id: "trolley-vibrator", name: "Trolley Vibrator", icon: Wrench },
-  { id: "ride-on-roller-plate-compactor", name: "Roller/Compactor", icon: Construction },
-  { id: "lab-testing-equipment", name: "Lab Equipment", icon: FlaskConical },
-  { id: "material-lifting-equipment", name: "Material Lifting", icon: MoveUpRight },
-  { id: "safety-instrument", name: "Safety", icon: ShieldCheck },
-  { id: "surveying-instrument", name: "Surveying", icon: Ruler },
-  { id: "air-quality-index", name: "Air Quality", icon: CloudFog },
+    { id: "bar-processing-machines", name: "Bar Processing", icon: Settings },
+    { id: "concrete-mixers", name: "Concrete Mixers", icon: Truck },
+    { id: "anti-fog-cannon-machine", name: "Anti-Fog Cannon", icon: Wind },
+    { id: "trolley-vibrator", name: "Trolley Vibrator", icon: Wrench },
+    { id: "ride-on-roller-plate-compactor", name: "Roller/Compactor", icon: Construction },
+    { id: "lab-testing-equipment", name: "Lab Equipment", icon: FlaskConical },
+    { id: "material-lifting-equipment", name: "Material Lifting", icon: MoveUpRight },
+    { id: "safety-instrument", name: "Safety", icon: ShieldCheck },
+    { id: "surveying-instrument", name: "Surveying", icon: Ruler },
+    { id: "air-quality-index", name: "Air Quality", icon: CloudFog },
 ]
 
 export const products = [
@@ -469,845 +469,6 @@ export const products = [
         metaTitle: "Bar Bending Machine GW-50 | Heavy Duty Rebar Bender",
         metaDescription:
             "Bar Bending Machine GW-50 with 5HP motor, 32mm bending capacity, and semi-automatic operation. Heavy-duty rebar bender for construction and infrastructure projects.",
-    },
-
-    {
-        id: 5,
-        slug: "bar-bending-machine-spare-parts",
-        name: "Bar Bending Machine Spare Parts",
-        category: "bar-processing-machines",
-        model: "SSI-GW-42",
-        image: {
-            src: "/products/bpm/Bar Bending Machine Gw 50/3.webp",
-            alt: "Bar Bending Machine Spare Parts",
-        },
-
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Bar Bending Machine Spare Parts",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech supplies premium <strong>Bar Bending Machine Spare Parts</strong> in India, ensuring maximum durability and performance for bar bending machines.",
-                    "As a trusted <strong>Bar Bending Machine Spare Parts Supplier</strong>, we provide high-quality components compatible with SSI GW-42 and other models.",
-                    "We are recognized for delivering reliable <strong>Rebar Bending Machine Spare Parts</strong>, meeting the needs of contractors, civil engineers, and project developers.",
-                    "Our spare parts ensure long life, precision, and reduced downtime, making us the preferred <strong>Bar Bending Machine Spare Parts Supplier</strong> across the industry.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Bar Bending Machine Spare Parts",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Build:</strong> Manufactured with high-grade materials to ensure long-lasting performance.",
-                    "<strong>Compatibility:</strong> Specifically designed for SSI GW-42 models and other bar bending machines.",
-                    "<strong>Efficient Operation:</strong> Enhances the productivity of machines with precision spare components.",
-                    "<strong>Wide Range:</strong> Includes pin sets, motor components, and gear parts for reliable operation.",
-                    "<strong>Low Maintenance:</strong> Spare parts engineered to minimize breakdowns and service interruptions.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Bar Bending Machine Spare Parts",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Keeps bar bending machines running smoothly at construction sites.",
-                    "<strong>Infrastructure Projects:</strong> Ensures uninterrupted operation for metro, highway, and bridge works.",
-                    "<strong>Industrial Workshops:</strong> Widely used in fabrication and rebar processing workshops.",
-                    "<strong>Maintenance & Repair:</strong> Essential for servicing and extending the life of bar bending machines.",
-                    "<strong>Government Projects:</strong> Supports large-scale public infrastructure development by minimizing machine downtime.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Bar Bending Machine Spare Parts",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Spare parts are manufactured as per international quality standards.",
-                    "Available in multiple sizes and models for diverse requirements.",
-                    "Easily replaceable and designed for quick installation.",
-                    "Readily available stock ensures reduced downtime.",
-                    "Backed with strong after-sales support and guidance.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech for Bar Bending Machine Spare Parts?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Components:</strong> Reliable spare parts built with precision engineering.",
-                    "<strong>Wide Availability:</strong> Comprehensive stock of genuine spare parts for immediate supply.",
-                    "<strong>Reliable Support:</strong> Technical assistance and professional guidance for installations.",
-                    "<strong>Cost-Effective:</strong> Affordable spares without compromising quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience in supplying parts for bar processing machinery.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Model Name/Number", value: "SSI-GW-42" },
-            { label: "Usage", value: "Industrial" },
-            { label: "Brand", value: "SSI" },
-            { label: "Material", value: "Mild Steel" },
-            { label: "Component Type", value: "Spare Parts" },
-            { label: "Origin ", value: "India" },
-        ],
-        metaTitle: "Bar Bending Machine Spare Parts | SSI GW-42",
-        metaDescription:
-            "Premium spare parts for bar bending machines including pin sets, motor parts, and gear components. Durable, efficient, and compatible with SSI GW-42 models.",
-    },
-
-    {
-        id: 6,
-        slug: "bar-cutting-machine",
-        name: "Bar Cutting Machine",
-        category: "bar-processing-machines",
-        model: "SSI-GQ-40",
-        image: {
-            src: "/products/bpm/BAR CUTTING MACHINE/1.webp",
-            alt: "Automatic Bar Cutting Machine",
-        },
-        images: [
-            {
-                src: "/products/bpm/BAR CUTTING MACHINE/2.webp",
-                alt: "Steel Bar Cutting Machine",
-            },
-            {
-                src: "/products/bpm/BAR CUTTING MACHINE/3.webp",
-                alt: "High Performance Bar Cutting Machine",
-            },
-        ],
-
-        videoUrl: "https://youtu.be/wjDXFRsx_dg?si=GpKpJ18URTvdMSQ2",
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Automatic Bar Cutting Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Automatic Bar Cutting Machine Supplier</strong> in India, offering advanced machines designed for fast and precise reinforcement bar cutting.",
-                    "As a trusted <strong>Bar Cutting Machine Supplier</strong>, we provide robust machines widely used at construction sites, fabrication workshops, and infrastructure projects.",
-                    "We are recognized as a reliable <strong>Steel Bar Cutting Machine Supplier</strong>, catering to contractors, engineers, and project developers with quality equipment.",
-                    "Our bar cutting machines ensure efficiency, durability, and safety, making us the preferred <strong>Automatic Bar Cutting Machine Supplier</strong> for various applications.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Automatic Bar Cutting Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Cutting:</strong> Delivers fast and accurate bar cutting with high productivity output.",
-                    "<strong>Durable Construction:</strong> Built with heavy-duty steel components for long-lasting use.",
-                    "<strong>High Cutting Capacity:</strong> Capable of cutting a wide range of steel bars from 8mm to 32mm.",
-                    "<strong>Powerful Motor:</strong> Equipped with a strong motor ensuring consistent performance.",
-                    "<strong>Safe & Easy Operation:</strong> User-friendly controls designed for operator safety.",
-                    "<strong>Low Maintenance:</strong> Engineered to reduce downtime and operational costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Bar Cutting Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Used for cutting reinforcement bars at building and commercial projects.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highways, bridges, and metro projects requiring precise bar cutting.",
-                    "<strong>Fabrication Workshops:</strong> Widely used in industrial workshops for steel bar processing.",
-                    "<strong>Civil Engineering:</strong> Supports engineers in meeting project specifications with accuracy.",
-                    "<strong>Government Projects:</strong> Trusted <strong>Bar Cutting Machine Supplier</strong> for large-scale public infrastructure works.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Bar Cutting Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models to suit different bar cutting requirements.",
-                    "All machines comply with international safety and quality standards.",
-                    "Designed for continuous heavy-duty operation at construction sites.",
-                    "Spare parts are easily available for quick replacement.",
-                    "Backed with reliable after-sales service and technical support.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Bar Cutting Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Cutting Machine Supplier</strong> delivering durable and efficient solutions.",
-                    "<strong>Customized Options:</strong> Machines tailored for various cutting capacities and requirements.",
-                    "<strong>Reliable Service:</strong> Expert guidance and strong after-sales support.",
-                    "<strong>Competitive Pricing:</strong> Affordable solutions without compromising quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience supplying bar processing equipment across India.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Model", value: "SSI-GQ-40" },
-            { label: "Diameter of Cut Steel Bar", value: "8mm to 32mm" },
-            { label: "Strokes / Min.", value: "32 times" },
-            { label: "Motor Power", value: "3Kw" },
-            { label: "Voltage", value: "380 Volt" },
-            { label: "Rotation Speed of Motor", value: "2880rpm" },
-            { label: "Total Weight", value: "380kg (Approx)" },
-        ],
-        metaTitle: "Automatic Bar Cutting Machine | SSI-GQ-40",
-        metaDescription:
-            "High-performance automatic bar cutting machine SSI-GQ-40 for construction, infrastructure, and industrial applications. Cuts steel bars 8mm to 32mm with precision and durability.",
-    },
-
-    {
-        id: 7,
-        slug: "bar-threading-machine",
-        name: "Bar Threading Machine",
-        category: "bar-processing-machines",
-        model: "SSI-BT-40",
-        image: {
-            src: "/products/bpm/BAR THREADING MACHINE/1.webp",
-            alt: "Automatic Bar Threading Machine",
-        },
-        images: [
-            {
-                src: "/products/bpm/BAR THREADING MACHINE/2.webp",
-                alt: "Rebar Threading Machine",
-            },
-            {
-                src: "/products/bpm/BAR THREADING MACHINE/3.webp",
-                alt: "High Performance Bar Threading Machine",
-            },
-        ],
-
-        videoUrl: "https://youtu.be/wjDXFRsx_dg?si=4SBTWRWwAPxAX2GH",
-
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Automatic Bar Threading Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Bar Threading Machine Supplier</strong> in India, providing advanced solutions for precise and efficient rebar threading.",
-                    "As a trusted <strong>Automatic Bar Threading Machine Supplier</strong>, we deliver robust machines suitable for construction projects, industrial workshops, and infrastructure developments.",
-                    "We are recognized as a professional <strong>Rebar Threading Machine Supplier</strong>, serving contractors, civil engineers, and project developers nationwide.",
-                    "Our bar threading machines are engineered for accuracy, durability, and safety, making us the preferred <strong>Bar Threading Machine Supplier</strong> in India.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Automatic Bar Threading Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> Designed to provide fast and accurate threading for improved productivity.",
-                    "<strong>Robust Build:</strong> Heavy-duty body ensures durability and long-lasting performance.",
-                    "<strong>Wide Rebar Capacity:</strong> Suitable for threading rebars ranging from 14mm to 40mm.",
-                    "<strong>Powerful Motor:</strong> Equipped with a high-performance 4kw motor for consistent results.",
-                    "<strong>User-Friendly Design:</strong> Simple controls for safe and easy operation on-site.",
-                    "<strong>Low Maintenance:</strong> Engineered for reduced downtime and easy servicing.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Bar Threading Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Widely used for rebar threading at building and infrastructure projects.",
-                    "<strong>Industrial Workshops:</strong> Essential equipment for factories and fabrication units.",
-                    "<strong>Bridge & Metro Projects:</strong> Provides accurate threading required for high-strength joints.",
-                    "<strong>Civil Engineering:</strong> Ensures precise threading to meet structural specifications.",
-                    "<strong>Government Projects:</strong> Recognized as a trusted <strong>Bar Threading Machine Supplier</strong> for public works.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Bar Threading Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models for different threading needs.",
-                    "Conforms to international safety and quality standards.",
-                    "Customization options available for unique project requirements.",
-                    "Spare parts readily available to ensure uninterrupted operation.",
-                    "Reliable after-sales service and technical support for customers.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Bar Threading Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Threading Machine Supplier</strong> offering durable and efficient threading solutions.",
-                    "<strong>Tailored Solutions:</strong> Machines designed to match project-specific requirements.",
-                    "<strong>Strong Service Support:</strong> Expert guidance and after-sales support for clients.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing with no compromise on performance.",
-                    "<strong>Proven Expertise:</strong> Years of experience in supplying bar processing equipment across India.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Model", value: "SSI-BT-40" },
-            { label: "Rebar Diameter", value: "14 to 40mm" },
-            { label: "Motor Power", value: "4kw" },
-            { label: "Electricity", value: "415v 50hz" },
-            { label: "Speed", value: "40-62 r/min" },
-            { label: "Main Shaft Speed", value: "80mm" },
-            { label: "Thread Pitch", value: "2 - 3" },
-            { label: "Net Weight", value: "430kg (Approx)" },
-        ],
-        metaTitle: "Automatic Bar Threading Machine | SSI-BT-40",
-        metaDescription:
-            "High-performance bar threading machine SSI-BT-40 for precise and efficient rebar threading in construction, industrial, and infrastructure projects.",
-    },
-
-    {
-        id: 8,
-        slug: "foot-paddle",
-        name: "Foot Paddle",
-        category: "bar-processing-machines",
-        model: "SSI",
-        image: {
-            src: "/products/bpm/Foot Paddle/1.webp",
-            alt: "Foot Paddle for Bar Bending Machines",
-        },
-        images: [
-            {
-                src: "/products/bpm/Foot Paddle/1.webp",
-                alt: "Durable Foot Paddle for Bending Operations",
-            },
-        ],
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Foot Paddle",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Foot Paddle Supplier</strong> in India, offering high-quality paddles for bar bending and related machines.",
-                    "Our <strong>Foot Paddles</strong> are manufactured with durable MS material to withstand heavy-duty construction site applications.",
-                    "As a reliable <strong>Foot Paddle Supplier</strong>, we provide accessories that enhance safety and efficiency in bar bending operations.",
-                    "Designed with precision, our <strong>Foot Paddle</strong> ensures smooth and controlled bending with long-lasting performance.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Foot Paddle",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Construction:</strong> Made of high-quality MS for strength and long service life.",
-                    "<strong>User Safety:</strong> Provides secure and controlled operation during bending work.",
-                    "<strong>Compatible Design:</strong> Suitable for bar bending machines and construction site usage.",
-                    "<strong>Corrosion Resistance:</strong> Coated with protective cream-colored finish for durability.",
-                    "<strong>Easy to Install:</strong> Simple to fit and replace, reducing downtime.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Foot Paddle",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Essential accessory for bar bending operations on site.",
-                    "<strong>Industrial Workshops:</strong> Used in heavy-duty bending processes.",
-                    "<strong>Infrastructure Projects:</strong> Reliable for bridges, highways, and building construction.",
-                    "<strong>Bar Processing Machines:</strong> Ensures efficient and safe bending control.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Foot Paddle",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Made from premium MS material for maximum durability.",
-                    "Available in cream color finish.",
-                    "Designed for long-term use with minimal maintenance.",
-                    "Suitable for single-piece packing and supply.",
-                    "Reliable and tested under strict quality control measures.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Foot Paddle Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Brand:</strong> A reputed name in supplying bar processing accessories.",
-                    "<strong>Superior Quality:</strong> Products made with precision engineering for durability.",
-                    "<strong>Wide Availability:</strong> Foot paddles available across India for construction projects.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising on quality.",
-                    "<strong>Strong Support:</strong> Excellent after-sales service and client satisfaction.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Usage/Application", value: "Bending Use" },
-            { label: "Material", value: "MS" },
-            { label: "Brand", value: "SSI" },
-            { label: "Color", value: "Cream" },
-            { label: "Length", value: "3 inch" },
-            { label: "Model Name/Number", value: "SSI" },
-            { label: "Piece Per Pack", value: "1" },
-        ],
-        metaTitle: "Foot Paddle for Bar Bending Machines",
-        metaDescription:
-            "Durable MS Foot Paddle by Shree Shakti Infratech, designed for bending use in construction and bar processing machines. Strong, reliable, and long-lasting.",
-    },
-
-    {
-        id: 9,
-        slug: "fully-automatic-ring-machine",
-        name: "Fully Automatic Ring Machine",
-        category: "bar-processing-machines",
-        model: "SSI-SGW12D-2",
-        image: {
-            src: "/products/bpm/FULLY AUTOMATIC RING MACHINE/1.webp",
-            alt: "Fully Automatic Ring Making Machine",
-        },
-
-        videoUrl: "https://youtu.be/MRStEcGSAgo?si=5LiAbB5tZ6Z03ui2",
-
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Fully Automatic Ring Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Fully Automatic Ring Machine Supplier</strong> in India, offering advanced solutions for rebar ring and stirrup making.",
-                    "Our <strong>Automatic Ring Machines</strong> are designed for precision, high speed, and consistent performance in construction projects.",
-                    "As a trusted <strong>Ring Making Machine Supplier</strong>, we provide machines suitable for rebar processing, ensuring quality and durability.",
-                    "The <strong>Fully Automatic Ring Machine</strong> is built to reduce labor dependency while increasing accuracy and efficiency in bar bending and ring formation.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Fully Automatic Ring Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Speed Operation:</strong> Capable of feeding speed up to 70m/min for faster production.",
-                    "<strong>Accurate Bending:</strong> Ensures precise rings and stirrups with minimal error.",
-                    "<strong>Robust Performance:</strong> Equipped with powerful motors for smooth functioning.",
-                    "<strong>Fully Automatic:</strong> Reduces manual effort and delivers consistent results.",
-                    "<strong>Energy Efficient:</strong> Consumes an average of just 4Kw/H, reducing operational costs.",
-                    "<strong>Durable Build:</strong> Heavy-duty machine designed for long-term construction use.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Fully Automatic Ring Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Used for making reinforcement rings and stirrups for buildings.",
-                    "<strong>Infrastructure Projects:</strong> Widely used in bridges, highways, metro, and tunnel projects.",
-                    "<strong>Industrial Fabrication:</strong> Suitable for workshops requiring consistent rebar processing.",
-                    "<strong>Civil Engineering:</strong> Ensures precise and reliable reinforcement ring production.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Fully Automatic Ring Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Designed to handle both single-line and double-line bending operations.",
-                    "Equipped with strong feeding and bending motors for heavy-duty performance.",
-                    "Compact design for easy installation and minimal maintenance.",
-                    "Tested for international quality and safety standards.",
-                    "Strong after-sales support and spare parts availability.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Ring Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Advanced Technology:</strong> Leading <strong>Ring Machine Supplier</strong> offering modern, high-performance machines.",
-                    "<strong>Reliable Build:</strong> Machines designed for durability and continuous operation.",
-                    "<strong>Cost-Effective:</strong> Energy-efficient with reduced production costs.",
-                    "<strong>Customization:</strong> Available in multiple models to suit project needs.",
-                    "<strong>Nationwide Supply:</strong> Trusted supplier across India for bar processing machines.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Model", value: "SSI-SGW12D-2" },
-            { label: "Bending Capacity Single Line", value: "(up<450Mpa) 4-10mm" },
-            { label: "Bending Capacity Double Line", value: "(up<450Mpa) 4-8mm" },
-            { label: "Input Voltage", value: "380V / 415V" },
-            { label: "Max Feeding Speed", value: "70m/min" },
-            { label: "Bending Speed", value: "1000*" },
-            { label: "Feeding Motor", value: "9.5kw" },
-            { label: "Bending Motor", value: "3.7kw" },
-            { label: "Average Total Power", value: "4Kw / H" },
-            { label: "Net Weight", value: "1900Kg (Approx)" },
-        ],
-        metaTitle: "Fully Automatic Ring Machine | Shree Shakti Infratech",
-        metaDescription:
-            "Buy Fully Automatic Ring Machine from Shree Shakti Infratech. High-speed rebar ring and stirrup making machine with precision, durability, and efficiency.",
-    },
-
-    {
-        id: 10,
-        slug: "ms-ring-making-machine",
-        name: "MS Ring Making Machine",
-        category: "bar-processing-machines",
-        model: "SSI",
-        image: {
-            src: "/products/bpm/RING MAKING MACHINE/1.webp",
-            alt: "MS Ring Making Machine",
-        },
-        videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=zkHR3wDfm2eU7W2S",
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of MS Ring Making Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>MS Ring Making Machine Supplier</strong> in India, offering durable and efficient machines for rebar ring production.",
-                    "Our <strong>Ring Making Machines</strong> are designed to simplify reinforcement bar processing and provide consistent results.",
-                    "As a reputed <strong>Ring Machine Supplier</strong>, we ensure that our machines are built with robust MS steel for long-lasting performance.",
-                    "This <strong>MS Ring Making Machine</strong> is semi-automatic, ensuring an excellent balance of precision, efficiency, and cost-effectiveness.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of MS Ring Making Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Build:</strong> Made from high-quality MS steel for strength and reliability.",
-                    "<strong>Semi-Automatic Operation:</strong> Provides efficiency while being easy to operate and maintain.",
-                    "<strong>Powerful Motor:</strong> Equipped with a 3HP three-phase motor running at 1440 RPM.",
-                    "<strong>Compact & Efficient:</strong> Lightweight design with just 120 kg weight for easy handling.",
-                    "<strong>Consistent Output:</strong> Ensures accurate ring shapes for various reinforcement needs.",
-                    "<strong>High Productivity:</strong> Capable of producing up to 100 rings per cycle.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of MS Ring Making Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Widely used for reinforcement ring and stirrup making.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and large-scale construction sites.",
-                    "<strong>Fabrication Units:</strong> Suitable for industrial workshops needing efficient rebar shaping.",
-                    "<strong>Civil Engineering:</strong> Ensures precision and consistency in structural reinforcement work.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on MS Ring Making Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Made with premium-grade MS steel for strength and durability.",
-                    "Low maintenance requirements with reliable spare parts availability.",
-                    "Energy-efficient design to minimize power consumption.",
-                    "Compact structure making it easy to transport and operate.",
-                    "Backed by strong after-sales service and nationwide supply.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your MS Ring Making Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Supplier:</strong> A reliable name in bar processing and ring making machines across India.",
-                    "<strong>High-Quality Machines:</strong> Built with robust materials and precision engineering.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising durability.",
-                    "<strong>Customization Options:</strong> Machines designed to suit different project requirements.",
-                    "<strong>Nationwide Presence:</strong> Serving contractors, builders, and infrastructure developers across India.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Capacity", value: "6 mm To 16 mm" },
-            { label: "Wire Material", value: "Stainless Steel" },
-            { label: "Automation Grade", value: "Semi-Automatic" },
-            { label: "Material", value: "MS Steel" },
-            { label: "Weight", value: "120 kg" },
-            { label: "Brand", value: "SSI" },
-            { label: "Motor Speed", value: "1440 RPM" },
-            { label: "Motor Power", value: "3HP Three Phase" },
-            { label: "Make", value: "SSI" },
-            { label: "Production Capacity", value: "100" },
-        ],
-        metaTitle: "MS Ring Making Machine | Shree Shakti Infratech",
-        metaDescription:
-            "High-performance MS Ring Making Machine from Shree Shakti Infratech. Semi-automatic, durable, and efficient for rebar ring and stirrup production in construction projects.",
-    },
-
-    // check for yt link
-    {
-        id: 11,
-        slug: "rebar-decoiling-machine",
-        name: "Rebar Decoiling Machine",
-        category: "bar-processing-machines",
-        model: "SSI-GTQ-4-14",
-        image: {
-            src: "/products/bpm/REBAR DECOILING MACHINE/1.webp",
-            alt: "Rebar Decoiling Machine",
-        },
-        images: [
-            {
-                src: "/products/bpm/REBAR DECOILING MACHINE/2.webp",
-                alt: "Automatic Rebar Decoiling Machine",
-            },
-        ],
-
-        videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=CDNXOBrADoc3jM5l",
-
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Rebar Decoiling Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Rebar Decoiling Machine Supplier</strong> in India, offering highly efficient and durable machines for reinforcement bar processing.",
-                    "Our <strong>Rebar Decoiling Machines</strong> are designed to straighten and cut rebars with high accuracy, reducing manual effort and increasing productivity.",
-                    "As a trusted <strong>Rebar Decoiling Machine Supplier</strong>, we ensure machines built with strong materials and advanced technology to meet construction industry standards.",
-                    "The <strong>Rebar Decoiling Machine</strong> combines power, precision, and speed, making it suitable for large-scale construction and infrastructure projects.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Rebar Decoiling Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Speed Operation:</strong> Straightening speed of 40–45 meters per minute ensures faster output.",
-                    "<strong>Accurate Cutting:</strong> Maintains cutting error within ±0.5 cm for precision work.",
-                    "<strong>Durable Wheels:</strong> Equipped with 4 pre-straightening wheels and 8 straightening wheels for reliable performance.",
-                    "<strong>Heavy Duty Power:</strong> Runs on 16KW power for uninterrupted operation.",
-                    "<strong>Stable Build:</strong> 1160 Kg robust body ensures stability during continuous use.",
-                    "<strong>Versatile Application:</strong> Suitable for straightening rebars ranging from 4 mm to 10 mm diameter.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Rebar Decoiling Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Essential for cutting and straightening rebars at residential, commercial, and industrial projects.",
-                    "<strong>Infrastructure Projects:</strong> Used in bridge, metro, and road construction where large volumes of rebars are needed.",
-                    "<strong>Fabrication Workshops:</strong> Ensures high-speed rebar preparation for prefabricated structures.",
-                    "<strong>Civil Engineering Projects:</strong> Widely used to prepare reinforcement steel as per project requirements.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Rebar Decoiling Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Engineered with international quality and safety standards.",
-                    "Easy operation with minimal manual handling required.",
-                    "Low maintenance design with spare parts easily available.",
-                    "Consistent straightening and cutting performance for long durations.",
-                    "Strong after-sales service support for customer satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rebar Decoiling Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Brand:</strong> Leading <strong>Rebar Decoiling Machine Supplier</strong> across India.",
-                    "<strong>Reliable Quality:</strong> Machines designed for durability and long-term performance.",
-                    "<strong>Efficient Productivity:</strong> Maximizes speed and accuracy in rebar processing.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solutions without compromising quality.",
-                    "<strong>Expert Support:</strong> Professional consultation and prompt after-sales service.",
-                ],
-            },
-        ],
-        specs: [
-            { label: "Model", value: "SSI-GTQ-4-14" },
-            { label: "Straightening Diameter", value: "4-10 mm" },
-            { label: "Straightening Speed", value: "40-45 m Per Minute" },
-            { label: "Pre Straightening Wheels", value: "4 Nos" },
-            { label: "Straightening Wheels", value: "8 Pcs" },
-            { label: "Cutting Space", value: "900 mm" },
-            { label: "Error of Cutting Length", value: "±0.5 cm" },
-            { label: "Power", value: "16 KW" },
-            { label: "Weight", value: "1160 Kg" },
-        ],
-        metaTitle: "Rebar Decoiling Machine | Shree Shakti Infratech",
-        metaDescription:
-            "High-performance Rebar Decoiling Machine by Shree Shakti Infratech. Efficient, durable, and precise for straightening and cutting rebars in construction and infrastructure projects.",
-    },
-
-    {
-        id: 12,
-        slug: "rebar-tying-machine",
-        name: "Rebar Tying Machine",
-        category: "bar-processing-machines",
-        model: "SSI-ABT-01",
-        image: {
-            src: "/products/bpm/Rebar Tying Machine/1.webp",
-            alt: "Automatic Rebar Tying Machine",
-        },
-        images: [
-            {
-                src: "/products/bpm/Rebar Tying Machine/1.webp",
-                alt: "Rebar Tying Machine Supplier",
-            },
-        ],
-        description: [
-            {
-                type: "h2",
-                text: "Product Overview of Automatic Rebar Tying Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Rebar Tying Machine Supplier</strong> in India, offering advanced solutions for quick and secure rebar tying at construction sites.",
-                    "Our <strong>Automatic Rebar Tying Machines</strong> are designed to reduce manual effort, improve efficiency, and ensure consistent tying results.",
-                    "As a reputed <strong>Rebar Tying Machine Supplier</strong>, we deliver reliable machines that are widely used in building construction, bridges, and infrastructure projects.",
-                    "These machines combine speed, precision, and durability, making us the preferred <strong>Rebar Tying Machine Supplier</strong> for modern construction needs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Key Features of Automatic Rebar Tying Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Fast Operation:</strong> Ensures high-speed tying, saving time on large-scale reinforcement projects.",
-                    "<strong>Compact Design:</strong> Lightweight and ergonomic, allowing easy handling at construction sites.",
-                    "<strong>Consistent Tying:</strong> Provides uniform and secure knots, reducing the risk of weak reinforcement joints.",
-                    "<strong>Durable Build:</strong> Made with robust components for long-lasting use in tough site conditions.",
-                    "<strong>Easy to Use:</strong> Simple controls for operators with minimal training requirements.",
-                    "<strong>Low Maintenance:</strong> Engineered to minimize downtime and maintenance costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Rebar Tying Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Widely used for tying reinforcement bars in residential and commercial projects.",
-                    "<strong>Bridge Construction:</strong> Ensures secure tying for reinforcement in bridge decks and supports.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highways, metros, and large-scale infrastructure requiring reliable reinforcement.",
-                    "<strong>Civil Engineering:</strong> Used by contractors and engineers for consistent reinforcement bar tying.",
-                    "<strong>Industrial Projects:</strong> Ensures fast and safe rebar tying in large industrial construction works.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Rebar Tying Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Equipped with high-performance motors for efficient tying.",
-                    "Compatible with different knot wire lengths and coil sizes.",
-                    "Machines comply with international safety and performance standards.",
-                    "Spare parts and accessories are easily available.",
-                    "Strong after-sales service support ensures customer satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rebar Tying Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> Trusted <strong>Rebar Tying Machine Supplier</strong> delivering durable and efficient solutions.",
-                    "<strong>Reliable Performance:</strong> Designed to handle heavy-duty site requirements with ease.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective machines without compromising quality.",
-                    "<strong>Expert Support:</strong> Professional consultation and after-sales assistance available.",
-                    "<strong>Industry Expertise:</strong> Years of experience supplying advanced bar processing machinery nationwide.",
-                ],
-            },
-        ],
-        specs: [
-            {
-                label: "Model Name/Number",
-                value: "SSI-ABT-01",
-            },
-            {
-                label: "Knot Wire Length",
-                value: "2",
-            },
-            {
-                label: "Length Per Coil",
-                value: "25mtr",
-            },
-            {
-                label: "Brand",
-                value: "SSI",
-            },
-            {
-                label: "Voltage",
-                value: "220 volt Single phase",
-            },
-            {
-                label: "Bending Material",
-                value: "MS wire",
-            },
-        ],
-        metaTitle: "Automatic Rebar Tying Machine",
-        metaDescription:
-            "High-speed and efficient automatic rebar tying machine for construction, bridges, and infrastructure projects. Reliable and durable solutions by Shree Shakti Infratech.",
     },
 
     {
@@ -2462,8 +1623,845 @@ export const products = [
             "High-performance TMT bar bending machine for construction and infrastructure projects. Durable, efficient, and designed for precise reinforcement bar shaping.",
     },
 
-    // anti smog category
+    {
+        id: 5,
+        slug: "bar-bending-machine-spare-parts",
+        name: "Bar Bending Machine Spare Parts",
+        category: "bar-processing-machines",
+        model: "SSI-GW-42",
+        image: {
+            src: "/products/bpm/Bar Bending Machine Gw 50/3.webp",
+            alt: "Bar Bending Machine Spare Parts",
+        },
 
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Bar Bending Machine Spare Parts",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech supplies premium <strong>Bar Bending Machine Spare Parts</strong> in India, ensuring maximum durability and performance for bar bending machines.",
+                    "As a trusted <strong>Bar Bending Machine Spare Parts Supplier</strong>, we provide high-quality components compatible with SSI GW-42 and other models.",
+                    "We are recognized for delivering reliable <strong>Rebar Bending Machine Spare Parts</strong>, meeting the needs of contractors, civil engineers, and project developers.",
+                    "Our spare parts ensure long life, precision, and reduced downtime, making us the preferred <strong>Bar Bending Machine Spare Parts Supplier</strong> across the industry.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Bar Bending Machine Spare Parts",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Durable Build:</strong> Manufactured with high-grade materials to ensure long-lasting performance.",
+                    "<strong>Compatibility:</strong> Specifically designed for SSI GW-42 models and other bar bending machines.",
+                    "<strong>Efficient Operation:</strong> Enhances the productivity of machines with precision spare components.",
+                    "<strong>Wide Range:</strong> Includes pin sets, motor components, and gear parts for reliable operation.",
+                    "<strong>Low Maintenance:</strong> Spare parts engineered to minimize breakdowns and service interruptions.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Bar Bending Machine Spare Parts",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Keeps bar bending machines running smoothly at construction sites.",
+                    "<strong>Infrastructure Projects:</strong> Ensures uninterrupted operation for metro, highway, and bridge works.",
+                    "<strong>Industrial Workshops:</strong> Widely used in fabrication and rebar processing workshops.",
+                    "<strong>Maintenance & Repair:</strong> Essential for servicing and extending the life of bar bending machines.",
+                    "<strong>Government Projects:</strong> Supports large-scale public infrastructure development by minimizing machine downtime.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Bar Bending Machine Spare Parts",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Spare parts are manufactured as per international quality standards.",
+                    "Available in multiple sizes and models for diverse requirements.",
+                    "Easily replaceable and designed for quick installation.",
+                    "Readily available stock ensures reduced downtime.",
+                    "Backed with strong after-sales support and guidance.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech for Bar Bending Machine Spare Parts?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>High-Quality Components:</strong> Reliable spare parts built with precision engineering.",
+                    "<strong>Wide Availability:</strong> Comprehensive stock of genuine spare parts for immediate supply.",
+                    "<strong>Reliable Support:</strong> Technical assistance and professional guidance for installations.",
+                    "<strong>Cost-Effective:</strong> Affordable spares without compromising quality.",
+                    "<strong>Industry Expertise:</strong> Years of experience in supplying parts for bar processing machinery.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Model Name/Number", value: "SSI-GW-42" },
+            { label: "Usage", value: "Industrial" },
+            { label: "Brand", value: "SSI" },
+            { label: "Material", value: "Mild Steel" },
+            { label: "Component Type", value: "Spare Parts" },
+            { label: "Origin ", value: "India" },
+        ],
+        metaTitle: "Bar Bending Machine Spare Parts | SSI GW-42",
+        metaDescription:
+            "Premium spare parts for bar bending machines including pin sets, motor parts, and gear components. Durable, efficient, and compatible with SSI GW-42 models.",
+    },
+
+    {
+        id: 6,
+        slug: "bar-cutting-machine",
+        name: "Bar Cutting Machine",
+        category: "bar-processing-machines",
+        model: "SSI-GQ-40",
+        image: {
+            src: "/products/bpm/BAR CUTTING MACHINE/1.webp",
+            alt: "Automatic Bar Cutting Machine",
+        },
+        images: [
+            {
+                src: "/products/bpm/BAR CUTTING MACHINE/2.webp",
+                alt: "Steel Bar Cutting Machine",
+            },
+            {
+                src: "/products/bpm/BAR CUTTING MACHINE/3.webp",
+                alt: "High Performance Bar Cutting Machine",
+            },
+        ],
+
+        videoUrl: "https://youtu.be/wjDXFRsx_dg?si=GpKpJ18URTvdMSQ2",
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Automatic Bar Cutting Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a reputed <strong>Automatic Bar Cutting Machine Supplier</strong> in India, offering advanced machines designed for fast and precise reinforcement bar cutting.",
+                    "As a trusted <strong>Bar Cutting Machine Supplier</strong>, we provide robust machines widely used at construction sites, fabrication workshops, and infrastructure projects.",
+                    "We are recognized as a reliable <strong>Steel Bar Cutting Machine Supplier</strong>, catering to contractors, engineers, and project developers with quality equipment.",
+                    "Our bar cutting machines ensure efficiency, durability, and safety, making us the preferred <strong>Automatic Bar Cutting Machine Supplier</strong> for various applications.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Automatic Bar Cutting Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Efficient Cutting:</strong> Delivers fast and accurate bar cutting with high productivity output.",
+                    "<strong>Durable Construction:</strong> Built with heavy-duty steel components for long-lasting use.",
+                    "<strong>High Cutting Capacity:</strong> Capable of cutting a wide range of steel bars from 8mm to 32mm.",
+                    "<strong>Powerful Motor:</strong> Equipped with a strong motor ensuring consistent performance.",
+                    "<strong>Safe & Easy Operation:</strong> User-friendly controls designed for operator safety.",
+                    "<strong>Low Maintenance:</strong> Engineered to reduce downtime and operational costs.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Automatic Bar Cutting Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Used for cutting reinforcement bars at building and commercial projects.",
+                    "<strong>Infrastructure Projects:</strong> Ideal for highways, bridges, and metro projects requiring precise bar cutting.",
+                    "<strong>Fabrication Workshops:</strong> Widely used in industrial workshops for steel bar processing.",
+                    "<strong>Civil Engineering:</strong> Supports engineers in meeting project specifications with accuracy.",
+                    "<strong>Government Projects:</strong> Trusted <strong>Bar Cutting Machine Supplier</strong> for large-scale public infrastructure works.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Automatic Bar Cutting Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Available in multiple models to suit different bar cutting requirements.",
+                    "All machines comply with international safety and quality standards.",
+                    "Designed for continuous heavy-duty operation at construction sites.",
+                    "Spare parts are easily available for quick replacement.",
+                    "Backed with reliable after-sales service and technical support.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your Bar Cutting Machine Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Cutting Machine Supplier</strong> delivering durable and efficient solutions.",
+                    "<strong>Customized Options:</strong> Machines tailored for various cutting capacities and requirements.",
+                    "<strong>Reliable Service:</strong> Expert guidance and strong after-sales support.",
+                    "<strong>Competitive Pricing:</strong> Affordable solutions without compromising quality.",
+                    "<strong>Industry Expertise:</strong> Years of experience supplying bar processing equipment across India.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Model", value: "SSI-GQ-40" },
+            { label: "Diameter of Cut Steel Bar", value: "8mm to 32mm" },
+            { label: "Strokes / Min.", value: "32 times" },
+            { label: "Motor Power", value: "3Kw" },
+            { label: "Voltage", value: "380 Volt" },
+            { label: "Rotation Speed of Motor", value: "2880rpm" },
+            { label: "Total Weight", value: "380kg (Approx)" },
+        ],
+        metaTitle: "Automatic Bar Cutting Machine | SSI-GQ-40",
+        metaDescription:
+            "High-performance automatic bar cutting machine SSI-GQ-40 for construction, infrastructure, and industrial applications. Cuts steel bars 8mm to 32mm with precision and durability.",
+    },
+
+    {
+        id: 7,
+        slug: "bar-threading-machine",
+        name: "Bar Threading Machine",
+        category: "bar-processing-machines",
+        model: "SSI-BT-40",
+        image: {
+            src: "/products/bpm/BAR THREADING MACHINE/1.webp",
+            alt: "Automatic Bar Threading Machine",
+        },
+        images: [
+            {
+                src: "/products/bpm/BAR THREADING MACHINE/2.webp",
+                alt: "Rebar Threading Machine",
+            },
+            {
+                src: "/products/bpm/BAR THREADING MACHINE/3.webp",
+                alt: "High Performance Bar Threading Machine",
+            },
+        ],
+
+        videoUrl: "https://youtu.be/wjDXFRsx_dg?si=4SBTWRWwAPxAX2GH",
+
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Automatic Bar Threading Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a reputed <strong>Bar Threading Machine Supplier</strong> in India, providing advanced solutions for precise and efficient rebar threading.",
+                    "As a trusted <strong>Automatic Bar Threading Machine Supplier</strong>, we deliver robust machines suitable for construction projects, industrial workshops, and infrastructure developments.",
+                    "We are recognized as a professional <strong>Rebar Threading Machine Supplier</strong>, serving contractors, civil engineers, and project developers nationwide.",
+                    "Our bar threading machines are engineered for accuracy, durability, and safety, making us the preferred <strong>Bar Threading Machine Supplier</strong> in India.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Automatic Bar Threading Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Efficient Operation:</strong> Designed to provide fast and accurate threading for improved productivity.",
+                    "<strong>Robust Build:</strong> Heavy-duty body ensures durability and long-lasting performance.",
+                    "<strong>Wide Rebar Capacity:</strong> Suitable for threading rebars ranging from 14mm to 40mm.",
+                    "<strong>Powerful Motor:</strong> Equipped with a high-performance 4kw motor for consistent results.",
+                    "<strong>User-Friendly Design:</strong> Simple controls for safe and easy operation on-site.",
+                    "<strong>Low Maintenance:</strong> Engineered for reduced downtime and easy servicing.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Automatic Bar Threading Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Widely used for rebar threading at building and infrastructure projects.",
+                    "<strong>Industrial Workshops:</strong> Essential equipment for factories and fabrication units.",
+                    "<strong>Bridge & Metro Projects:</strong> Provides accurate threading required for high-strength joints.",
+                    "<strong>Civil Engineering:</strong> Ensures precise threading to meet structural specifications.",
+                    "<strong>Government Projects:</strong> Recognized as a trusted <strong>Bar Threading Machine Supplier</strong> for public works.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Automatic Bar Threading Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Available in multiple models for different threading needs.",
+                    "Conforms to international safety and quality standards.",
+                    "Customization options available for unique project requirements.",
+                    "Spare parts readily available to ensure uninterrupted operation.",
+                    "Reliable after-sales service and technical support for customers.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your Bar Threading Machine Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Threading Machine Supplier</strong> offering durable and efficient threading solutions.",
+                    "<strong>Tailored Solutions:</strong> Machines designed to match project-specific requirements.",
+                    "<strong>Strong Service Support:</strong> Expert guidance and after-sales support for clients.",
+                    "<strong>Cost-Effective:</strong> Competitive pricing with no compromise on performance.",
+                    "<strong>Proven Expertise:</strong> Years of experience in supplying bar processing equipment across India.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Model", value: "SSI-BT-40" },
+            { label: "Rebar Diameter", value: "14 to 40mm" },
+            { label: "Motor Power", value: "4kw" },
+            { label: "Electricity", value: "415v 50hz" },
+            { label: "Speed", value: "40-62 r/min" },
+            { label: "Main Shaft Speed", value: "80mm" },
+            { label: "Thread Pitch", value: "2 - 3" },
+            { label: "Net Weight", value: "430kg (Approx)" },
+        ],
+        metaTitle: "Automatic Bar Threading Machine | SSI-BT-40",
+        metaDescription:
+            "High-performance bar threading machine SSI-BT-40 for precise and efficient rebar threading in construction, industrial, and infrastructure projects.",
+    },
+
+    {
+        id: 8,
+        slug: "foot-paddle",
+        name: "Foot Paddle",
+        category: "bar-processing-machines",
+        model: "SSI",
+        image: {
+            src: "/products/bpm/Foot Paddle/1.webp",
+            alt: "Foot Paddle for Bar Bending Machines",
+        },
+        images: [
+            {
+                src: "/products/bpm/Foot Paddle/1.webp",
+                alt: "Durable Foot Paddle for Bending Operations",
+            },
+        ],
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Foot Paddle",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a trusted <strong>Foot Paddle Supplier</strong> in India, offering high-quality paddles for bar bending and related machines.",
+                    "Our <strong>Foot Paddles</strong> are manufactured with durable MS material to withstand heavy-duty construction site applications.",
+                    "As a reliable <strong>Foot Paddle Supplier</strong>, we provide accessories that enhance safety and efficiency in bar bending operations.",
+                    "Designed with precision, our <strong>Foot Paddle</strong> ensures smooth and controlled bending with long-lasting performance.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Foot Paddle",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Durable Construction:</strong> Made of high-quality MS for strength and long service life.",
+                    "<strong>User Safety:</strong> Provides secure and controlled operation during bending work.",
+                    "<strong>Compatible Design:</strong> Suitable for bar bending machines and construction site usage.",
+                    "<strong>Corrosion Resistance:</strong> Coated with protective cream-colored finish for durability.",
+                    "<strong>Easy to Install:</strong> Simple to fit and replace, reducing downtime.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Foot Paddle",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Essential accessory for bar bending operations on site.",
+                    "<strong>Industrial Workshops:</strong> Used in heavy-duty bending processes.",
+                    "<strong>Infrastructure Projects:</strong> Reliable for bridges, highways, and building construction.",
+                    "<strong>Bar Processing Machines:</strong> Ensures efficient and safe bending control.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Foot Paddle",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Made from premium MS material for maximum durability.",
+                    "Available in cream color finish.",
+                    "Designed for long-term use with minimal maintenance.",
+                    "Suitable for single-piece packing and supply.",
+                    "Reliable and tested under strict quality control measures.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your Foot Paddle Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Trusted Brand:</strong> A reputed name in supplying bar processing accessories.",
+                    "<strong>Superior Quality:</strong> Products made with precision engineering for durability.",
+                    "<strong>Wide Availability:</strong> Foot paddles available across India for construction projects.",
+                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising on quality.",
+                    "<strong>Strong Support:</strong> Excellent after-sales service and client satisfaction.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Usage/Application", value: "Bending Use" },
+            { label: "Material", value: "MS" },
+            { label: "Brand", value: "SSI" },
+            { label: "Color", value: "Cream" },
+            { label: "Length", value: "3 inch" },
+            { label: "Model Name/Number", value: "SSI" },
+            { label: "Piece Per Pack", value: "1" },
+        ],
+        metaTitle: "Foot Paddle for Bar Bending Machines",
+        metaDescription:
+            "Durable MS Foot Paddle by Shree Shakti Infratech, designed for bending use in construction and bar processing machines. Strong, reliable, and long-lasting.",
+    },
+
+    {
+        id: 9,
+        slug: "fully-automatic-ring-machine",
+        name: "Fully Automatic Ring Machine",
+        category: "bar-processing-machines",
+        model: "SSI-SGW12D-2",
+        image: {
+            src: "/products/bpm/FULLY AUTOMATIC RING MACHINE/1.webp",
+            alt: "Fully Automatic Ring Making Machine",
+        },
+
+        videoUrl: "https://youtu.be/MRStEcGSAgo?si=5LiAbB5tZ6Z03ui2",
+
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Fully Automatic Ring Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a leading <strong>Fully Automatic Ring Machine Supplier</strong> in India, offering advanced solutions for rebar ring and stirrup making.",
+                    "Our <strong>Automatic Ring Machines</strong> are designed for precision, high speed, and consistent performance in construction projects.",
+                    "As a trusted <strong>Ring Making Machine Supplier</strong>, we provide machines suitable for rebar processing, ensuring quality and durability.",
+                    "The <strong>Fully Automatic Ring Machine</strong> is built to reduce labor dependency while increasing accuracy and efficiency in bar bending and ring formation.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Fully Automatic Ring Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>High-Speed Operation:</strong> Capable of feeding speed up to 70m/min for faster production.",
+                    "<strong>Accurate Bending:</strong> Ensures precise rings and stirrups with minimal error.",
+                    "<strong>Robust Performance:</strong> Equipped with powerful motors for smooth functioning.",
+                    "<strong>Fully Automatic:</strong> Reduces manual effort and delivers consistent results.",
+                    "<strong>Energy Efficient:</strong> Consumes an average of just 4Kw/H, reducing operational costs.",
+                    "<strong>Durable Build:</strong> Heavy-duty machine designed for long-term construction use.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Fully Automatic Ring Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Used for making reinforcement rings and stirrups for buildings.",
+                    "<strong>Infrastructure Projects:</strong> Widely used in bridges, highways, metro, and tunnel projects.",
+                    "<strong>Industrial Fabrication:</strong> Suitable for workshops requiring consistent rebar processing.",
+                    "<strong>Civil Engineering:</strong> Ensures precise and reliable reinforcement ring production.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Fully Automatic Ring Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Designed to handle both single-line and double-line bending operations.",
+                    "Equipped with strong feeding and bending motors for heavy-duty performance.",
+                    "Compact design for easy installation and minimal maintenance.",
+                    "Tested for international quality and safety standards.",
+                    "Strong after-sales support and spare parts availability.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your Ring Machine Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Advanced Technology:</strong> Leading <strong>Ring Machine Supplier</strong> offering modern, high-performance machines.",
+                    "<strong>Reliable Build:</strong> Machines designed for durability and continuous operation.",
+                    "<strong>Cost-Effective:</strong> Energy-efficient with reduced production costs.",
+                    "<strong>Customization:</strong> Available in multiple models to suit project needs.",
+                    "<strong>Nationwide Supply:</strong> Trusted supplier across India for bar processing machines.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Model", value: "SSI-SGW12D-2" },
+            { label: "Bending Capacity Single Line", value: "(up<450Mpa) 4-10mm" },
+            { label: "Bending Capacity Double Line", value: "(up<450Mpa) 4-8mm" },
+            { label: "Input Voltage", value: "380V / 415V" },
+            { label: "Max Feeding Speed", value: "70m/min" },
+            { label: "Bending Speed", value: "1000*" },
+            { label: "Feeding Motor", value: "9.5kw" },
+            { label: "Bending Motor", value: "3.7kw" },
+            { label: "Average Total Power", value: "4Kw / H" },
+            { label: "Net Weight", value: "1900Kg (Approx)" },
+        ],
+        metaTitle: "Fully Automatic Ring Machine | Shree Shakti Infratech",
+        metaDescription:
+            "Buy Fully Automatic Ring Machine from Shree Shakti Infratech. High-speed rebar ring and stirrup making machine with precision, durability, and efficiency.",
+    },
+
+    {
+        id: 10,
+        slug: "ms-ring-making-machine",
+        name: "MS Ring Making Machine",
+        category: "bar-processing-machines",
+        model: "SSI",
+        image: {
+            src: "/products/bpm/RING MAKING MACHINE/1.webp",
+            alt: "MS Ring Making Machine",
+        },
+        videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=zkHR3wDfm2eU7W2S",
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of MS Ring Making Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a trusted <strong>MS Ring Making Machine Supplier</strong> in India, offering durable and efficient machines for rebar ring production.",
+                    "Our <strong>Ring Making Machines</strong> are designed to simplify reinforcement bar processing and provide consistent results.",
+                    "As a reputed <strong>Ring Machine Supplier</strong>, we ensure that our machines are built with robust MS steel for long-lasting performance.",
+                    "This <strong>MS Ring Making Machine</strong> is semi-automatic, ensuring an excellent balance of precision, efficiency, and cost-effectiveness.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of MS Ring Making Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Durable Build:</strong> Made from high-quality MS steel for strength and reliability.",
+                    "<strong>Semi-Automatic Operation:</strong> Provides efficiency while being easy to operate and maintain.",
+                    "<strong>Powerful Motor:</strong> Equipped with a 3HP three-phase motor running at 1440 RPM.",
+                    "<strong>Compact & Efficient:</strong> Lightweight design with just 120 kg weight for easy handling.",
+                    "<strong>Consistent Output:</strong> Ensures accurate ring shapes for various reinforcement needs.",
+                    "<strong>High Productivity:</strong> Capable of producing up to 100 rings per cycle.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of MS Ring Making Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Widely used for reinforcement ring and stirrup making.",
+                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and large-scale construction sites.",
+                    "<strong>Fabrication Units:</strong> Suitable for industrial workshops needing efficient rebar shaping.",
+                    "<strong>Civil Engineering:</strong> Ensures precision and consistency in structural reinforcement work.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on MS Ring Making Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Made with premium-grade MS steel for strength and durability.",
+                    "Low maintenance requirements with reliable spare parts availability.",
+                    "Energy-efficient design to minimize power consumption.",
+                    "Compact structure making it easy to transport and operate.",
+                    "Backed by strong after-sales service and nationwide supply.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your MS Ring Making Machine Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Trusted Supplier:</strong> A reliable name in bar processing and ring making machines across India.",
+                    "<strong>High-Quality Machines:</strong> Built with robust materials and precision engineering.",
+                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising durability.",
+                    "<strong>Customization Options:</strong> Machines designed to suit different project requirements.",
+                    "<strong>Nationwide Presence:</strong> Serving contractors, builders, and infrastructure developers across India.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Capacity", value: "6 mm To 16 mm" },
+            { label: "Wire Material", value: "Stainless Steel" },
+            { label: "Automation Grade", value: "Semi-Automatic" },
+            { label: "Material", value: "MS Steel" },
+            { label: "Weight", value: "120 kg" },
+            { label: "Brand", value: "SSI" },
+            { label: "Motor Speed", value: "1440 RPM" },
+            { label: "Motor Power", value: "3HP Three Phase" },
+            { label: "Make", value: "SSI" },
+            { label: "Production Capacity", value: "100" },
+        ],
+        metaTitle: "MS Ring Making Machine | Shree Shakti Infratech",
+        metaDescription:
+            "High-performance MS Ring Making Machine from Shree Shakti Infratech. Semi-automatic, durable, and efficient for rebar ring and stirrup production in construction projects.",
+    },
+
+    {
+        id: 11,
+        slug: "rebar-decoiling-machine",
+        name: "Rebar Decoiling Machine",
+        category: "bar-processing-machines",
+        model: "SSI-GTQ-4-14",
+        image: {
+            src: "/products/bpm/REBAR DECOILING MACHINE/1.webp",
+            alt: "Rebar Decoiling Machine",
+        },
+        images: [
+            {
+                src: "/products/bpm/REBAR DECOILING MACHINE/2.webp",
+                alt: "Automatic Rebar Decoiling Machine",
+            },
+        ],
+
+        videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=CDNXOBrADoc3jM5l",
+
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Rebar Decoiling Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a reputed <strong>Rebar Decoiling Machine Supplier</strong> in India, offering highly efficient and durable machines for reinforcement bar processing.",
+                    "Our <strong>Rebar Decoiling Machines</strong> are designed to straighten and cut rebars with high accuracy, reducing manual effort and increasing productivity.",
+                    "As a trusted <strong>Rebar Decoiling Machine Supplier</strong>, we ensure machines built with strong materials and advanced technology to meet construction industry standards.",
+                    "The <strong>Rebar Decoiling Machine</strong> combines power, precision, and speed, making it suitable for large-scale construction and infrastructure projects.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Rebar Decoiling Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>High Speed Operation:</strong> Straightening speed of 40–45 meters per minute ensures faster output.",
+                    "<strong>Accurate Cutting:</strong> Maintains cutting error within ±0.5 cm for precision work.",
+                    "<strong>Durable Wheels:</strong> Equipped with 4 pre-straightening wheels and 8 straightening wheels for reliable performance.",
+                    "<strong>Heavy Duty Power:</strong> Runs on 16KW power for uninterrupted operation.",
+                    "<strong>Stable Build:</strong> 1160 Kg robust body ensures stability during continuous use.",
+                    "<strong>Versatile Application:</strong> Suitable for straightening rebars ranging from 4 mm to 10 mm diameter.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Rebar Decoiling Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Industry:</strong> Essential for cutting and straightening rebars at residential, commercial, and industrial projects.",
+                    "<strong>Infrastructure Projects:</strong> Used in bridge, metro, and road construction where large volumes of rebars are needed.",
+                    "<strong>Fabrication Workshops:</strong> Ensures high-speed rebar preparation for prefabricated structures.",
+                    "<strong>Civil Engineering Projects:</strong> Widely used to prepare reinforcement steel as per project requirements.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Rebar Decoiling Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Engineered with international quality and safety standards.",
+                    "Easy operation with minimal manual handling required.",
+                    "Low maintenance design with spare parts easily available.",
+                    "Consistent straightening and cutting performance for long durations.",
+                    "Strong after-sales service support for customer satisfaction.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your Rebar Decoiling Machine Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Trusted Brand:</strong> Leading <strong>Rebar Decoiling Machine Supplier</strong> across India.",
+                    "<strong>Reliable Quality:</strong> Machines designed for durability and long-term performance.",
+                    "<strong>Efficient Productivity:</strong> Maximizes speed and accuracy in rebar processing.",
+                    "<strong>Affordable Pricing:</strong> Cost-effective solutions without compromising quality.",
+                    "<strong>Expert Support:</strong> Professional consultation and prompt after-sales service.",
+                ],
+            },
+        ],
+        specs: [
+            { label: "Model", value: "SSI-GTQ-4-14" },
+            { label: "Straightening Diameter", value: "4-10 mm" },
+            { label: "Straightening Speed", value: "40-45 m Per Minute" },
+            { label: "Pre Straightening Wheels", value: "4 Nos" },
+            { label: "Straightening Wheels", value: "8 Pcs" },
+            { label: "Cutting Space", value: "900 mm" },
+            { label: "Error of Cutting Length", value: "±0.5 cm" },
+            { label: "Power", value: "16 KW" },
+            { label: "Weight", value: "1160 Kg" },
+        ],
+        metaTitle: "Rebar Decoiling Machine | Shree Shakti Infratech",
+        metaDescription:
+            "High-performance Rebar Decoiling Machine by Shree Shakti Infratech. Efficient, durable, and precise for straightening and cutting rebars in construction and infrastructure projects.",
+    },
+
+    {
+        id: 12,
+        slug: "rebar-tying-machine",
+        name: "Rebar Tying Machine",
+        category: "bar-processing-machines",
+        model: "SSI-ABT-01",
+        image: {
+            src: "/products/bpm/Rebar Tying Machine/1.webp",
+            alt: "Automatic Rebar Tying Machine",
+        },
+        images: [
+            {
+                src: "/products/bpm/Rebar Tying Machine/1.webp",
+                alt: "Rebar Tying Machine Supplier",
+            },
+        ],
+        description: [
+            {
+                type: "h2",
+                text: "Product Overview of Automatic Rebar Tying Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Shree Shakti Infratech is a trusted <strong>Rebar Tying Machine Supplier</strong> in India, offering advanced solutions for quick and secure rebar tying at construction sites.",
+                    "Our <strong>Automatic Rebar Tying Machines</strong> are designed to reduce manual effort, improve efficiency, and ensure consistent tying results.",
+                    "As a reputed <strong>Rebar Tying Machine Supplier</strong>, we deliver reliable machines that are widely used in building construction, bridges, and infrastructure projects.",
+                    "These machines combine speed, precision, and durability, making us the preferred <strong>Rebar Tying Machine Supplier</strong> for modern construction needs.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Key Features of Automatic Rebar Tying Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Fast Operation:</strong> Ensures high-speed tying, saving time on large-scale reinforcement projects.",
+                    "<strong>Compact Design:</strong> Lightweight and ergonomic, allowing easy handling at construction sites.",
+                    "<strong>Consistent Tying:</strong> Provides uniform and secure knots, reducing the risk of weak reinforcement joints.",
+                    "<strong>Durable Build:</strong> Made with robust components for long-lasting use in tough site conditions.",
+                    "<strong>Easy to Use:</strong> Simple controls for operators with minimal training requirements.",
+                    "<strong>Low Maintenance:</strong> Engineered to minimize downtime and maintenance costs.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Applications of Automatic Rebar Tying Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>Construction Sites:</strong> Widely used for tying reinforcement bars in residential and commercial projects.",
+                    "<strong>Bridge Construction:</strong> Ensures secure tying for reinforcement in bridge decks and supports.",
+                    "<strong>Infrastructure Projects:</strong> Ideal for highways, metros, and large-scale infrastructure requiring reliable reinforcement.",
+                    "<strong>Civil Engineering:</strong> Used by contractors and engineers for consistent reinforcement bar tying.",
+                    "<strong>Industrial Projects:</strong> Ensures fast and safe rebar tying in large industrial construction works.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Additional Information on Automatic Rebar Tying Machine",
+            },
+            {
+                type: "ul",
+                items: [
+                    "Equipped with high-performance motors for efficient tying.",
+                    "Compatible with different knot wire lengths and coil sizes.",
+                    "Machines comply with international safety and performance standards.",
+                    "Spare parts and accessories are easily available.",
+                    "Strong after-sales service support ensures customer satisfaction.",
+                ],
+            },
+            {
+                type: "h2",
+                text: "Why Choose Shree Shakti Infratech as Your Rebar Tying Machine Supplier?",
+            },
+            {
+                type: "ul",
+                items: [
+                    "<strong>High-Quality Machines:</strong> Trusted <strong>Rebar Tying Machine Supplier</strong> delivering durable and efficient solutions.",
+                    "<strong>Reliable Performance:</strong> Designed to handle heavy-duty site requirements with ease.",
+                    "<strong>Affordable Pricing:</strong> Cost-effective machines without compromising quality.",
+                    "<strong>Expert Support:</strong> Professional consultation and after-sales assistance available.",
+                    "<strong>Industry Expertise:</strong> Years of experience supplying advanced bar processing machinery nationwide.",
+                ],
+            },
+        ],
+        specs: [
+            {
+                label: "Model Name/Number",
+                value: "SSI-ABT-01",
+            },
+            {
+                label: "Knot Wire Length",
+                value: "2",
+            },
+            {
+                label: "Length Per Coil",
+                value: "25mtr",
+            },
+            {
+                label: "Brand",
+                value: "SSI",
+            },
+            {
+                label: "Voltage",
+                value: "220 volt Single phase",
+            },
+            {
+                label: "Bending Material",
+                value: "MS wire",
+            },
+        ],
+        metaTitle: "Automatic Rebar Tying Machine",
+        metaDescription:
+            "High-speed and efficient automatic rebar tying machine for construction, bridges, and infrastructure projects. Reliable and durable solutions by Shree Shakti Infratech.",
+    },
+
+    // anti smog category
     {
         id: 22,
         slug: "anti-fog-cannon-machine",
