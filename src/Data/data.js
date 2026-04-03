@@ -53,7 +53,7 @@ export const products = [
             { type: "h2", text: "Automatic Bar Bending Machine 32–40 MM Importer in India" },
             {
                 type: "p",
-                text: 'Shree Shakti Infratech is a trusted importer of high-quality Automatic Bar Bending Machines (32–40 MM) in India, delivering advanced solutions for modern construction and infrastructure projects. Our machines are designed to handle heavy-duty rebar bending tasks with exceptional precision, efficiency, and durability.'
+                text: '<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Automatic Bar Bending Machines (32–40 MM) in India, delivering advanced solutions for modern construction and infrastructure projects. Our machines are designed to handle heavy-duty rebar bending tasks with exceptional precision, efficiency, and durability.'
             },
             {
                 type: "p",
@@ -228,6 +228,7 @@ export const products = [
 
     {
         id: 3,
+        price: 64000,
         slug: "rebar-bending-machine-32-40mm",
         name: "Rebar Bending Machine 32Mm-40Mm",
         category: "bar-processing-machines",
@@ -246,72 +247,65 @@ export const products = [
                 alt: "Rebar Bending Machine 32Mm-40Mm",
             },
         ],
-
         videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=D6bsRHXULLtBsemk",
 
         description: [
+            { type: "h2", text: "Rebar Bending Machine 32MM–40MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Automatic Rebar Bending Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a leading importer of premium-quality Rebar Bending Machines (32MM–40MM) in India, offering advanced solutions for heavy-duty construction applications. Our machines are engineered to deliver precise bending, high efficiency, and long-term durability, making them ideal for modern infrastructure projects."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Rebar Bending Machine Supplier</strong> in India, providing advanced machines designed for accurate and effortless bending of reinforcement bars.",
-                    "As a trusted <strong>Rebar Bending Machine Supplier</strong>, we deliver high-quality machines suitable for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized as a professional <strong>Rebar Bending Machine Supplier</strong>, catering to contractors, civil engineers, and project developers nationwide.",
-                    "Our rebar bending machines combine precision, efficiency, and safety, making us the preferred <strong>Rebar Bending Machine Supplier</strong> for diverse construction applications.",
-                ],
+                type: "p",
+                text: "We supply internationally sourced machines that meet global standards, ensuring superior performance for contractors, builders, and engineering companies across the country."
             },
-            { type: "h2", text: "Key Features of Rebar Bending Machine" },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Efficient Operation:</strong> Our machines provide fast and accurate bending for improved productivity.",
-                    "<strong>Robust Build:</strong> Built with high-quality steel components for durability and long-lasting performance.",
-                    "<strong>Precise Bending Angles:</strong> Ensures consistent and accurate bar shaping every time.",
-                    "<strong>Simple Controls:</strong> User-friendly panels for safe and hassle-free operation.",
-                    "<strong>Adaptable Bar Sizes:</strong> Suitable for a wide range of bar diameters up to 32mm.",
-                    "<strong>Low Maintenance:</strong> Designed for easy upkeep, reducing downtime and operational costs.",
-                ],
+                    "High bending capacity (32MM to 40MM rebars)",
+                    "Precision angle control for accurate bending",
+                    "Heavy-duty motor for continuous operation",
+                    "Advanced control panel for easy handling",
+                    "Strong gearbox for smooth performance",
+                    "Durable and robust machine structure",
+                    "Low maintenance and energy-efficient design"
+                ]
             },
-            { type: "h2", text: "Applications of Rebar Bending Machine" },
+
+            { type: "h2", text: "High-Performance 32MM–40MM Rebar Bending Machines" },
+            {
+                type: "p",
+                text: "Our 32MM–40MM rebar bending machines are specifically designed to handle large-diameter steel bars with accuracy and consistency. These machines are perfect for demanding construction environments where strength, speed, and precision are essential. They help streamline operations by reducing manual labor while improving productivity and work quality."
+            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used for bending reinforcement bars at residential, commercial, and industrial sites.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and metro rail projects requiring precise bar shaping.",
-                    "<strong>Industrial Workshops:</strong> Fabrication units and factories rely on our machines for consistent rebar bending.",
-                    "<strong>Civil Engineering:</strong> Used by engineers for accurate shaping of rebars according to project requirements.",
-                    "<strong>Government Projects:</strong> Trusted by contractors for public infrastructure developments.",
-                ],
+                    "High-rise building construction",
+                    "Bridges and flyovers",
+                    "Highway and road projects",
+                    "Industrial and commercial structures",
+                    "Precast concrete manufacturing units"
+                ]
             },
-            { type: "h2", text: "Additional Information on Rebar Bending Machine" },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
             {
                 type: "ul",
                 items: [
-                    "Multiple models available for different bar diameters and bending ranges.",
-                    "Complies with international safety and quality standards.",
-                    "Available in heavy-duty design for long service life.",
-                    "Spare parts are easily available to reduce downtime.",
-                    "Backed by strong after-sales support from Shree Shakti Infratech.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rebar Bending Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> Delivering reliable and efficient rebar bending solutions.",
-                    "<strong>Customized Solutions:</strong> Machines designed to suit specific project needs.",
-                    "<strong>Reliable Support:</strong> Professional after-sales service and guidance.",
-                    "<strong>Cost-Effective:</strong> Affordable pricing without compromising on quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience supplying top-grade bending machines across India.",
-                ],
-            },
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines from global manufacturers",
+                    "Competitive pricing with excellent value",
+                    "Fast delivery and nationwide service support",
+                    "Expert technical assistance and after-sales service",
+                    "Customized solutions based on project requirements"
+                ]
+            }
         ],
+
         specs: [
             { label: "Brand", value: "SSI" },
             { label: "Model Name/Number", value: "SSI - GW-42" },
@@ -322,13 +316,14 @@ export const products = [
             { label: "Automation Grade", value: "Semi-Automatic" },
             { label: "Power", value: "Electric" },
         ],
-        metaTitle: "Rebar Bending Machine 32mm - SSI",
+        metaTitle: "Rebar Bending Machine 32MM–40MM Importer in India",
         metaDescription:
-            "High-performance Rebar Bending Machine 32mm by Shree Shakti Infratech. Ideal for construction, infrastructure, and industrial projects with precision and durability.",
+            "Importer of high-performance rebar bending machines 32MM–40MM in India. Durable, precise, and efficient machines for construction and infrastructure projects.",
     },
 
     {
         id: 4,
+        price: 65000,
         slug: "bar-bending-machine-gw-50",
         name: "Bar Bending Machine GW-50",
         category: "bar-processing-machines",
@@ -350,76 +345,60 @@ export const products = [
 
         videoUrl: "https://youtu.be/MRStEcGSAgo?si=iaL-Yg8bXJ6QL1i6",
         description: [
+            { type: "h2", text: "Rebar Bending Machine 32MM–40MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Bar Bending Machine GW-50",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a leading importer of premium-quality Rebar Bending Machines (32MM–40MM) in India, offering advanced solutions for heavy-duty construction applications. Our machines are engineered to deliver precise bending, high efficiency, and long-term durability, making them ideal for modern infrastructure projects."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Bar Bending Machine Supplier</strong> in India, providing advanced machines designed for accurate and effortless rebar bending.",
-                    "As a trusted <strong>Bar Bending Machine Supplier</strong>, we deliver high-quality GW-50 models suitable for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized as a professional <strong>Rebar Bending Machine Supplier</strong>, catering to contractors, civil engineers, and project developers nationwide.",
-                    "Our GW-50 bar bending machines combine precision, efficiency, and safety, making us the preferred <strong>Bar Bending Machine Supplier</strong> for diverse construction applications.",
-                ],
+                type: "p",
+                text: "We supply internationally sourced machines that meet global standards, ensuring superior performance for contractors, builders, and engineering companies across the country."
             },
-            {
-                type: "h2",
-                text: "Key Features of Bar Bending Machine GW-50",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Efficient Operation:</strong> As an expert <strong>Bar Bending Machine Supplier</strong>, our GW-50 ensures fast and accurate bending for improved productivity.",
-                    "<strong>Robust Build:</strong> Being a reliable <strong>Rebar Bending Machine Supplier</strong>, the machine is made with durable MS body components for long-lasting performance.",
-                    "<strong>High Capacity:</strong> Capable of bending TMT bars ranging from 8mm to 32mm with consistent results.",
-                    "<strong>Simple Controls:</strong> As a trusted <strong>Bar Bending Machine Supplier</strong>, our GW-50 features user-friendly panels with an emergency switch for safe operation.",
-                    "<strong>Powerful Motor:</strong> Equipped with a 5 H.P. three-phase motor operating at 2800 rpm for smooth bending.",
-                    "<strong>Low Maintenance:</strong> Designed for easy upkeep, reducing downtime and operational costs.",
-                ],
+                    "High bending capacity (32MM to 40MM rebars)",
+                    "Precision angle control for accurate bending",
+                    "Heavy-duty motor for continuous operation",
+                    "Advanced control panel for easy handling",
+                    "Strong gearbox for smooth performance",
+                    "Durable and robust machine structure",
+                    "Low maintenance and energy-efficient design"
+                ]
             },
+
+            { type: "h2", text: "High-Performance 32MM–40MM Rebar Bending Machines" },
             {
-                type: "h2",
-                text: "Applications of Bar Bending Machine GW-50",
+                type: "p",
+                text: "Our 32MM–40MM rebar bending machines are specifically designed to handle large-diameter steel bars with accuracy and consistency. These machines are perfect for demanding construction environments where strength, speed, and precision are essential. They help streamline operations by reducing manual labor while improving productivity and work quality."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Widely used by contractors for efficient bending of reinforcement bars at building and commercial sites.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highway, bridge, and metro construction requiring precise bar shapes.",
-                    "<strong>Industrial Workshops:</strong> Factories and fabrication units rely on our machines for consistent and high-speed bar bending.",
-                    "<strong>Civil Engineering:</strong> Engineers use our machines for accurate bar shaping to meet project specifications.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Bar Bending Machine Supplier</strong>, supplying machines for public infrastructure development.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Additional Information on Bar Bending Machine GW-50",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "Available with multiple bending pin sets for different bar sizes.",
-                    "Machines comply with international quality and safety standards.",
-                    "Customization options available for specific project needs.",
-                    "Spare parts readily available ensuring minimal downtime.",
-                    "Strong after-sales support guarantees maximum client satisfaction.",
-                ],
+                    "High-rise building construction",
+                    "Bridges and flyovers",
+                    "Highway and road projects",
+                    "Industrial and commercial structures",
+                    "Precast concrete manufacturing units"
+                ]
             },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Bar Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Bending Machine Supplier</strong> delivering reliable and precise solutions.",
-                    "<strong>Customized Solutions:</strong> Machines tailored to specific project and operational requirements.",
-                    "<strong>Reliable Support:</strong> Professional guidance and prompt after-sales service for all customers.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising quality and performance.",
-                    "<strong>Industry Expertise:</strong> Years of experience providing high-performance bar bending solutions nationwide.",
-                ],
-            },
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines from global manufacturers",
+                    "Competitive pricing with excellent value",
+                    "Fast delivery and nationwide service support",
+                    "Expert technical assistance and after-sales service",
+                    "Customized solutions based on project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model Name/Number", value: "SSI - GW-42" },
@@ -448,13 +427,14 @@ export const products = [
             { label: "Prime Mover", value: "5 h.p. three phase" },
             { label: "I Deal In", value: "New and Second Hand" },
         ],
-        metaTitle: "Bar Bending Machine GW-50 | Heavy Duty Rebar Bender",
+        metaTitle: "GW-50 Bar Bending Machine Importer in India | Heavy Duty Bar Bender",
         metaDescription:
-            "Bar Bending Machine GW-50 with 5HP motor, 32mm bending capacity, and semi-automatic operation. Heavy-duty rebar bender for construction and infrastructure projects.",
+            "Buy GW-50 bar bending machine from a trusted importer in India. High-performance, durable, and precise machines for construction projects.",
     },
 
     {
         id: 13,
+        price: 65000,
         slug: "rod-bending-machine-28-40mm",
         name: "Rod Bending Machine 28mm-40mm",
         category: "bar-processing-machines",
@@ -477,76 +457,64 @@ export const products = [
         videoUrl: "https://youtu.be/NYG7-dj8M-E?si=YjalmCW47Ft_2mLZ",
 
         description: [
+            { type: "h2", text: "Rod Bending Machine 28MM–40MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Automatic Rod Bending Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Rod Bending Machines (28MM–40MM) in India, providing advanced solutions for precise and efficient bending of steel rods used in construction and industrial projects. Our imported machines are designed to handle heavy-duty applications, ensuring accuracy, durability, and consistent performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Rod Bending Machine Supplier</strong> in India, delivering reliable solutions for bending TMT rods and reinforcement bars.",
-                    "Our <strong>Rod Bending Machines</strong> are designed to handle 28mm to 40mm rods with precision, making them ideal for construction and infrastructure projects.",
-                    "As a professional <strong>Rod Bending Machine Supplier</strong>, we ensure high-quality machines built for durability and performance.",
-                    "These machines combine advanced engineering, efficiency, and operator safety, making them the preferred choice for contractors and engineers.",
-                ],
+                type: "p",
+                text: "We supply internationally sourced machines that meet global quality standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            { type: "h2", text: "High-Performance Rod Bending Machines (28MM–40MM)" },
+            {
+                type: "p",
+                text: "Our 28MM–40MM rod bending machines are engineered to bend large-diameter rods accurately and efficiently. Built with robust construction and advanced technology, these machines reduce manual labor, increase productivity, and maintain consistent bending quality, even in high-volume projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Automatic Rod Bending Machine",
+                type: "p",
+                text: "They are suitable for continuous industrial use and a wide range of construction applications, including high-rise buildings, bridges, and industrial frameworks."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Heavy-Duty Performance:</strong> Built to bend TMT bars ranging from 8mm to 40mm efficiently.",
-                    "<strong>Accurate Bending:</strong> Ensures precise bending radius and angles with minimal error.",
-                    "<strong>Powerful Motor:</strong> High-speed motor designed for continuous operation in demanding environments.",
-                    "<strong>Durable Build:</strong> Constructed with high-grade materials for long service life.",
-                    "<strong>Easy Controls:</strong> User-friendly operation with safe and reliable controls.",
-                    "<strong>Low Maintenance:</strong> Designed for smooth functioning with minimal upkeep.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Rod Bending Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used in residential and commercial projects for bending reinforcement bars.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and metro works requiring precise bending.",
-                    "<strong>Industrial Workshops:</strong> Fabrication units rely on our machines for consistent rod bending operations.",
-                    "<strong>Civil Engineering:</strong> Used by engineers for accurate reinforcement bar shaping.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Rod Bending Machine Supplier</strong> for public works and infrastructure development.",
-                ],
+                    "Bending capacity for rods from 28MM to 40MM",
+                    "High-precision angle control for accurate bends",
+                    "Heavy-duty motor for continuous operation",
+                    "Durable gearbox and frame for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Robust structure for industrial-grade performance"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Rod Bending Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple capacities including 28mm and 40mm models.",
-                    "Machines comply with international quality and safety standards.",
-                    "Customizable options available based on project requirements.",
-                    "Spare parts and accessories are easily available.",
-                    "Strong after-sales support ensures customer satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rod Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Delivering precision-engineered rod bending solutions.",
-                    "<strong>Customized Options:</strong> Machines tailored to suit different project requirements.",
-                    "<strong>Expert Support:</strong> Professional consultation and strong after-sales service.",
-                    "<strong>Cost-Effective:</strong> Affordable pricing with uncompromised quality.",
-                    "<strong>Industry Experience:</strong> Trusted <strong>Rod Bending Machine Supplier</strong> with years of experience in construction machinery.",
-                ],
+                    "Residential and commercial construction",
+                    "Bridges, flyovers, and highways",
+                    "Industrial construction projects",
+                    "Precast concrete and fabrication plants",
+                    "Infrastructure and civil engineering projects"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of construction machinery in India",
+                    "High-quality machines from trusted global manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Nationwide delivery and prompt service support",
+                    "Strong after-sales service and technical assistance",
+                    "Customized solutions to meet project-specific needs"
+                ]
+            }
         ],
         specs: [
             {
@@ -598,13 +566,14 @@ export const products = [
                 value: "5 hp",
             },
         ],
-        metaTitle: "Rod Bending Machine 28mm-40mm",
+        metaTitle: "Rod Bending Machine 28MM–40MM Importer in India",
         metaDescription:
-            "Durable and high-performance rod bending machine for 28mm-40mm rods. Suitable for construction, infrastructure, and civil engineering projects. Supplied by Shree Shakti Infratech.",
+            "Trusted importer of rod bending machines 28MM–40MM in India. Durable, high-performance machines for precise bending of steel rods in construction projects.",
     },
 
     {
         id: 14,
+        price: 65000,
         slug: "saria-bending-machine-32mm",
         name: "Saria Bending Machine 32 Mm",
         category: "bar-processing-machines",
@@ -627,76 +596,64 @@ export const products = [
         videoUrl: "https://youtu.be/SkzIam-X9n0?si=V9kLk_YI-YFAauGu",
 
         description: [
+            { type: "h2", text: "Saria Bending Machine 32MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Saria Bending Machine 32 Mm",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Saria Bending Machines (32MM) in India, offering advanced solutions for precise and efficient bending of steel reinforcement bars (saria). Our imported machines are engineered for heavy-duty construction applications, ensuring accuracy, durability, and consistent performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Saria Bending Machine Supplier</strong> in India, providing advanced machines engineered for precise and effortless bending of reinforcement bars.",
-                    "As a trusted <strong>Saria Bending Machine Supplier</strong>, we supply durable and high-performance machines ideal for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized nationwide as a professional <strong>Saria Bending Machine Supplier</strong>, serving contractors, civil engineers, and project developers.",
-                    "Our saria bending machines are designed to combine accuracy, safety, and efficiency, making us the preferred <strong>Saria Bending Machine Supplier</strong> for various applications.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            { type: "h2", text: "High-Performance Saria Bending Machine 32MM" },
+            {
+                type: "p",
+                text: "Our 32MM Saria Bending Machines are designed to bend reinforcement bars with precision and speed. Built with robust components and modern technology, these machines help reduce manual effort, increase productivity, and ensure uniform bending results in large-scale construction projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Saria Bending Machine 32 Mm",
+                type: "p",
+                text: "They are perfect for continuous industrial use, handling high-volume workloads without compromising performance."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> As an expert <strong>Saria Bending Machine Supplier</strong>, our machines deliver fast and precise bending for improved work efficiency.",
-                    "<strong>Durable Construction:</strong> Built with premium-grade steel for long-lasting performance under heavy workloads.",
-                    "<strong>Accurate Bending Angles:</strong> Provides consistent bending angles up to 32° for reliable reinforcement bar shaping.",
-                    "<strong>User-Friendly Operation:</strong> Equipped with simple controls for safe and easy use by operators.",
-                    "<strong>Adaptable Bar Dimensions:</strong> Supports a wide range of bar sizes from 8mm to 32mm.",
-                    "<strong>Low Maintenance:</strong> Designed with minimal service requirements to ensure smooth and cost-effective operation.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Saria Bending Machine 32 Mm",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Projects:</strong> Extensively used by contractors for bending TMT bars in residential and commercial projects.",
-                    "<strong>Infrastructure Development:</strong> Ideal for bridge, metro, and highway projects that require precise reinforcement shapes.",
-                    "<strong>Industrial Workshops:</strong> Trusted by fabrication units for efficient and accurate bar bending.",
-                    "<strong>Civil Engineering:</strong> Used by engineers to ensure reinforcement meets specific structural needs.",
-                    "<strong>Government Projects:</strong> Preferred choice for public infrastructure development across India.",
-                ],
+                    "Bending capacity up to 32MM reinforcement bars",
+                    "High-precision angle control for accurate bends",
+                    "Heavy-duty motor for continuous operation",
+                    "Durable gearbox and frame for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient",
+                    "Robust structure for industrial-grade performance"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Saria Bending Machine 32 Mm",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models for various bending requirements.",
-                    "Complies with international standards for quality and safety.",
-                    "Customization options available for specific project demands.",
-                    "Easy availability of spare parts ensures minimal downtime.",
-                    "Reliable after-sales support for enhanced client satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Saria Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Reliable bending solutions built with precision engineering.",
-                    "<strong>Tailored Solutions:</strong> Customizable machines to suit varied project requirements.",
-                    "<strong>Strong Technical Support:</strong> Expert assistance and after-sales service provided.",
-                    "<strong>Cost-Effective:</strong> Competitively priced without compromising on performance.",
-                    "<strong>Proven Expertise:</strong> Years of trusted service in supplying advanced bar bending solutions nationwide.",
-                ],
+                    "Residential and commercial construction",
+                    "High-rise buildings and bridges",
+                    "Highway and infrastructure projects",
+                    "Industrial construction works",
+                    "Precast concrete and fabrication plants"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of construction machinery in India",
+                    "High-quality machines from globally trusted manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for specific project requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -740,13 +697,14 @@ export const products = [
                 value: "Shree Shakti Infratech",
             },
         ],
-        metaTitle: "Saria Bending Machine 32 Mm - SSI GW-42",
+        metaTitle: "Saria Bending Machine 32MM Importer in India",
         metaDescription:
-            "High-performance Saria Bending Machine 32 mm (SSI-GW-42) for accurate reinforcement bar bending. Ideal for construction, industrial, and infrastructure applications.",
+            "Trusted importer of Saria Bending Machines 32MM in India. High-performance, durable machines for precise bending of reinforcement bars in construction projects.",
     },
 
     {
         id: 15,
+        price: 65000,
         slug: "saria-bending-machine-40mm",
         name: "Saria Bending Machine 40 Mm",
         category: "bar-processing-machines",
@@ -769,76 +727,64 @@ export const products = [
         videoUrl: "https://youtu.be/NYG7-dj8M-E?si=6DMoeeUyTJjy0anx",
 
         description: [
+            { type: "h2", text: "Saria Bending Machine 40MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Saria Bending Machine 40 Mm",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Saria Bending Machines (40MM) in India, providing advanced solutions for precise and efficient bending of steel reinforcement bars (saria). Our imported machines are built for heavy-duty construction applications, ensuring accuracy, durability, and consistent performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Saria Bending Machine Supplier</strong> in India, offering advanced solutions designed for accurate and effortless bending of reinforcement bars.",
-                    "As a trusted <strong>Saria Bending Machine Supplier</strong>, we deliver durable and high-performance machines suitable for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized nationwide as a professional <strong>Saria Bending Machine Supplier</strong>, catering to contractors, civil engineers, and project developers.",
-                    "Our saria bending machines combine precision, safety, and efficiency, making us the preferred <strong>Saria Bending Machine Supplier</strong> for diverse applications.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, builders, and infrastructure developers nationwide."
+            },
+
+            { type: "h2", text: "High-Performance Saria Bending Machine 40MM" },
+            {
+                type: "p",
+                text: "Our 40MM Saria Bending Machines are engineered to bend large-diameter reinforcement bars with high precision and efficiency. Designed with robust components and advanced technology, these machines help reduce manual effort, improve productivity, and deliver uniform bending results, even in large-scale construction projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Saria Bending Machine 40 Mm",
+                type: "p",
+                text: "They are suitable for continuous industrial use and high-volume operations, providing long-lasting reliability."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> As an expert <strong>Saria Bending Machine Supplier</strong>, our machines provide fast and precise bending for better productivity.",
-                    "<strong>Robust Build:</strong> Built with high-grade steel components ensuring long-lasting durability.",
-                    "<strong>Accurate Bending Angles:</strong> Consistently delivers precise bending results for reinforcement bars.",
-                    "<strong>User-Friendly Controls:</strong> Designed with simple operating panels for safe and easy use.",
-                    "<strong>Adaptable Bar Sizes:</strong> Suitable for a wide range of bar diameters from 8mm to 32mm.",
-                    "<strong>Low Maintenance:</strong> Designed for minimal servicing, reducing downtime and operating costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Saria Bending Machine 40 Mm",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Used by contractors for efficient bending of reinforcement bars in residential and commercial projects.",
-                    "<strong>Infrastructure Development:</strong> Ideal for bridges, highways, and metro projects requiring precise bar shaping.",
-                    "<strong>Industrial Workshops:</strong> Fabrication units rely on our machines for consistent and high-speed bending.",
-                    "<strong>Civil Engineering:</strong> Provides engineers with accurate reinforcement shaping to meet project requirements.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Saria Bending Machine Supplier</strong> for large-scale infrastructure projects.",
-                ],
+                    "Bending capacity up to 40MM reinforcement bars",
+                    "Precise angle control for accurate bends",
+                    "Heavy-duty motor for uninterrupted operation",
+                    "Strong gearbox and frame for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient",
+                    "Industrial-grade durable construction"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Saria Bending Machine 40 Mm",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models suited for different bar diameters and bending needs.",
-                    "All machines comply with international safety and quality standards.",
-                    "Customization options provided to meet specific project requirements.",
-                    "Spare parts readily available for smooth operation and minimal downtime.",
-                    "Strong after-sales service support ensures maximum customer satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Saria Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Premium Quality Machines:</strong> Reliable and precise bar bending solutions.",
-                    "<strong>Customized Solutions:</strong> Machines designed to meet specific project requirements.",
-                    "<strong>Expert Support:</strong> Professional technical guidance and after-sales service.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective machines without compromising on performance.",
-                    "<strong>Industry Expertise:</strong> Years of proven experience in supplying bar bending machines nationwide.",
-                ],
+                    "High-rise building construction",
+                    "Bridges, flyovers, and highways",
+                    "Industrial and infrastructure projects",
+                    "Precast concrete and fabrication units",
+                    "Large-scale civil engineering projects"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines sourced from global manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -882,13 +828,14 @@ export const products = [
                 value: "Electric",
             },
         ],
-        metaTitle: "Saria Bending Machine 40 Mm - SSI GW-42",
+        metaTitle: "Saria Bending Machine 40MM Importer in India",
         metaDescription:
-            "High-performance Saria Bending Machine 40 mm (SSI-GW-42) for precise and efficient bar bending. Ideal for construction, infrastructure, and industrial applications.",
+            "Leading importer of Saria Bending Machines 40MM in India. High-performance, durable machines for precise bending of reinforcement bars in construction projects.",
     },
 
     {
         id: 16,
+        price: 60000,
         slug: "single-phase-ring-making-machine",
         name: "Single Phase Ring Making Machine",
         category: "bar-processing-machines",
@@ -901,77 +848,64 @@ export const products = [
         videoUrl: "https://youtu.be/SkzIam-X9n0?si=Z4Wq_vjC-wih8K_B",
 
         description: [
+            { type: "h2", text: "Single Phase Ring Making Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Single Phase Ring Making Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Single Phase Ring Making Machines in India, offering reliable solutions for efficient ring production in construction and industrial applications. Our imported machines are designed to provide smooth, precise, and uniform ring forming operations while ensuring durability and long-term performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Ring Making Machine Supplier</strong> in India, offering advanced machines designed for efficient and accurate production of reinforcement rings.",
-                    "Our <strong>Single Phase Ring Making Machines</strong> are engineered to deliver consistent performance, ensuring fast operation and minimal manual effort.",
-                    "As a trusted <strong>Ring Making Machine Supplier</strong>, we cater to contractors, civil engineers, and builders across India with reliable solutions.",
-                    "The machine is designed with robust materials and user-friendly controls, making it highly durable and easy to operate in construction environments.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, fabricators, and infrastructure developers across India."
+            },
+
+            { type: "h2", text: "High-Performance Single Phase Ring Making Machines" },
+            {
+                type: "p",
+                text: "Our single phase ring making machines are engineered to produce accurate and consistent rings from steel reinforcement bars. These machines reduce manual labor, increase production efficiency, and maintain high-quality output even for small-to-medium scale projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Single Phase Ring Making Machine",
+                type: "p",
+                text: "With compact design and automated operation, they are ideal for workshops, precast plants, and industrial fabrication units."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Capacity:</strong> Supports wire diameter capacity ranging from 6 mm to 16 mm.",
-                    "<strong>Durable Build:</strong> Constructed with MS steel for long-lasting performance in tough conditions.",
-                    "<strong>Accurate Ring Formation:</strong> Ensures consistent sizes for reinforcement applications.",
-                    "<strong>Efficient Motor:</strong> Equipped with a 1440 RPM motor for smooth operation.",
-                    "<strong>Compact & Lightweight:</strong> Weighs 110 kg, making it easy to handle and transport.",
-                    "<strong>User-Friendly:</strong> Semi-automatic system with simple controls for easy operation.",
-                    "<strong>Single Phase Power:</strong> Runs efficiently on 220V single-phase power supply.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Single Phase Ring Making Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Sites:</strong> Ideal for producing reinforcement rings for residential, commercial, and industrial projects.",
-                    "<strong>Infrastructure Projects:</strong> Used in bridges, highways, and metro projects for precise ring shaping.",
-                    "<strong>Fabrication Units:</strong> Trusted by workshops for consistent and high-speed ring making.",
-                    "<strong>Civil Engineering:</strong> Used for reinforcement work in structures that require uniform ring sizes.",
-                    "<strong>Government Projects:</strong> Preferred by contractors in public infrastructure development.",
-                ],
+                    "Single phase power supply for easy operation",
+                    "Accurate and uniform ring forming",
+                    "Compact and space-saving design",
+                    "Durable construction for long service life",
+                    "User-friendly control panel for smooth operation",
+                    "Low maintenance and energy-efficient",
+                    "Suitable for small to medium-scale industrial use"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Single Phase Ring Making Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in semi-automatic models with easy customization options.",
-                    "Built to comply with international standards of quality and safety.",
-                    "Easily available spare parts and reliable after-sales service.",
-                    "Compact design allows easy installation and operation at sites.",
-                    "Designed for minimal maintenance and long service life.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Ring Making Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Trusted Brand:</strong> Known as a reliable supplier of high-quality bar processing machines.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solutions without compromising performance.",
-                    "<strong>Expert Support:</strong> Technical guidance and professional after-sales service.",
-                    "<strong>Durable Machines:</strong> Designed with strong build quality for long-term use.",
-                    "<strong>Proven Track Record:</strong> Years of experience in supplying advanced construction machinery nationwide.",
-                ],
+                    "Construction of columns and circular frameworks",
+                    "Precast concrete plants",
+                    "Steel fabrication workshops",
+                    "Small to medium infrastructure projects",
+                    "Industrial reinforcement works"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from reputed global manufacturers",
+                    "Competitive pricing with high-quality standards",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions as per project requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -1035,13 +969,14 @@ export const products = [
                 value: "220 Volt",
             },
         ],
-        metaTitle: "Single Phase Ring Making Machine",
+        metaTitle: "Single Phase Ring Making Machine Importer in India",
         metaDescription:
-            "High-performance Single Phase Ring Making Machine with 6mm to 16mm capacity. Semi-automatic, durable, and efficient for reinforcement ring production in construction projects.",
+            "Leading importer of single phase ring making machines in India. Durable and precise machines for efficient steel ring production in construction projects.",
     },
 
     {
         id: 17,
+        price: 60000,
         slug: "spiral-bending-machine",
         name: "Spiral Bending Machine",
         category: "bar-processing-machines",
@@ -1054,77 +989,60 @@ export const products = [
         videoUrl: "https://youtu.be/Yc_x2cXTsmU?si=XbOZhG2E0iMGlRu7",
 
         description: [
+            { type: "h2", text: "Spiral Bending Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Spiral Bending Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Spiral Bending Machines in India, offering advanced solutions for precise and efficient spiral reinforcement bar bending. Our imported machines are engineered to produce uniform and accurate spirals used in columns, beams, and other structural frameworks, ensuring durability and high productivity."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Spiral Bending Machine Supplier</strong> in India, offering machines designed for precise and efficient spiral bending of reinforcement bars.",
-                    "Our <strong>Spiral Bending Machines</strong> are built to deliver accuracy, speed, and durability for heavy-duty bending tasks.",
-                    "As a trusted <strong>Spiral Bending Machine Supplier</strong>, we serve construction companies, contractors, and infrastructure developers across India.",
-                    "The machine is designed for consistent performance, helping reduce manual effort and ensuring smooth operation at construction sites.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, fabricators, and infrastructure developers across India."
             },
+
+            { type: "h2", text: "High-Performance Spiral Bending Machines" },
             {
-                type: "h2",
-                text: "Key Features of Spiral Bending Machine",
+                type: "p",
+                text: "Our spiral bending machines are designed for heavy-duty industrial use and continuous operation. They ensure precise spiral bending with minimal manual intervention, reducing labor costs while improving production efficiency. Built with robust components and advanced technology, these machines maintain consistent quality even in large-scale construction projects."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Wide Bending Range:</strong> Capable of bending diameters from 6mm to 28mm with precision.",
-                    "<strong>Efficient Operation:</strong> Bending speed of 20 R/Min ensures faster and accurate results.",
-                    "<strong>Heavy-Duty Plate:</strong> Equipped with a strong 380mm plate diameter for stable performance.",
-                    "<strong>Powerful Motor:</strong> Comes with a 4Kw motor for reliable and continuous operation.",
-                    "<strong>Robust Construction:</strong> Manufactured with high-quality materials to withstand demanding usage.",
-                    "<strong>Compact & Portable:</strong> Easy to handle, install, and transport to different sites.",
-                    "<strong>User-Friendly:</strong> Semi-automatic controls ensure simple and safe operation.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Spiral Bending Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Extensively used for spiral bending of reinforcement bars at building and industrial sites.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and metro projects requiring spiral bar reinforcement.",
-                    "<strong>Fabrication Workshops:</strong> Used in workshops for high-volume spiral bending operations.",
-                    "<strong>Civil Engineering:</strong> Engineers rely on spiral bending machines for accurate reinforcement work.",
-                    "<strong>Government Projects:</strong> Preferred by contractors for public infrastructure development.",
-                ],
+                    "Accurate and uniform spiral bending of reinforcement bars",
+                    "Capable of handling various rebar diameters",
+                    "Heavy-duty motor and gearbox for continuous operation",
+                    "Durable construction for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Ideal for industrial and construction applications"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Spiral Bending Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in different models to suit project-specific needs.",
-                    "Complies with international quality and safety standards.",
-                    "Customization available for specific bending requirements.",
-                    "Spare parts are easily available for minimal downtime.",
-                    "Backed with professional after-sales service and support.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Spiral Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Performance Machines:</strong> Leading <strong>Spiral Bending Machine Supplier</strong> with durable and efficient solutions.",
-                    "<strong>Reliable Quality:</strong> Machines made from premium materials for long-term use.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing for advanced bending technology.",
-                    "<strong>Expert Support:</strong> Professional technical assistance and after-sales service.",
-                    "<strong>Industry Experience:</strong> Years of expertise in supplying construction machinery across India.",
-                ],
+                    "Column and beam reinforcement in buildings",
+                    "Bridge and flyover construction",
+                    "Infrastructure and highway projects",
+                    "Precast concrete plants",
+                    "Steel fabrication workshops"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines sourced from reputed global manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -1160,13 +1078,14 @@ export const products = [
                 value: "Shree Shakti Infratech",
             },
         ],
-        metaTitle: "Spiral Bending Machine",
+        metaTitle: "Spiral Bending Machine Importer in India",
         metaDescription:
-            "High-performance Spiral Bending Machine for 6mm to 28mm reinforcement bars. Durable, efficient, and precise bending solution for construction and infrastructure projects.",
+            "Leading importer of spiral bending machines in India. High-performance, durable machines for precise bending of reinforcement bars in construction projects.",
     },
 
     {
         id: 18,
+        price: 60000,
         slug: "steel-bar-bending-machine-25mm",
         name: "Steel Bar Bending Machine 25Mm",
         category: "bar-processing-machines",
@@ -1179,76 +1098,64 @@ export const products = [
         videoUrl: "https://youtu.be/Uz5iP2rQeNM?si=OuoxO3os1RPW3vgy",
 
         description: [
+            { type: "h2", text: "Steel Bar Bending Machine 25MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Steel Bar Bending Machine 25mm",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Steel Bar Bending Machines (25MM) in India, providing advanced solutions for precise and efficient bending of steel reinforcement bars. Our imported machines are designed for heavy-duty construction applications, ensuring accuracy, durability, and consistent performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Steel Bar Bending Machine Supplier</strong> in India, providing advanced machines designed for accurate and effortless bar bending.",
-                    "As a trusted <strong>Steel Bar Bending Machine Supplier</strong>, we deliver high-quality machines suitable for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized as a professional <strong>Steel Bar Bending Machine Supplier</strong>, catering to contractors, civil engineers, and project developers nationwide.",
-                    "Our bar bending machines combine precision, efficiency, and safety, making us the preferred <strong>Steel Bar Bending Machine Supplier</strong> for diverse construction applications.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international quality standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            { type: "h2", text: "High-Performance Steel Bar Bending Machine 25MM" },
+            {
+                type: "p",
+                text: "Our 25MM steel bar bending machines are engineered to bend reinforcement bars with precision and speed. Built with robust components and modern technology, these machines help reduce manual labor, increase productivity, and deliver uniform bending results, even in large-scale construction projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Steel Bar Bending Machine 25mm",
+                type: "p",
+                text: "They are suitable for continuous industrial use and high-volume operations, providing long-lasting reliability."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> Our bar bending machines perform fast and accurate bending for improved productivity.",
-                    "<strong>Robust Build:</strong> The machine is made with durable steel components for long-lasting performance.",
-                    "<strong>Precise Bending Angles:</strong> Ensures consistent and accurate bar shaping every time.",
-                    "<strong>Simple Controls:</strong> User-friendly panels for safe and hassle-free operation.",
-                    "<strong>Adaptable Bar Sizes:</strong> Suitable for bending reinforcement bars up to 25mm diameter.",
-                    "<strong>Low Maintenance:</strong> Designed for easy upkeep, reducing downtime and operational costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Steel Bar Bending Machine 25mm",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used by contractors for efficient bending of reinforcement bars at residential and commercial sites.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highway, bridge, and metro construction requiring precise bar shapes.",
-                    "<strong>Industrial Workshops:</strong> Fabrication units rely on our machines for consistent and high-speed bar bending.",
-                    "<strong>Civil Engineering:</strong> Engineers use our machines for accurate bar shaping to meet project specifications.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Steel Bar Bending Machine Supplier</strong>, supplying machines for public infrastructure development.",
-                ],
+                    "Bending capacity up to 25MM steel reinforcement bars",
+                    "High-precision angle control for accurate bends",
+                    "Heavy-duty motor for uninterrupted operation",
+                    "Durable gearbox and robust frame for long service life",
+                    "User-friendly control panel for smooth operation",
+                    "Low maintenance and energy-efficient design",
+                    "Industrial-grade machine suitable for construction sites"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Steel Bar Bending Machine 25mm",
-            },
-            {
-                type: "ul",
-                items: [
-                    "We offer multiple models suitable for varying bar diameters and bending requirements.",
-                    "Machines comply with international quality and safety standards.",
-                    "Customization options are available to meet unique project needs.",
-                    "Easy availability of spare parts ensures minimal downtime.",
-                    "Strong after-sales support guarantees maximum client satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Steel Bar Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Steel Bar Bending Machine Supplier</strong> delivering reliable and precise solutions.",
-                    "<strong>Customized Solutions:</strong> Machines tailored to specific project and operational requirements.",
-                    "<strong>Reliable Support:</strong> Professional guidance and prompt after-sales service for all customers.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising quality and performance.",
-                    "<strong>Industry Expertise:</strong> Years of experience providing high-performance bar bending solutions nationwide.",
-                ],
+                    "Residential and commercial building construction",
+                    "Bridges, flyovers, and highways",
+                    "Industrial and infrastructure projects",
+                    "Precast concrete and fabrication units",
+                    "Civil engineering projects requiring reinforcement bending"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with high-quality performance",
+                    "Timely delivery across India",
+                    "Strong after-sales service and technical support",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -1292,13 +1199,14 @@ export const products = [
                 value: "Shree Shakti Infratech",
             },
         ],
-        metaTitle: "Steel Bar Bending Machine 25mm",
+        metaTitle: "Steel Bar Bending Machine 25MM Importer in India",
         metaDescription:
-            "Durable and efficient Steel Bar Bending Machine 25mm for construction and infrastructure projects. High-performance bar bending solutions by Shree Shakti Infratech.",
+            "Leading importer of Steel Bar Bending Machines 25MM in India. High-performance, durable machines for precise bending of steel reinforcement bars in construction projects.",
     },
 
     {
         id: 19,
+        price: 60000,
         slug: "steel-rebar-bending-machine-32mm",
         name: "Steel Rebar Bending Machine 32Mm",
         category: "bar-processing-machines",
@@ -1311,76 +1219,64 @@ export const products = [
         videoUrl: "https://youtu.be/SkzIam-X9n0?si=gm311fz8vbXgSc6e",
 
         description: [
+            { type: "h2", text: "Steel Rebar Bending Machine 32MM Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Steel Rebar Bending Machine 32Mm",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Steel Rebar Bending Machines (32MM) in India, offering advanced solutions for precise and efficient bending of steel reinforcement bars (rebar). Our imported machines are designed for heavy-duty construction applications, ensuring accuracy, durability, and consistent performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Steel Rebar Bending Machine Supplier</strong> in India, providing advanced machines designed for accurate and effortless bar bending.",
-                    "As a trusted <strong>Steel Rebar Bending Machine Supplier</strong>, we deliver high-quality machines suitable for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized as a professional <strong>Steel Rebar Bending Machine Supplier</strong>, catering to contractors, civil engineers, and project developers nationwide.",
-                    "Our rebar bending machines combine precision, efficiency, and safety, making us the preferred <strong>Steel Rebar Bending Machine Supplier</strong> for diverse construction applications.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international quality standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            { type: "h2", text: "High-Performance Steel Rebar Bending Machine 32MM" },
+            {
+                type: "p",
+                text: "Our 32MM steel rebar bending machines are engineered to handle medium to large-diameter rebars with precision and speed. Built with robust components and advanced technology, these machines reduce manual effort, increase productivity, and provide uniform bending results in high-volume construction projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Steel Rebar Bending Machine 32Mm",
+                type: "p",
+                text: "These machines are suitable for continuous industrial use and heavy-duty construction sites."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> As an expert <strong>Steel Rebar Bending Machine Supplier</strong>, our machines perform fast and accurate bending for improved productivity.",
-                    "<strong>Robust Build:</strong> Being a reliable <strong>Steel Rebar Bending Machine Supplier</strong>, the machine is made with durable steel components for long-lasting performance.",
-                    "<strong>Precise Bending Angles:</strong> We are a professional <strong>Steel Rebar Bending Machine Supplier</strong> ensuring consistent and accurate bar shaping every time.",
-                    "<strong>Simple Controls:</strong> As a trusted <strong>Steel Rebar Bending Machine Supplier</strong>, our machines feature user-friendly panels for safe and hassle-free operation.",
-                    "<strong>Adaptable Bar Sizes:</strong> Shree Shakti Infratech provides machines suitable for a wide range of bar diameters and lengths.",
-                    "<strong>Low Maintenance:</strong> Our systems are designed for easy upkeep, reducing downtime and operational costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Steel Rebar Bending Machine 32Mm",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used by contractors for efficient bending of reinforcement bars at building and commercial sites.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highway, bridge, and metro construction requiring precise bar shapes.",
-                    "<strong>Industrial Workshops:</strong> Factories and fabrication units rely on our machines for consistent and high-speed bar bending.",
-                    "<strong>Civil Engineering:</strong> Engineers use our machines for accurate bar shaping to meet project specifications.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Steel Rebar Bending Machine Supplier</strong>, supplying machines for public infrastructure development.",
-                ],
+                    "Bending capacity up to 32MM steel reinforcement bars",
+                    "High-precision angle control for accurate bends",
+                    "Heavy-duty motor for uninterrupted operation",
+                    "Durable gearbox and strong frame for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Industrial-grade construction for heavy-duty applications"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Steel Rebar Bending Machine 32Mm",
-            },
-            {
-                type: "ul",
-                items: [
-                    "We offer multiple models suitable for varying bar diameters and bending requirements.",
-                    "Machines comply with international quality and safety standards.",
-                    "Customization options are available to meet unique project needs.",
-                    "Easy availability of spare parts ensures minimal downtime.",
-                    "Strong after-sales support guarantees maximum client satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Steel Rebar Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Steel Rebar Bending Machine Supplier</strong> delivering reliable and precise solutions.",
-                    "<strong>Customized Solutions:</strong> Machines tailored to specific project and operational requirements.",
-                    "<strong>Reliable Support:</strong> Professional guidance and prompt after-sales service for all customers.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising quality and performance.",
-                    "<strong>Industry Expertise:</strong> Years of experience providing high-performance bar bending solutions nationwide.",
-                ],
+                    "Residential and commercial building construction",
+                    "Bridges, flyovers, and highway projects",
+                    "Industrial and infrastructure projects",
+                    "Precast concrete and fabrication units",
+                    "Civil engineering projects requiring reinforcement bending"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Timely delivery across India",
+                    "Strong after-sales service and technical support",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model Name/Number", value: "SSI GW 42" },
@@ -1391,13 +1287,14 @@ export const products = [
             { label: "Brand", value: "Jaypee" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Steel Rebar Bending Machine 32Mm",
+        metaTitle: "Steel Rebar Bending Machine 32MM Importer in India",
         metaDescription:
-            "High-performance steel rebar bending machine 32mm designed for construction, industrial, and infrastructure projects. Durable, precise, and efficient.",
+            "Leading importer of Steel Rebar Bending Machines 32MM in India. High-performance, durable machines for precise bending of reinforcement bars in construction projects.",
     },
 
     {
         id: 20,
+        price: 60000,
         slug: "stirrup-bar-rod-bending-machine",
         name: "Stirrup Bar Rod Bending Machine",
         category: "bar-processing-machines",
@@ -1419,76 +1316,64 @@ export const products = [
 
         videoUrl: "https://youtu.be/qQtuxDuNEBU?si=KcruYYwf-4aW7cDc",
         description: [
+            { type: "h2", text: "Stirrup Bar Rod Bending Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Stirrup Bar Rod Bending Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Stirrup Bar Rod Bending Machines in India, offering advanced solutions for precise and efficient bending of steel bars into stirrups for reinforced concrete structures. Our imported machines are designed to deliver consistent performance, durability, and accuracy for construction projects of all scales."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Stirrup Bar Rod Bending Machine Supplier</strong> in India, offering advanced machines designed for accurate and effortless bending of stirrups and reinforcement rods.",
-                    "As a trusted <strong>Stirrup Bar Rod Bending Machine Supplier</strong>, we provide high-quality machines ideal for construction sites, industrial workshops, and infrastructure projects.",
-                    "We are recognized as a professional <strong>Stirrup Bar Rod Bending Machine Supplier</strong>, serving contractors, civil engineers, and project developers across India.",
-                    "Our stirrup bar bending machines combine precision, efficiency, and durability, making us the preferred <strong>Stirrup Bar Rod Bending Machine Supplier</strong> for a wide range of applications.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, builders, precast plants, and infrastructure developers across India."
+            },
+
+            { type: "h2", text: "High-Performance Stirrup Bar Rod Bending Machines" },
+            {
+                type: "p",
+                text: "Our stirrup bar rod bending machines are engineered to bend steel bars into precise shapes required for columns, beams, and reinforced concrete frameworks. These machines reduce manual labor, improve productivity, and ensure uniform bending results for high-quality structural work."
             },
             {
-                type: "h2",
-                text: "Key Features of Stirrup Bar Rod Bending Machine",
+                type: "p",
+                text: "Built with robust construction and modern technology, these machines are suitable for continuous industrial use and large-scale construction projects."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Performance:</strong> As an expert <strong>Stirrup Bar Rod Bending Machine Supplier</strong>, our machines deliver fast and precise bending, enhancing productivity.",
-                    "<strong>Heavy-Duty Build:</strong> Manufactured with durable steel components for long service life and consistent performance.",
-                    "<strong>Accurate Bending:</strong> Ensures precise stirrup and rod shaping with adjustable settings.",
-                    "<strong>User-Friendly Design:</strong> Simple controls allow safe and easy operation for site workers.",
-                    "<strong>High Adaptability:</strong> Suitable for stirrups and reinforcement rods up to 32mm.",
-                    "<strong>Low Maintenance:</strong> Designed to minimize downtime and reduce operational costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Stirrup Bar Rod Bending Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Sites:</strong> Ideal for preparing stirrups and reinforcement rods for buildings and commercial projects.",
-                    "<strong>Infrastructure Development:</strong> Suitable for bridges, highways, and metro projects requiring accurate bar bending.",
-                    "<strong>Industrial Use:</strong> Widely used in fabrication units and workshops for consistent bending tasks.",
-                    "<strong>Civil Engineering Projects:</strong> Ensures precise rod bending for structural reinforcement.",
-                    "<strong>Government Projects:</strong> Trusted <strong>Stirrup Bar Rod Bending Machine Supplier</strong> for public sector infrastructure works.",
-                ],
+                    "Bends steel bars into stirrups of various sizes and shapes",
+                    "Compatible with multiple bar diameters",
+                    "Heavy-duty motor for continuous operation",
+                    "Durable gearbox and frame for long service life",
+                    "User-friendly control system for easy operation",
+                    "Low maintenance and energy-efficient",
+                    "Industrial-grade machine for construction sites and fabrication units"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Stirrup Bar Rod Bending Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Multiple models available for different bar diameters and project requirements.",
-                    "Built to meet international quality and safety standards.",
-                    "Custom options available to match specific project needs.",
-                    "Spare parts easily available for quick replacements.",
-                    "Backed by reliable after-sales service and technical support.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Stirrup Bar Rod Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Premium Quality:</strong> Leading <strong>Stirrup Bar Rod Bending Machine Supplier</strong> delivering durable and reliable equipment.",
-                    "<strong>Tailored Solutions:</strong> Machines customized for diverse construction and industrial needs.",
-                    "<strong>Expert Support:</strong> Comprehensive guidance and after-sales services provided.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solutions without compromising quality.",
-                    "<strong>Industry Experience:</strong> Trusted by contractors and engineers nationwide for superior performance.",
-                ],
+                    "High-rise building construction",
+                    "Bridges, flyovers, and highway projects",
+                    "Precast concrete and fabrication plants",
+                    "Industrial and infrastructure projects",
+                    "Reinforcement bar preparation workshops"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from reputed global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for specific project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Bending Material", value: "Mild Steel" },
@@ -1497,13 +1382,14 @@ export const products = [
             { label: "Motor Power", value: "5 hp three phase" },
             { label: "Brand", value: "Shree Shakti Infratech" },
         ],
-        metaTitle: "Stirrup Bar Rod Bending Machine",
+        metaTitle: "Stirrup Bar Rod Bending Machine Importer in India",
         metaDescription:
-            "High-performance stirrup bar rod bending machine for construction and industrial applications. Efficient, durable, and precise bending solution.",
+            "Leading importer of stirrup bar rod bending machines in India. High-performance, durable machines for precise bending of reinforcement bars into stirrups.",
     },
 
     {
         id: 21,
+        price: 60000,
         slug: "tmt-bar-bending-machine",
         name: "TMT Bar Bending Machine",
         category: "bar-processing-machines",
@@ -1522,76 +1408,64 @@ export const products = [
         videoUrl: "https://youtu.be/7CuQFXaS10I?si=yxcloJmpANIcHoaE",
 
         description: [
+            { type: "h2", text: "TMT Bar Bending Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of TMT Bar Bending Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality TMT Bar Bending Machines in India, offering advanced solutions for precise and efficient bending of TMT steel bars used in construction projects. Our imported machines are engineered for heavy-duty applications, ensuring accuracy, durability, and consistent performance."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>TMT Bar Bending Machine Supplier</strong> in India, delivering advanced machines designed for precise and efficient bending of TMT bars.",
-                    "As a trusted <strong>TMT Bar Bending Machine Supplier</strong>, we provide high-quality solutions ideal for construction sites, infrastructure development, and industrial use.",
-                    "We are recognized as a professional <strong>TMT Bar Bending Machine Supplier</strong>, serving contractors, civil engineers, and project developers nationwide.",
-                    "Our TMT bar bending machines combine strength, accuracy, and productivity, making us the preferred <strong>TMT Bar Bending Machine Supplier</strong> for diverse applications.",
-                ],
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, builders, infrastructure developers, and fabrication units across India."
+            },
+
+            { type: "h2", text: "High-Performance TMT Bar Bending Machines" },
+            {
+                type: "p",
+                text: "Our TMT bar bending machines are designed to bend reinforcement bars with precision, reducing manual labor while improving productivity. These machines deliver uniform bends for structural applications, including columns, beams, and circular frameworks."
             },
             {
-                type: "h2",
-                text: "Key Features of TMT Bar Bending Machine",
+                type: "p",
+                text: "With robust construction and advanced technology, they are suitable for continuous industrial use and large-scale construction projects."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> Our TMT bar bending machines ensure fast and accurate bending for enhanced site productivity.",
-                    "<strong>Durable Build:</strong> Built with heavy-duty steel components for long-term usage in demanding environments.",
-                    "<strong>Accurate Angles:</strong> Ensures consistent bending precision to meet structural requirements.",
-                    "<strong>User-Friendly Design:</strong> Equipped with simple controls for safe and hassle-free operation.",
-                    "<strong>Wide Bar Range:</strong> Suitable for bending TMT bars of various diameters up to 32mm.",
-                    "<strong>Low Maintenance:</strong> Engineered to minimize downtime and reduce operational costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of TMT Bar Bending Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used in residential, commercial, and industrial construction projects.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and metro developments requiring precise TMT bar bending.",
-                    "<strong>Industrial Workshops:</strong> Suitable for fabrication units requiring high-speed bar processing.",
-                    "<strong>Civil Engineering:</strong> Ensures accurate bar shaping as per structural design requirements.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>TMT Bar Bending Machine Supplier</strong> for public infrastructure works.",
-                ],
+                    "Bending capacity for TMT bars of various diameters",
+                    "High-precision angle control for accurate bends",
+                    "Heavy-duty motor and gearbox for uninterrupted operation",
+                    "Durable frame for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Industrial-grade machine for construction sites and workshops"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on TMT Bar Bending Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models to handle different TMT bar sizes.",
-                    "Manufactured as per international quality and safety standards.",
-                    "Customization options available for project-specific needs.",
-                    "Easy availability of spare parts ensures reduced downtime.",
-                    "Supported by reliable after-sales service and technical assistance.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your TMT Bar Bending Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Reliable <strong>TMT Bar Bending Machine Supplier</strong> offering durable and precise solutions.",
-                    "<strong>Tailored Solutions:</strong> Machines designed to meet varied site and project needs.",
-                    "<strong>Reliable Support:</strong> Professional technical guidance and after-sales service.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience in delivering superior bar processing machines across India.",
-                ],
+                    "Residential and commercial building construction",
+                    "Bridges, flyovers, and highway projects",
+                    "Industrial and infrastructure projects",
+                    "Precast concrete plants and fabrication units",
+                    "Civil engineering and reinforcement bar workshops"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines from reputed global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model Name/Number", value: "SSI GW 42" },
@@ -1600,13 +1474,14 @@ export const products = [
             { label: "Power Source", value: "Electric" },
             { label: "Brand", value: "Shree Shakti Infratech" },
         ],
-        metaTitle: "TMT Bar Bending Machine",
+        metaTitle: "TMT Bar Bending Machine Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "High-performance TMT bar bending machine for construction and infrastructure projects. Durable, efficient, and designed for precise reinforcement bar shaping.",
+            "Leading importer of TMT Bar Bending Machines in India. High-performance, durable machines for precise bending of TMT steel bars in construction projects.",
     },
 
     {
         id: 5,
+        price: 5000,
         slug: "bar-bending-machine-spare-parts",
         name: "Bar Bending Machine Spare Parts",
         category: "bar-processing-machines",
@@ -1617,75 +1492,76 @@ export const products = [
         },
 
         description: [
+            { type: "h2", text: "Bar Bending Machine Spare Parts Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Bar Bending Machine Spare Parts",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Bar Bending Machine Spare Parts in India, offering reliable and durable components to ensure the smooth functioning of your machinery. We provide a wide range of imported spare parts designed to enhance performance, reduce downtime, and extend the life of bar bending machines."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech supplies premium <strong>Bar Bending Machine Spare Parts</strong> in India, ensuring maximum durability and performance for bar bending machines.",
-                    "As a trusted <strong>Bar Bending Machine Spare Parts Supplier</strong>, we provide high-quality components compatible with SSI GW-42 and other models.",
-                    "We are recognized for delivering reliable <strong>Rebar Bending Machine Spare Parts</strong>, meeting the needs of contractors, civil engineers, and project developers.",
-                    "Our spare parts ensure long life, precision, and reduced downtime, making us the preferred <strong>Bar Bending Machine Spare Parts Supplier</strong> across the industry.",
-                ],
+                type: "p",
+                text: "Our spare parts are sourced from globally recognized manufacturers, ensuring precision, durability, and compatibility with various models of bar bending machines."
+            },
+
+            { type: "h2", text: "High-Quality Imported Spare Parts" },
+            {
+                type: "p",
+                text: "We supply premium-grade bar bending machine spare parts that are engineered to meet international quality standards. These components are ideal for maintaining machine efficiency and ensuring uninterrupted operations on construction sites."
             },
             {
-                type: "h2",
-                text: "Key Features of Bar Bending Machine Spare Parts",
+                type: "p",
+                text: "Our product range includes parts suitable for different machine capacities and models, including GW-42, GW-50, and other automatic and semi-automatic bar benders."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Build:</strong> Manufactured with high-grade materials to ensure long-lasting performance.",
-                    "<strong>Compatibility:</strong> Specifically designed for SSI GW-42 models and other bar bending machines.",
-                    "<strong>Efficient Operation:</strong> Enhances the productivity of machines with precision spare components.",
-                    "<strong>Wide Range:</strong> Includes pin sets, motor components, and gear parts for reliable operation.",
-                    "<strong>Low Maintenance:</strong> Spare parts engineered to minimize breakdowns and service interruptions.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Bar Bending Machine Spare Parts",
-            },
+
+            { type: "h2", text: "Available Spare Parts" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Keeps bar bending machines running smoothly at construction sites.",
-                    "<strong>Infrastructure Projects:</strong> Ensures uninterrupted operation for metro, highway, and bridge works.",
-                    "<strong>Industrial Workshops:</strong> Widely used in fabrication and rebar processing workshops.",
-                    "<strong>Maintenance & Repair:</strong> Essential for servicing and extending the life of bar bending machines.",
-                    "<strong>Government Projects:</strong> Supports large-scale public infrastructure development by minimizing machine downtime.",
-                ],
+                    "Bending plates and bending pins",
+                    "Gearbox components",
+                    "Electric motors and control panels",
+                    "Limit switches and sensors",
+                    "Brake systems",
+                    "Shafts, rollers, and bushings",
+                    "Couplings and bearings"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Bar Bending Machine Spare Parts",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Spare parts are manufactured as per international quality standards.",
-                    "Available in multiple sizes and models for diverse requirements.",
-                    "Easily replaceable and designed for quick installation.",
-                    "Readily available stock ensures reduced downtime.",
-                    "Backed with strong after-sales support and guidance.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech for Bar Bending Machine Spare Parts?",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Components:</strong> Reliable spare parts built with precision engineering.",
-                    "<strong>Wide Availability:</strong> Comprehensive stock of genuine spare parts for immediate supply.",
-                    "<strong>Reliable Support:</strong> Technical assistance and professional guidance for installations.",
-                    "<strong>Cost-Effective:</strong> Affordable spares without compromising quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience in supplying parts for bar processing machinery.",
-                ],
+                    "High durability and wear resistance",
+                    "Precision-engineered components",
+                    "Easy installation and compatibility",
+                    "Long service life",
+                    "Low maintenance requirements",
+                    "Reliable performance in heavy-duty conditions"
+                ]
             },
+
+            { type: "h2", text: "Applications" },
+            {
+                type: "ul",
+                items: [
+                    "Construction and infrastructure projects",
+                    "Repair and maintenance of bar bending machines",
+                    "Industrial machinery servicing",
+                    "Precast concrete manufacturing units"
+                ]
+            },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of genuine spare parts",
+                    "Wide inventory for quick availability",
+                    "Competitive pricing",
+                    "Support for multiple machine brands and models",
+                    "Fast delivery across India",
+                    "Strong technical and after-sales support"
+                ]
+            }
         ],
         specs: [
             { label: "Model Name/Number", value: "SSI-GW-42" },
@@ -1695,13 +1571,14 @@ export const products = [
             { label: "Component Type", value: "Spare Parts" },
             { label: "Origin ", value: "India" },
         ],
-        metaTitle: "Bar Bending Machine Spare Parts | SSI GW-42",
+        metaTitle: "Bar Bending Machine Spare Parts Importer in India",
         metaDescription:
-            "Premium spare parts for bar bending machines including pin sets, motor parts, and gear components. Durable, efficient, and compatible with SSI GW-42 models.",
+            "Importer of high-quality bar bending machine spare parts in India. Durable, reliable components for smooth machine performance and long life.",
     },
 
     {
         id: 6,
+        price: 65000,
         slug: "bar-cutting-machine",
         name: "Bar Cutting Machine",
         category: "bar-processing-machines",
@@ -1723,76 +1600,64 @@ export const products = [
 
         videoUrl: "https://youtu.be/wjDXFRsx_dg?si=GpKpJ18URTvdMSQ2",
         description: [
+            { type: "h2", text: "Bar Cutting Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Automatic Bar Cutting Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-performance Bar Cutting Machines in India, offering advanced solutions for fast, precise, and efficient cutting of steel reinforcement bars. Our machines are designed to meet the demanding needs of modern construction and infrastructure projects."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Automatic Bar Cutting Machine Supplier</strong> in India, offering advanced machines designed for fast and precise reinforcement bar cutting.",
-                    "As a trusted <strong>Bar Cutting Machine Supplier</strong>, we provide robust machines widely used at construction sites, fabrication workshops, and infrastructure projects.",
-                    "We are recognized as a reliable <strong>Steel Bar Cutting Machine Supplier</strong>, catering to contractors, engineers, and project developers with quality equipment.",
-                    "Our bar cutting machines ensure efficiency, durability, and safety, making us the preferred <strong>Automatic Bar Cutting Machine Supplier</strong> for various applications.",
-                ],
+                type: "p",
+                text: "We provide internationally sourced machines that ensure durability, accuracy, and consistent performance, making them ideal for contractors, builders, and engineering companies."
+            },
+
+            { type: "h2", text: "High-Performance Bar Cutting Machines" },
+            {
+                type: "p",
+                text: "Our imported bar cutting machines are engineered for heavy-duty operations and can easily cut high-strength steel bars with precision. These machines significantly reduce manual effort and improve productivity on construction sites."
             },
             {
-                type: "h2",
-                text: "Key Features of Automatic Bar Cutting Machine",
+                type: "p",
+                text: "Designed with advanced technology and robust components, they ensure smooth operation and long service life even under continuous usage."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Cutting:</strong> Delivers fast and accurate bar cutting with high productivity output.",
-                    "<strong>Durable Construction:</strong> Built with heavy-duty steel components for long-lasting use.",
-                    "<strong>High Cutting Capacity:</strong> Capable of cutting a wide range of steel bars from 8mm to 32mm.",
-                    "<strong>Powerful Motor:</strong> Equipped with a strong motor ensuring consistent performance.",
-                    "<strong>Safe & Easy Operation:</strong> User-friendly controls designed for operator safety.",
-                    "<strong>Low Maintenance:</strong> Engineered to reduce downtime and operational costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Bar Cutting Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Used for cutting reinforcement bars at building and commercial projects.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highways, bridges, and metro projects requiring precise bar cutting.",
-                    "<strong>Fabrication Workshops:</strong> Widely used in industrial workshops for steel bar processing.",
-                    "<strong>Civil Engineering:</strong> Supports engineers in meeting project specifications with accuracy.",
-                    "<strong>Government Projects:</strong> Trusted <strong>Bar Cutting Machine Supplier</strong> for large-scale public infrastructure works.",
-                ],
+                    "High cutting capacity for various bar diameters",
+                    "Powerful motor for efficient and fast cutting",
+                    "Sharp and durable cutting blades",
+                    "मजबूत body structure for heavy-duty use",
+                    "Easy-to-use control system",
+                    "Low maintenance and energy-efficient design",
+                    "Safety features for operator protection"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Bar Cutting Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models to suit different bar cutting requirements.",
-                    "All machines comply with international safety and quality standards.",
-                    "Designed for continuous heavy-duty operation at construction sites.",
-                    "Spare parts are easily available for quick replacement.",
-                    "Backed with reliable after-sales service and technical support.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Bar Cutting Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Cutting Machine Supplier</strong> delivering durable and efficient solutions.",
-                    "<strong>Customized Options:</strong> Machines tailored for various cutting capacities and requirements.",
-                    "<strong>Reliable Service:</strong> Expert guidance and strong after-sales support.",
-                    "<strong>Competitive Pricing:</strong> Affordable solutions without compromising quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience supplying bar processing equipment across India.",
-                ],
+                    "Residential and commercial construction",
+                    "Infrastructure projects like bridges and highways",
+                    "Industrial construction works",
+                    "Precast concrete plants",
+                    "Steel fabrication units"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of construction machinery in India",
+                    "High-quality machines sourced from global manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and service",
+                    "Customized solutions as per project needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-GQ-40" },
@@ -1803,13 +1668,14 @@ export const products = [
             { label: "Rotation Speed of Motor", value: "2880rpm" },
             { label: "Total Weight", value: "380kg (Approx)" },
         ],
-        metaTitle: "Automatic Bar Cutting Machine | SSI-GQ-40",
+        metaTitle: "Bar Cutting Machine Importer in India | Heavy Duty Rebar Cutter",
         metaDescription:
-            "High-performance automatic bar cutting machine SSI-GQ-40 for construction, infrastructure, and industrial applications. Cuts steel bars 8mm to 32mm with precision and durability.",
+            "Leading importer of bar cutting machines in India. Get durable, high-performance rebar cutting machines for construction and infrastructure projects.",
     },
 
     {
         id: 7,
+        price: 65000,
         slug: "bar-threading-machine",
         name: "Bar Threading Machine",
         category: "bar-processing-machines",
@@ -1832,76 +1698,64 @@ export const products = [
         videoUrl: "https://youtu.be/wjDXFRsx_dg?si=4SBTWRWwAPxAX2GH",
 
         description: [
+            { type: "h2", text: "Bar Threading Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Automatic Bar Threading Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Bar Threading Machines in India, offering advanced solutions for precise and efficient threading of reinforcement bars. Our machines are designed to meet the demands of modern construction and infrastructure projects, ensuring strong and reliable bar connections."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Bar Threading Machine Supplier</strong> in India, providing advanced solutions for precise and efficient rebar threading.",
-                    "As a trusted <strong>Automatic Bar Threading Machine Supplier</strong>, we deliver robust machines suitable for construction projects, industrial workshops, and infrastructure developments.",
-                    "We are recognized as a professional <strong>Rebar Threading Machine Supplier</strong>, serving contractors, civil engineers, and project developers nationwide.",
-                    "Our bar threading machines are engineered for accuracy, durability, and safety, making us the preferred <strong>Bar Threading Machine Supplier</strong> in India.",
-                ],
+                type: "p",
+                text: "We supply internationally sourced machines that deliver superior performance, durability, and accuracy, making them ideal for contractors, builders, and engineering companies."
+            },
+
+            { type: "h2", text: "High-Performance Bar Threading Machines" },
+            {
+                type: "p",
+                text: "Our imported bar threading machines are engineered to create accurate threads on steel rebars, enabling secure and strong coupler connections. These machines help improve construction quality while reducing material wastage and labor costs."
             },
             {
-                type: "h2",
-                text: "Key Features of Automatic Bar Threading Machine",
+                type: "p",
+                text: "Built with advanced technology and robust components, they ensure consistent output and long service life even in heavy-duty working conditions."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Operation:</strong> Designed to provide fast and accurate threading for improved productivity.",
-                    "<strong>Robust Build:</strong> Heavy-duty body ensures durability and long-lasting performance.",
-                    "<strong>Wide Rebar Capacity:</strong> Suitable for threading rebars ranging from 14mm to 40mm.",
-                    "<strong>Powerful Motor:</strong> Equipped with a high-performance 4kw motor for consistent results.",
-                    "<strong>User-Friendly Design:</strong> Simple controls for safe and easy operation on-site.",
-                    "<strong>Low Maintenance:</strong> Engineered for reduced downtime and easy servicing.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Bar Threading Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used for rebar threading at building and infrastructure projects.",
-                    "<strong>Industrial Workshops:</strong> Essential equipment for factories and fabrication units.",
-                    "<strong>Bridge & Metro Projects:</strong> Provides accurate threading required for high-strength joints.",
-                    "<strong>Civil Engineering:</strong> Ensures precise threading to meet structural specifications.",
-                    "<strong>Government Projects:</strong> Recognized as a trusted <strong>Bar Threading Machine Supplier</strong> for public works.",
-                ],
+                    "High precision threading for strong bar joints",
+                    "Powerful motor for efficient operation",
+                    "Durable cutting tools for long-lasting performance",
+                    "Easy-to-operate control system",
+                    "मजबूत and compact machine design",
+                    "Low maintenance and energy-efficient",
+                    "Suitable for continuous industrial use"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Bar Threading Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple models for different threading needs.",
-                    "Conforms to international safety and quality standards.",
-                    "Customization options available for unique project requirements.",
-                    "Spare parts readily available to ensure uninterrupted operation.",
-                    "Reliable after-sales service and technical support for customers.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Bar Threading Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Leading <strong>Bar Threading Machine Supplier</strong> offering durable and efficient threading solutions.",
-                    "<strong>Tailored Solutions:</strong> Machines designed to match project-specific requirements.",
-                    "<strong>Strong Service Support:</strong> Expert guidance and after-sales support for clients.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing with no compromise on performance.",
-                    "<strong>Proven Expertise:</strong> Years of experience in supplying bar processing equipment across India.",
-                ],
+                    "High-rise building construction",
+                    "Bridges and flyovers",
+                    "Infrastructure and highway projects",
+                    "Industrial construction",
+                    "Rebar processing and fabrication units"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of construction machinery in India",
+                    "High-quality machines from trusted global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Fast delivery across India",
+                    "Strong after-sales support and service",
+                    "Customized solutions as per project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-BT-40" },
@@ -1913,13 +1767,14 @@ export const products = [
             { label: "Thread Pitch", value: "2 - 3" },
             { label: "Net Weight", value: "430kg (Approx)" },
         ],
-        metaTitle: "Automatic Bar Threading Machine | SSI-BT-40",
+        metaTitle: "Bar Threading Machine Importer in India | Rebar Threading Machine",
         metaDescription:
-            "High-performance bar threading machine SSI-BT-40 for precise and efficient rebar threading in construction, industrial, and infrastructure projects.",
+            "Leading importer of bar threading machines in India. Get high-quality, durable machines for precise rebar threading and strong connections.",
     },
 
     {
         id: 8,
+        price: 6000,
         slug: "foot-paddle",
         name: "Foot Paddle",
         category: "bar-processing-machines",
@@ -1935,74 +1790,63 @@ export const products = [
             },
         ],
         description: [
+            { type: "h2", text: "Foot Paddle Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Foot Paddle",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a reliable importer of high-quality Foot Paddles, designed for efficient and hands-free machine operation in industrial and construction applications. Our imported foot paddles are built with precision and durability, ensuring smooth control and enhanced safety during machine usage."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Foot Paddle Supplier</strong> in India, offering high-quality paddles for bar bending and related machines.",
-                    "Our <strong>Foot Paddles</strong> are manufactured with durable MS material to withstand heavy-duty construction site applications.",
-                    "As a reliable <strong>Foot Paddle Supplier</strong>, we provide accessories that enhance safety and efficiency in bar bending operations.",
-                    "Designed with precision, our <strong>Foot Paddle</strong> ensures smooth and controlled bending with long-lasting performance.",
-                ],
+                type: "p",
+                text: "We provide robust and performance-driven foot-operated switches that are compatible with various machinery, including bar bending machines, cutting machines, and other industrial equipment."
+            },
+
+            { type: "h2", text: "High-Quality Imported Foot Paddles" },
+            {
+                type: "p",
+                text: "Our foot paddles are engineered using advanced technology and premium-grade materials to deliver long-lasting performance in demanding work environments. These components play a crucial role in improving operational efficiency and operator convenience."
             },
             {
-                type: "h2",
-                text: "Key Features of Foot Paddle",
+                type: "p",
+                text: "Designed for reliability, our foot paddles offer quick response and consistent functionality, making them ideal for continuous industrial use."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Construction:</strong> Made of high-quality MS for strength and long service life.",
-                    "<strong>User Safety:</strong> Provides secure and controlled operation during bending work.",
-                    "<strong>Compatible Design:</strong> Suitable for bar bending machines and construction site usage.",
-                    "<strong>Corrosion Resistance:</strong> Coated with protective cream-colored finish for durability.",
-                    "<strong>Easy to Install:</strong> Simple to fit and replace, reducing downtime.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Foot Paddle",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Essential accessory for bar bending operations on site.",
-                    "<strong>Industrial Workshops:</strong> Used in heavy-duty bending processes.",
-                    "<strong>Infrastructure Projects:</strong> Reliable for bridges, highways, and building construction.",
-                    "<strong>Bar Processing Machines:</strong> Ensures efficient and safe bending control.",
-                ],
+                    "Durable and heavy-duty construction",
+                    "Quick and responsive operation",
+                    "Anti-slip design for safe usage",
+                    "Easy installation and compatibility with multiple machines",
+                    "Long service life with minimal maintenance",
+                    "Compact and ergonomic design"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Foot Paddle",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Made from premium MS material for maximum durability.",
-                    "Available in cream color finish.",
-                    "Designed for long-term use with minimal maintenance.",
-                    "Suitable for single-piece packing and supply.",
-                    "Reliable and tested under strict quality control measures.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Foot Paddle Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Trusted Brand:</strong> A reputed name in supplying bar processing accessories.",
-                    "<strong>Superior Quality:</strong> Products made with precision engineering for durability.",
-                    "<strong>Wide Availability:</strong> Foot paddles available across India for construction projects.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising on quality.",
-                    "<strong>Strong Support:</strong> Excellent after-sales service and client satisfaction.",
-                ],
+                    "Bar bending and cutting machines",
+                    "Industrial machinery and automation systems",
+                    "Fabrication and manufacturing units",
+                    "Construction equipment operations",
+                    "Workshop and engineering applications"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of industrial components in India",
+                    "High-quality products sourced from global manufacturers",
+                    "Competitive pricing",
+                    "Fast delivery across India",
+                    "Strong after-sales support",
+                    "Wide compatibility with different machinery"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Bending Use" },
@@ -2013,13 +1857,13 @@ export const products = [
             { label: "Model Name/Number", value: "SSI" },
             { label: "Piece Per Pack", value: "1" },
         ],
-        metaTitle: "Foot Paddle for Bar Bending Machines",
-        metaDescription:
-            "Durable MS Foot Paddle by Shree Shakti Infratech, designed for bending use in construction and bar processing machines. Strong, reliable, and long-lasting.",
+        metaTitle: "Foot Paddle Importer in India | Industrial Foot Switch Supplier",
+        metaDescription: "Leading importer of foot paddles in India. Durable, high-quality foot-operated switches for industrial and construction machinery.",
     },
 
     {
         id: 9,
+        price: 60000,
         slug: "fully-automatic-ring-machine",
         name: "Fully Automatic Ring Machine",
         category: "bar-processing-machines",
@@ -2032,75 +1876,64 @@ export const products = [
         videoUrl: "https://youtu.be/MRStEcGSAgo?si=5LiAbB5tZ6Z03ui2",
 
         description: [
+            { type: "h2", text: "Fully Automatic Ring Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Fully Automatic Ring Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-performance Fully Automatic Ring Machines in India, offering advanced solutions for efficient and precise ring making in construction and industrial applications. Our machines are designed with modern technology to deliver consistent output, high productivity, and long-lasting durability."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Fully Automatic Ring Machine Supplier</strong> in India, offering advanced solutions for rebar ring and stirrup making.",
-                    "Our <strong>Automatic Ring Machines</strong> are designed for precision, high speed, and consistent performance in construction projects.",
-                    "As a trusted <strong>Ring Making Machine Supplier</strong>, we provide machines suitable for rebar processing, ensuring quality and durability.",
-                    "The <strong>Fully Automatic Ring Machine</strong> is built to reduce labor dependency while increasing accuracy and efficiency in bar bending and ring formation.",
-                ],
+                type: "p",
+                text: "We provide internationally sourced machines that meet global quality standards, making them ideal for contractors, fabricators, and infrastructure developers."
+            },
+
+            { type: "h2", text: "High-Performance Fully Automatic Ring Machines" },
+            {
+                type: "p",
+                text: "Our fully automatic ring machines are engineered to produce accurate and uniform rings used in reinforcement structures such as columns, piles, and circular frameworks. These machines ensure faster production while minimizing manual effort and material wastage."
             },
             {
-                type: "h2",
-                text: "Key Features of Fully Automatic Ring Machine",
+                type: "p",
+                text: "With automated operations, they enhance productivity and maintain consistent quality even in high-volume projects."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Speed Operation:</strong> Capable of feeding speed up to 70m/min for faster production.",
-                    "<strong>Accurate Bending:</strong> Ensures precise rings and stirrups with minimal error.",
-                    "<strong>Robust Performance:</strong> Equipped with powerful motors for smooth functioning.",
-                    "<strong>Fully Automatic:</strong> Reduces manual effort and delivers consistent results.",
-                    "<strong>Energy Efficient:</strong> Consumes an average of just 4Kw/H, reducing operational costs.",
-                    "<strong>Durable Build:</strong> Heavy-duty machine designed for long-term construction use.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Fully Automatic Ring Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Used for making reinforcement rings and stirrups for buildings.",
-                    "<strong>Infrastructure Projects:</strong> Widely used in bridges, highways, metro, and tunnel projects.",
-                    "<strong>Industrial Fabrication:</strong> Suitable for workshops requiring consistent rebar processing.",
-                    "<strong>Civil Engineering:</strong> Ensures precise and reliable reinforcement ring production.",
-                ],
+                    "Fully automatic operation for maximum efficiency",
+                    "High precision ring forming capability",
+                    "Fast production speed with consistent output",
+                    "Heavy-duty construction for long service life",
+                    "Easy-to-use control system",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for continuous industrial use"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Fully Automatic Ring Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Designed to handle both single-line and double-line bending operations.",
-                    "Equipped with strong feeding and bending motors for heavy-duty performance.",
-                    "Compact design for easy installation and minimal maintenance.",
-                    "Tested for international quality and safety standards.",
-                    "Strong after-sales support and spare parts availability.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Ring Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Advanced Technology:</strong> Leading <strong>Ring Machine Supplier</strong> offering modern, high-performance machines.",
-                    "<strong>Reliable Build:</strong> Machines designed for durability and continuous operation.",
-                    "<strong>Cost-Effective:</strong> Energy-efficient with reduced production costs.",
-                    "<strong>Customization:</strong> Available in multiple models to suit project needs.",
-                    "<strong>Nationwide Supply:</strong> Trusted supplier across India for bar processing machines.",
-                ],
+                    "Construction of columns and circular structures",
+                    "Pile foundation reinforcement",
+                    "Infrastructure and civil engineering projects",
+                    "Steel fabrication units",
+                    "Precast concrete plants"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of advanced construction machinery",
+                    "Machines sourced from trusted global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Fast delivery across India",
+                    "Strong after-sales service and support",
+                    "Customized solutions as per project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-SGW12D-2" },
@@ -2114,13 +1947,14 @@ export const products = [
             { label: "Average Total Power", value: "4Kw / H" },
             { label: "Net Weight", value: "1900Kg (Approx)" },
         ],
-        metaTitle: "Fully Automatic Ring Machine | Shree Shakti Infratech",
+        metaTitle: "Fully Automatic Ring Machine Importer in India",
         metaDescription:
-            "Buy Fully Automatic Ring Machine from Shree Shakti Infratech. High-speed rebar ring and stirrup making machine with precision, durability, and efficiency.",
+            "Leading importer of fully automatic ring machines in India. High-performance, durable machines for precise ring making in construction projects.",
     },
 
     {
         id: 10,
+        price: 60000,
         slug: "ms-ring-making-machine",
         name: "MS Ring Making Machine",
         category: "bar-processing-machines",
@@ -2131,75 +1965,64 @@ export const products = [
         },
         videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=zkHR3wDfm2eU7W2S",
         description: [
+            { type: "h2", text: "MS Ring Making Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of MS Ring Making Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality MS Ring Making Machines in India, offering advanced solutions for efficient and precise ring production. Our machines are specially designed to manufacture mild steel (MS) rings used in construction, fabrication, and industrial applications."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>MS Ring Making Machine Supplier</strong> in India, offering durable and efficient machines for rebar ring production.",
-                    "Our <strong>Ring Making Machines</strong> are designed to simplify reinforcement bar processing and provide consistent results.",
-                    "As a reputed <strong>Ring Machine Supplier</strong>, we ensure that our machines are built with robust MS steel for long-lasting performance.",
-                    "This <strong>MS Ring Making Machine</strong> is semi-automatic, ensuring an excellent balance of precision, efficiency, and cost-effectiveness.",
-                ],
+                type: "p",
+                text: "We provide globally sourced machines that ensure superior performance, durability, and consistent output, making them ideal for contractors, fabricators, and infrastructure developers."
+            },
+
+            { type: "h2", text: "High-Performance MS Ring Making Machines" },
+            {
+                type: "p",
+                text: "Our imported MS Ring Making Machines are engineered to produce accurate and uniform rings with high speed and precision. These machines are widely used for making circular reinforcement rings required in columns, piles, and structural frameworks."
             },
             {
-                type: "h2",
-                text: "Key Features of MS Ring Making Machine",
+                type: "p",
+                text: "With robust construction and advanced technology, they help reduce manual labor while improving productivity and product quality."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Build:</strong> Made from high-quality MS steel for strength and reliability.",
-                    "<strong>Semi-Automatic Operation:</strong> Provides efficiency while being easy to operate and maintain.",
-                    "<strong>Powerful Motor:</strong> Equipped with a 3HP three-phase motor running at 1440 RPM.",
-                    "<strong>Compact & Efficient:</strong> Lightweight design with just 120 kg weight for easy handling.",
-                    "<strong>Consistent Output:</strong> Ensures accurate ring shapes for various reinforcement needs.",
-                    "<strong>High Productivity:</strong> Capable of producing up to 100 rings per cycle.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of MS Ring Making Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Widely used for reinforcement ring and stirrup making.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, highways, and large-scale construction sites.",
-                    "<strong>Fabrication Units:</strong> Suitable for industrial workshops needing efficient rebar shaping.",
-                    "<strong>Civil Engineering:</strong> Ensures precision and consistency in structural reinforcement work.",
-                ],
+                    "High precision ring forming capability",
+                    "Suitable for mild steel (MS) bars",
+                    "Fast production speed with consistent output",
+                    "Heavy-duty machine structure",
+                    "Easy-to-operate control system",
+                    "Low maintenance and energy-efficient",
+                    "Long service life under continuous operation"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on MS Ring Making Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Made with premium-grade MS steel for strength and durability.",
-                    "Low maintenance requirements with reliable spare parts availability.",
-                    "Energy-efficient design to minimize power consumption.",
-                    "Compact structure making it easy to transport and operate.",
-                    "Backed by strong after-sales service and nationwide supply.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your MS Ring Making Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Trusted Supplier:</strong> A reliable name in bar processing and ring making machines across India.",
-                    "<strong>High-Quality Machines:</strong> Built with robust materials and precision engineering.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing without compromising durability.",
-                    "<strong>Customization Options:</strong> Machines designed to suit different project requirements.",
-                    "<strong>Nationwide Presence:</strong> Serving contractors, builders, and infrastructure developers across India.",
-                ],
+                    "Column and pile reinforcement work",
+                    "Construction and infrastructure projects",
+                    "Steel fabrication industries",
+                    "Precast concrete manufacturing units",
+                    "Industrial workshops"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of construction machinery in India",
+                    "Machines sourced from trusted global manufacturers",
+                    "Competitive pricing with high-quality standards",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical service",
+                    "Customized solutions based on project needs"
+                ]
+            }
         ],
         specs: [
             { label: "Capacity", value: "6 mm To 16 mm" },
@@ -2213,13 +2036,14 @@ export const products = [
             { label: "Make", value: "SSI" },
             { label: "Production Capacity", value: "100" },
         ],
-        metaTitle: "MS Ring Making Machine | Shree Shakti Infratech",
+        metaTitle: "MS Ring Making Machine Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "High-performance MS Ring Making Machine from Shree Shakti Infratech. Semi-automatic, durable, and efficient for rebar ring and stirrup production in construction projects.",
+            "Leading importer of MS ring making machines in India. High-performance machines for precise and efficient mild steel ring production.",
     },
 
     {
         id: 11,
+        price: 60000,
         slug: "rebar-decoiling-machine",
         name: "Rebar Decoiling Machine",
         category: "bar-processing-machines",
@@ -2238,75 +2062,64 @@ export const products = [
         videoUrl: "https://youtu.be/Oh8Y-LRhUr4?si=CDNXOBrADoc3jM5l",
 
         description: [
+            { type: "h2", text: "Rebar Decoiling Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Rebar Decoiling Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Rebar Decoiling Machines in India, offering advanced solutions for efficient handling and processing of steel reinforcement bars. Our imported machines are engineered to streamline decoiling operations, ensuring smooth and continuous feeding of rebars for bending, cutting, or threading machines."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Rebar Decoiling Machine Supplier</strong> in India, offering highly efficient and durable machines for reinforcement bar processing.",
-                    "Our <strong>Rebar Decoiling Machines</strong> are designed to straighten and cut rebars with high accuracy, reducing manual effort and increasing productivity.",
-                    "As a trusted <strong>Rebar Decoiling Machine Supplier</strong>, we ensure machines built with strong materials and advanced technology to meet construction industry standards.",
-                    "The <strong>Rebar Decoiling Machine</strong> combines power, precision, and speed, making it suitable for large-scale construction and infrastructure projects.",
-                ],
+                type: "p",
+                text: "We supply globally sourced decoiling machines that deliver superior performance, durability, and reliability, making them ideal for contractors, fabricators, and large-scale construction projects."
+            },
+
+            { type: "h2", text: "High-Performance Rebar Decoiling Machines" },
+            {
+                type: "p",
+                text: "Our rebar decoiling machines are designed to handle heavy-duty steel coils and bars with ease. They ensure accurate straightening and smooth feeding of reinforcement bars, reducing manual effort and improving overall productivity on site."
             },
             {
-                type: "h2",
-                text: "Key Features of Rebar Decoiling Machine",
+                type: "p",
+                text: "With robust construction and advanced automation, these machines are perfect for continuous industrial operations and large-scale infrastructure projects."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Speed Operation:</strong> Straightening speed of 40–45 meters per minute ensures faster output.",
-                    "<strong>Accurate Cutting:</strong> Maintains cutting error within ±0.5 cm for precision work.",
-                    "<strong>Durable Wheels:</strong> Equipped with 4 pre-straightening wheels and 8 straightening wheels for reliable performance.",
-                    "<strong>Heavy Duty Power:</strong> Runs on 16KW power for uninterrupted operation.",
-                    "<strong>Stable Build:</strong> 1160 Kg robust body ensures stability during continuous use.",
-                    "<strong>Versatile Application:</strong> Suitable for straightening rebars ranging from 4 mm to 10 mm diameter.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Rebar Decoiling Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Essential for cutting and straightening rebars at residential, commercial, and industrial projects.",
-                    "<strong>Infrastructure Projects:</strong> Used in bridge, metro, and road construction where large volumes of rebars are needed.",
-                    "<strong>Fabrication Workshops:</strong> Ensures high-speed rebar preparation for prefabricated structures.",
-                    "<strong>Civil Engineering Projects:</strong> Widely used to prepare reinforcement steel as per project requirements.",
-                ],
+                    "Capable of handling various rebar diameters and coil sizes",
+                    "Smooth decoiling with minimal bar deformation",
+                    "Heavy-duty motor for continuous operation",
+                    "Durable and robust frame structure",
+                    "Easy-to-operate control panel",
+                    "Low maintenance and energy-efficient design",
+                    "Compatible with bar bending, cutting, and threading machines"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Rebar Decoiling Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Engineered with international quality and safety standards.",
-                    "Easy operation with minimal manual handling required.",
-                    "Low maintenance design with spare parts easily available.",
-                    "Consistent straightening and cutting performance for long durations.",
-                    "Strong after-sales service support for customer satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rebar Decoiling Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Trusted Brand:</strong> Leading <strong>Rebar Decoiling Machine Supplier</strong> across India.",
-                    "<strong>Reliable Quality:</strong> Machines designed for durability and long-term performance.",
-                    "<strong>Efficient Productivity:</strong> Maximizes speed and accuracy in rebar processing.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solutions without compromising quality.",
-                    "<strong>Expert Support:</strong> Professional consultation and prompt after-sales service.",
-                ],
+                    "Construction of high-rise buildings and commercial complexes",
+                    "Bridges, flyovers, and highway projects",
+                    "Industrial and infrastructure construction",
+                    "Precast concrete plants",
+                    "Steel fabrication units"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Reliable importer of construction machinery in India",
+                    "High-quality machines sourced from trusted global manufacturers",
+                    "Competitive pricing with excellent performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-GTQ-4-14" },
@@ -2319,13 +2132,14 @@ export const products = [
             { label: "Power", value: "16 KW" },
             { label: "Weight", value: "1160 Kg" },
         ],
-        metaTitle: "Rebar Decoiling Machine | Shree Shakti Infratech",
+        metaTitle: "Rebar Decoiling Machine Importer in India",
         metaDescription:
-            "High-performance Rebar Decoiling Machine by Shree Shakti Infratech. Efficient, durable, and precise for straightening and cutting rebars in construction and infrastructure projects.",
+            "Trusted importer of rebar decoiling machines in India. High-quality, durable machines for efficient handling and processing of steel reinforcement bars.",
     },
 
     {
         id: 12,
+        price: 6000,
         slug: "rebar-tying-machine",
         name: "Rebar Tying Machine",
         category: "bar-processing-machines",
@@ -2341,76 +2155,64 @@ export const products = [
             },
         ],
         description: [
+            { type: "h2", text: "Rebar Tying Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Automatic Rebar Tying Machine",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Rebar Tying Machines in India, providing advanced solutions for fast, accurate, and efficient reinforcement bar tying. Our imported machines are designed to simplify the labor-intensive process of tying steel rebars, ensuring strong, uniform, and secure joints for construction projects."
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Rebar Tying Machine Supplier</strong> in India, offering advanced solutions for quick and secure rebar tying at construction sites.",
-                    "Our <strong>Automatic Rebar Tying Machines</strong> are designed to reduce manual effort, improve efficiency, and ensure consistent tying results.",
-                    "As a reputed <strong>Rebar Tying Machine Supplier</strong>, we deliver reliable machines that are widely used in building construction, bridges, and infrastructure projects.",
-                    "These machines combine speed, precision, and durability, making us the preferred <strong>Rebar Tying Machine Supplier</strong> for modern construction needs.",
-                ],
+                type: "p",
+                text: "We supply globally sourced rebar tying machines that offer durability, reliability, and superior performance, making them ideal for contractors, builders, and large-scale infrastructure developers."
+            },
+
+            { type: "h2", text: "High-Performance Rebar Tying Machines" },
+            {
+                type: "p",
+                text: "Our rebar tying machines are engineered to automate and speed up the manual tying process. They provide consistent tension and secure ties, significantly reducing manual labor and improving productivity on construction sites."
             },
             {
-                type: "h2",
-                text: "Key Features of Automatic Rebar Tying Machine",
+                type: "p",
+                text: "With user-friendly design and robust construction, these machines are suitable for continuous industrial operations and high-volume projects."
             },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Fast Operation:</strong> Ensures high-speed tying, saving time on large-scale reinforcement projects.",
-                    "<strong>Compact Design:</strong> Lightweight and ergonomic, allowing easy handling at construction sites.",
-                    "<strong>Consistent Tying:</strong> Provides uniform and secure knots, reducing the risk of weak reinforcement joints.",
-                    "<strong>Durable Build:</strong> Made with robust components for long-lasting use in tough site conditions.",
-                    "<strong>Easy to Use:</strong> Simple controls for operators with minimal training requirements.",
-                    "<strong>Low Maintenance:</strong> Engineered to minimize downtime and maintenance costs.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Applications of Automatic Rebar Tying Machine",
-            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Sites:</strong> Widely used for tying reinforcement bars in residential and commercial projects.",
-                    "<strong>Bridge Construction:</strong> Ensures secure tying for reinforcement in bridge decks and supports.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for highways, metros, and large-scale infrastructure requiring reliable reinforcement.",
-                    "<strong>Civil Engineering:</strong> Used by contractors and engineers for consistent reinforcement bar tying.",
-                    "<strong>Industrial Projects:</strong> Ensures fast and safe rebar tying in large industrial construction works.",
-                ],
+                    "Automatic or semi-automatic operation for faster tying",
+                    "Consistent tension and uniform tying of rebars",
+                    "Lightweight, ergonomic, and easy to operate",
+                    "Heavy-duty construction for long service life",
+                    "Battery-powered or electric options for flexibility",
+                    "Low maintenance and energy-efficient design",
+                    "Compatible with various rebar diameters and spacing"
+                ]
             },
-            {
-                type: "h2",
-                text: "Additional Information on Automatic Rebar Tying Machine",
-            },
-            {
-                type: "ul",
-                items: [
-                    "Equipped with high-performance motors for efficient tying.",
-                    "Compatible with different knot wire lengths and coil sizes.",
-                    "Machines comply with international safety and performance standards.",
-                    "Spare parts and accessories are easily available.",
-                    "Strong after-sales service support ensures customer satisfaction.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rebar Tying Machine Supplier?",
-            },
+
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>High-Quality Machines:</strong> Trusted <strong>Rebar Tying Machine Supplier</strong> delivering durable and efficient solutions.",
-                    "<strong>Reliable Performance:</strong> Designed to handle heavy-duty site requirements with ease.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective machines without compromising quality.",
-                    "<strong>Expert Support:</strong> Professional consultation and after-sales assistance available.",
-                    "<strong>Industry Expertise:</strong> Years of experience supplying advanced bar processing machinery nationwide.",
-                ],
+                    "High-rise building construction",
+                    "Bridges, flyovers, and highways",
+                    "Industrial and infrastructure projects",
+                    "Precast concrete plants",
+                    "Steel reinforcement workshops"
+                ]
             },
+
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
+            {
+                type: "ul",
+                items: [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines from reputable global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Fast delivery across India",
+                    "Strong after-sales service and technical support",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -2438,14 +2240,15 @@ export const products = [
                 value: "MS wire",
             },
         ],
-        metaTitle: "Automatic Rebar Tying Machine",
+        metaTitle: "Rebar Tying Machine Importer in India",
         metaDescription:
-            "High-speed and efficient automatic rebar tying machine for construction, bridges, and infrastructure projects. Reliable and durable solutions by Shree Shakti Infratech.",
+            "Leading importer of rebar tying machines in India. High-performance, durable machines for efficient and secure tying of reinforcement bars in construction projects.",
     },
 
     // anti smog category
     {
         id: 22,
+        price: 200000,
         slug: "anti-fog-cannon-machine",
         name: "Anti-Fog Cannon Machine",
         category: "anti-fog-cannon-machine", // same as id
@@ -2467,96 +2270,64 @@ export const products = [
 
         videoUrl: "https://youtu.be/oTx2bsNVUZY?si=sYGd0cbE7TVKxMb8",
         description: [
-            { type: "h2", text: "Product Overview of Anti-Fog Cannon Machine" },
+            { type: "h2", text: "Anti-Fog Cannon Machine Importer in India" },
+            {
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Anti-Fog Cannon Machines in India, providing advanced solutions for dust and fog suppression in industrial, construction, and mining environments. Our imported machines are designed to reduce airborne dust, improve air quality, and ensure a safer and cleaner workspace."
+            },
+            {
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, industrial operators, and infrastructure developers across India."
+            },
 
+            { type: "h2", text: "High-Performance Anti-Fog Cannon Machines" },
+            {
+                type: "p",
+                text: "Our Anti-Fog Cannon Machines are engineered for large-scale dust suppression. With adjustable spray range and high-efficiency misting systems, these machines effectively control dust and fog in open areas, construction sites, and industrial facilities."
+            },
+            {
+                type: "p",
+                text: "Built with robust construction and modern technology, they are suitable for continuous industrial use and heavy-duty operations."
+            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "Shree Shakti Infratech is a reputed <strong>Bar Bending Machine Supplier</strong> in India, offering machines designed with advanced technology to deliver accurate and efficient bar bending operations.",
-
-                    "As a trusted <strong>Bar Bending Machine Supplier</strong>, we focus on delivering reliable and durable machines that can withstand the toughest construction environments.",
-
-                    "We are recognized as a professional <strong>Bar Bending Machine Supplier</strong>, catering to contractors, builders, infrastructure developers, and industrial users across the country.",
-
-                    "Our bar-bending machines are built to ensure safety, precision, and long-term productivity, making us the preferred <strong>Bar Bending Machine Supplier</strong> for small to large-scale projects.",
-                ],
+                    "Wide-range misting and dust suppression capability",
+                    "Heavy-duty construction for durability and long service life",
+                    "Adjustable spray direction and distance",
+                    "Energy-efficient and low maintenance",
+                    "Easy to operate with user-friendly controls",
+                    "Suitable for large-scale industrial and construction applications",
+                    "Corrosion-resistant materials for outdoor usage"
+                ]
             },
 
-            { type: "h2", text: "Key Features of Anti-Fog Cannon Machine " },
-
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    " <Strong>Powerful Motor: </Strong> As an expert <strong>Bar Bending Machine Supplier</strong>, we provide machines with heavy-duty motors that ensure smooth and uninterrupted bending operations for all types of construction projects.",
-
-                    "<Strong>Durable Body:</Strong> Being a reliable <strong>Bar Bending Machine Supplier</strong>, we supply machines built with high-strength materials to guarantee durability and long service life even in demanding site conditions.",
-
-                    "<Strong> High Accuracy: </Strong>We are a professional <strong>Bar Bending Machine Supplier</strong> offering machines that deliver precise bending angles, ensuring consistency and quality in every operation.",
-
-                    "<Strong> User-Friendly Controls: </Strong>As a trusted <strong>Bar Bending Machine Supplier</strong>, we design machines with easy-to-use panels and controls, allowing operators to work safely and efficiently.",
-
-                    "<Strong> Mobility & Safety: </Strong> Shree Shakti Infratech is a <strong>Bar Bending Machine Supplier</strong> that prioritizes safety, providing portable and secure machines for smooth on-site movement.",
-
-                    "<Strong> Low Maintenance:</Strong> As a leading <strong>Bar Bending Machine Supplier</strong>, we ensure our machines require minimal maintenance, helping businesses save both time and costs.",
-                ],
+                    "Construction sites and building projects",
+                    "Mining and quarry operations",
+                    "Industrial plants and factories",
+                    "Open yards and material handling areas",
+                    "Highway, bridge, and infrastructure projects"
+                ]
             },
 
-            { type: "h2", text: "Applications of Anti-Fog Cannon Machine " },
-
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Contractors rely on us as their <strong>Bar Bending Machine Supplier</strong>, for bending reinforcement bars with accuracy and speed in residential, commercial, and industrial construction projects.",
-
-                    "<strong>Infrastructure Projects:</strong> As a dependable <strong>Bar Bending Machine Supplier</strong>, we provide machines widely used in large projects such as highways, metro rail, airports, and bridges.",
-
-                    "<strong>Industrial Use:</strong> We are a trusted <strong>Bar Bending Machine Supplier</strong> delivering machines that meet the heavy-duty bending requirements of factories and manufacturing units.",
-
-                    "<strong>Real Estate Development:</strong> Real estate companies choose Shree Shakti Infratech as their <strong>Bar Bending Machine Supplier</strong> to ensure efficiency in mass construction works.",
-
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Bar Bending Machine Supplier</strong>, we supply machines for large-scale public works, ensuring compliance with safety and quality standards.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Additional Information on Anti-Fog Cannon Machine ",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Bar Bending Machine Supplier</strong> , we provide multiple models suitable for different bar diameters and bending capacities.",
-
-                    "Our machines are designed with international quality standards, making us a preferred <strong>Bar Bending Machine Supplier</strong> in the industry.",
-
-                    "Shree Shakti Infratech, a trusted <strong>Bar Bending Machine Supplier</strong>, also offers customization options to suit the unique requirements of clients.",
-
-                    "We are a dependable <strong>Bar Bending Machine Supplier</strong> providing easy-to-maintain machines with readily available spare parts.",
-
-                    "Being a reliable <strong>Bar Bending Machine Supplier</strong>, we also offer strong after-sales support, ensuring maximum customer satisfaction.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Bar Bending Machine Supplier? ",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Products:</strong> We are a leading <strong>Bar Bending Machine Supplier</strong> offering robust and efficient machines that meet international standards.",
-
-                    "<strong>Tailored Solutions:</strong> As an experienced <strong>Bar Bending Machine Supplier</strong>, we deliver machines customized to specific project needs, ensuring maximum productivity.",
-
-                    "<strong>Reliable Support:</strong> Customers trust us as their <strong>Bar Bending Machine Supplier</strong> because we provide prompt after-sales service and technical assistance.",
-
-                    "<strong>Competitive Pricing:</strong> We are a professional <strong>Bar Bending Machine Supplier</strong> offering machines at the most competitive rates without compromising on quality.",
-
-                    "<strong>Proven Expertise:</strong> With years of industry experience as a <strong>Bar Bending Machine Supplier</strong>, we are known for supplying advanced and reliable bar bending solutions to clients across India.",
-                ],
-            },
+                    "Trusted importer of industrial machinery in India",
+                    "Machines sourced from reputed global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely delivery across India",
+                    "Strong after-sales service and technical support",
+                    "Customized solutions for specific project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Throw Range", value: "25 metre" },
@@ -2569,12 +2340,13 @@ export const products = [
             { label: "Dimension (L x W x H)", value: "8x5x6" },
             { label: "Colour", value: "yellow & green" },
         ],
-        metaTitle: "Anti fog cannon machine",
-        metaDescription: "High-performance anti-fog cannon machine.",
+        metaTitle: "Anti-Fog Cannon Machine Importer in India | Shree Shakti Infratech",
+        metaDescription: "Leading importer of Anti-Fog Cannon Machines in India. High-performance, durable machines for effective dust and fog suppression in industrial and construction sites.",
     },
 
     {
         id: 23,
+        price: 200000,
         slug: "Fog-Cannon-Dust-Suppression-System",
         name: "Fog Cannon Dust Suppression System",
         category: "anti-fog-cannon-machine", // same as id
@@ -2593,115 +2365,64 @@ export const products = [
         videoUrl: "https://youtu.be/LlU8H784Br0?si=smZ3LqsAvEe-T6-M",
 
         description: [
+            { type: "h2", text: "Fog Cannon Spray Machine Importer in India" },
             {
-                type: "h2",
-                text: "Product Overview of Fog Cannon Dust Suppression System ",
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Fog Cannon Spray Machines in India, providing efficient solutions for dust suppression and air quality management in industrial, construction, and mining environments. Our imported machines are designed to minimize airborne dust, improve visibility, and create safer, cleaner workspaces."
+            },
+            {
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, industrial operators, and infrastructure developers across India."
             },
 
+            { type: "h2", text: "High-Performance Fog Cannon Spray Machines" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Fog Cannon Dust Suppression System Supplier</strong> in India, delivering high-quality equipment to control dust and pollution in industrial and construction environments.",
-
-                    "Our <strong>Fog Cannon Dust Suppression System</strong> is designed with robust engineering, ensuring effective suppression of airborne particles over long distances.",
-
-                    "As a professional <strong>Fog Cannon Dust Suppression System Supplier</strong>, we provide machines built with durable materials, advanced motors, and precision technology.",
-
-                    "With a powerful misting range of 25–30 meters, this system ensures cleaner, safer, and healthier work environments, making us the preferred <strong>Fog Cannon Dust Suppression System Supplier</strong> for industries across India.",
-                ],
+                type: "p",
+                text: "Our Fog Cannon Spray Machines are engineered for large-scale dust and mist control. With adjustable spray range and powerful misting systems, these machines efficiently suppress dust and particles in open areas, construction sites, factories, and material handling zones."
+            },
+            {
+                type: "p",
+                text: "Built with robust components and modern technology, they are suitable for continuous industrial use and heavy-duty operations."
             },
 
-            {
-                type: "h2",
-                text: "Key Features of Fog Cannon Dust Suppression System ",
-            },
-
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    " <Strong>Power Consumption: </Strong> A 5 HP three-phase motor ensures high performance, supplied by a reliable <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    " <Strong>Material: </Strong> Manufactured with heavy-duty mild steel, offered by a leading <strong>Fog Cannon Dust Suppression System Supplier</strong> for long-term durability.",
-
-                    " <Strong>Color: </Strong> Standard yellow finish for visibility and industrial-grade appearance, provided by a trusted <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    " <Strong>Drive Unit: </Strong> Operated manually or can be attached to a tractor, making us a versatile <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "<strong> Brand: </strong> SSI – recognized as a dependable <strong>Fog Cannon Dust Suppression System Supplier</strong> in the market.",
-
-                    "<strong> Range: </strong> 25–30 meters of effective dust control, supplied by an expert <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "<strong> Water Pump: </strong> Equipped with a 2 HP CRI pump for efficient misting, available from a professional <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "<strong>Main Motor: </strong> 5 HP three-phase motor ensuring stable operation, backed by a proven <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "<strong>Water Tank Capacity: </strong> 1000 liters capacity for long working hours, provided by a reliable <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "<strong>Rotation: </strong> 360-degree coverage for complete dust suppression, offered by an advanced <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "<strong>Fan Blade: </strong> 6 durable fan blades for wide-area misting, supplied by a reputed <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-                ],
+                    "Wide-range misting and dust suppression capability",
+                    "Heavy-duty construction for durability and long service life",
+                    "Adjustable spray direction and distance",
+                    "Energy-efficient operation with low maintenance",
+                    "User-friendly control panel for easy operation",
+                    "Corrosion-resistant materials for outdoor and industrial use",
+                    "Suitable for continuous heavy-duty applications"
+                ]
             },
 
-            {
-                type: "h2",
-                text: "Applications of Fog Cannon Dust Suppression System  ",
-            },
-
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Sites:</strong> Builders rely on us as their <strong>Fog Cannon Dust Suppression System Supplier</strong> to control dust during construction activities.",
-
-                    "<strong>Mining Operations:</strong> As a trusted <strong>Fog Cannon Dust Suppression System Supplier</strong>, we supply machines that minimize airborne particles in mining zones.",
-
-                    "<strong>Cement & Steel Plants:</strong> Industries choose us as their <strong>Fog Cannon Dust Suppression System Supplier</strong> for effective dust suppression in high-pollution environments.",
-
-                    "<strong>Material Handling Yards:</strong> We are a preferred <strong>Fog Cannon Dust Suppression System Supplier</strong> for ports, coal yards, and loading/unloading areas.",
-
-                    "<strong>Waste Management Facilities:</strong> Our role as a dependable <strong>Fog Cannon Dust Suppression System Supplier</strong> supports landfill and recycling plants by reducing dust and odors.",
-                ],
+                    "Construction sites and building projects",
+                    "Mining and quarry operations",
+                    "Industrial plants and factories",
+                    "Open material yards and storage areas",
+                    "Highway, bridge, and infrastructure projects"
+                ]
             },
 
-            {
-                type: "h2",
-                text: "Additional Information on Fog Cannon Dust Suppression System  ",
-            },
-
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
             {
                 type: "ul",
                 items: [
-                    "Shree Shakti Infratech is a professional <strong>Fog Cannon Dust Suppression System Supplier</strong>, offering systems that meet international quality standards.",
-
-                    "Machines are built with portability and flexibility, making us a reliable <strong>Fog Cannon Dust Suppression System Supplier</strong> for on-site usage.",
-
-                    "Customization options are available, ensuring clients get solutions that suit their specific needs from a trusted <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "Our products are low-maintenance and cost-effective, highlighting our expertise as a professional <strong>Fog Cannon Dust Suppression System Supplier</strong>.",
-
-                    "As a dependable <strong>Fog Cannon Dust Suppression System Supplier</strong>, we also provide after-sales support and spare parts availability.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Fog Cannon Dust Suppression System Supplier? ",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>Proven Quality:</strong> We are a leading <strong>Fog Cannon Dust Suppression System Supplier</strong>, providing machines built for industrial-grade performance.",
-
-                    "<strong>Customized Solutions:</strong> As a professional <strong>Fog Cannon Dust Suppression System Supplier</strong>, we deliver solutions tailored to your dust control needs.",
-
-                    "<strong>Customer Support:</strong> Businesses prefer us as their <strong>Fog Cannon Dust Suppression System Supplier</strong> for our reliable after-sales service.",
-
-                    "<strong>Competitive Pricing:</strong> Shree Shakti Infratech is a cost-effective <strong>Fog Cannon Dust Suppression System Supplier</strong> without compromising on quality.",
-
-                    "<strong>Industry Expertise:</strong> With years of experience as a <strong>Fog Cannon Dust Suppression System Supplier</strong>, we supply products trusted across construction, mining, and industrial sectors.",
-                ],
-            },
+                    "Trusted importer of industrial and construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for specific project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Consumption", value: "5 hp three phase" },
@@ -2717,12 +2438,13 @@ export const products = [
             { label: "Rotation", value: "360" },
             { label: "Fan Blade", value: "6no." },
         ],
-        metaTitle: "fog cannon machine",
-        metaDescription: "High-performance fog cannon machine.",
+        metaTitle: "Fog Cannon Dust Suppression System Importer in India | Shree Shakti Infratech",
+        metaDescription: "Leading importer of Fog Cannon Dust Suppression System in India. High-performance, durable machines for effective dust and fog suppression in construction and industrial sites.",
     },
 
     {
         id: 24,
+        price: 200000,
         slug: "fog-cannon-spray-machine",
         name: "Fog Cannon Spray Machine",
         category: "anti-fog-cannon-machine",
@@ -2745,76 +2467,64 @@ export const products = [
         videoUrl: "https://youtu.be/q0sGML2HIrQ?si=_SDC45rU-VyX_0Hc",
 
         description: [
-            { type: "h2", text: "Product Overview of Fog Cannon Spray Machine" },
+            { type: "h2", text: "Fog Cannon Spray Machine Importer in India" },
+            {
+                type: "p",
+                text: "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Fog Cannon Spray Machines in India, providing efficient solutions for dust suppression and air quality management in industrial, construction, and mining environments. Our imported machines are designed to minimize airborne dust, improve visibility, and create safer, cleaner workspaces."
+            },
+            {
+                type: "p",
+                text: "We supply globally sourced machines that meet international standards, making them ideal for contractors, industrial operators, and infrastructure developers across India."
+            },
 
+            { type: "h2", text: "High-Performance Fog Cannon Spray Machines" },
+            {
+                type: "p",
+                text: "Our Fog Cannon Spray Machines are engineered for large-scale dust and mist control. With adjustable spray range and powerful misting systems, these machines efficiently suppress dust and particles in open areas, construction sites, factories, and material handling zones."
+            },
+            {
+                type: "p",
+                text: "Built with robust components and modern technology, they are suitable for continuous industrial use and heavy-duty operations."
+            },
+
+            { type: "h2", text: "Key Features" },
             {
                 type: "ul",
                 items: [
-                    "Shree Shakti Infratech is a reputed <strong>Fog Cannon Spray Machine Supplier</strong> in India, offering machines designed with advanced technology to effectively control dust and airborne particles.",
-                    "As a trusted <strong>Fog Cannon Spray Machine Supplier</strong>, we deliver durable and reliable equipment suitable for construction sites, mining, and large-scale industrial applications.",
-                    "We are recognized as a professional <strong>Fog Cannon Spray Machine Supplier</strong>, catering to contractors, builders, infrastructure developers, and factories across the country.",
-                    "Our fog cannon spray machines are built to ensure safety, precision, and long-term performance, making us the preferred <strong>Fog Cannon Spray Machine Supplier</strong> for various industries.",
-                ],
+                    "Wide-range misting and dust suppression capability",
+                    "Heavy-duty construction for durability and long service life",
+                    "Adjustable spray direction and distance",
+                    "Energy-efficient operation with low maintenance",
+                    "User-friendly control panel for easy operation",
+                    "Corrosion-resistant materials for outdoor and industrial use",
+                    "Suitable for continuous heavy-duty applications"
+                ]
             },
 
-            { type: "h2", text: "Key Features of Fog Cannon Spray Machine" },
-
+            { type: "h2", text: "Applications" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Powerful Motor: </strong>As an expert <strong>Fog Cannon Spray Machine Supplier</strong>, we provide machines equipped with high-capacity motors for smooth and efficient dust suppression.",
-                    "<strong>Durable Body: </strong>Being a reliable <strong>Fog Cannon Spray Machine Supplier</strong>, we supply machines built with robust materials to guarantee long service life even in tough conditions.",
-                    "<strong>Wide Coverage: </strong>We are a professional <strong>Fog Cannon Spray Machine Supplier</strong> offering machines that provide excellent water droplet distribution with a wide spraying range.",
-                    "<strong>User-Friendly Controls: </strong>As a trusted <strong>Fog Cannon Spray Machine Supplier</strong>, we design machines with easy-to-operate panels for hassle-free operation on site.",
-                    "<strong>Mobility & Safety: </strong>Shree Shakti Infratech is a <strong>Fog Cannon Spray Machine Supplier</strong> that prioritizes safety, offering machines mounted on wheels for easy portability.",
-                    "<strong>Low Maintenance: </strong>As a leading <strong>Fog Cannon Spray Machine Supplier</strong>, we ensure our machines are easy to maintain, helping clients save costs and time.",
-                ],
+                    "Construction sites and building projects",
+                    "Mining and quarry operations",
+                    "Industrial plants and factories",
+                    "Open material yards and storage areas",
+                    "Highway, bridge, and infrastructure projects"
+                ]
             },
 
-            { type: "h2", text: "Applications of Fog Cannon Spray Machine" },
-
+            { type: "h2", text: "Why Choose Shree Shakti Infratech?" },
             {
                 type: "ul",
                 items: [
-                    "<strong>Construction Industry:</strong> Contractors rely on us as their <strong>Fog Cannon Spray Machine Supplier</strong> for controlling dust during building and infrastructure projects.",
-                    "<strong>Mining & Quarries:</strong> As a dependable <strong>Fog Cannon Spray Machine Supplier</strong>, we supply machines used in mines and stone crushers for effective dust suppression.",
-                    "<strong>Industrial Use:</strong> We are a trusted <strong>Fog Cannon Spray Machine Supplier</strong> delivering machines for factories and power plants where dust control is critical.",
-                    "<strong>Large Infrastructure Projects:</strong> Real estate developers and infrastructure companies choose us as their <strong>Fog Cannon Spray Machine Supplier</strong> for highways, airports, and metro projects.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Fog Cannon Spray Machine Supplier</strong>, we provide machines for large-scale public works requiring strict safety compliance.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Additional Information on Fog Cannon Spray Machine",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Fog Cannon Spray Machine Supplier</strong>, we offer multiple models suitable for different site conditions and spraying capacities.",
-                    "Our machines follow international quality standards, making us a preferred <strong>Fog Cannon Spray Machine Supplier</strong> in India.",
-                    "Shree Shakti Infratech, a trusted <strong>Fog Cannon Spray Machine Supplier</strong>, also provides customization options to meet unique client requirements.",
-                    "We are a dependable <strong>Fog Cannon Spray Machine Supplier</strong> offering machines with readily available spare parts and low upkeep costs.",
-                    "Being a reliable <strong>Fog Cannon Spray Machine Supplier</strong>, we provide strong after-sales service for maximum customer satisfaction.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Fog Cannon Spray Machine Supplier?",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Products:</strong> We are a leading <strong>Fog Cannon Spray Machine Supplier</strong> offering robust and efficient machines that meet global standards.",
-                    "<strong>Tailored Solutions:</strong> As an experienced <strong>Fog Cannon Spray Machine Supplier</strong>, we deliver customized solutions to maximize productivity.",
-                    "<strong>Reliable Support:</strong> Customers trust us as their <strong>Fog Cannon Spray Machine Supplier</strong> because of our prompt service and technical guidance.",
-                    "<strong>Competitive Pricing:</strong> We are a professional <strong>Fog Cannon Spray Machine Supplier</strong> offering affordable machines without compromising quality.",
-                    "<strong>Proven Expertise:</strong> With years of industry experience as a <strong>Fog Cannon Spray Machine Supplier</strong>, we are known for supplying high-performance dust suppression solutions.",
-                ],
-            },
+                    "Trusted importer of industrial and construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for specific project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electricity" },
@@ -2830,13 +2540,14 @@ export const products = [
             { label: "Fan Blade", value: "6 no." },
             { label: "Mounting", value: "4 wheel with frame" },
         ],
-        metaTitle: "Fog Cannon Spray Machine",
+        metaTitle: "Fog Cannon Spray Machine Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "High-performance fog cannon spray machine for dust suppression and industrial use.",
+            "Leading importer of Fog Cannon Spray Machines in India. High-performance, durable machines for effective dust and fog suppression in construction and industrial sites.",
     },
 
     {
         id: 25,
+        price: 200000,
         slug: "mist-cannon-dust-suppression-systems",
         name: "Mist Cannon Dust Suppression Systems",
         category: "anti-fog-cannon-machine",
@@ -2851,89 +2562,82 @@ export const products = [
                 alt: "Mist Cannon Dust Suppression Systems",
             },
         ],
-
         videoUrl: "https://youtu.be/q0sGML2HIrQ?si=hY0mwRtgh_bcBE3P",
 
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Mist Cannon Dust Suppression Systems",
+                "type": "h2",
+                "text": "Mist Cannon Dust Suppression Systems Importer in India"
+            },
+            {
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Mist Cannon Dust Suppression Systems in India, providing advanced solutions for industrial and construction dust control. Our imported systems are engineered to effectively reduce airborne dust, improve air quality, and create safer work environments."
+            },
+            {
+                "type": "p",
+                "text": "We supply globally sourced mist cannon systems that meet international standards, making them ideal for construction companies, industrial operators, and infrastructure developers across India."
             },
 
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Mist Cannon Dust Suppression Systems Supplier</strong> in India, providing advanced solutions to effectively control dust and pollution at industrial and construction sites.",
-                    "As a trusted <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we deliver durable and reliable machines that are widely used in air pollution control projects.",
-                    "We are recognized as a professional <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, catering to infrastructure developers, contractors, mining operators, and industries across the nation.",
-                    "Our mist cannon dust suppression systems are engineered for safety, performance, and efficiency, making us the preferred <strong>Mist Cannon Dust Suppression Systems Supplier</strong> for multiple sectors.",
-                ],
+                "type": "h2",
+                "text": "High-Performance Mist Cannon Dust Suppression Systems"
+            },
+            {
+                "type": "p",
+                "text": "Our mist cannon dust suppression systems are designed for large-scale applications, capable of controlling dust in open areas, construction sites, mining zones, and industrial plants. With high-pressure misting technology and adjustable spray range, these systems ensure uniform dust suppression and improved visibility."
+            },
+            {
+                "type": "p",
+                "text": "Constructed with durable materials and modern technology, they are suitable for continuous industrial use and heavy-duty operations."
             },
 
             {
-                type: "h2",
-                text: "Key Features of Mist Cannon Dust Suppression Systems",
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Wide-range misting and dust suppression capability",
+                    "Adjustable spray distance and direction",
+                    "Heavy-duty construction for durability and long service life",
+                    "Energy-efficient and low maintenance",
+                    "User-friendly controls for easy operation",
+                    "Corrosion-resistant materials for outdoor use",
+                    "Ideal for continuous industrial and construction applications"
+                ]
             },
 
             {
-                type: "ul",
-                items: [
-                    "<strong>Powerful Motor:</strong> As an expert <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we offer machines with heavy-duty motors for smooth operation and efficient dust suppression.",
-                    "<strong>Durable Body:</strong> Being a reliable <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, our machines are made of high-quality mild steel for long-lasting performance.",
-                    "<strong>Wide Coverage:</strong> We are a professional <strong>Mist Cannon Dust Suppression Systems Supplier</strong> delivering machines that spray fine mist over large areas with excellent range.",
-                    "<strong>User-Friendly Controls:</strong> As a trusted <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we ensure the machines have simple controls for easy handling and safe operation.",
-                    "<strong>Mobility & Safety:</strong> Shree Shakti Infratech is a <strong>Mist Cannon Dust Suppression Systems Supplier</strong> that prioritizes portability, offering 4-wheel models with tractor attachment options.",
-                    "<strong>Low Maintenance:</strong> As a leading <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we provide machines requiring minimal upkeep for cost efficiency.",
-                ],
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and building projects",
+                    "Mining and quarry operations",
+                    "Industrial plants and factories",
+                    "Open storage yards and material handling areas",
+                    "Highway, bridge, and infrastructure projects"
+                ]
             },
 
             {
-                type: "h2",
-                text: "Applications of Mist Cannon Dust Suppression Systems",
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Contractors trust us as their <strong>Mist Cannon Dust Suppression Systems Supplier</strong> for dust control during building and road projects.",
-                    "<strong>Mining & Stone Crushers:</strong> As a dependable <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we supply systems widely used in quarries and mines.",
-                    "<strong>Industrial Use:</strong> We are a trusted <strong>Mist Cannon Dust Suppression Systems Supplier</strong> providing machines for factories, cement plants, and power plants.",
-                    "<strong>Infrastructure Projects:</strong> Developers choose Shree Shakti Infratech as their <strong>Mist Cannon Dust Suppression Systems Supplier</strong> for highways, metro, airports, and bridges.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we supply machines for public works and pollution control projects.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Additional Information on Mist Cannon Dust Suppression Systems",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we provide different models suited for various site requirements and dust control needs.",
-                    "Our machines meet international safety and performance standards, making us a preferred <strong>Mist Cannon Dust Suppression Systems Supplier</strong> in India.",
-                    "Shree Shakti Infratech, a trusted <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, offers customized designs to match client-specific needs.",
-                    "We are a dependable <strong>Mist Cannon Dust Suppression Systems Supplier</strong> providing systems with readily available spares and simple servicing.",
-                    "Being a reliable <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we ensure dedicated after-sales support for maximum client satisfaction.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Mist Cannon Dust Suppression Systems Supplier?",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Products:</strong> We are a leading <strong>Mist Cannon Dust Suppression Systems Supplier</strong> offering durable and efficient solutions.",
-                    "<strong>Tailored Solutions:</strong> As an experienced <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we deliver customized systems for maximum performance.",
-                    "<strong>Reliable Support:</strong> Customers trust us as their <strong>Mist Cannon Dust Suppression Systems Supplier</strong> because of our prompt service and expert assistance.",
-                    "<strong>Competitive Pricing:</strong> We are a professional <strong>Mist Cannon Dust Suppression Systems Supplier</strong> offering affordable machines with top quality.",
-                    "<strong>Proven Expertise:</strong> With years of experience as a <strong>Mist Cannon Dust Suppression Systems Supplier</strong>, we provide advanced and trusted solutions nationwide.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of industrial and construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Consumption", value: "5 hp three phase" },
@@ -2951,13 +2655,14 @@ export const products = [
             { label: "Water Tank Capacity", value: "1000 ltr." },
             { label: "Fan Blade", value: "6 no." },
         ],
-        metaTitle: "Mist Cannon Dust Suppression Systems",
+        metaTitle: "Mist Cannon Dust Suppression Systems Importer in India",
         metaDescription:
-            "Durable mist cannon dust suppression systems designed for efficient dust and pollution control in construction, mining, and industrial applications.",
+            "Leading importer of Mist Cannon Dust Suppression Systems in India. High-performance, durable machines for effective dust control in construction and industrial sites.",
     },
 
     {
         id: 26,
+        price: 200000,
         slug: "truck-mounted-anti-smog-gun",
         name: "Truck Mounted Anti Smog Gun",
         category: "anti-fog-cannon-machine",
@@ -2980,76 +2685,79 @@ export const products = [
         videoUrl: "https://youtu.be/ENlZvqnF2z0?si=7-__qL1jpCQRjl7_",
 
         description: [
-            { type: "h2", text: "Product Overview of Truck Mounted Anti Smog Gun" },
-
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Truck Mounted Anti Smog Gun Supplier</strong> in India, offering advanced solutions for air pollution and dust suppression.",
-                    "As a trusted <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we deliver robust and reliable machines widely used in cities, construction sites, and large-scale infrastructure projects.",
-                    "We are recognized as a professional <strong>Truck Mounted Anti Smog Gun Supplier</strong>, catering to industries, government projects, and contractors nationwide.",
-                    "Our truck mounted anti smog guns are engineered for performance, safety, and mobility, making us a preferred <strong>Truck Mounted Anti Smog Gun Supplier</strong> across sectors.",
-                ],
+                "type": "h2",
+                "text": "Truck Mounted Anti Smog Gun Importer in India"
             },
-
-            { type: "h2", text: "Key Features of Truck Mounted Anti Smog Gun" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Powerful Motor:</strong> As an expert <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we provide machines with heavy-duty 5hp three-phase motors for efficient dust suppression.",
-                    "<strong>Durable Build:</strong> Being a reliable <strong>Truck Mounted Anti Smog Gun Supplier</strong>, our systems are made with high-quality materials for long-lasting use.",
-                    "<strong>Wide Coverage:</strong> We are a professional <strong>Truck Mounted Anti Smog Gun Supplier</strong> delivering machines with a spraying range of 30–40 meters.",
-                    "<strong>360° Rotation:</strong> As a trusted <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we ensure complete coverage with full rotation capability.",
-                    "<strong>Mobility & Safety:</strong> Shree Shakti Infratech is a <strong>Truck Mounted Anti Smog Gun Supplier</strong> providing truck-mounted designs for easy transportation and operation.",
-                    "<strong>Low Maintenance:</strong> As a leading <strong>Truck Mounted Anti Smog Gun Supplier</strong>, our systems require minimal upkeep, saving time and costs.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Truck Mounted Anti Smog Guns in India, providing advanced solutions for dust suppression and air pollution control. Our imported machines are designed to minimize airborne dust and smog in large-scale industrial sites, construction zones, and urban infrastructure projects."
             },
-
-            { type: "h2", text: "Applications of Truck Mounted Anti Smog Gun" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Urban Pollution Control:</strong> Cities rely on us as their <strong>Truck Mounted Anti Smog Gun Supplier</strong> to reduce smog and airborne pollutants.",
-                    "<strong>Construction Industry:</strong> Contractors use our systems to control dust at large infrastructure and building sites.",
-                    "<strong>Mining & Quarries:</strong> As a dependable <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we provide machines for dust suppression in mines and stone crushers.",
-                    "<strong>Industrial Use:</strong> Factories, cement plants, and power plants trust our solutions for controlling airborne dust.",
-                    "<strong>Government Projects:</strong> Recognized as a reliable <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we supply systems for public works and pollution control initiatives.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced machines that meet international standards, making them ideal for contractors, municipal bodies, industrial operators, and infrastructure developers across India."
             },
 
             {
-                type: "h2",
-                text: "Additional Information on Truck Mounted Anti Smog Gun",
+                "type": "h2",
+                "text": "High-Performance Truck Mounted Anti Smog Guns"
+            },
+            {
+                "type": "p",
+                "text": "Our truck mounted anti smog guns are engineered for mobility and efficiency, delivering wide-range dust and smog control. Mounted on trucks, these machines are highly versatile, allowing operators to move them across construction sites, industrial zones, and highways for targeted pollution control."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable materials and modern technology, they ensure continuous operation, long service life, and consistent performance."
             },
 
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we offer models tailored for different site conditions and requirements.",
-                    "Our machines meet strict industry standards, making us a preferred <strong>Truck Mounted Anti Smog Gun Supplier</strong> in India.",
-                    "Shree Shakti Infratech, a trusted <strong>Truck Mounted Anti Smog Gun Supplier</strong>, also provides customization options for specific applications.",
-                    "We are a dependable <strong>Truck Mounted Anti Smog Gun Supplier</strong> ensuring easy availability of spare parts and servicing.",
-                    "Being a reliable <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we offer strong after-sales support for complete client satisfaction.",
-                ],
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Mounted on trucks for mobility and flexibility",
+                    "Wide-range misting for dust and smog suppression",
+                    "Adjustable spray direction and distance",
+                    "Heavy-duty construction for durability and long service life",
+                    "Energy-efficient and low maintenance",
+                    "User-friendly controls for easy operation",
+                    "Suitable for industrial, construction, and urban applications"
+                ]
             },
 
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Truck Mounted Anti Smog Gun Supplier?",
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and building projects",
+                    "Highways, bridges, and flyover construction",
+                    "Industrial plants and factories",
+                    "Urban pollution control and dust management",
+                    "Mining, quarry, and material handling operations"
+                ]
             },
 
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Products:</strong> We are a leading <strong>Truck Mounted Anti Smog Gun Supplier</strong> offering reliable and efficient solutions.",
-                    "<strong>Customized Solutions:</strong> As an experienced <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we deliver systems designed for maximum performance.",
-                    "<strong>Reliable Support:</strong> Customers trust us as their <strong>Truck Mounted Anti Smog Gun Supplier</strong> due to our prompt and professional service.",
-                    "<strong>Affordable Pricing:</strong> We are a professional <strong>Truck Mounted Anti Smog Gun Supplier</strong> providing cost-effective machines with superior quality.",
-                    "<strong>Proven Expertise:</strong> With years of experience as a <strong>Truck Mounted Anti Smog Gun Supplier</strong>, we supply advanced and trusted dust suppression systems.",
-                ],
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of industrial and construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Brand", value: "SSI" },
@@ -3065,13 +2773,14 @@ export const products = [
             { label: "Tyres", value: "4 no." },
             { label: "Range", value: "30 - 40 mtr" },
         ],
-        metaTitle: "Truck Mounted Anti Smog Gun",
+        metaTitle: "Truck Mounted Anti Smog Gun Importer in India",
         metaDescription:
-            "High-performance truck mounted anti smog gun for effective dust and pollution control in construction, mining, and urban applications.",
+            "Leading importer of Truck Mounted Anti Smog Guns in India. High-performance, durable machines for effective dust and smog suppression in construction, industrial, and urban sites.",
     },
 
     {
         id: 27,
+        price: 200000,
         slug: "water-fog-and-water-mist-systems",
         name: "Water Fog And Water Mist Systems",
         category: "anti-fog-cannon-machine",
@@ -3086,83 +2795,83 @@ export const products = [
                 alt: "Water Fog And Water Mist Systems",
             },
         ],
-
         videoUrl: "https://youtu.be/oTx2bsNVUZY?si=ayglHBrZNzsXEzC0",
 
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Water Fog And Water Mist Systems",
+                "type": "h2",
+                "text": "Water Fog and Water Mist Systems Importer in India"
+            },
+            {
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Water Fog and Water Mist Systems in India, offering efficient solutions for dust suppression, air cooling, and environmental control in industrial and construction applications. Our imported systems are engineered to deliver fine mist and fog, improving air quality and creating safer, cleaner working conditions."
+            },
+            {
+                "type": "p",
+                "text": "We supply globally sourced systems that meet international standards, making them ideal for contractors, industrial operators, municipal bodies, and infrastructure developers across India."
             },
 
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Water Fog And Water Mist Systems Supplier</strong> in India, offering high-quality systems for dust suppression and air pollution control.",
-                    "As a trusted <strong>Water Fog And Water Mist Systems Supplier</strong>, we deliver reliable and efficient solutions widely used in industrial and construction applications.",
-                    "We are recognized as a professional <strong>Water Fog And Water Mist Systems Supplier</strong>, serving industries, contractors, and government projects nationwide.",
-                    "Our water fog and mist systems are engineered for performance, durability, and efficiency, making us a preferred <strong>Water Fog And Water Mist Systems Supplier</strong> across multiple sectors.",
-                ],
+                "type": "h2",
+                "text": "High-Performance Water Fog and Mist Systems"
             },
-
-            { type: "h2", text: "Key Features of Water Fog And Water Mist Systems" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Durable Build:</strong> As a leading <strong>Water Fog And Water Mist Systems Supplier</strong>, we use mild steel with dust finishing for long-lasting performance.",
-                    "<strong>Efficient Motor:</strong> Equipped with a powerful 5hp motor for smooth operation and consistent misting.",
-                    "<strong>Wide Flow Rate:</strong> We are a professional <strong>Water Fog And Water Mist Systems Supplier</strong> delivering systems with a flow rate capacity of 50–150.",
-                    "<strong>High Capacity:</strong> Our systems include a 1000-liter capacity, ensuring uninterrupted operation.",
-                    "<strong>Reliable Performance:</strong> Designed to operate at 30°C, ensuring consistent mist output in various environments.",
-                    "<strong>Low Maintenance:</strong> Shree Shakti Infratech is a <strong>Water Fog And Water Mist Systems Supplier</strong> providing systems that require minimal upkeep.",
-                ],
+                "type": "p",
+                "text": "Our water fog and mist systems are designed for large-scale applications, capable of controlling airborne dust, odors, and heat in open areas, industrial plants, construction sites, and urban zones. With high-pressure misting technology and adjustable spray range, these systems ensure uniform coverage, enhanced visibility, and effective environmental management."
             },
-
-            { type: "h2", text: "Applications of Water Fog And Water Mist Systems" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Contractors rely on us as their <strong>Water Fog And Water Mist Systems Supplier</strong> for dust control in urban and industrial projects.",
-                    "<strong>Industrial Plants:</strong> Our systems are widely used for pollution control in factories, cement plants, and steel industries.",
-                    "<strong>Mining & Stone Crushers:</strong> As a dependable <strong>Water Fog And Water Mist Systems Supplier</strong>, we provide solutions to control dust in mining operations.",
-                    "<strong>Public Areas:</strong> Recognized as a trusted <strong>Water Fog And Water Mist Systems Supplier</strong>, we supply systems for large gatherings, events, and government projects.",
-                    "<strong>Environmental Protection:</strong> Shree Shakti Infratech supports green initiatives by supplying eco-friendly dust suppression systems.",
-                ],
+                "type": "p",
+                "text": "Constructed with durable materials and modern technology, they are suitable for continuous industrial use and heavy-duty operations."
             },
 
             {
-                type: "h2",
-                text: "Additional Information on Water Fog And Water Mist Systems",
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Wide-range misting and dust suppression capability",
+                    "Adjustable spray distance and direction for targeted control",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient operation with low maintenance",
+                    "User-friendly control panel for easy operation",
+                    "Corrosion-resistant materials suitable for outdoor use",
+                    "Ideal for construction, industrial, and environmental applications"
+                ]
             },
 
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Water Fog And Water Mist Systems Supplier</strong>, we offer customizable models for diverse site conditions.",
-                    "Our systems meet high safety and efficiency standards, making us a preferred <strong>Water Fog And Water Mist Systems Supplier</strong> in India.",
-                    "Shree Shakti Infratech, a trusted <strong>Water Fog And Water Mist Systems Supplier</strong>, ensures quick servicing and spare parts availability.",
-                    "We are a dependable <strong>Water Fog And Water Mist Systems Supplier</strong>, offering durable systems with low operating costs.",
-                    "Being a reliable <strong>Water Fog And Water Mist Systems Supplier</strong>, we guarantee strong after-sales support and customer satisfaction.",
-                ],
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and building projects",
+                    "Mining and quarry operations",
+                    "Industrial plants and factories",
+                    "Open storage yards and material handling areas",
+                    "Highways, bridges, and infrastructure projects",
+                    "Urban pollution control and dust management"
+                ]
             },
 
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Water Fog And Water Mist Systems Supplier?",
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Quality Products:</strong> We are a leading <strong>Water Fog And Water Mist Systems Supplier</strong> providing durable and efficient systems.",
-                    "<strong>Customized Solutions:</strong> As an experienced <strong>Water Fog And Water Mist Systems Supplier</strong>, we deliver solutions tailored to specific client needs.",
-                    "<strong>Reliable Support:</strong> Customers trust us as their <strong>Water Fog And Water Mist Systems Supplier</strong> due to our professional service and prompt response.",
-                    "<strong>Competitive Pricing:</strong> We are a professional <strong>Water Fog And Water Mist Systems Supplier</strong> offering affordable systems with high performance.",
-                    "<strong>Proven Expertise:</strong> With years of experience as a <strong>Water Fog And Water Mist Systems Supplier</strong>, we provide advanced dust suppression solutions.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of industrial and construction machinery in India",
+                    "Machines and systems sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely nationwide delivery",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Material", value: "MS Steel" },
@@ -3176,15 +2885,16 @@ export const products = [
             { label: "Motor Power", value: "5 hp" },
             { label: "I Deal In", value: "New Only" },
         ],
-        metaTitle: "Water Fog And Water Mist Systems",
+        metaTitle: "Water Fog and Water Mist Systems Importer in India",
         metaDescription:
-            "High-quality water fog and water mist systems designed for dust suppression, air pollution control, and industrial applications with durable MS steel build.",
+            "Leading importer of Water Fog and Water Mist Systems in India. High-performance, durable systems for dust suppression, air cooling, and environmental control in industrial and construction sites.",
     },
 
     // concrete mixers
 
     {
         id: 28,
+        price: 20000,
         slug: "2-pole-tower-lift-concrete-mixer",
         name: "2 Pole Tower Lift Concrete Mixer Machine",
         category: "concrete-mixers",
@@ -3201,84 +2911,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of 2 Pole Tower Lift Concrete Mixer Machine",
+                "type": "h2",
+                "text": "2 Pole Tower Lift Concrete Mixer Machines Importer in India"
+            },
+            {
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality 2 Pole Tower Lift Concrete Mixer Machines in India, offering reliable solutions for efficient concrete mixing and vertical lifting in construction projects. Our imported machines are designed to improve productivity, ensure uniform mixing, and provide safe and durable operation for building and infrastructure works."
+            },
+            {
+                "type": "p",
+                "text": "We supply globally sourced machines that meet international standards, making them ideal for contractors, builders, and infrastructure developers across India."
             },
 
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Concrete Mixer Machine Supplier</strong> in India, providing high-performance machines designed for efficient and uniform mixing of concrete.",
-                    "As a trusted <strong>Concrete Mixer Machine Supplier</strong>, we deliver durable and reliable machines widely used in construction, infrastructure, and industrial projects.",
-                    "We are recognized as a professional <strong>Concrete Mixer Machine Supplier</strong>, catering to contractors, builders, and developers nationwide.",
-                    "Our 2 Pole Tower Lift Concrete Mixer Machines are engineered for <strong>efficiency</strong>, <strong>durability</strong>, and <strong>safety</strong>, making us the preferred <strong>Concrete Mixer Machine Supplier</strong> across multiple sectors.",
-                ],
+                "type": "h2",
+                "text": "High-Performance 2 Pole Tower Lift Concrete Mixer Machines"
+            },
+            {
+                "type": "p",
+                "text": "Our 2 pole tower lift concrete mixer machines are engineered for seamless vertical lifting and mixing of concrete in multi-story construction projects. These machines reduce manual labor, increase efficiency, and ensure consistent mixing quality."
+            },
+            {
+                "type": "p",
+                "text": "Built with robust components and modern technology, they are suitable for continuous industrial use and heavy-duty construction applications."
             },
 
             {
-                type: "h2",
-                text: "Key Features of 2 Pole Tower Lift Concrete Mixer Machine",
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Efficient vertical lifting for concrete delivery",
+                    "High-performance mixing system for uniform concrete",
+                    "Heavy-duty motor and durable construction for long service life",
+                    "User-friendly controls for safe operation",
+                    "Low maintenance and energy-efficient design",
+                    "Compact and robust structure for construction sites",
+                    "Suitable for multi-story buildings and infrastructure projects"
+                ]
             },
 
             {
-                type: "ul",
-                items: [
-                    "<strong>High Capacity:</strong> As an expert <strong>Concrete Mixer Machine Supplier</strong>, we provide machines with 560 liters output for large-scale construction needs.",
-                    "<strong>Durable Construction:</strong> Being a reliable <strong>Concrete Mixer Machine Supplier</strong>, our mixers are made with robust materials ensuring long-lasting performance.",
-                    "<strong>Reversible Drum Type:</strong> We offer machines with reversible drum for uniform mixing and easy discharge of concrete.",
-                    "<strong>Tilting Drum Mixer:</strong> As a trusted <strong>Concrete Mixer Machine Supplier</strong>, the tilting drum allows smooth and controlled concrete discharge at construction sites.",
-                    "<strong>User-Friendly Operation:</strong> Shree Shakti Infratech provides <strong>semi-automatic</strong> mixers that are easy to operate with minimal manual intervention.",
-                    "<strong>Low Maintenance:</strong> As a leading <strong>Concrete Mixer Machine Supplier</strong>, our systems are designed for minimal maintenance and high operational efficiency.",
-                ],
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise residential and commercial buildings",
+                    "Bridge and flyover construction",
+                    "Industrial and infrastructure projects",
+                    "Multi-level construction sites requiring vertical concrete delivery",
+                    "Large-scale civil engineering projects"
+                ]
             },
 
             {
-                type: "h2",
-                text: "Applications of 2 Pole Tower Lift Concrete Mixer Machine",
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Contractors rely on us as their <strong>Concrete Mixer Machine Supplier</strong> for efficient mixing of concrete at building and housing projects.",
-                    "<strong>Infrastructure Projects:</strong> Widely used in roads, bridges, highways, and metro rail projects for high-quality concrete mixing.",
-                    "<strong>Industrial Use:</strong> Factories and pre-cast industries utilize our machines for uniform and consistent concrete production.",
-                    "<strong>Civil Engineering Projects:</strong> Engineers and project developers trust our machines for large-scale and high-volume concrete operations.",
-                    "<strong>Government & Public Works:</strong> Recognized as a reliable <strong>Concrete Mixer Machine Supplier</strong>, we supply machines for municipal and government construction projects.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Additional Information on 2 Pole Tower Lift Concrete Mixer Machine",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mixer Machine Supplier</strong>, we provide models suitable for different site capacities and operational requirements.",
-                    "Our machines comply with international quality and safety standards, making us a preferred <strong>Concrete Mixer Machine Supplier</strong> in India.",
-                    "Customization options are available to meet unique project requirements.",
-                    "We are a dependable <strong>Concrete Mixer Machine Supplier</strong> providing easy-to-maintain machines with readily available spare parts.",
-                    "Being a reliable <strong>Concrete Mixer Machine Supplier</strong>, we offer excellent after-sales service for maximum client satisfaction.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mixer Machine Supplier?",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> We provide robust and efficient concrete mixers suitable for all construction projects.",
-                    "<strong>Customized Solutions:</strong> Machines tailored to specific operational requirements.",
-                    "<strong>Reliable Support:</strong> Customers trust us due to our professional service and technical assistance.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective machines without compromising quality.",
-                    "<strong>Proven Expertise:</strong> Years of experience supplying high-performance concrete mixing solutions.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for specific project requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Diesel" },
@@ -3293,13 +2997,14 @@ export const products = [
             { label: "Power", value: "10 hp" },
             { label: "Type Of The Drum Mixer", value: "Tilting Drum Mixer" },
         ],
-        metaTitle: "2 Pole Tower Lift Concrete Mixer Machine",
+        metaTitle: "2 Pole Tower Lift Concrete Mixer Machine Importer in India",
         metaDescription:
-            "High-performance 2 Pole Tower Lift Concrete Mixer Machine with 560L capacity and tilting drum mixer for efficient and uniform concrete mixing.",
+            "Leading importer of 2 Pole Tower Lift Concrete Mixer Machines in India. Durable, high-performance machines for efficient concrete mixing and vertical lifting in construction projects.",
     },
 
     {
         id: 29,
+        price: 20000,
         slug: "3-bin-mixer-lift-hydraulic-hopper",
         name: "3 Bin Mixer Lift With Hydraulic Hopper",
         category: "concrete-mixers",
@@ -3314,90 +3019,82 @@ export const products = [
                 alt: "3 BIN MIXER LIFT WITH HYDRAULIC HOPPER side view",
             },
         ],
-
         videoUrl: "https://youtu.be/Vh8U5Yy_kXo?si=Njzl2YGb3XKEmIcb",
 
         description: [
             {
-                type: "h2",
-                text: "Product Overview of 3 BIN MIXER LIFT WITH HYDRAULIC HOPPER",
+                "type": "h2",
+                "text": "3 Bin Mixer Lift with Hydraulic Hopper Importer in India"
+            },
+            {
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality 3 Bin Mixer Lift with Hydraulic Hopper machines in India, providing advanced solutions for efficient concrete mixing and material handling in construction projects. Our imported machines are designed to improve productivity, ensure uniform mixing, and streamline operations for industrial and construction applications."
+            },
+            {
+                "type": "p",
+                "text": "We supply globally sourced machines that meet international standards, making them ideal for contractors, builders, precast plants, and infrastructure developers across India."
             },
 
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Concrete Mixer Machine Supplier</strong> in India, offering advanced 3 BIN MIXER LIFT machines for efficient and uniform concrete mixing with hydraulic lifting capabilities.",
-                    "As a trusted <strong>Concrete Mixer Machine Supplier</strong>, we provide durable and reliable machines widely used in construction, infrastructure, and industrial projects.",
-                    "We are recognized as a professional <strong>Concrete Mixer Machine Supplier</strong>, catering to contractors, builders, and developers nationwide.",
-                    "Our 3 BIN MIXER LIFT WITH HYDRAULIC HOPPER is engineered for <strong>high capacity</strong>, <strong>efficiency</strong>, and <strong>safety</strong>, making us the preferred <strong>Concrete Mixer Machine Supplier</strong> across large-scale projects.",
-                ],
+                "type": "h2",
+                "text": "High-Performance 3 Bin Mixer Lift with Hydraulic Hopper"
+            },
+            {
+                "type": "p",
+                "text": "Our 3 Bin Mixer Lift with Hydraulic Hopper machines are engineered to handle multiple materials simultaneously, allowing for precise mixing and controlled material discharge. The hydraulic hopper ensures smooth and safe transfer of concrete or aggregates, reducing manual labor and increasing efficiency."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and modern technology, these machines are suitable for continuous industrial use and heavy-duty construction operations."
             },
 
             {
-                type: "h2",
-                text: "Key Features of 3 BIN MIXER LIFT WITH HYDRAULIC HOPPER",
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Three-bin system for mixing multiple materials efficiently",
+                    "Hydraulic hopper for safe and controlled material discharge",
+                    "Heavy-duty motor and robust construction for long service life",
+                    "User-friendly control panel for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Ideal for high-volume construction and precast concrete applications",
+                    "Suitable for large-scale industrial and infrastructure projects"
+                ]
             },
 
             {
-                type: "ul",
-                items: [
-                    "<strong>High Capacity:</strong> As an expert <strong>Concrete Mixer Machine Supplier</strong>, our machines handle 10Cft unmixed and 7Cft mixed capacity for 1 bag of cement per batch.",
-                    "<strong>Hydraulic Hopper:</strong> The hydraulic lifting system ensures smooth and safe material transfer to high elevations.",
-                    "<strong>Durable Drum:</strong> With a drum capacity of 560Ltr and sizes ranging 10mm-8mm-4mm, we provide machines built for long-term durability and precise mixing.",
-                    "<strong>Extendable Lift:</strong> Shree Shakti Infratech offers lifts adjustable from 10 to 65 feet for versatile on-site operation.",
-                    "<strong>Reliable Engine:</strong> Equipped with a 14HP Diesel Engine, our machines deliver consistent performance for heavy-duty construction work.",
-                    "<strong>Load Cell Precision:</strong> With 3 load cells, the mixer ensures accurate measurement and uniform mixing of concrete batches.",
-                    "<strong>Wire Rope:</strong> Uses 12mm Mahadeva / Usha marting wire ropes for safety and smooth operation.",
-                ],
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise building construction",
+                    "Bridge, flyover, and highway projects",
+                    "Precast concrete plants and fabrication units",
+                    "Industrial and infrastructure projects",
+                    "Large-scale civil engineering projects requiring high-quality concrete"
+                ]
             },
 
             {
-                type: "h2",
-                text: "Applications of 3 BIN MIXER LIFT WITH HYDRAULIC HOPPER",
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Contractors rely on our <strong>Concrete Mixer Machine</strong> for high-volume concrete mixing on residential, commercial, and industrial sites.",
-                    "<strong>Infrastructure Projects:</strong> Widely used in highways, bridges, and metro projects requiring elevated concrete lifting and mixing.",
-                    "<strong>Industrial Fabrication:</strong> Factories and pre-cast industries utilize our machines for uniform and high-capacity concrete production.",
-                    "<strong>Civil Engineering Projects:</strong> Engineers trust our mixers for precise and repeatable concrete mixing operations.",
-                    "<strong>Government & Public Works:</strong> Recognized as a reliable <strong>Concrete Mixer Machine Supplier</strong>, we supply machines for large-scale public construction projects.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Additional Information on 3 BIN MIXER LIFT WITH HYDRAULIC HOPPER",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mixer Machine Supplier</strong>, we provide models suitable for different project sizes and lifting requirements.",
-                    "Our machines comply with international quality and safety standards, making us a preferred <strong>Concrete Mixer Machine Supplier</strong> in India.",
-                    "Shree Shakti Infratech offers customization options to meet unique project specifications.",
-                    "We provide easy-to-maintain machines with readily available spare parts.",
-                    "Being a reliable <strong>Concrete Mixer Machine Supplier</strong>, we also ensure excellent after-sales support and service.",
-                ],
-            },
-
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mixer Machine Supplier?",
-            },
-
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> We provide robust and efficient 3 BIN MIXER LIFT machines for all construction projects.",
-                    "<strong>Customized Solutions:</strong> Machines tailored to specific operational and site requirements.",
-                    "<strong>Reliable Support:</strong> Customers trust us for professional service and technical guidance.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective machines without compromising performance.",
-                    "<strong>Proven Expertise:</strong> Years of experience supplying high-performance concrete mixing solutions nationwide.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-10" },
@@ -3412,13 +3109,14 @@ export const products = [
             { label: "Drum Size", value: "10mm-8mm-4mm" },
             { label: "Load Cell", value: "3 No" },
         ],
-        metaTitle: "3 BIN MIXER LIFT WITH HYDRAULIC HOPPER",
+        metaTitle: "3 Bin Mixer Lift with Hydraulic Hopper Importer in India",
         metaDescription:
-            "High-capacity 3 BIN MIXER LIFT WITH HYDRAULIC HOPPER with 560L drum, extendable lift, and diesel engine for efficient concrete mixing in construction projects.",
+            "Leading importer of 3 Bin Mixer Lift with Hydraulic Hopper in India. High-performance, durable machines for efficient concrete mixing and material handling in construction projects.",
     },
 
     {
         id: 30,
+        price: 20000,
         slug: "180-230ltr-mini-concrete-mixer",
         name: "Mini Concrete Mixer.180/230Ltr",
         category: "concrete-mixers",
@@ -3439,79 +3137,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of 180/230Ltr. MINI CONCRETE MIXER",
+                "type": "h2",
+                "text": "Mini Concrete Mixer 180/230Ltr Importer in India"
+            },
+            {
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Mini Concrete Mixers (180/230Ltr) in India, offering compact and efficient solutions for small to medium-scale construction projects. Our imported machines are designed to provide uniform concrete mixing, easy portability, and reliable performance for builders, contractors, and infrastructure developers."
+            },
+            {
+                "type": "p",
+                "text": "We supply globally sourced mini concrete mixers that meet international quality standards, making them ideal for residential, commercial, and industrial construction applications across India."
             },
 
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Mini Concrete Mixer Supplier</strong> in India, providing compact and high-efficiency mixers for small to medium-scale construction projects.",
-                    "As a trusted <strong>Mini Concrete Mixer Supplier</strong>, we offer durable machines designed for quick, uniform, and precise mixing of concrete in limited spaces.",
-                    "We are recognized as a professional <strong>Mini Concrete Mixer Supplier</strong>, catering to contractors, builders, and civil engineers nationwide.",
-                    "Our 180/230Ltr. MINI CONCRETE MIXER is engineered for <strong>portability</strong>, <strong>efficiency</strong>, and <strong>reliability</strong>, making it the preferred choice for smaller construction and renovation works.",
-                ],
+                "type": "h2",
+                "text": "High-Performance Mini Concrete Mixer 180/230Ltr"
             },
-
-            { type: "h2", text: "Key Features of 180/230Ltr. MINI CONCRETE MIXER" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Compact & Portable:</strong> As an expert <strong>Mini Concrete Mixer Supplier</strong>, our machines are lightweight and easy to move, ideal for small-scale projects and site mobility.",
-                    "<strong>High Efficiency:</strong> Equipped with powerful motors of 900/650W, the mixer ensures quick and uniform mixing of concrete.",
-                    "<strong>Durable Drum:</strong> The drum sizes of 26 inch / 70 inch provide optimal capacity for 180 / 230 Ltr, built with high-quality materials for long-lasting use.",
-                    "<strong>User-Friendly Design:</strong> As a trusted <strong>Mini Concrete Mixer Supplier</strong>, the mixer features easy operation with minimal manual effort required.",
-                    "<strong>Electric Operation:</strong> Operates at 220V / 50Hz, making it safe and reliable for various construction environments.",
-                    "<strong>Low Maintenance:</strong> Our machines require minimal upkeep, saving both time and operational costs.",
-                    "<strong>Lightweight & Versatile:</strong> With approximate weights of 65Kg/85Kg, it is easy to transport and operate at different construction sites.",
-                ],
+                "type": "p",
+                "text": "Our 180/230Ltr mini concrete mixers are engineered for precise and consistent concrete mixing in compact spaces. With easy mobility and simple operation, these machines reduce manual labor, improve productivity, and ensure high-quality concrete output for small-to-medium construction sites."
             },
-
-            { type: "h2", text: "Applications of 180/230Ltr. MINI CONCRETE MIXER" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Small Construction Projects:</strong> Ideal for residential, commercial, and renovation projects requiring limited concrete quantities.",
-                    "<strong>Infrastructure Maintenance:</strong> Used for road repairs, sidewalks, and other civil works where compact mixers are preferred.",
-                    "<strong>Industrial Fabrication:</strong> Suitable for small-scale pre-cast concrete work and fabrication tasks.",
-                    "<strong>Civil Engineering Applications:</strong> Engineers rely on our mixers for precise and consistent concrete mixing in small operations.",
-                    "<strong>Contractor Use:</strong> Trusted by contractors and builders for portable, efficient, and reliable mixing at multiple small-scale job sites.",
-                ],
+                "type": "p",
+                "text": "Built with durable components and modern technology, they are suitable for continuous use in workshops, small construction projects, and urban sites."
             },
 
             {
-                type: "h2",
-                text: "Additional Information on 180/230Ltr. MINI CONCRETE MIXER",
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Compact and portable design for easy mobility",
+                    "Capacity: 180 to 230 liters for small and medium-scale projects",
+                    "Durable drum and mixing blades for uniform concrete mixing",
+                    "Heavy-duty motor for reliable operation",
+                    "Low maintenance and energy-efficient design",
+                    "User-friendly operation with easy control",
+                    "Suitable for residential, commercial, and small industrial construction projects"
+                ]
             },
 
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Mini Concrete Mixer Supplier</strong>, we provide models suitable for varying site conditions and project requirements.",
-                    "Our machines comply with international quality and safety standards, making us a preferred <strong>Mini Concrete Mixer Supplier</strong> in India.",
-                    "Shree Shakti Infratech offers customization options to meet unique operational needs.",
-                    "We provide easy-to-maintain machines with readily available spare parts.",
-                    "Being a reliable <strong>Mini Concrete Mixer Supplier</strong>, we ensure excellent after-sales service for complete client satisfaction.",
-                ],
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Small residential and commercial building projects",
+                    "Roadside construction and repair works",
+                    "Small precast concrete production",
+                    "Industrial and workshop-level concrete applications",
+                    "Urban construction sites with space constraints"
+                ]
             },
 
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Mini Concrete Mixer Supplier?",
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> We provide robust, compact, and efficient mini concrete mixers.",
-                    "<strong>Tailored Solutions:</strong> Machines designed for specific project requirements ensuring maximum productivity.",
-                    "<strong>Reliable Support:</strong> Customers trust us for prompt technical guidance and professional service.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective machines without compromising quality or performance.",
-                    "<strong>Proven Expertise:</strong> Years of experience supplying reliable and high-performance mini concrete mixers across India.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Ideal for small-to-medium construction and precast applications"
+                ]
+            }
         ],
         specs: [
             { label: "Model Name/Number", value: "SSI-MX-01-02" },
@@ -3521,13 +3218,14 @@ export const products = [
             { label: "Voltage", value: "220V / 50Hz" },
             { label: "Weight", value: "65Kg / 85Kg Approx" },
         ],
-        metaTitle: "180/230Ltr. MINI CONCRETE MIXER",
+        metaTitle: "Mini Concrete Mixer 180/230Ltr Importer in India",
         metaDescription:
-            "High-efficiency 180/230Ltr. MINI CONCRETE MIXER for small to medium-scale construction projects. Durable, portable, and reliable for uniform concrete mixing.",
+            "Leading importer of Mini Concrete Mixers 180/230Ltr in India. Compact, durable, and high-performance machines for efficient concrete mixing in small to medium-scale construction projects.",
     },
 
     {
         id: 31,
+        price: 20000,
         slug: "column-box-lift-machine",
         name: "Column Box Lift Machine",
         category: "concrete-mixers",
@@ -3543,71 +3241,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of COLUMN BOX LIFT MACHINE" },
-
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Column Box Lift Machine Supplier</strong> in India, offering heavy-duty and reliable lifting solutions for construction works.",
-                    "As a trusted <strong>Column Box Lift Machine Supplier</strong>, we provide equipment designed for smooth lifting of concrete and materials with minimal effort.",
-                    "We are recognized as a professional <strong>Column Box Lift Machine Supplier</strong>, serving contractors, builders, and infrastructure developers across India.",
-                    "Our COLUMN BOX LIFT MACHINE is engineered with <strong>robust design</strong>, <strong>remote panel control</strong>, and <strong>long-lasting performance</strong> for construction sites.",
-                ],
+                "type": "h2",
+                "text": "Column Box Lift Machine Importer in India"
             },
-
-            { type: "h2", text: "Key Features of COLUMN BOX LIFT MACHINE" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Heavy-Duty Capacity:</strong> Designed to lift up to 200Kg, ensuring efficient material handling at construction sites.",
-                    "<strong>Strong Rope:</strong> Built with 10mm Mahadeva rope for safe and durable lifting operations.",
-                    "<strong>Efficient Prime Mover:</strong> Equipped with a powerful 3kW motor for reliable performance.",
-                    "<strong>Portable Design:</strong> With 4 wheels, the lift machine ensures easy mobility at construction sites.",
-                    "<strong>Gear Box Strength:</strong> Heavy-duty 3-inch gearbox ensures stability and smooth operation.",
-                    "<strong>Remote Panel:</strong> Comes with remote control for safe and convenient operation.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Column Box Lift Machines in India, offering efficient solutions for lifting and placing column formwork in construction projects. Our imported machines are designed to enhance productivity, ensure precise handling, and provide safe and reliable operation for building and infrastructure works."
             },
-
-            { type: "h2", text: "Applications of COLUMN BOX LIFT MACHINE" },
-
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Projects:</strong> Widely used for lifting concrete and building materials in high-rise structures.",
-                    "<strong>Infrastructure Development:</strong> Ideal for bridges, towers, and industrial projects requiring heavy lifting.",
-                    "<strong>Real Estate:</strong> Trusted by contractors for efficient and safe column-based construction work.",
-                    "<strong>Civil Engineering:</strong> Used by engineers for material handling in various structural projects.",
-                ],
-            },
-
-            { type: "h2", text: "Additional Information on COLUMN BOX LIFT MACHINE" },
-
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Column Box Lift Machine Supplier</strong>, we offer customization options as per client requirements.",
-                    "Our machines are built with premium-grade components to ensure durability and long service life.",
-                    "We provide after-sales service and maintenance support for hassle-free operations.",
-                    "Trusted by builders nationwide, our lift machines comply with safety and quality standards.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced column box lift machines that meet international standards, making them ideal for contractors, builders, and infrastructure developers across India."
             },
 
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Column Box Lift Machine Supplier?",
+                "type": "h2",
+                "text": "High-Performance Column Box Lift Machines"
+            },
+            {
+                "type": "p",
+                "text": "Our column box lift machines are engineered for safe and efficient lifting of column formwork. With robust construction and smooth hydraulic operation, these machines reduce manual labor, improve project timelines, and ensure accurate placement of concrete forms for high-rise and multi-story buildings."
+            },
+            {
+                "type": "p",
+                "text": "Built for durability and continuous use, they are suitable for heavy-duty construction operations."
             },
 
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> We supply durable and efficient lift machines designed for heavy-duty use.",
-                    "<strong>Tailored Solutions:</strong> Customizable height and capacity options available to suit project needs.",
-                    "<strong>Reliable Support:</strong> Prompt technical guidance and professional after-sales service.",
-                    "<strong>Competitive Pricing:</strong> Affordable machines without compromising quality.",
-                    "<strong>Proven Expertise:</strong> Years of experience as a trusted <strong>Column Box Lift Machine Supplier</strong> across India.",
-                ],
+                "type": "h2",
+                "text": "Key Features"
             },
+            {
+                "type": "ul",
+                "items": [
+                    "Efficient lifting and placement of column formwork",
+                    "Heavy-duty hydraulic system for smooth and safe operation",
+                    "Durable construction for long service life",
+                    "User-friendly control system for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for high-rise and multi-story construction projects",
+                    "Compact design for easy maneuverability on site"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise residential and commercial buildings",
+                    "Bridges, flyovers, and highway construction",
+                    "Industrial and infrastructure projects",
+                    "Multi-story construction requiring precise formwork placement",
+                    "Large-scale civil engineering projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely nationwide delivery",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-CBL-01" },
@@ -3618,13 +3324,14 @@ export const products = [
             { label: "Wheel", value: "4Nos" },
             { label: "Gear Box", value: "3 Inch With Remote Panel (Heavy Duty)" },
         ],
-        metaTitle: "COLUMN BOX LIFT MACHINE",
+        metaTitle: "Column Box Lift Machine Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Heavy-duty COLUMN BOX LIFT MACHINE for efficient lifting in construction projects. Equipped with remote panel, strong rope, and durable gearbox.",
+            "Leading importer of Column Box Lift Machines in India. High-performance, durable machines for safe and precise lifting of column formwork in construction projects.",
     },
 
     {
         id: 32,
+        price: 20000,
         slug: "concrete-mini-mobile-batching-plant",
         name: "Concrete Mini Mobile Batching Plant",
         category: "concrete-mixers",
@@ -3641,73 +3348,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Concrete Mini Mobile Batching Plant",
+                "type": "h2",
+                "text": "Concrete Mini Mobile Batching Plant Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Concrete Mini Mobile Batching Plant Supplier</strong> in India, delivering compact and efficient on-site concrete production solutions.",
-                    "As a trusted <strong>Concrete Mini Mobile Batching Plant Supplier</strong>, we offer robust, reliable units engineered for continuous operation on demanding job sites.",
-                    "We are a professional <strong>Concrete Mini Mobile Batching Plant Supplier</strong>, serving contractors, builders, and infrastructure developers nationwide.",
-                    "Our plants are designed for <strong>portability</strong>, <strong>quick setup</strong>, and <strong>consistent output</strong>, making them ideal for small to medium concrete requirements.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Mini Mobile Batching Plants in India, offering efficient and portable solutions for on-site concrete production. Our imported mini mobile batching plants are designed to provide uniform concrete mixing, easy mobility, and rapid setup, making them ideal for small to medium construction projects."
             },
             {
-                type: "h2",
-                text: "Key Features of Concrete Mini Mobile Batching Plant",
+                "type": "p",
+                "text": "We supply globally sourced mini mobile batching plants that meet international standards, making them suitable for contractors, builders, precast units, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Mini Mobile Batching Plants"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reverse Drum Mixer:</strong> Equipped with a reverse drum system for uniform mixing and fast discharge.",
-                    "<strong>Electric & Semi-Automatic:</strong> Energy-efficient electric drive with semi-automatic controls for safe, simple operation.",
-                    "<strong>Consistent Output:</strong> Delivers up to <strong>1200 Liters</strong> output capacity for steady on-site production.",
-                    "<strong>Mobile & Compact:</strong> Skid/wheel-friendly design enables easy relocation across job sites.",
-                    "<strong>Durable Build:</strong> Industrial-grade components ensure long service life and reliable performance in harsh conditions.",
-                    "<strong>Low Maintenance:</strong> Simplified layout minimizes downtime and reduces operating costs.",
-                ],
+                "type": "p",
+                "text": "Our Concrete Mini Mobile Batching Plants are engineered for quick and efficient on-site concrete production. With compact design and mobile capability, these plants reduce transportation costs, ensure consistent concrete quality, and improve project timelines."
             },
             {
-                type: "h2",
-                text: "Applications of Concrete Mini Mobile Batching Plant",
+                "type": "p",
+                "text": "Built with robust components and modern technology, they are ideal for continuous operation in construction, precast, and industrial applications."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Building Construction:</strong> Ideal for residential, commercial, and institutional projects requiring on-site concrete.",
-                    "<strong>Infrastructure Works:</strong> Suited for roads, bridges, drainage, and utility projects needing consistent batching near the pour location.",
-                    "<strong>Remote & Urban Sites:</strong> Perfect for space-constrained or remote areas where ready-mix access is limited.",
-                    "<strong>Repair & Maintenance:</strong> Efficient choice for patching, resurfacing, and small slab works.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Compact and portable design for easy mobility",
+                    "Efficient mixing system for uniform concrete production",
+                    "Quick setup and easy operation on-site",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient and low maintenance",
+                    "User-friendly controls for smooth operation",
+                    "Ideal for small to medium construction and precast projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
             },
             {
-                type: "h2",
-                text: "Additional Information on Concrete Mini Mobile Batching Plant",
+                "type": "ul",
+                "items": [
+                    "Residential and commercial building construction",
+                    "Bridges, flyovers, and highway projects",
+                    "Precast concrete plants and small fabrication units",
+                    "Remote or urban construction sites requiring on-site mixing",
+                    "Small to medium industrial and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mini Mobile Batching Plant Supplier</strong>, we provide models tailored to different project capacities.",
-                    "Our plants adhere to industry quality and safety standards for dependable on-site performance.",
-                    "Customization options are available to match specific site needs and workflows.",
-                    "We ensure availability of spare parts and provide dedicated after-sales support.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mini Mobile Batching Plant Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> Reliable, efficient plants built with premium components.",
-                    "<strong>Tailored Solutions:</strong> Configurations optimized for your output and mobility needs.",
-                    "<strong>Reliable Support:</strong> Prompt technical guidance and maintenance assistance.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective solutions without compromising performance.",
-                    "<strong>Proven Expertise:</strong> Trusted <strong>Concrete Mini Mobile Batching Plant Supplier</strong> for projects across India.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely delivery across India",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electric" },
@@ -3719,13 +3431,14 @@ export const products = [
             { label: "Capacity", value: "10 mc3/hr" },
             { label: "Finishing", value: "polished" },
         ],
-        metaTitle: "Concrete Mini Mobile Batching Plant",
+        metaTitle: "Concrete Mini Mobile Batching Plant Importer in India",
         metaDescription:
-            "Compact and efficient Concrete Mini Mobile Batching Plant with reverse drum mixer, 1200 L output, semi-automatic controls, and electric operation for on-site concrete production.",
+            "Leading importer of Concrete Mini Mobile Batching Plants in India. Compact, high-performance, and portable machines for on-site concrete production in construction projects.",
     },
 
     {
         id: 33,
+        price: 20000,
         slug: "concrete-mixer",
         name: "Concrete Mixer",
         category: "concrete-mixers",
@@ -3748,61 +3461,79 @@ export const products = [
         videoUrl: "https://youtu.be/-bX9d6dGM8Y?si=E5-PkSXhI4NVckdK",
 
         description: [
-            { type: "h2", text: "Product Overview of CONCRETE MIXER" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Concrete Mixer Supplier</strong> in India, offering durable and efficient machines for construction projects.",
-                    "Our <strong>Concrete Mixers</strong> are designed to provide high-performance mixing with both <strong>electric motor</strong> and <strong>diesel engine</strong> options.",
-                    "As a trusted <strong>Concrete Mixer Supplier</strong>, we serve builders, contractors, and infrastructure companies with advanced concrete mixing solutions.",
-                    "This model is engineered for <strong>heavy-duty usage</strong>, ensuring consistency, durability, and easy transportation with pneumatic wheels.",
-                ],
-            },
-            { type: "h2", text: "Key Features of CONCRETE MIXER" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Dual Power Options:</strong> Available with 5HP Electric Motor (Compton/Kirloskar) or 6.5HP Diesel Engine (Kirloskar) for flexibility on job sites.",
-                    "<strong>High Capacity:</strong> Drum capacity of <strong>560 Ltr</strong> (approx.) supports efficient batch mixing.",
-                    "<strong>Rugged Drum:</strong> Built with durable 10mm-8mm-4mm steel plates for long-lasting strength.",
-                    "<strong>Pneumatic Wheels:</strong> Fitted with 4 heavy-duty wheels for easy mobility on construction sites.",
-                    "<strong>Heavy-Duty Build:</strong> Engineered for continuous mixing operations under tough site conditions.",
-                ],
-            },
-            { type: "h2", text: "Applications of CONCRETE MIXER" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Projects:</strong> Suitable for residential, commercial, and industrial construction works.",
-                    "<strong>Infrastructure Development:</strong> Ideal for roads, bridges, and large-scale concrete works.",
-                    "<strong>Small & Medium Sites:</strong> Perfect for projects requiring frequent relocation of mixing equipment.",
-                    "<strong>Remote Areas:</strong> Diesel engine option ensures continuous operation in locations without electricity.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on CONCRETE MIXER" },
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mixer Supplier</strong>, we offer both electric and diesel engine models to meet project requirements.",
-                    "Our mixers are manufactured with premium-grade steel and components for durability and safety.",
-                    "We provide after-sales service, spare parts availability, and technical support nationwide.",
-                    "Trusted by contractors across India for efficiency and reliability in concrete mixing.",
-                ],
+                "type": "h2",
+                "text": "Concrete Mixer Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mixer Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Mixers in India, offering efficient solutions for mixing concrete for construction projects of all sizes. Our imported machines are designed to deliver uniform mixing, reduce manual labor, and improve productivity for builders, contractors, and infrastructure developers."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Durable Machines:</strong> Built to withstand rugged site conditions and continuous usage.",
-                    "<strong>Custom Options:</strong> Available with electric or diesel engines as per client needs.",
-                    "<strong>Reliable Performance:</strong> Ensures consistent and uniform mixing for high-quality concrete.",
-                    "<strong>Nationwide Support:</strong> Prompt service, maintenance, and technical guidance.",
-                    "<strong>Proven Expertise:</strong> Recognized as a trusted <strong>Concrete Mixer Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced concrete mixers that meet international standards, making them ideal for residential, commercial, and industrial construction projects across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Mixers"
+            },
+            {
+                "type": "p",
+                "text": "Our concrete mixers are engineered for consistent and high-quality concrete mixing. With robust construction, efficient motors, and user-friendly controls, these machines ensure smooth operation and long-term reliability on construction sites."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and modern technology, our mixers are suitable for continuous use in workshops, small to large construction projects, and urban sites."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Uniform and efficient concrete mixing",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient motors for cost-effective operation",
+                    "User-friendly controls for easy operation",
+                    "Low maintenance design",
+                    "Compact and portable options available for easy mobility",
+                    "Suitable for small, medium, and large construction projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential and commercial building construction",
+                    "Bridges, flyovers, and highway projects",
+                    "Precast concrete plants and fabrication units",
+                    "Industrial and infrastructure projects",
+                    "Urban construction sites requiring high-quality concrete"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-04" },
@@ -3814,13 +3545,14 @@ export const products = [
             { label: "Drum Size", value: "10mm-8mm-4mm" },
             { label: "Drum Capacity", value: "560 Ltr (Approx)" },
         ],
-        metaTitle: "Concrete Mixer",
+        metaTitle: "Concrete Mixer Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Heavy-duty Concrete Mixer with 560 Ltr drum capacity, dual power options (electric/diesel), pneumatic wheels, and durable build for construction projects.",
+            "Leading importer of Concrete Mixers in India. High-performance, durable machines for efficient and uniform concrete mixing in construction projects of all sizes.",
     },
 
     {
         id: 34,
+        price: 20000,
         slug: "concrete-mixer-hydraulic-hopper",
         name: "Concrete Mixer Hydraulic Hopper",
         category: "concrete-mixers",
@@ -3837,67 +3569,74 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of CONCRETE MIXER HYDRAULIC HOPPER",
+                "type": "h2",
+                "text": "Concrete Mixer with Hydraulic Hopper Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Concrete Mixer Hydraulic Hopper Supplier</strong> in India, providing heavy-duty and efficient concrete mixing solutions.",
-                    "Our <strong>Concrete Mixer Hydraulic Hopper</strong> is engineered with a hydraulic loading system for smooth and effortless material feeding.",
-                    "As a trusted <strong>Concrete Mixer Hydraulic Hopper Supplier</strong>, we serve contractors, builders, and infrastructure developers nationwide.",
-                    "This machine is designed for <strong>high performance</strong>, <strong>operator convenience</strong>, and <strong>consistent output</strong> at construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of CONCRETE MIXER HYDRAULIC HOPPER" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Hydraulic Hopper:</strong> Automatic hydraulic loading system reduces manual labor and increases efficiency.",
-                    "<strong>Powerful Motor:</strong> Equipped with a 7.5 HP, 3-phase motor ensuring reliable performance.",
-                    "<strong>Heavy-Duty Capacity:</strong> 560 Ltr drum capacity (approx.) suitable for one bag mix operations.",
-                    "<strong>Durable Drum:</strong> Fabricated with 10mm-8mm-4mm thick plates for long-lasting strength.",
-                    "<strong>Efficient Mixing:</strong> Provides consistent and homogeneous concrete mix for quality construction.",
-                    "<strong>Rugged Design:</strong> Built for tough site conditions with a focus on durability and safety.",
-                ],
-            },
-            { type: "h2", text: "Applications of CONCRETE MIXER HYDRAULIC HOPPER" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Residential & Commercial Construction:</strong> Ideal for building projects requiring high-quality concrete mixes.",
-                    "<strong>Infrastructure Projects:</strong> Widely used for roads, bridges, and industrial construction.",
-                    "<strong>Large-Scale Sites:</strong> Perfect for projects where continuous and high-capacity mixing is required.",
-                    "<strong>Remote Locations:</strong> Reliable solution for areas with high concrete demand and limited manpower.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Mixers with Hydraulic Hopper in India, offering efficient solutions for mixing and discharging concrete in construction projects. Our imported machines are designed to provide uniform concrete mixing, smooth material handling, and enhanced productivity for builders, contractors, and infrastructure developers."
             },
             {
-                type: "h2",
-                text: "Additional Information on CONCRETE MIXER HYDRAULIC HOPPER",
+                "type": "p",
+                "text": "We supply globally sourced concrete mixers with hydraulic hoppers that meet international standards, making them ideal for residential, commercial, and industrial construction applications across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Mixers with Hydraulic Hopper"
             },
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mixer Hydraulic Hopper Supplier</strong>, we ensure machines are manufactured with premium-grade components.",
-                    "Our mixers comply with industry quality and safety standards for reliable and secure operation.",
-                    "We offer customization options as per client-specific requirements.",
-                    "Dedicated after-sales support and spare parts availability are ensured for smooth operations.",
-                ],
+                "type": "p",
+                "text": "Our concrete mixers with hydraulic hoppers are engineered to simplify concrete handling. The hydraulic hopper allows for controlled discharge of mixed concrete, reducing manual labor and ensuring precise placement. Built with robust components and modern technology, these machines are suitable for continuous use in construction sites and precast concrete operations."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mixer Hydraulic Hopper Supplier?",
+                "type": "ul",
+                "items": [
+                    "Efficient concrete mixing and controlled discharge",
+                    "Hydraulic hopper for smooth and safe material handling",
+                    "Heavy-duty construction for long-lasting performance",
+                    "User-friendly controls for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for small, medium, and large construction projects",
+                    "Compact and portable options for on-site mobility"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Performance Machines:</strong> Designed for heavy-duty concrete mixing applications.",
-                    "<strong>Tailored Solutions:</strong> Options available to suit different project needs.",
-                    "<strong>Reliable Support:</strong> Technical guidance and maintenance assistance nationwide.",
-                    "<strong>Competitive Pricing:</strong> Affordable machines without compromising quality.",
-                    "<strong>Proven Expertise:</strong> Trusted <strong>Concrete Mixer Hydraulic Hopper Supplier</strong> with years of industry experience.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Residential, commercial, and industrial building projects",
+                    "Bridges, flyovers, and highway construction",
+                    "Precast concrete plants and fabrication units",
+                    "Multi-story and high-rise construction sites",
+                    "Large-scale civil engineering projects requiring precise concrete placement"
+                ]
             },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-06" },
@@ -3906,13 +3645,14 @@ export const products = [
             { label: "Drum Size", value: "10mm-8mm-4mm" },
             { label: "Drum Capacity", value: "560 Ltr (Approx)" },
         ],
-        metaTitle: "Concrete Mixer Hydraulic Hopper",
+        metaTitle: "Concrete Mixer with Hydraulic Hopper Importer in India",
         metaDescription:
-            "Heavy-duty Concrete Mixer Hydraulic Hopper with 560 Ltr drum capacity, 7.5 HP motor, and hydraulic loading system for efficient and reliable concrete mixing.",
+            "Leading importer of Concrete Mixers with Hydraulic Hopper in India. Durable, high-performance machines for efficient mixing and controlled discharge of concrete in construction projects.",
     },
 
     {
         id: 35,
+        price: 20000,
         slug: "concrete-mixer-lift",
         name: "Concrete Mixer Lift",
         category: "concrete-mixers",
@@ -3928,62 +3668,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of CONCRETE MIXER LIFT" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Concrete Mixer Lift Supplier</strong> in India, offering advanced concrete mixing and lifting solutions for construction projects.",
-                    "Our <strong>Concrete Mixer Lift</strong> is designed to mix concrete efficiently while lifting it to required heights, reducing manual labor and increasing productivity.",
-                    "As a trusted <strong>Concrete Mixer Lift Supplier</strong>, we deliver durable machines for contractors, builders, and infrastructure developers.",
-                    "This mixer lift ensures <strong>powerful mixing</strong>, <strong>smooth lifting operation</strong>, and <strong>rugged durability</strong> for challenging site conditions.",
-                ],
-            },
-            { type: "h2", text: "Key Features of CONCRETE MIXER LIFT" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Dual Function:</strong> Combines concrete mixing and lifting in one machine for maximum efficiency.",
-                    "<strong>High Power Engine:</strong> Equipped with a reliable Kiloskar 10HP engine for heavy-duty operations.",
-                    "<strong>Robust Frame:</strong> Built with 2 channel frame (100 x 50mm) and angle size 40 x 5mm for superior strength.",
-                    "<strong>Large Bucket Capacity:</strong> 750kg bucket capacity ensures fast and efficient concrete handling.",
-                    "<strong>Drum Capacity:</strong> 560 Ltr drum designed for uniform and consistent concrete mixing.",
-                    "<strong>Durable Design:</strong> Engineered for long service life and reliable operation in construction environments.",
-                ],
-            },
-            { type: "h2", text: "Applications of CONCRETE MIXER LIFT" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Rise Construction:</strong> Perfect for lifting concrete mix to higher floors with ease.",
-                    "<strong>Residential & Commercial Projects:</strong> Widely used in building sites for efficient mixing and lifting.",
-                    "<strong>Infrastructure Projects:</strong> Suitable for bridges, towers, and large-scale concrete works.",
-                    "<strong>Contractor Use:</strong> An essential machine for builders requiring quick and safe material handling.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on CONCRETE MIXER LIFT" },
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mixer Lift Supplier</strong>, we provide machines built with precision and high-grade materials.",
-                    "Our products adhere to safety and quality standards, ensuring reliable and secure operations.",
-                    "We offer customization options for drum capacity, lift height, and design specifications.",
-                    "Dedicated after-sales service and spare parts support available for smooth performance.",
-                ],
+                "type": "h2",
+                "text": "Concrete Mixer Lift Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mixer Lift Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Mixer Lifts in India, offering efficient solutions for lifting and placing concrete in construction projects. Our imported machines are designed to enhance productivity, ensure uniform concrete handling, and provide safe and reliable operation for builders, contractors, and infrastructure developers."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Performance Machines:</strong> Designed for heavy-duty mixing and lifting operations.",
-                    "<strong>Tailored Solutions:</strong> Customizable as per specific project needs and site requirements.",
-                    "<strong>Reliable Support:</strong> Prompt technical guidance and after-sales service.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective machines ensuring long-term value.",
-                    "<strong>Proven Expertise:</strong> Trusted <strong>Concrete Mixer Lift Supplier</strong> with years of industry experience.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced concrete mixer lifts that meet international standards, making them ideal for residential, commercial, industrial, and infrastructure projects across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Mixer Lifts"
+            },
+            {
+                "type": "p",
+                "text": "Our concrete mixer lifts are engineered for smooth and safe vertical lifting of concrete to multi-story and high-rise construction sites. With robust construction and modern hydraulic or mechanical lifting systems, these machines reduce manual labor, improve efficiency, and ensure precise concrete placement."
+            },
+            {
+                "type": "p",
+                "text": "Built for durability and continuous use, they are suitable for heavy-duty construction and industrial applications."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Efficient vertical lifting for concrete placement",
+                    "Heavy-duty construction for long service life",
+                    "Robust hydraulic or mechanical lifting system",
+                    "User-friendly controls for safe operation",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for high-rise, multi-story, and infrastructure projects",
+                    "Compact design for easy maneuverability on-site"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential and commercial building projects",
+                    "Bridges, flyovers, and highway construction",
+                    "Industrial and infrastructure projects",
+                    "Multi-story and high-rise construction sites",
+                    "Precast concrete plants and fabrication units"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-07" },
@@ -3995,13 +3752,14 @@ export const products = [
             { label: "Bucket Capacity", value: "750kg (Approx)" },
             { label: "Drum Capacity", value: "560 Ltr" },
         ],
-        metaTitle: "Concrete Mixer Lift",
+        metaTitle: "Concrete Mixer Lift Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Heavy-duty Concrete Mixer Lift with 560 Ltr drum capacity, 750kg bucket, and Kiloskar 10HP engine. Designed for efficient mixing and lifting in construction projects.",
+            "Leading importer of Concrete Mixer Lifts in India. Durable, high-performance machines for safe and efficient vertical lifting of concrete in construction projects.",
     },
 
     {
         id: 36,
+        price: 20000,
         slug: "concrete-mobile-batching-plant",
         name: "Concrete Mobile Batching Plant",
         category: "concrete-mixers",
@@ -4021,68 +3779,78 @@ export const products = [
 
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Concrete Mobile Batching Plant",
+                "type": "h2",
+                "text": "Concrete Mobile Batching Plant Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Concrete Mobile Batching Plant Supplier</strong> in India, offering advanced batching solutions for efficient and consistent concrete production.",
-                    "Our <strong>Concrete Mobile Batching Plant</strong> is engineered for on-site applications, delivering high-quality concrete with mobility and ease of setup.",
-                    "As a trusted <strong>Concrete Mobile Batching Plant Supplier</strong>, we cater to contractors, builders, and infrastructure developers across India.",
-                    "This plant is designed with <strong>durability</strong>, <strong>portability</strong>, and <strong>automation</strong> to meet the requirements of modern construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Concrete Mobile Batching Plant" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Tilting Drum Mixer:</strong> Ensures uniform mixing and smooth discharge of concrete.",
-                    "<strong>Electric Drive:</strong> Powered by Crompton electric motor for reliable performance.",
-                    "<strong>Semi-Automatic Controls:</strong> Simplifies operations while maintaining efficiency.",
-                    "<strong>Output Capacity:</strong> Capable of delivering <strong>1200 Liters</strong> per batch for steady on-site production.",
-                    "<strong>Compact & Mobile:</strong> Designed with skid/wheel-friendly layout for easy relocation.",
-                    "<strong>Robust Build:</strong> Made from premium-grade components for long-lasting durability.",
-                    "<strong>Efficient Mixing Speed:</strong> Drum rotates at 14r/min for optimum concrete consistency.",
-                ],
-            },
-            { type: "h2", text: "Applications of Concrete Mobile Batching Plant" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Building Construction:</strong> Suitable for residential, commercial, and institutional projects.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, roads, drainage systems, and large civil works.",
-                    "<strong>Remote Construction Sites:</strong> Ensures concrete availability where ready-mix supply is limited.",
-                    "<strong>Repair & Maintenance:</strong> Perfect for patchwork, small slab production, and refurbishment projects.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Mobile Batching Plants in India, offering efficient and portable solutions for on-site concrete production. Our imported mobile batching plants are designed to deliver uniform concrete mixing, easy mobility, and rapid setup, making them ideal for small to large construction projects."
             },
             {
-                type: "h2",
-                text: "Additional Information on Concrete Mobile Batching Plant",
+                "type": "p",
+                "text": "We supply globally sourced mobile batching plants that meet international standards, making them suitable for contractors, builders, precast units, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Mobile Batching Plants"
             },
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Concrete Mobile Batching Plant Supplier</strong>, we provide models tailored to various project capacities.",
-                    "All units comply with safety and quality standards for dependable site operations.",
-                    "Customization available in terms of output, mixer type, and operational controls.",
-                    "We ensure prompt after-sales service and spare part availability for smooth performance.",
-                ],
+                "type": "p",
+                "text": "Our Concrete Mobile Batching Plants are engineered for quick and efficient on-site concrete production. With compact design, mobility, and automated controls, these plants reduce transportation costs, improve project timelines, and ensure consistent concrete quality."
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mobile Batching Plant Supplier?",
+                "type": "p",
+                "text": "Built with durable components and modern technology, they are suitable for continuous operation in construction, precast, and industrial applications."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Reliable batching plants built with high-grade materials.",
-                    "<strong>Tailored Configurations:</strong> Custom options available to match specific requirements.",
-                    "<strong>Expert Support:</strong> Technical guidance and quick maintenance support.",
-                    "<strong>Cost-Effective:</strong> Affordable machines without compromising durability or performance.",
-                    "<strong>Trusted Supplier:</strong> Years of experience as a <strong>Concrete Mobile Batching Plant Supplier</strong> for projects across India.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Portable and mobile design for easy relocation",
+                    "Automated mixing system for consistent concrete quality",
+                    "Quick setup and easy operation on-site",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient and low maintenance",
+                    "User-friendly controls for smooth operation",
+                    "Suitable for small, medium, and large construction projects"
+                ]
             },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential, commercial, and industrial construction projects",
+                    "Bridges, highways, and flyover construction",
+                    "Precast concrete plants and fabrication units",
+                    "Remote or urban construction sites requiring on-site mixing",
+                    "Large-scale infrastructure and civil engineering projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely nationwide delivery",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electric" },
@@ -4094,13 +3862,14 @@ export const products = [
             { label: "Speed Of Mixing Drum", value: "14r/min" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Concrete Mobile Batching Plant",
+        metaTitle: "Concrete Mobile Batching Plant Importer in India ",
         metaDescription:
-            "Durable Concrete Mobile Batching Plant with tilting drum mixer, 1200 L output, Crompton motor, semi-automatic controls, and electric drive. Ideal for on-site concrete production.",
+            "Leading importer of Concrete Mobile Batching Plants in India. Portable, high-performance machines for efficient on-site concrete production in construction projects.",
     },
 
     {
         id: 37,
+        price: 20000,
         slug: "four-pole-mixer-lift",
         name: "Four Pole Mixer Lift",
         category: "concrete-mixers",
@@ -4111,62 +3880,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of FOUR POLE MIXER LIFT" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>FOUR POLE MIXER LIFT Supplier</strong> in India, delivering reliable and heavy-duty concrete mixing and lifting solutions for construction projects.",
-                    "Our <strong>FOUR POLE MIXER LIFT</strong> is designed to combine efficient concrete mixing with safe vertical lifting in one compact machine.",
-                    "As a trusted <strong>FOUR POLE MIXER LIFT Supplier</strong>, we provide durable and user-friendly equipment trusted by contractors and builders across the country.",
-                    "This machine ensures <strong>consistent mixing</strong>, <strong>robust lifting capacity</strong>, and <strong>easy handling</strong>, making it ideal for modern construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of FOUR POLE MIXER LIFT" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Heavy Duty Drum:</strong> 10/7 CFT 1 Bag drum capacity with bearing support and MS blades for efficient mixing.",
-                    "<strong>Power Options:</strong> Works with 10hp Electric Motor or 10hp Diesel Engine for flexible usage.",
-                    "<strong>Robust Structure:</strong> Built with ISI grade steel body for long-lasting durability.",
-                    "<strong>Reliable Braking:</strong> Equipped with Friction Clutch, Dog Lock, and Leather Break for safe operation.",
-                    "<strong>Jack Leveling:</strong> Comes with 4 screw-type jack levelers for stability during operation.",
-                    "<strong>Heavy Duty Winch:</strong> Integrated winch machine for safe and smooth lifting operations.",
-                ],
-            },
-            { type: "h2", text: "Applications of FOUR POLE MIXER LIFT" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Building Construction:</strong> Ideal for residential and commercial projects needing concrete mixing with on-site lifting.",
-                    "<strong>Infrastructure Development:</strong> Used in bridges, towers, and industrial projects where both mixing and lifting are required.",
-                    "<strong>Multi-Storey Projects:</strong> Ensures efficient material handling and mixing for high-rise structures.",
-                    "<strong>Civil Engineering Works:</strong> Trusted for consistent and safe operation in demanding environments.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on FOUR POLE MIXER LIFT" },
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>FOUR POLE MIXER LIFT Supplier</strong>, we offer machines designed with high-grade steel and precision engineering.",
-                    "Available in electric and diesel engine variants for flexible site applications.",
-                    "Low maintenance requirements with durable components ensure long service life.",
-                    "Backed by after-sales support, spare parts availability, and technical assistance.",
-                ],
+                "type": "h2",
+                "text": "Four Pole Mixer Lift Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your FOUR POLE MIXER LIFT Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Four Pole Mixer Lifts in India, providing advanced solutions for lifting and placing concrete efficiently in construction projects. Our imported machines are designed for precise vertical lifting, improving productivity and ensuring safe handling of concrete in multi-story and high-rise construction sites."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Performance Machines:</strong> Rugged, efficient, and engineered for continuous operation.",
-                    "<strong>Customization:</strong> Options available to meet specific project requirements.",
-                    "<strong>Trusted Brand:</strong> Years of expertise as a reliable <strong>FOUR POLE MIXER LIFT Supplier</strong> in India.",
-                    "<strong>Competitive Prices:</strong> Quality equipment at affordable rates.",
-                    "<strong>Reliable Support:</strong> Prompt after-sales service and technical guidance.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced four pole mixer lifts that meet international standards, making them ideal for builders, contractors, precast units, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Four Pole Mixer Lifts"
+            },
+            {
+                "type": "p",
+                "text": "Our Four Pole Mixer Lifts are engineered to lift large volumes of concrete smoothly and safely. With robust mechanical or hydraulic systems, these machines reduce manual labor, improve operational efficiency, and ensure accurate concrete placement for high-rise, multi-story, and industrial construction projects."
+            },
+            {
+                "type": "p",
+                "text": "Constructed with durable components and modern technology, they are suitable for continuous heavy-duty use on construction sites."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Efficient vertical lifting of concrete for multi-story projects",
+                    "Heavy-duty construction for long-lasting durability",
+                    "Robust hydraulic or mechanical lifting system",
+                    "User-friendly controls for safe and precise operation",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for high-rise buildings, bridges, and flyovers",
+                    "Compact and maneuverable design for on-site convenience"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise residential and commercial buildings",
+                    "Bridges, flyovers, and highway projects",
+                    "Industrial and infrastructure construction",
+                    "Precast concrete plants and fabrication units",
+                    "Multi-story construction requiring precise concrete placement"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-11" },
@@ -4178,13 +3964,14 @@ export const products = [
             { label: "Jack Leveling", value: "Screw Type (4 Nos.)" },
             { label: "Winch Machine", value: "Heavy Duty" },
         ],
-        metaTitle: "FOUR POLE MIXER LIFT",
+        metaTitle: "Four Pole Mixer Lift Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Durable FOUR POLE MIXER LIFT with 10/7 CFT drum, ISI grade steel structure, 10hp motor/diesel engine, friction clutch break system, and heavy-duty winch for efficient mixing and lifting.",
+            "Leading importer of Four Pole Mixer Lifts in India. High-performance, durable machines for safe and precise vertical lifting of concrete in multi-story and high-rise construction projects.",
     },
 
     {
         id: 38,
+        price: 20000,
         slug: "mini-mobile-batching-plant-Rm800",
         name: "Mini Mobile Concrete Batching Plant Rm800",
         category: "concrete-mixers",
@@ -4207,65 +3994,79 @@ export const products = [
         videoUrl: "https://youtu.be/H0OJRc7C_v8?si=DcZ2UI4HCeivUPzc",
 
         description: [
-            { type: "h2", text: "Product Overview of Mini Mobile Batching Plant" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Mini Mobile Batching Plant Supplier</strong> in India, offering compact and efficient concrete production systems for on-site applications.",
-                    "As a trusted <strong>Mini Mobile Batching Plant Supplier</strong>, we provide durable and reliable batching solutions that ensure high-quality concrete every time.",
-                    "Our <strong>Mini Mobile Batching Plant</strong> is engineered for easy mobility, quick installation, and continuous operation under demanding conditions.",
-                    "Designed for <strong>efficiency</strong> and <strong>portability</strong>, this plant is perfect for small to medium concrete requirements in construction and infrastructure projects.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Mini Mobile Batching Plant" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Reversible Drum Mixer:</strong> Ensures uniform mixing and quick discharge of concrete batches.",
-                    "<strong>Electric & Semi-Automatic:</strong> Equipped with energy-efficient electric drive and semi-automatic controls for safe, simple operation.",
-                    "<strong>Consistent Output:</strong> Provides up to <strong>1200 Liters</strong> output capacity, supporting steady concrete supply.",
-                    "<strong>Mobile & Compact:</strong> Easy to transport and relocate across job sites, making it ideal for flexible use.",
-                    "<strong>Durable Construction:</strong> Built with industrial-grade materials for long-lasting service life.",
-                    "<strong>Low Maintenance:</strong> Simplified design reduces downtime and minimizes operational costs.",
-                ],
-            },
-            { type: "h2", text: "Applications of Mini Mobile Batching Plant" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Residential & Commercial Buildings:</strong> Ideal for delivering on-site concrete for housing and institutional projects.",
-                    "<strong>Infrastructure Projects:</strong> Suitable for roadways, bridges, utilities, and urban developments.",
-                    "<strong>Remote Sites:</strong> Perfect for areas with limited access to ready-mix supply.",
-                    "<strong>Repair & Maintenance:</strong> Efficient for patching, resurfacing, and other concrete repair applications.",
-                ],
+                "type": "h2",
+                "text": "Mini Mobile Concrete Batching Plant RM800 Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Mini Mobile Batching Plant",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Mini Mobile Concrete Batching Plant RM800 in India, offering efficient and compact solutions for on-site concrete production. Our imported RM800 mini mobile plants are designed for rapid setup, easy mobility, and uniform concrete mixing, making them ideal for small to medium-scale construction projects."
             },
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Mini Mobile Batching Plant Supplier</strong>, we provide models customized to meet diverse project requirements.",
-                    "Our batching plants comply with industry standards for performance and safety.",
-                    "Customization options available to suit your workflow and production demands.",
-                    "We provide spare parts availability and dependable after-sales support for hassle-free operations.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced RM800 mini mobile batching plants that meet international quality standards, making them suitable for contractors, builders, precast units, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Mini Mobile Concrete Batching Plant RM800"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Mini Mobile Batching Plant Supplier?",
+                "type": "p",
+                "text": "The RM800 Mini Mobile Concrete Batching Plant is engineered for quick, precise, and efficient concrete production on-site. With a compact footprint and automated operation, it reduces manual labor, improves project timelines, and ensures consistent concrete quality."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Machines:</strong> Engineered for durability, efficiency, and reliable output.",
-                    "<strong>Flexible Solutions:</strong> Models tailored for different site requirements and production capacities.",
-                    "<strong>Dependable Support:</strong> Dedicated service, maintenance, and technical assistance.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising quality.",
-                    "<strong>Trusted Expertise:</strong> Recognized <strong>Mini Mobile Batching Plant Supplier</strong> for projects across India.",
-                ],
+                "type": "p",
+                "text": "Built with durable components and modern technology, it is suitable for continuous operation in residential, commercial, and industrial construction applications."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Compact and mobile design for easy relocation",
+                    "Efficient mixing system for consistent concrete quality",
+                    "Quick setup and easy operation on construction sites",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient and low maintenance",
+                    "User-friendly controls for smooth operation",
+                    "Ideal for small to medium-scale construction and precast projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential and commercial building construction",
+                    "Bridge, highway, and flyover projects",
+                    "Precast concrete plants and small fabrication units",
+                    "Urban and remote construction sites requiring on-site mixing",
+                    "Industrial and infrastructure projects requiring portable concrete solutions"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electric" },
@@ -4277,13 +4078,14 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-MB-01" },
             { label: "Capacity", value: "10 mc3/hr" },
         ],
-        metaTitle: "Mini Mobile Batching Plant",
+        metaTitle: "Mini Mobile Concrete Batching Plant RM800 Importer in India",
         metaDescription:
-            "Compact and efficient Mini Mobile Batching Plant with reversible drum mixer, 1200 L output, semi-automatic controls, and electric operation for on-site concrete production.",
+            "Leading importer of Mini Mobile Concrete Batching Plant RM800 in India. Compact, portable, and high-performance machines for on-site concrete production in small to medium-scale construction projects.",
     },
 
     {
         id: 39,
+        price: 20000,
         slug: "concrete-mixer-with-hopper",
         name: "Concrete Mixer with Hopper",
         category: "concrete-mixer-machines",
@@ -4303,65 +4105,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Concrete Mixer with Hopper" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Concrete Mixer with Hopper Supplier</strong> in India, offering high-performance and durable concrete mixing machines.",
-                    "Our <strong>Concrete Mixers with Hydraulic Hopper</strong> are designed for efficient mixing of cement, sand, and aggregates to produce high-quality concrete.",
-                    "This <strong>Hopper Type Concrete Mixer</strong> ensures easy loading of materials with minimal labor and maximum productivity.",
-                    "Widely used in <strong>construction projects, road works, bridges, and civil engineering works</strong>, this mixer guarantees consistent performance and long-lasting service.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Concrete Mixer with Hopper" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Capacity:</strong> Drum capacity of <strong>560 Liters</strong> for efficient large batch mixing.",
-                    "<strong>Powerful Motor:</strong> Equipped with a <strong>5 HP, 3 Phase Motor</strong> and optional <strong>8 HP Engine</strong> for uninterrupted operation.",
-                    "<strong>Hydraulic Hopper:</strong> Heavy-duty hopper mechanism ensures quick and safe material loading.",
-                    "<strong>Rugged Drum:</strong> Strong drum construction with <strong>10mm, 8mm, and 4mm thickness plates</strong> for durability.",
-                    "<strong>Heavy Duty Build:</strong> Total machine weight of <strong>1000 Kg</strong> ensures stability and long life.",
-                    "<strong>Mobile Design:</strong> Comes with strong wheels for easy transportation at construction sites.",
-                ],
-            },
-            { type: "h2", text: "Applications of Concrete Mixer with Hopper" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Ideal for mixing high-quality concrete for buildings, foundations, and slabs.",
-                    "<strong>Road Construction:</strong> Used for preparing concrete for roads, pavements, and bridges.",
-                    "<strong>Civil Engineering Projects:</strong> Suitable for large infrastructure projects requiring consistent concrete output.",
-                    "<strong>Contractors & Builders:</strong> Cost-effective solution for medium to large-scale construction works.",
-                ],
+                "type": "h2",
+                "text": "Concrete Mixer with Hopper Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Concrete Mixer with Hopper",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Mixers with Hopper in India, offering reliable solutions for efficient concrete mixing and material handling in construction projects. Our imported machines are designed to ensure uniform concrete mixing, smooth material transfer, and increased productivity for builders, contractors, and infrastructure developers."
             },
             {
-                type: "ul",
-                items: [
-                    "Available in <strong>electric motor and engine drive options</strong> for flexible usage.",
-                    "Fitted with <strong>hydraulic hopper</strong> for easy and safe material loading.",
-                    "Low maintenance design with strong and durable mechanical parts.",
-                    "Manufactured by <strong>SSI</strong>, a leading <strong>construction machinery supplier in India</strong>.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced concrete mixers with hopper systems that meet international standards, making them ideal for residential, commercial, industrial, and infrastructure projects across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Mixers with Hopper"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Mixer Supplier?",
+                "type": "p",
+                "text": "Our Concrete Mixers with Hopper are engineered to simplify the concrete mixing process. The integrated hopper allows for controlled feeding of materials into the mixer, reducing manual labor, ensuring consistent mixture quality, and speeding up operations."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Quality Assured:</strong> Strong build with long-lasting performance in tough site conditions.",
-                    "<strong>Efficient Operation:</strong> Hydraulic hopper ensures faster material handling and mixing.",
-                    "<strong>Trusted Brand:</strong> Widely recognized <strong>Concrete Mixer Supplier</strong> across India.",
-                    "<strong>Competitive Price:</strong> High productivity machine at affordable rates.",
-                    "<strong>After-Sales Support:</strong> Complete guidance, servicing, and spare parts availability.",
-                ],
+                "type": "p",
+                "text": "Constructed with durable components and modern technology, these mixers are suitable for continuous use in construction sites and precast concrete plants."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Integrated hopper for controlled material feeding",
+                    "Uniform and efficient concrete mixing",
+                    "Heavy-duty construction for long-lasting performance",
+                    "User-friendly controls for safe and smooth operation",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for small, medium, and large-scale construction projects",
+                    "Compact and portable options available for easy on-site use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential, commercial, and industrial building projects",
+                    "Bridges, highways, and flyover construction",
+                    "Precast concrete plants and fabrication units",
+                    "Multi-story construction requiring precise concrete handling",
+                    "Infrastructure and civil engineering projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-05" },
@@ -4376,13 +4192,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Concrete Mixer with Hopper - One Bag Capacity, Hydraulic Hopper, Heavy Duty",
+            "Concrete Mixer with Hopper Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy durable Concrete Mixer with Hopper (Model SSI-MX-05) featuring 10/7 Cft capacity, 5HP motor, 8HP engine option, 560L drum, and 1000Kg weight. Best hopper concrete mixer supplier in India for construction, roads, and civil projects.",
+            "Leading importer of Concrete Mixers with Hopper in India. Durable, high-performance machines for efficient concrete mixing and controlled material feeding in construction projects.",
     },
 
     {
         id: 40,
+        price: 20000,
         slug: "mixer-lift-with-hydraulic-hopper",
         name: "Mixer Lift with Hydraulic Hopper",
         category: "concrete-mixers",
@@ -4401,72 +4218,82 @@ export const products = [
                 alt: "Mixer Lift with Hydraulic Hopper operation",
             },
         ],
-
         videoUrl: "https://youtu.be/Vh8U5Yy_kXo?si=jWSPx1dWIo6vfDxZ",
 
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Mixer Lift with Hydraulic Hopper",
+                "type": "h2",
+                "text": "Mixer Lift with Hydraulic Hopper Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Mixer Lift with Hydraulic Hopper Supplier</strong> in India, offering advanced machines for mixing and lifting concrete efficiently.",
-                    "Our <strong>Mixer Lift with Hydraulic Hopper</strong> is designed for seamless material handling with a robust hydraulic hopper system.",
-                    "As a trusted <strong>Mixer Lift with Hydraulic Hopper Supplier</strong>, we provide heavy-duty machines that reduce manual effort and increase productivity at construction sites.",
-                    "The machine combines <strong>concrete mixing</strong>, <strong>hydraulic loading</strong>, and <strong>vertical lifting</strong> in one unit, ensuring faster and smoother operations.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Mixer Lift with Hydraulic Hopper" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Hydraulic Hopper:</strong> Simplifies loading process, reducing manual labor and increasing efficiency.",
-                    "<strong>Powerful Engine:</strong> Equipped with a <strong>10HP Diesel Engine</strong> for reliable and consistent performance.",
-                    "<strong>Large Drum Capacity:</strong> 560 liters drum built with 10mm, 8mm, and 4mm thickness for durability.",
-                    "<strong>High Lifting Range:</strong> Extendable up to <strong>65 feet</strong>, suitable for multi-story construction projects.",
-                    "<strong>Heavy-Duty Wire Rope:</strong> 12mm Mahadeva / Usha Martin rope ensures safe and strong lifting operations.",
-                    "<strong>Dual Functionality:</strong> Combines concrete mixing, hydraulic hopper loading, and vertical lifting in one machine.",
-                ],
-            },
-            { type: "h2", text: "Applications of Mixer Lift with Hydraulic Hopper" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Residential and Commercial Buildings:</strong> Ideal for multi-floor concrete placement with reduced labor.",
-                    "<strong>Infrastructure Projects:</strong> Widely used in bridges, flyovers, and industrial structures.",
-                    "<strong>Real Estate Developments:</strong> Efficient solution for large-scale housing and commercial projects.",
-                    "<strong>Civil Engineering Works:</strong> Reliable choice for contractors requiring high efficiency in mixing and lifting.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Mixer Lifts with Hydraulic Hopper in India, providing advanced solutions for lifting and discharging concrete efficiently on construction sites. Our imported machines are designed for smooth vertical lifting, precise material handling, and improved productivity for builders, contractors, and infrastructure developers."
             },
             {
-                type: "h2",
-                text: "Additional Information on Mixer Lift with Hydraulic Hopper",
+                "type": "p",
+                "text": "We supply globally sourced mixer lifts with hydraulic hopper that meet international standards, making them ideal for residential, commercial, industrial, and infrastructure projects across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Mixer Lifts with Hydraulic Hopper"
             },
             {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Mixer Lift with Hydraulic Hopper Supplier</strong>, we manufacture machines following strict safety and quality standards.",
-                    "Our hydraulic hopper system ensures faster loading and less manual work at sites.",
-                    "Machines are available in customized configurations as per project requirements.",
-                    "We provide after-sales service, spare parts, and technical support for uninterrupted operations.",
-                ],
+                "type": "p",
+                "text": "Our Mixer Lifts with Hydraulic Hopper are engineered to handle concrete efficiently and safely. The hydraulic hopper allows controlled discharge, reducing manual labor and ensuring precise placement of concrete in multi-story and high-rise construction projects."
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Mixer Lift with Hydraulic Hopper Supplier?",
+                "type": "p",
+                "text": "Built with robust components and modern technology, these machines are suitable for continuous heavy-duty operation and demanding construction applications."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Advanced Technology:</strong> Machines designed with hydraulic loading and efficient lifting capabilities.",
-                    "<strong>High-Quality Build:</strong> Sturdy construction with long-lasting performance.",
-                    "<strong>Customizable Solutions:</strong> Configurations tailored to meet specific project needs.",
-                    "<strong>Dedicated Support:</strong> Reliable after-sales service and spare part availability.",
-                    "<strong>Proven Expertise:</strong> Trusted <strong>Mixer Lift with Hydraulic Hopper Supplier</strong> across India.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Hydraulic hopper for smooth and controlled concrete discharge",
+                    "Efficient vertical lifting for multi-story construction",
+                    "Heavy-duty construction for long-lasting durability",
+                    "User-friendly control panel for safe operation",
+                    "Low maintenance and energy-efficient design",
+                    "Ideal for high-rise, industrial, and large-scale construction projects",
+                    "Compact and maneuverable design for on-site convenience"
+                ]
             },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise residential and commercial buildings",
+                    "Bridges, highways, and flyover projects",
+                    "Industrial and infrastructure construction sites",
+                    "Precast concrete plants and fabrication units",
+                    "Large-scale civil engineering projects requiring precise concrete placement"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-09" },
@@ -4477,13 +4304,14 @@ export const products = [
             { label: "Drum Capacity", value: "560Ltr" },
             { label: "Drum Size", value: "10mm-8mm-4mm" },
         ],
-        metaTitle: "Mixer Lift with Hydraulic Hopper",
+        metaTitle: "Mixer Lift with Hydraulic Hopper Importer in India",
         metaDescription:
-            "Heavy-duty Mixer Lift with Hydraulic Hopper, 10HP diesel engine, 560L drum, extendable height up to 65ft, and hydraulic loading system for efficient mixing and lifting in construction projects.",
+            "Leading importer of Mixer Lifts with Hydraulic Hopper in India. High-performance, durable machines for safe and efficient concrete lifting and controlled discharge in construction projects.",
     },
 
     {
         id: 41,
+        price: 20000,
         slug: "pan-mixer",
         name: "Pan Mixer",
         category: "concrete-mixers",
@@ -4499,62 +4327,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Pan Mixer" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Pan Mixer Supplier</strong> in India, providing durable and efficient concrete mixing equipment.",
-                    "Our <strong>Pan Mixer</strong> is designed for uniform mixing of cement, sand, and aggregates with consistent performance.",
-                    "As a trusted <strong>Pan Mixer Supplier</strong>, we deliver robust machines suitable for demanding construction sites.",
-                    "The mixer ensures <strong>homogeneous mixing</strong>, <strong>low maintenance</strong>, and <strong>long service life</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Pan Mixer" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Mixing Efficiency:</strong> Provides uniform mixing of concrete with consistent quality output.",
-                    "<strong>Large Capacity:</strong> Charging capacity of <strong>350 Ltr</strong> and discharging capacity of <strong>250 Ltr</strong>.",
-                    "<strong>Durable Build:</strong> Built with high-quality materials to handle rough site conditions.",
-                    "<strong>Powerful Motor:</strong> Operates with <strong>5kw 415V</strong> motor ensuring reliable performance.",
-                    "<strong>Compact Design:</strong> Easy to install and transport, suitable for on-site use.",
-                    "<strong>Low Maintenance:</strong> Simple structure reduces downtime and ensures long-lasting operation.",
-                ],
-            },
-            { type: "h2", text: "Applications of Pan Mixer" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Building Construction:</strong> Used for preparing concrete for residential, commercial, and industrial projects.",
-                    "<strong>Precast Concrete:</strong> Ideal for uniform mixing in precast product manufacturing.",
-                    "<strong>Infrastructure Works:</strong> Effective in road, bridge, and drainage construction.",
-                    "<strong>Repair & Maintenance:</strong> Useful for small-scale repairs and patchwork.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Pan Mixer" },
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Pan Mixer Supplier</strong>, we ensure adherence to industry standards in design and performance.",
-                    "The mixer is engineered for long service life with minimal maintenance requirements.",
-                    "We offer customization options to suit specific project requirements.",
-                    "After-sales service and spare part availability are ensured for uninterrupted performance.",
-                ],
+                "type": "h2",
+                "text": "Pan Mixer Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Pan Mixer Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Pan Mixers in India, offering efficient solutions for uniform and high-quality concrete mixing. Our imported pan mixers are designed to ensure consistent mixing, reduce manual labor, and improve productivity for builders, contractors, and infrastructure developers."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Performance:</strong> Machines built for durability and efficiency.",
-                    "<strong>Custom Solutions:</strong> Models configured for different project scales.",
-                    "<strong>Strong After-Sales Support:</strong> Dedicated service and spare part assistance.",
-                    "<strong>Affordable Pricing:</strong> High-quality mixers at competitive prices.",
-                    "<strong>Trusted Brand:</strong> Established <strong>Pan Mixer Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced pan mixers that meet international standards, making them ideal for residential, commercial, industrial, and infrastructure projects across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Pan Mixers"
+            },
+            {
+                "type": "p",
+                "text": "Our pan mixers are engineered for precise and thorough concrete mixing. The rotating pan and blades ensure uniform mixing of cement, aggregates, and water, producing high-strength concrete suitable for precast units, construction sites, and industrial applications."
+            },
+            {
+                "type": "p",
+                "text": "Built with robust components and modern technology, these mixers are suitable for continuous heavy-duty operation in demanding construction environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Uniform and high-quality concrete mixing",
+                    "Heavy-duty construction for long service life",
+                    "Efficient and energy-saving motor system",
+                    "User-friendly controls for easy operation",
+                    "Low maintenance and durable design",
+                    "Ideal for precast concrete, industrial, and large-scale construction projects",
+                    "Compact design for convenient on-site use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Precast concrete production",
+                    "Residential, commercial, and industrial construction projects",
+                    "Bridges, flyovers, and highway construction",
+                    "High-rise and multi-story building sites",
+                    "Civil engineering and infrastructure projects requiring consistent concrete quality"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-12" },
@@ -4565,13 +4410,14 @@ export const products = [
             { label: "Speed", value: "30rpm" },
             { label: "Dimension (L x W x H)", value: "112x112x40 cm" },
         ],
-        metaTitle: "Pan Mixer",
+        metaTitle: "Pan Mixer Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Durable and efficient Pan Mixer with 350L charging capacity, 250L discharging capacity, 5kw motor, and 60mm max grain size for uniform concrete mixing at construction sites.",
+            "Leading importer of Pan Mixers in India. High-performance, durable machines for uniform and high-quality concrete mixing in construction projects.",
     },
 
     {
         id: 42,
+        price: 20000,
         slug: "mobile-rm-800-system",
         name: "Mobile RM 800 System",
         category: "concrete-mixers",
@@ -4590,62 +4436,79 @@ export const products = [
         videoUrl: "https://youtu.be/wouWQ8avawE?si=DxgbyvRPgstVNJpJ",
 
         description: [
-            { type: "h2", text: "Product Overview of Mobile RM 800 System" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Mobile RM 800 System Supplier</strong> in India, offering reliable and efficient batching solutions for construction sites.",
-                    "Our <strong>Mobile RM 800 System</strong> is engineered for quick setup, portability, and high-quality concrete production.",
-                    "As a trusted <strong>Mobile RM 800 System Supplier</strong>, we provide machines that deliver consistent performance for contractors, builders, and infrastructure projects.",
-                    "This system combines <strong>mobility</strong>, <strong>ease of operation</strong>, and <strong>durability</strong> for demanding job site conditions.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Mobile RM 800 System" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Reversible Drum Mixer:</strong> Designed for uniform concrete mixing and quick discharge.",
-                    "<strong>Electric & Semi-Automatic:</strong> Energy-efficient electric operation with semi-automatic controls for safety and ease.",
-                    "<strong>Consistent Output:</strong> Delivers up to <strong>1200 Liters</strong> of concrete per batch for medium-scale projects.",
-                    "<strong>Mobile Design:</strong> Easy to transport and set up, ensuring flexibility across multiple sites.",
-                    "<strong>Durable Construction:</strong> Built with high-grade materials for long service life in tough working conditions.",
-                    "<strong>Low Maintenance:</strong> Simplified operation reduces downtime and operational costs.",
-                ],
-            },
-            { type: "h2", text: "Applications of Mobile RM 800 System" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Residential & Commercial Construction:</strong> Efficient concrete production for building projects.",
-                    "<strong>Infrastructure Development:</strong> Suitable for roads, bridges, canals, and utility works.",
-                    "<strong>Urban & Remote Projects:</strong> Ideal for sites where ready-mix supply is not feasible.",
-                    "<strong>Repair & Maintenance:</strong> Perfect for slab casting, patchwork, and refurbishment works.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Mobile RM 800 System" },
-            {
-                type: "ul",
-                items: [
-                    "As a professional <strong>Mobile RM 800 System Supplier</strong>, we provide models tailored to varying project needs.",
-                    "Our machines meet industry safety and performance standards for reliable site operations.",
-                    "Customization options are available to suit client-specific requirements.",
-                    "We provide comprehensive after-sales support and ensure spare parts availability.",
-                ],
+                "type": "h2",
+                "text": "Mobile RM 800 System Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Mobile RM 800 System Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Mobile RM 800 Systems in India, offering advanced and portable solutions for on-site concrete production. Our imported RM 800 systems are designed for rapid setup, easy mobility, and consistent concrete quality, making them ideal for small to medium-scale construction projects."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Quality:</strong> High-performance machines made with durable components.",
-                    "<strong>Custom Options:</strong> Configurations to meet project-specific demands.",
-                    "<strong>Reliable Support:</strong> Technical assistance and after-sales service nationwide.",
-                    "<strong>Affordable Pricing:</strong> Competitive rates with no compromise on quality.",
-                    "<strong>Industry Expertise:</strong> Trusted <strong>Mobile RM 800 System Supplier</strong> with years of experience.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced RM 800 mobile systems that meet international standards, making them suitable for contractors, builders, precast units, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Mobile RM 800 System"
+            },
+            {
+                "type": "p",
+                "text": "The Mobile RM 800 System is engineered for efficient and precise on-site concrete production. With a compact design and mobile capabilities, it reduces transportation costs, improves project timelines, and ensures uniform concrete mixing for residential, commercial, and industrial construction projects."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and modern technology, the RM 800 system is ideal for continuous operation in demanding construction environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Portable and mobile design for easy relocation",
+                    "Efficient mixing system for consistent concrete quality",
+                    "Quick setup and user-friendly operation on-site",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient and low maintenance",
+                    "Automated controls for precise and smooth operation",
+                    "Ideal for small-to-medium construction and precast projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential and commercial building projects",
+                    "Bridge, highway, and flyover construction",
+                    "Precast concrete plants and small fabrication units",
+                    "Urban and remote construction sites requiring on-site mixing",
+                    "Industrial and infrastructure projects requiring portable concrete solutions"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely nationwide delivery",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electric" },
@@ -4657,13 +4520,14 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-MB-01" },
             { label: "Capacity", value: "10 mc3/hr" },
         ],
-        metaTitle: "Mobile RM 800 System",
+        metaTitle: "Mobile RM 800 System Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Reliable Mobile RM 800 System with reversible drum mixer, 1200 L output, semi-automatic operation, and electric power source for efficient on-site concrete batching.",
+            "Leading importer of Mobile RM 800 Systems in India. Compact, high-performance, and portable machines for on-site concrete production in small to medium-scale construction projects.",
     },
 
     {
         id: 43,
+        price: 20000,
         slug: "reversible-mixer-rm-1050",
         name: "Reversible Mixer RM 1050",
         category: "concrete-mixers",
@@ -4683,65 +4547,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Reversible Mixer RM 1050" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Reversible Mixer RM 1050 Supplier</strong> in India, delivering advanced and efficient concrete mixing solutions.",
-                    "Our <strong>Reversible Mixer RM 1050</strong> is designed for fast, uniform, and high-quality concrete production with portability and reliability.",
-                    "As a professional <strong>Reversible Mixer RM 1050 Supplier</strong>, we serve contractors, builders, and infrastructure developers across India.",
-                    "Built with <strong>sturdy design</strong>, <strong>multi-motor functionality</strong>, and <strong>load cell printing facility</strong>, this mixer ensures consistent output with minimal effort.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Reversible Mixer RM 1050" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Capacity:</strong> Produces up to <strong>15M³/hr</strong> of concrete efficiently.",
-                    "<strong>Reversible Drum:</strong> Ensures uniform mixing and smooth discharge.",
-                    "<strong>Tyre Mounted:</strong> Fitted with 4 tyres for easy mobility on construction sites.",
-                    "<strong>Multi-Motor System:</strong> Equipped with 12.5 HP drum motor, 1 HP water motor, 0.5 HP additive motor, 0.05 HP vibrator motor, and 0.5 HP power pack motor.",
-                    "<strong>Load Cell Integration:</strong> Comes with 3 load cells and printing facility for accurate batching and record keeping.",
-                    "<strong>Durable Build:</strong> Strong and reliable components for long-lasting performance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Reversible Mixer RM 1050" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Residential & Commercial Construction:</strong> Perfect for high-volume concrete mixing in building projects.",
-                    "<strong>Infrastructure Projects:</strong> Suitable for roads, bridges, flyovers, and industrial projects.",
-                    "<strong>Urban & Remote Locations:</strong> Mobile design ensures convenience in diverse site conditions.",
-                    "<strong>Batching with Accuracy:</strong> Ideal for projects requiring precise measurement and consistent concrete quality.",
-                ],
+                "type": "h2",
+                "text": "Reversible Mixer RM 1050 Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Reversible Mixer RM 1050",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Reversible Mixers RM 1050 in India, offering advanced solutions for efficient and uniform concrete mixing. Our imported RM 1050 mixers are designed for precise mixing, quick discharge, and reduced labor, making them ideal for small, medium, and large-scale construction projects."
             },
             {
-                type: "ul",
-                items: [
-                    "As a trusted <strong>Reversible Mixer RM 1050 Supplier</strong>, we provide customized solutions as per client requirements.",
-                    "Our machines are built to meet strict quality and safety standards.",
-                    "Dedicated after-sales service ensures smooth and continuous operations.",
-                    "We supply spare parts and technical support for long-term reliability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced RM 1050 reversible mixers that meet international standards, making them suitable for contractors, builders, precast units, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Reversible Mixer RM 1050"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Reversible Mixer RM 1050 Supplier?",
+                "type": "p",
+                "text": "The RM 1050 Reversible Mixer is engineered for high-quality concrete mixing and quick material discharge. Its reversible mixing drum allows efficient forward and backward mixing, ensuring uniform concrete quality and faster project timelines."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Quality:</strong> Machines manufactured with durable components and advanced technology.",
-                    "<strong>Tailored Solutions:</strong> Models and capacities designed for different project requirements.",
-                    "<strong>Nationwide Support:</strong> Reliable after-sales service and spare parts availability.",
-                    "<strong>Competitive Pricing:</strong> Affordable solutions without compromising quality.",
-                    "<strong>Industry Expertise:</strong> Years of experience as a leading <strong>Reversible Mixer RM 1050 Supplier</strong> in India.",
-                ],
+                "type": "p",
+                "text": "Built with durable components and modern technology, the RM 1050 mixer is suitable for continuous operation in construction sites, precast plants, and industrial applications."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Reversible drum for efficient mixing and fast discharge",
+                    "Uniform and high-quality concrete mixing",
+                    "Heavy-duty construction for long-lasting performance",
+                    "User-friendly controls for easy operation",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for small, medium, and large construction projects",
+                    "Compact and robust design for on-site convenience"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential, commercial, and industrial construction projects",
+                    "Bridges, highways, and flyover construction",
+                    "Precast concrete plants and fabrication units",
+                    "Multi-story and high-rise building projects",
+                    "Large-scale civil engineering and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MB-02" },
@@ -4755,13 +4633,14 @@ export const products = [
             { label: "Power Pack Motor", value: "0.5 HP" },
             { label: "Printing Facility with Load Cell", value: "3 Nos" },
         ],
-        metaTitle: "Reversible Mixer RM 1050",
+        metaTitle: "Reversible Mixer RM 1050 Importer in India",
         metaDescription:
-            "High-performance Reversible Mixer RM 1050 with 15M³/hr capacity, reversible drum, 4 tyres, multi-motor system, and load cell printing facility for accurate batching and reliable concrete production.",
+            "Leading importer of Reversible Mixers RM 1050 in India. High-performance, durable machines for uniform and efficient concrete mixing in construction projects.",
     },
 
     {
         id: 44,
+        price: 20000,
         slug: "rmc-mixing-mobile-batching-plant",
         name: "RMC Mixing Mobile Batching Plant",
         category: "concrete-mixers",
@@ -4778,67 +4657,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of RMC Mixing Mobile Batching Plant",
+                "type": "h2",
+                "text": "RMC Mixing Mobile Batching Plant Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>RMC Mixing Mobile Batching Plant Supplier</strong> in India, providing efficient and portable on-site concrete production solutions.",
-                    "Our <strong>RMC Mixing Mobile Batching Plant</strong> is engineered with a reversible drum type mixer for uniform concrete mixing and reliable performance.",
-                    "As a trusted <strong>RMC Mixing Mobile Batching Plant Supplier</strong>, we cater to contractors, infrastructure developers, and builders across the nation.",
-                    "This plant is designed for <strong>portability</strong>, <strong>fast setup</strong>, and <strong>consistent batching</strong>, making it suitable for diverse construction needs.",
-                ],
-            },
-            { type: "h2", text: "Key Features of RMC Mixing Mobile Batching Plant" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Reversible Drum Type:</strong> Ensures uniform mixing and efficient discharge.",
-                    "<strong>Electric & Semi-Automatic:</strong> Powered by reliable electric systems with semi-automatic controls for ease of use.",
-                    "<strong>Output Capacity:</strong> Delivers up to <strong>1200 Liters</strong> capacity per batch.",
-                    "<strong>Efficient Mixing Speed:</strong> Operates at <strong>14 r/min</strong> for consistent results.",
-                    "<strong>Durable Build:</strong> Constructed with robust components for long service life.",
-                    "<strong>Made in India:</strong> Built to meet local construction standards and site requirements.",
-                ],
-            },
-            { type: "h2", text: "Applications of RMC Mixing Mobile Batching Plant" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Residential & Commercial Projects:</strong> Ideal for high-quality on-site concrete mixing.",
-                    "<strong>Infrastructure Development:</strong> Used in bridges, roads, industrial, and urban projects.",
-                    "<strong>Remote Sites:</strong> Suited for areas where ready-mix supply is not available.",
-                    "<strong>Batch Consistency:</strong> Ensures accuracy in volume and quality of concrete.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality RMC Mixing Mobile Batching Plants in India, offering advanced solutions for on-site Ready Mix Concrete (RMC) production. Our imported mobile batching plants are designed for rapid setup, easy mobility, and consistent concrete quality, making them ideal for small to large-scale construction projects."
             },
             {
-                type: "h2",
-                text: "Additional Information on RMC Mixing Mobile Batching Plant",
+                "type": "p",
+                "text": "We supply globally sourced RMC mobile batching plants that meet international standards, making them suitable for contractors, builders, precast units, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance RMC Mixing Mobile Batching Plants"
             },
             {
-                type: "ul",
-                items: [
-                    "As a leading <strong>RMC Mixing Mobile Batching Plant Supplier</strong>, we deliver models for various output requirements.",
-                    "Our machines are manufactured to meet high-quality and safety standards.",
-                    "We offer customization options to align with different project demands.",
-                    "Spare parts and after-sales service support are readily available.",
-                ],
+                "type": "p",
+                "text": "The RMC Mixing Mobile Batching Plant is engineered for efficient, precise, and high-quality concrete production. With a compact design, mobility, and automated controls, it reduces transportation costs, ensures uniform mixing, and improves project timelines."
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your RMC Mixing Mobile Batching Plant Supplier?",
+                "type": "p",
+                "text": "Built with durable components and modern technology, these plants are ideal for continuous operation in residential, commercial, industrial, and infrastructure projects."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Superior Quality:</strong> Built with premium-grade components for long-lasting performance.",
-                    "<strong>Custom Options:</strong> Flexible configurations to suit client-specific needs.",
-                    "<strong>Dedicated Support:</strong> Professional after-sales assistance and technical guidance.",
-                    "<strong>Value for Money:</strong> Competitive pricing without compromising efficiency.",
-                    "<strong>Trusted Supplier:</strong> Reliable <strong>RMC Mixing Mobile Batching Plant Supplier</strong> with proven industry expertise.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Portable and mobile design for easy relocation",
+                    "Automated mixing system for consistent concrete quality",
+                    "Quick setup and easy on-site operation",
+                    "Heavy-duty construction for long service life",
+                    "Energy-efficient and low maintenance",
+                    "User-friendly controls for smooth operation",
+                    "Ideal for small, medium, and large-scale construction projects"
+                ]
             },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential and commercial building projects",
+                    "Bridges, highways, and flyover construction",
+                    "Precast concrete plants and fabrication units",
+                    "Remote or urban construction sites requiring on-site mixing",
+                    "Industrial and infrastructure projects requiring portable concrete solutions"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Timely nationwide delivery",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet project-specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electric" },
@@ -4851,16 +4741,17 @@ export const products = [
             { label: "Speed Of Mixing Drum", value: "14 r/min" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "RMC Mixing Mobile Batching Plant",
+        metaTitle: "RMC Mixing Mobile Batching Plant Importer in India",
         metaDescription:
-            "RMC Mixing Mobile Batching Plant with 1200 L output, reversible drum mixer, 14r/min speed, semi-automatic controls, and durable electric drive system for on-site concrete mixing.",
+            "Leading importer of RMC Mixing Mobile Batching Plants in India. High-performance, portable, and durable machines for efficient on-site Ready Mix Concrete production.",
     },
 
     {
         id: 45,
+        price: 20000,
         slug: "half-bag-concrete-mixer",
         name: "Half Bag Concrete Mixer",
-        category: "concrete-mixer-machines",
+        category: "concrete-mixers",
         model: "SSI-MX-03",
         image: {
             src: "/products/cm/HALF BAG CONCRETE MIXER/1.webp",
@@ -4880,62 +4771,79 @@ export const products = [
         videoUrl: "https://youtu.be/0E6iIfsDItk?si=K8G5oApRVzhwhjBO",
 
         description: [
-            { type: "h2", text: "Product Overview of Half Bag Concrete Mixer" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reliable <strong>Half Bag Concrete Mixer Supplier</strong> in India, offering compact and efficient concrete mixing machines for small to medium construction projects.",
-                    "This <strong>Half Bag Cement Mixer</strong> is designed to mix cement, sand, and aggregates quickly, delivering high-quality concrete with minimal effort.",
-                    "Built with durable materials and a powerful motor, our <strong>Half Bag Concrete Mixer Machine</strong> ensures smooth operation and long-lasting performance.",
-                    "Ideal for builders, contractors, and civil works, this mixer is portable, easy to operate, and highly cost-effective.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Half Bag Concrete Mixer" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Compact Size:</strong> Lightweight and portable design, easy to transport across construction sites.",
-                    "<strong>Powerful Motor:</strong> Comes with <strong>2 HP Single Phase or Three Phase Motor</strong> options for efficient mixing.",
-                    "<strong>Durable Build:</strong> Strong drum construction for reliable performance and long service life.",
-                    "<strong>Easy Mobility:</strong> Fitted with <strong>4 heavy-duty wheels</strong> for smooth movement on-site.",
-                    "<strong>Consistent Mixing:</strong> Ensures uniform mixing of cement, sand, and aggregates for high-quality concrete output.",
-                    "<strong>Low Maintenance:</strong> Simple mechanical design requires minimal servicing and upkeep.",
-                ],
-            },
-            { type: "h2", text: "Applications of Half Bag Concrete Mixer" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Small Construction Projects:</strong> Perfect for residential buildings, repairs, and small-scale works.",
-                    "<strong>Road & Pavement Works:</strong> Used for preparing concrete for patch repairs and sidewalks.",
-                    "<strong>Contractors & Builders:</strong> Ideal choice for contractors handling small to medium projects.",
-                    "<strong>Civil Works:</strong> Suitable for on-site mixing in schools, offices, and local infrastructure projects.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Half Bag Concrete Mixer" },
-            {
-                type: "ul",
-                items: [
-                    "Available in both <strong>single-phase and three-phase motor options</strong> for flexible usage.",
-                    "Designed for <strong>quick and efficient mixing</strong> of smaller concrete batches.",
-                    "Easy to operate, highly portable, and suitable for tough working conditions.",
-                    "Manufactured and supplied by <strong>SSI – a trusted construction machinery supplier in India</strong>.",
-                ],
+                "type": "h2",
+                "text": "Half Bag Concrete Mixer Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Half Bag Concrete Mixer Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Half Bag Concrete Mixers in India, offering compact and efficient solutions for small-scale concrete mixing projects. Our imported half bag mixers are designed to handle partial bag loads of cement, sand, and aggregates, making them ideal for residential, small commercial, and repair work."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Quality Machines:</strong> Built with strong materials ensuring long life and durability.",
-                    "<strong>Cost-Effective:</strong> Affordable solution for contractors and builders.",
-                    "<strong>Portability:</strong> Compact design with wheels for easy site movement.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a reliable <strong>Concrete Mixer Supplier in India</strong>.",
-                    "<strong>After-Sales Support:</strong> Guidance, servicing, and spare parts availability across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced half bag concrete mixers that meet international standards, ensuring uniform mixing, durability, and reliability for construction sites across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Half Bag Concrete Mixers"
+            },
+            {
+                "type": "p",
+                "text": "Our Half Bag Concrete Mixers are engineered for small-scale construction projects requiring quick, efficient, and precise mixing. With a compact design and simple operation, they reduce manual labor and improve project timelines, making them perfect for home builders, contractors, and small precast units."
+            },
+            {
+                "type": "p",
+                "text": "Built with robust components and modern technology, these mixers provide long-term durability and consistent concrete quality."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Designed for half bag (small load) concrete mixing",
+                    "Uniform and efficient mixing of cement, sand, and aggregates",
+                    "Compact and portable for easy on-site mobility",
+                    "Heavy-duty construction for long-lasting performance",
+                    "User-friendly controls for smooth operation",
+                    "Low maintenance and energy-efficient design",
+                    "Ideal for residential, small commercial, and repair projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential home construction and renovation",
+                    "Small commercial building projects",
+                    "Repair and maintenance work",
+                    "Precast concrete units requiring small batches",
+                    "Landscaping and small infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet small-scale construction requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MX-03" },
@@ -4946,15 +4854,16 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Half Bag Concrete Mixer - Portable Small Concrete Mixing Machine",
+            "Half Bag Concrete Mixer Importer in India",
         metaDescription:
-            "Buy Half Bag Concrete Mixer (Model SSI-MX-03) with 2HP motor, half bag capacity, and 4-wheel mobility. Compact, durable, and efficient cement mixer for small construction works. Trusted supplier of concrete mixer machines in India.",
+            "Leading importer of Half Bag Concrete Mixers in India. Compact, high-performance machines for small-scale concrete mixing in residential, commercial, and repair projects.",
     },
 
     // LAB TESTING EQUIPMENT
 
     {
         id: 46,
+        price: 20000,
         slug: "200-ton-digital-compression-testing-machine",
         name: "Digital Compression Testing Machine 200 Ton",
         category: "lab-testing-equipment",
@@ -4975,73 +4884,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of 200 Ton Digital Compression Testing Machine",
+                "type": "h2",
+                "text": "Digital Compression Testing Machine 200 Ton Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>200 Ton Digital Compression Testing Machine Supplier</strong> in India, offering high-performance testing equipment for the construction and material testing industry.",
-                    "Our <strong>Digital Compression Testing Machine</strong> is engineered with advanced technology for <strong>accurate load measurement</strong> and <strong>reliable performance</strong> in quality control labs.",
-                    "As a trusted <strong>Compression Testing Machine Manufacturer</strong>, we ensure machines that comply with IS, BS, and ASTM standards.",
-                    "Built with heavy-duty MS material, our machines guarantee <strong>durability</strong>, <strong>precision</strong>, and <strong>long service life</strong>.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Digital Compression Testing Machines (200 Ton) in India, offering precise solutions for testing the compressive strength of concrete, cement, and other construction materials. Our imported 200-ton digital testing machines ensure accurate results, enhanced safety, and reliable performance for laboratories, construction sites, and industrial applications."
             },
             {
-                type: "h2",
-                text: "Key Features of 200 Ton Digital Compression Testing Machine",
+                "type": "p",
+                "text": "We supply globally sourced digital compression testing machines that meet international quality standards, making them ideal for civil engineers, contractors, material testing labs, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Digital Compression Testing Machine 200 Ton"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High Capacity:</strong> 200 Ton load capacity for testing concrete cubes, cylinders, and blocks.",
-                    "<strong>Digital Display:</strong> Advanced load indicator ensures precise and real-time measurement.",
-                    "<strong>Durable MS Construction:</strong> Heavy-duty structure for consistent performance in labs.",
-                    "<strong>Single Phase Operation:</strong> Easy to install and operate with 220 Volt supply.",
-                    "<strong>Accurate Testing:</strong> Delivers reliable results for concrete strength and material testing.",
-                    "<strong>Low Maintenance:</strong> Simplified design with reduced downtime and long life span.",
-                ],
+                "type": "p",
+                "text": "The Digital Compression Testing Machine 200 Ton is engineered for high-precision material testing. Equipped with digital readouts, advanced load sensors, and safety features, it ensures consistent and reliable testing of construction materials, helping maintain quality standards and compliance in projects."
             },
             {
-                type: "h2",
-                text: "Applications of 200 Ton Digital Compression Testing Machine",
+                "type": "p",
+                "text": "Built with durable components and modern technology, this machine is suitable for continuous use in demanding laboratory and construction site environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> For testing compressive strength of concrete cubes and blocks.",
-                    "<strong>Laboratories:</strong> Widely used in educational institutions and R&D labs for study and quality analysis.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, roads, dams, and high-rise projects requiring strict quality checks.",
-                    "<strong>Material Testing Units:</strong> Used by quality control departments for compliance with industry standards.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Capacity: 200 Ton for testing concrete, cement, bricks, and other materials",
+                    "Digital display for accurate measurement of compressive strength",
+                    "Robust and durable construction for long service life",
+                    "User-friendly controls and easy operation",
+                    "Advanced safety features for operator protection",
+                    "Low maintenance and energy-efficient design",
+                    "Suitable for laboratories, construction sites, and industrial applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
             },
             {
-                type: "h2",
-                text: "Additional Information on 200 Ton Digital Compression Testing Machine",
+                "type": "ul",
+                "items": [
+                    "Testing concrete, cement, and masonry materials",
+                    "Construction quality control and compliance",
+                    "Research and development in civil engineering",
+                    "Material testing labs in industrial and infrastructure projects",
+                    "Bridges, highways, and high-rise building quality assurance"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
             {
-                type: "ul",
-                items: [
-                    "We are a reputed <strong>200 Ton Digital Compression Testing Machine Supplier</strong> with nationwide delivery and support.",
-                    "Our machines are <strong>Made in India</strong> and comply with global quality benchmarks.",
-                    "Available with after-sales service, calibration, and spare parts support.",
-                    "Custom solutions are offered to match specific laboratory and project requirements.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Compression Testing Machine Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> High-strength machines designed for long-lasting use.",
-                    "<strong>Precision Testing:</strong> Reliable results with advanced digital load indicators.",
-                    "<strong>Expert Manufacturer:</strong> Years of expertise as a leading <strong>Compression Testing Machine Manufacturer</strong> in India.",
-                    "<strong>Affordable Solutions:</strong> Competitive prices without compromising on quality.",
-                    "<strong>Dedicated Support:</strong> End-to-end installation, training, and technical assistance.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction testing machinery in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for material testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Lab" },
@@ -5053,13 +4967,14 @@ export const products = [
             { label: "Power Supply", value: "220 Volt" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "200 Ton Digital Compression Testing Machine | SSI",
+        metaTitle: "Digital Compression Testing Machine 200 Ton Importer in India",
         metaDescription:
-            "Buy 200 Ton Digital Compression Testing Machine from SSI. Heavy-duty MS build, digital display, accurate testing, single-phase operation. Trusted supplier in India for concrete and material testing machines.",
+            "Leading importer of Digital Compression Testing Machines 200 Ton in India. High-precision, durable machines for accurate compressive strength testing of concrete, cement, and other materials.",
     },
 
     {
         id: 47,
+        price: 5000,
         slug: "concrete-cube-mould",
         name: "Concrete Cube Mould",
         category: "lab-testing-equipment",
@@ -5079,62 +4994,74 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Concrete Cube Mould" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Concrete Cube Mould Supplier</strong> in India, offering high-quality moulds for accurate cube casting and concrete strength testing.",
-                    "Our <strong>Concrete Cube Moulds</strong> are made of heavy-duty <strong>Cast Iron</strong>, ensuring durability and consistent results in laboratory and field applications.",
-                    "As a trusted <strong>Concrete Cube Mould Manufacturer</strong>, we provide precision-engineered moulds used for testing compressive strength of cement and concrete samples.",
-                    "Each mould is designed for <strong>accuracy</strong>, <strong>reusability</strong>, and <strong>easy operation</strong>, making them ideal for construction quality control.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Concrete Cube Mould" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Standard Size:</strong> Cube mould with internal dimensions of <strong>150 x 150 mm</strong> for accurate sample preparation.",
-                    "<strong>High Accuracy:</strong> Designed with <strong>100% dimensional accuracy</strong> for reliable test results.",
-                    "<strong>Durable Build:</strong> Manufactured from <strong>Cast Iron</strong> for long-lasting performance.",
-                    "<strong>Manual Operation:</strong> Simple and easy-to-use design for hassle-free handling.",
-                    "<strong>Square Shaping Mode:</strong> Ensures precise cube formation for compressive strength testing.",
-                    "<strong>Reusable:</strong> Strong construction allows repeated usage in labs and construction sites.",
-                ],
-            },
-            { type: "h2", text: "Applications of Concrete Cube Mould" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Quality Testing:</strong> Used for preparing standard concrete cubes for compressive strength testing.",
-                    "<strong>Laboratories:</strong> Suitable for research labs, educational institutions, and material testing centers.",
-                    "<strong>Infrastructure Projects:</strong> Ensures concrete quality for bridges, dams, highways, and commercial projects.",
-                    "<strong>Cement & Concrete Plants:</strong> Helps in maintaining consistency and quality of concrete batches.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Concrete Cube Mould" },
-            {
-                type: "ul",
-                items: [
-                    "We are a reputed <strong>Concrete Cube Mould Manufacturer in India</strong> with a wide range of models.",
-                    "Our cube moulds are <strong>ISI-marked</strong> and adhere to global testing standards.",
-                    "Available in various sizes as per client requirements.",
-                    "We provide <strong>after-sales support</strong> and ensure timely delivery across India.",
-                ],
+                "type": "h2",
+                "text": "Concrete Cube Mould Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Cube Mould Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Cube Moulds in India, offering durable and precise solutions for testing the compressive strength of concrete. Our imported cube moulds are designed to produce uniform and standardized concrete specimens, ensuring accurate results in laboratories and construction sites."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Cast Iron:</strong> Strong and durable moulds built for long-term use.",
-                    "<strong>Accurate Dimensions:</strong> 100% precision for consistent cube preparation.",
-                    "<strong>Proven Expertise:</strong> Trusted <strong>Concrete Cube Mould Supplier</strong> with nationwide clientele.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solutions without compromising on quality.",
-                    "<strong>Reliable Service:</strong> On-time delivery, customization, and technical support.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced concrete cube moulds that meet international standards, making them ideal for civil engineers, contractors, material testing labs, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Concrete Cube Moulds"
+            },
+            {
+                "type": "p",
+                "text": "Our Concrete Cube Moulds are engineered for durability, precision, and ease of use. Made from robust materials, they provide consistent dimensions for concrete specimens, facilitating reliable compressive strength testing. These moulds are suitable for routine testing in labs as well as on-site quality control of concrete mixes."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Standardized dimensions for 150mm, 100mm, and 50mm concrete cubes",
+                    "Made from durable steel, cast iron, or high-strength plastic",
+                    "Smooth inner surfaces for easy demoulding of concrete specimens",
+                    "Resistant to wear, corrosion, and repeated use",
+                    "Lightweight and easy to handle for on-site testing",
+                    "Compatible with digital and manual compression testing machines"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction material testing laboratories",
+                    "Quality control in residential, commercial, and industrial construction projects",
+                    "Research and development in civil engineering",
+                    "Bridges, highways, and high-rise building quality assurance",
+                    "On-site testing of concrete mixes for compliance and strength evaluation"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction testing equipment in India",
+                    "Machines and moulds sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions to meet laboratory and field testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Size", value: "150 x 150 mm" },
@@ -5144,13 +5071,14 @@ export const products = [
             { label: "Accuracy", value: "100%" },
             { label: "Model Name/Number", value: "SSI-CM-150" },
         ],
-        metaTitle: "Concrete Cube Mould | Cast Iron, 150x150 mm | SSI",
+        metaTitle: "Concrete Cube Mould Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Concrete Cube Mould (150x150 mm) from SSI. Durable cast iron, 100% accuracy, square shape, reusable and manual operation for compressive strength testing.",
+            "Leading importer of Concrete Cube Moulds in India. Durable and precise moulds for producing standardized concrete specimens for compressive strength testing in labs and on-site.",
     },
 
     {
         id: 48,
+        price: 5000,
         slug: "hot-air-oven",
         name: "Hot Air Oven",
         category: "lab-testing-equipment",
@@ -5161,62 +5089,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Hot Air Oven" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Hot Air Oven Supplier in India</strong>, providing reliable and durable laboratory ovens for precise heating applications.",
-                    "Our <strong>Hot Air Ovens</strong> are widely used in microbiology, pharmaceuticals, and research labs for sterilization, drying, and heating processes.",
-                    "As a trusted <strong>Hot Air Oven Manufacturer</strong>, we ensure advanced temperature control and uniform heat distribution for accurate results.",
-                    "The ovens are designed with <strong>energy efficiency</strong>, <strong>robust construction</strong>, and <strong>long-lasting performance</strong> in mind.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Hot Air Oven" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Uniform Heating:</strong> Double-walled insulation and forced air circulation ensure consistent temperature across all shelves.",
-                    "<strong>Temperature Range:</strong> Adjustable from <strong>50°C to 250°C</strong> for a wide range of laboratory applications.",
-                    "<strong>Digital Temperature Control:</strong> Accurate PID controller with LED display for precise monitoring.",
-                    "<strong>Safety Features:</strong> Overheat protection and automatic cut-off system for safe operation.",
-                    "<strong>Durable Construction:</strong> Powder-coated exterior with stainless steel inner chamber for corrosion resistance.",
-                    "<strong>Energy Efficient:</strong> Designed to minimize power consumption while delivering high performance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Hot Air Oven" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Laboratory Use:</strong> Ideal for sterilization of glassware, drying of samples, and heating chemicals.",
-                    "<strong>Pharmaceutical Industry:</strong> Used for sterilizing pharmaceutical equipment and components.",
-                    "<strong>Research Institutions:</strong> Essential for microbiology, biotechnology, and material testing labs.",
-                    "<strong>Industrial Applications:</strong> Suitable for drying powders, paints, and electrical components.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Hot Air Oven" },
-            {
-                type: "ul",
-                items: [
-                    "Our <strong>Hot Air Ovens</strong> are available in multiple chamber sizes to suit different laboratory requirements.",
-                    "Equipped with <strong>adjustable shelves</strong> to accommodate various sizes of laboratory glassware and materials.",
-                    "Designed to meet <strong>international quality standards</strong> ensuring reliable performance and safety.",
-                    "We provide full <strong>after-sales support</strong> including spare parts and technical guidance.",
-                ],
+                "type": "h2",
+                "text": "Hot Air Oven Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Hot Air Oven Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Hot Air Ovens in India, offering reliable solutions for drying, heating, and sterilization in laboratories, industrial units, and research facilities. Our imported ovens are designed to provide uniform temperature distribution, precise control, and consistent performance for a wide range of applications."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Brand:</strong> Recognized as a reliable <strong>Hot Air Oven Manufacturer in India</strong> with years of expertise.",
-                    "<strong>Superior Quality:</strong> Manufactured with premium materials ensuring durability and precision.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective without compromising on quality and performance.",
-                    "<strong>Customization Available:</strong> Tailored solutions to meet your laboratory or industrial needs.",
-                    "<strong>Nationwide Supply:</strong> Serving research labs, industries, and institutions across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced hot air ovens that meet international quality standards, making them ideal for laboratories, educational institutions, pharmaceutical industries, and construction material testing facilities across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Hot Air Ovens"
+            },
+            {
+                "type": "p",
+                "text": "Our Hot Air Ovens are engineered for efficient and uniform heating. With advanced temperature control systems and insulated chambers, these ovens ensure accurate and consistent results for drying and sterilization processes."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and modern technology, they are suitable for continuous use in demanding laboratory and industrial environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Uniform temperature distribution for accurate results",
+                    "Adjustable temperature control with digital display",
+                    "Double-walled insulation for energy efficiency",
+                    "Corrosion-resistant inner chamber (stainless steel)",
+                    "Heavy-duty construction for long service life",
+                    "User-friendly controls for easy operation",
+                    "Safety features to prevent overheating"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Laboratory drying and sterilization processes",
+                    "Pharmaceutical and chemical industries",
+                    "Construction material testing labs",
+                    "Research and educational institutions",
+                    "Industrial heating and drying applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of laboratory and industrial equipment in India",
+                    "High-quality products sourced from globally reputed manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions based on specific requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Electric" },
@@ -5231,13 +5176,14 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-HAO-01" },
         ],
         metaTitle:
-            "Hot Air Oven - Laboratory & Industrial Drying Oven Supplier in India",
+            "Hot Air Oven Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Shree Shakti Infratech is a leading Hot Air Oven supplier in India. Durable stainless steel chamber, 50°C–250°C temperature range, digital control, and energy-efficient design for labs and industries.",
+            "Leading importer of Hot Air Ovens in India. High-performance, durable ovens for drying, sterilization, and heating in laboratories and industrial applications.",
     },
 
     {
         id: 49,
+        price: 5000,
         slug: "impact-tester",
         name: "Impact Tester",
         category: "lab-testing-equipment",
@@ -5248,62 +5194,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Impact Tester" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Impact Tester Manufacturer in India</strong>, offering high-quality machines for testing the toughness and strength of materials.",
-                    "Our <strong>Impact Testing Machines</strong> are widely used in quality control labs, research centers, and industrial testing facilities.",
-                    "We provide both <strong>Charpy Impact Tester</strong> and <strong>Izod Impact Tester</strong> configurations to meet international testing standards.",
-                    "Designed for <strong>accuracy</strong>, <strong>durability</strong>, and <strong>ease of operation</strong>, our Impact Testers are ideal for metals, plastics, composites, and other materials.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Impact Tester" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Dual Testing:</strong> Supports both Charpy and Izod impact tests for versatile applications.",
-                    "<strong>High Accuracy:</strong> Calibrated scale with digital/analog indicator for precise readings.",
-                    "<strong>Sturdy Build:</strong> Heavy-duty steel frame ensures long life and stable performance.",
-                    "<strong>Safety Mechanism:</strong> Equipped with guards and safety features for operator protection.",
-                    "<strong>Simple Operation:</strong> Manual and semi-automatic models available for ease of use.",
-                    "<strong>Standards Compliance:</strong> Conforms to ASTM, ISO, and IS testing standards.",
-                ],
-            },
-            { type: "h2", text: "Applications of Impact Tester" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Metallurgy:</strong> Testing metals and alloys for toughness and ductility.",
-                    "<strong>Plastics & Polymers:</strong> Widely used in plastic industries for impact resistance testing.",
-                    "<strong>Educational Institutions:</strong> Ideal for teaching labs and training centers.",
-                    "<strong>Research & Development:</strong> Suitable for R&D labs working on material performance and durability.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Impact Tester" },
-            {
-                type: "ul",
-                items: [
-                    "Our <strong>Impact Testing Machines</strong> are available in different capacities to suit customer needs.",
-                    "Machines are provided with <strong>calibration certificates</strong> for accuracy assurance.",
-                    "We offer models with <strong>manual, analog, and digital readout options</strong>.",
-                    "Customization is available for special test requirements.",
-                ],
+                "type": "h2",
+                "text": "Impact Tester Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Impact Tester Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Impact Testers in India, offering precise and reliable solutions for measuring the impact resistance and toughness of materials. Our imported impact testing machines are designed to deliver accurate results, making them essential for quality control, research, and industrial testing applications."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Quality Machines:</strong> Built with precision and premium materials for long service life.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a leading <strong>Impact Tester Manufacturer in India</strong>.",
-                    "<strong>Affordable Pricing:</strong> Competitive rates without compromising on quality.",
-                    "<strong>After-Sales Support:</strong> Technical guidance, calibration, and maintenance services available.",
-                    "<strong>Wide Reach:</strong> Supplying <strong>Impact Testing Machines</strong> to industries, labs, and institutions nationwide.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced impact testers that meet international standards, making them ideal for laboratories, manufacturing units, construction industries, and research institutions across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Impact Testers"
+            },
+            {
+                "type": "p",
+                "text": "Our Impact Testers are engineered to evaluate the ability of materials to withstand sudden force or shock. Equipped with advanced measurement systems and robust construction, these machines ensure consistent and accurate test results for metals, plastics, and other materials."
+            },
+            {
+                "type": "p",
+                "text": "Built with modern technology and durable components, they are suitable for continuous use in laboratory and industrial environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Accurate measurement of material impact strength and toughness",
+                    "Digital or analog display options for precise readings",
+                    "Robust and durable construction for long service life",
+                    "User-friendly controls for easy operation",
+                    "High repeatability and reliable performance",
+                    "Safety features for secure testing procedures",
+                    "Suitable for a wide range of materials including metals and plastics"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Material testing laboratories",
+                    "Metal and plastic manufacturing industries",
+                    "Construction and infrastructure projects",
+                    "Research and development centers",
+                    "Quality control and assurance processes"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of testing and construction equipment in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior accuracy",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Power Source", value: "Manual / Electric (optional)" },
@@ -5317,13 +5280,14 @@ export const products = [
             { label: "Finishing", value: "Powder Coated" },
         ],
         metaTitle:
-            "Impact Tester - Charpy & Izod Impact Testing Machine Supplier in India",
+            "Impact Tester Importer in India | Shree Shakti Infratecha",
         metaDescription:
-            "Shree Shakti Infratech is a leading Impact Tester manufacturer in India. High-precision Charpy & Izod Impact Testing Machines with durable design, ±1% accuracy, and calibration support for industries and labs.",
+            "Leading importer of Impact Testers in India. High-precision machines for testing material impact strength and toughness in laboratories and industrial applications.",
     },
 
     {
         id: 50,
+        price: 5000,
         slug: "rapid-moisture-meter",
         name: "Rapid Moisture Meter",
         category: "lab-testing-equipment",
@@ -5334,62 +5298,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Rapid Moisture Meter" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Rapid Moisture Meter Manufacturer in India</strong>, providing reliable solutions for quick and accurate soil moisture determination.",
-                    "Our <strong>Rapid Moisture Testing Equipment</strong> is widely used in civil engineering labs, construction sites, and research facilities.",
-                    "This compact and portable <strong>Soil Moisture Meter</strong> delivers instant results without the need for lengthy oven-drying methods.",
-                    "Ideal for <strong>quality control</strong>, <strong>geotechnical investigations</strong>, and <strong>site inspections</strong> where rapid testing is required.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Rapid Moisture Meter" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Quick Testing:</strong> Provides soil moisture results within minutes.",
-                    "<strong>Portable Design:</strong> Lightweight and compact, suitable for field and lab use.",
-                    "<strong>Accurate Results:</strong> Calibrated for precise measurements of soil moisture content.",
-                    "<strong>Durable Build:</strong> Made of high-quality materials for long service life.",
-                    "<strong>Easy Operation:</strong> Simple mechanism requiring minimal training.",
-                    "<strong>Wide Application:</strong> Suitable for soil, sand, and other granular materials.",
-                ],
-            },
-            { type: "h2", text: "Applications of Rapid Moisture Meter" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Quality Control:</strong> Used for determining soil moisture content on-site before compaction.",
-                    "<strong>Soil Testing Labs:</strong> Standard equipment for geotechnical and civil engineering laboratories.",
-                    "<strong>Road & Highway Projects:</strong> Ensures proper soil moisture during pavement and sub-base preparation.",
-                    "<strong>Agriculture & Research:</strong> Helpful in agricultural soil studies and R&D projects.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Rapid Moisture Meter" },
-            {
-                type: "ul",
-                items: [
-                    "We offer <strong>Rapid Moisture Meters</strong> in different capacities based on customer requirements.",
-                    "Supplied with <strong>accessories like moisture bottles, pressure gauge, and sealing rings</strong> for complete testing.",
-                    "Machines are tested and calibrated for reliable results.",
-                    "Customization available for specialized soil and material testing.",
-                ],
+                "type": "h2",
+                "text": "Rapid Moisture Meter Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Rapid Moisture Meter Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Rapid Moisture Meters in India, offering fast and accurate solutions for measuring moisture content in construction materials. Our imported moisture meters are designed to deliver instant results, making them essential for quality control in laboratories, construction sites, and industrial applications."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Accurate & Reliable:</strong> Trusted for quick soil moisture determination.",
-                    "<strong>Portable & Durable:</strong> Strong design suitable for field and lab applications.",
-                    "<strong>Affordable Pricing:</strong> Competitive rates with uncompromised quality.",
-                    "<strong>Nationwide Supplier:</strong> Leading <strong>Rapid Moisture Meter Manufacturer in India</strong> with satisfied clients across industries.",
-                    "<strong>After-Sales Support:</strong> Training, calibration, and maintenance services available.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced rapid moisture meters that meet international standards, making them ideal for civil engineers, contractors, testing labs, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Rapid Moisture Meter"
+            },
+            {
+                "type": "p",
+                "text": "Our Rapid Moisture Meter is engineered for quick and precise determination of moisture content in materials such as sand, aggregates, and soil. With its efficient design and easy operation, it helps improve the quality of concrete mixes and ensures compliance with construction standards."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and modern technology, the device is suitable for regular use in both field and laboratory environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Quick and accurate moisture content measurement",
+                    "Ideal for sand, aggregates, and soil testing",
+                    "Portable and lightweight design for on-site use",
+                    "Easy-to-use operation with minimal training required",
+                    "Durable construction for long-lasting performance",
+                    "Reduces errors in concrete mix design",
+                    "Low maintenance and reliable results"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites for concrete mix quality control",
+                    "Material testing laboratories",
+                    "Civil engineering and infrastructure projects",
+                    "Ready Mix Concrete (RMC) plants",
+                    "Road construction and soil testing applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of testing and construction equipment in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with high accuracy and performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Soil Moisture Testing" },
@@ -5406,13 +5387,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Rapid Moisture Meter - Soil Moisture Testing Equipment Manufacturer in India",
+            "Rapid Moisture Meter Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Shree Shakti Infratech is a trusted Rapid Moisture Meter manufacturer in India. Portable soil moisture testing equipment for quick, accurate, and reliable moisture determination in civil engineering and construction projects.",
+            "Leading importer of Rapid Moisture Meters in India. Accurate and fast devices for measuring moisture content in sand, aggregates, and soil for construction and testing applications.",
     },
 
     {
         id: 51,
+        price: 5000,
         slug: "sieve-shaker",
         name: "Sieve Shaker",
         category: "lab-testing-equipment",
@@ -5423,62 +5405,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Sieve Shaker" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Sieve Shaker Manufacturer in India</strong>, delivering high-quality testing equipment for laboratories and construction sites.",
-                    "Our <strong>Laboratory Sieve Shaker</strong> is designed for accurate particle size analysis of soils, aggregates, sand, and other granular materials.",
-                    "The <strong>Motorized Sieve Shaker</strong> ensures uniform vibration and sieving efficiency, reducing manual effort.",
-                    "Widely used in <strong>soil testing labs</strong>, <strong>construction quality control</strong>, and <strong>research institutions</strong> for reliable particle size distribution studies.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Sieve Shaker" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Sieving:</strong> Provides uniform vibration for accurate and repeatable test results.",
-                    "<strong>Motorized Operation:</strong> Reduces manual labor with powerful electric motor drive.",
-                    "<strong>Durable Construction:</strong> Built with high-grade materials for long-lasting performance.",
-                    "<strong>Adjustable Timer:</strong> Allows precise control of sieving duration.",
-                    "<strong>Versatile Use:</strong> Compatible with different sizes of IS/BS sieves.",
-                    "<strong>Low Maintenance:</strong> Simple design for easy cleaning and minimal upkeep.",
-                ],
-            },
-            { type: "h2", text: "Applications of Sieve Shaker" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Soil Testing Laboratories:</strong> Used for particle size analysis of soil samples.",
-                    "<strong>Construction Quality Control:</strong> Ensures proper gradation of sand, aggregates, and cement.",
-                    "<strong>Research & Education:</strong> Ideal for material testing in colleges, universities, and R&D labs.",
-                    "<strong>Mining & Metallurgy:</strong> Helps in grain size analysis of minerals and ores.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Sieve Shaker" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>manual and motorized models</strong> for different testing needs.",
-                    "Designed as per <strong>IS, ASTM, and BS standards</strong> for reliable performance.",
-                    "Can accommodate <strong>up to 8 sieves</strong> depending on model type.",
-                    "Customization available for specific laboratory requirements.",
-                ],
+                "type": "h2",
+                "text": "Sieve Shaker Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Sieve Shaker Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Sieve Shakers in India, offering efficient and accurate solutions for particle size analysis in construction materials and laboratory testing. Our imported sieve shakers are designed to deliver precise and consistent results, making them essential for quality control in civil engineering, research, and industrial applications."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High Accuracy:</strong> Ensures precise and repeatable particle size distribution results.",
-                    "<strong>Robust Design:</strong> Built to handle heavy-duty lab and field testing.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising quality.",
-                    "<strong>Wide Range:</strong> Manual, motorized, and customized sieve shakers available.",
-                    "<strong>Trusted Manufacturer:</strong> Reliable <strong>Sieve Shaker Supplier in India</strong> with proven expertise.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced sieve shakers that meet international standards, making them ideal for laboratories, construction companies, RMC plants, and research institutions across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Sieve Shakers"
+            },
+            {
+                "type": "p",
+                "text": "Our Sieve Shakers are engineered to provide uniform and reliable sieving of materials such as sand, aggregates, soil, and cement. With advanced vibration mechanisms and robust construction, these machines ensure accurate separation of particles for effective grading and analysis."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and modern technology, they are suitable for continuous use in laboratory and on-site environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Accurate particle size analysis and grading",
+                    "Uniform vibration for consistent sieving results",
+                    "Suitable for a wide range of materials (sand, aggregates, soil, cement)",
+                    "Heavy-duty construction for long-lasting performance",
+                    "User-friendly operation with minimal maintenance",
+                    "Compact and stable design for laboratory use",
+                    "Compatible with standard test sieves"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction material testing laboratories",
+                    "Soil testing and geotechnical engineering",
+                    "Quality control in RMC plants",
+                    "Civil engineering research and development",
+                    "Road, highway, and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of laboratory and construction testing equipment in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with high accuracy and performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for testing requirements"
+                ]
+            }
         ],
         specs: [
             {
@@ -5494,13 +5493,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Sieve Shaker - Laboratory & Motorized Sieve Shaker Manufacturer in India",
+            "Sieve Shaker Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Shree Shakti Infratech is a leading Sieve Shaker Manufacturer in India. High-quality motorized and manual laboratory sieve shakers for soil, aggregate, and sand particle size analysis.",
+            "Leading importer of Sieve Shakers in India. High-precision machines for particle size analysis of sand, aggregates, soil, and cement in laboratories and construction projects.",
     },
 
     {
         id: 52,
+        price: 5000,
         slug: "slump-cone",
         name: "Slump Cone Apparatus",
         category: "lab-testing-equipment",
@@ -5516,62 +5516,75 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Slump Cone Apparatus" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Slump Cone Manufacturer in India</strong>, providing high-quality concrete testing equipment for construction and laboratory use.",
-                    "Our <strong>Concrete Slump Test Apparatus</strong> is designed for measuring the consistency and workability of freshly mixed concrete.",
-                    "The <strong>Slump Cone</strong> is manufactured from high-grade materials for long life and accurate results.",
-                    "Widely used in <strong>construction sites</strong>, <strong>ready-mix plants</strong>, and <strong>civil engineering laboratories</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Slump Cone Apparatus" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Construction:</strong> Made from high-quality mild steel or stainless steel.",
-                    "<strong>Accurate Testing:</strong> Provides reliable measurements of concrete workability.",
-                    "<strong>Portable Design:</strong> Lightweight and easy to carry for on-site testing.",
-                    "<strong>Complete Set:</strong> Supplied with cone, base plate, and tamping rod.",
-                    "<strong>Corrosion Resistant:</strong> Powder-coated or galvanized finish for long service life.",
-                    "<strong>Easy to Use:</strong> Simple design suitable for both lab and field applications.",
-                ],
-            },
-            { type: "h2", text: "Applications of Slump Cone Apparatus" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Consistency Testing:</strong> Used to determine the slump value of fresh concrete mixes.",
-                    "<strong>Construction Quality Control:</strong> Ensures uniformity and workability of concrete on-site.",
-                    "<strong>Laboratory Testing:</strong> Standard equipment in civil engineering and R&D labs.",
-                    "<strong>Ready-Mix Plants:</strong> Helps in monitoring and controlling concrete mix consistency.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Slump Cone Apparatus" },
-            {
-                type: "ul",
-                items: [
-                    "Manufactured as per <strong>IS:1199, ASTM C143, and BS standards</strong>.",
-                    "Available in different material options like <strong>Mild Steel (MS) and Stainless Steel (SS)</strong>.",
-                    "Supplied with <strong>tamping rod (16mm dia x 600mm length)</strong> for compacting concrete.",
-                    "Customization available for specific testing requirements.",
-                ],
+                "type": "h2",
+                "text": "Slump Cone Apparatus Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Slump Cone Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Slump Cone Apparatus in India, offering reliable solutions for measuring the workability and consistency of fresh concrete. Our imported apparatus is designed to deliver accurate and repeatable results, making it essential for construction sites, laboratories, and quality control processes."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Manufacturer:</strong> Reliable <strong>Slump Cone Manufacturer in India</strong> with proven expertise.",
-                    "<strong>High Accuracy:</strong> Ensures precise concrete slump test results.",
-                    "<strong>Durable & Affordable:</strong> Strong build at competitive pricing.",
-                    "<strong>Wide Application:</strong> Suitable for lab, site, and ready-mix testing.",
-                    "<strong>After-Sales Support:</strong> Dedicated customer assistance and spare availability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced slump cone apparatus that meets international standards, making it ideal for civil engineers, contractors, RMC plants, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Slump Cone Apparatus"
+            },
+            {
+                "type": "p",
+                "text": "Our Slump Cone Apparatus is engineered for precision and durability. It is used to determine the slump value of fresh concrete, which indicates its workability and ease of placement. Built with robust materials and accurate dimensions, the apparatus ensures consistent testing results for quality assurance in construction projects."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Standardized dimensions as per industry specifications",
+                    "Made from durable metal with corrosion-resistant finish",
+                    "Smooth inner surface for easy concrete filling and removal",
+                    "Lightweight and easy to handle on-site",
+                    "Provides accurate and repeatable slump test results",
+                    "Easy to clean and maintain",
+                    "Suitable for laboratory and field testing"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites for on-site concrete testing",
+                    "Ready Mix Concrete (RMC) plants",
+                    "Material testing laboratories",
+                    "Civil engineering and infrastructure projects",
+                    "Quality control and assurance of concrete mixes"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction testing equipment in India",
+                    "Products sourced from globally reputed manufacturers",
+                    "Competitive pricing with high durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Concrete Workability Testing" },
@@ -5587,13 +5600,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Slump Cone Apparatus - Concrete Slump Test Manufacturer in India",
+            "Slump Cone Apparatus Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Shree Shakti Infratech is a leading Slump Cone Manufacturer in India. High-quality concrete slump test apparatus with cone, base plate, and tamping rod for accurate workability testing of fresh concrete.",
+            "Leading importer of Slump Cone Apparatus in India. Durable and precise equipment for measuring concrete workability and slump in construction and lab testing.",
     },
 
     {
         id: 53,
+        price: 5000,
         slug: "weight-balance-machine",
         name: "Weight Balance Machine",
         category: "lab-testing-equipment",
@@ -5609,62 +5623,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Weight Balance Machine" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Weight Balance Machine Manufacturer in India</strong>, offering precision instruments for laboratory and field applications.",
-                    "Our <strong>Laboratory Balance Machine</strong> ensures highly accurate weight measurements essential for material testing and research.",
-                    "The <strong>Digital Weight Balance</strong> is designed with advanced load cell technology for reliable performance.",
-                    "Widely used in <strong>construction laboratories</strong>, <strong>educational institutes</strong>, and <strong>industrial quality control units</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Weight Balance Machine" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Accuracy:</strong> Precision load cell ensures reliable and repeatable results.",
-                    "<strong>Digital Display:</strong> Easy-to-read LCD/LED display with high resolution.",
-                    "<strong>Durable Build:</strong> Strong construction suitable for lab and industrial use.",
-                    "<strong>Multiple Capacities:</strong> Available in different weight ranges to suit applications.",
-                    "<strong>Stability Indicator:</strong> Ensures accurate results during measurements.",
-                    "<strong>Compact & Portable:</strong> Lightweight design with low power consumption.",
-                ],
-            },
-            { type: "h2", text: "Applications of Weight Balance Machine" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Testing Labs:</strong> Used for accurate measurement of cement, aggregates, and admixtures.",
-                    "<strong>Educational Institutes:</strong> Essential equipment for teaching laboratories.",
-                    "<strong>Industrial QC:</strong> Helps in process control and quality assurance.",
-                    "<strong>Research & Development:</strong> Provides precision measurements in R&D studies.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Weight Balance Machine" },
-            {
-                type: "ul",
-                items: [
-                    "Available in both <strong>Mechanical</strong> and <strong>Digital</strong> models.",
-                    "Different capacity ranges: from <strong>1 kg to 50 kg</strong> depending on requirement.",
-                    "Equipped with <strong>calibration weights</strong> for accuracy verification.",
-                    "Designed as per <strong>IS and ASTM standards</strong> for laboratory equipment.",
-                ],
+                "type": "h2",
+                "text": "Weight Balance Machine Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Weight Balance Machine Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Weight Balance Machines in India, offering precise and reliable solutions for accurate weight measurement in laboratories, construction sites, and industrial applications. Our imported weighing machines are designed to deliver high accuracy, durability, and consistent performance for various testing and measurement needs."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Manufacturer:</strong> Leading <strong>Weight Balance Machine Manufacturer in India</strong>.",
-                    "<strong>Accurate & Reliable:</strong> Precision instruments for consistent results.",
-                    "<strong>Wide Range:</strong> Mechanical and digital options to meet all lab needs.",
-                    "<strong>Affordable Pricing:</strong> Competitive rates with uncompromised quality.",
-                    "<strong>Customer Support:</strong> Calibration service and after-sales assistance.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced weight balance machines that meet international standards, making them ideal for laboratories, research centers, construction companies, and industrial units across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Precision Weight Balance Machines"
+            },
+            {
+                "type": "p",
+                "text": "Our Weight Balance Machines are engineered for accurate and consistent weight measurement of materials such as cement, aggregates, soil, and other construction materials. With advanced digital or mechanical systems, these machines ensure reliable readings for quality control and testing applications."
+            },
+            {
+                "type": "p",
+                "text": "Built with robust components and modern technology, they are suitable for continuous use in demanding environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High accuracy and precise weight measurement",
+                    "Digital or manual display options available",
+                    "Durable and sturdy construction for long-term use",
+                    "User-friendly operation with easy calibration",
+                    "Suitable for laboratory and on-site applications",
+                    "Low maintenance and energy-efficient design",
+                    "Compact and portable models available"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction material testing laboratories",
+                    "Cement, aggregate, and soil measurement",
+                    "Industrial weighing and quality control processes",
+                    "Research and development centers",
+                    "Civil engineering and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of laboratory and construction equipment in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with superior accuracy",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for weighing and testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Laboratory & Industrial Testing" },
@@ -5678,13 +5709,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Weight Balance Machine - Digital & Mechanical Laboratory Balance Manufacturer",
+            "Weight Balance Machine Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Shree Shakti Infratech is a leading Weight Balance Machine Manufacturer in India. High-precision digital and mechanical balance machines for laboratories, construction testing, and industrial applications.",
+            "Leading importer of Weight Balance Machines in India. High-precision and durable weighing equipment for laboratories, construction sites, and industrial applications.",
     },
 
     {
         id: 54,
+        price: 5000,
         slug: "silt-jar-plastic-glass",
         name: "Silt Jar Plastic / Glass (250ml, 500ml, 750ml, 1000ml)",
         category: "lab-testing-equipment",
@@ -5695,62 +5727,75 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Silt Jar Plastic / Glass" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Silt Jar Manufacturer</strong> in India, offering both <strong>Plastic Silt Jars</strong> and <strong>Glass Silt Jars</strong> for accurate soil testing applications.",
-                    "These <strong>Silt Testing Jars</strong> are widely used in laboratories to determine the silt content in sand and other fine aggregates.",
-                    "Available in multiple capacities: <strong>250ml, 500ml, 750ml, and 1000ml</strong>, suitable for varied testing requirements.",
-                    "We supply durable, transparent, and easy-to-use <strong>Soil Testing Silt Jars</strong> that comply with standard testing practices.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Silt Jar" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Material Options:</strong> Available in high-quality <strong>Plastic</strong> and <strong>Glass</strong>.",
-                    "<strong>Multiple Sizes:</strong> 250ml, 500ml, 750ml, and 1000ml options available.",
-                    "<strong>Graduated Markings:</strong> Clear measurement scale for accurate readings.",
-                    "<strong>Durable Design:</strong> Strong, reusable, and resistant to laboratory conditions.",
-                    "<strong>Easy Handling:</strong> Lightweight and transparent for convenient usage.",
-                    "<strong>Accurate Testing:</strong> Ensures reliable determination of silt content in sand.",
-                ],
-            },
-            { type: "h2", text: "Applications of Silt Jar" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Soil Testing Laboratories:</strong> Used for determining silt content in sand.",
-                    "<strong>Construction Quality Control:</strong> Helps ensure compliance with IS standards for building materials.",
-                    "<strong>Educational Institutes:</strong> Ideal for teaching soil mechanics and material testing.",
-                    "<strong>Research & Development:</strong> Suitable for R&D applications in civil engineering labs.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Silt Jar" },
-            {
-                type: "ul",
-                items: [
-                    "Manufactured using premium-grade <strong>Plastic</strong> and <strong>Glass</strong> materials.",
-                    "Available in both <strong>individual pieces</strong> and <strong>sets</strong> for laboratory use.",
-                    "Accurate graduation markings as per <strong>IS standards</strong> for soil testing equipment.",
-                    "Easy to clean, store, and handle during routine laboratory work.",
-                ],
+                "type": "h2",
+                "text": "Silt Jar (Plastic / Glass) Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Silt Jar Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Silt Jars (Plastic & Glass) in India, offering reliable solutions for silt content testing in sand and fine aggregates. Our imported silt jars are designed to provide accurate and easy measurement of silt levels, making them essential for construction sites, laboratories, and quality control processes."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Wide Range:</strong> Plastic and Glass Silt Jars available in multiple sizes.",
-                    "<strong>Laboratory Tested:</strong> Designed as per <strong>IS: 2386</strong> and other soil testing standards.",
-                    "<strong>Durable Quality:</strong> Long-lasting jars with precise graduations.",
-                    "<strong>Affordable Pricing:</strong> Competitive cost without compromising accuracy.",
-                    "<strong>Trusted Brand:</strong> Reliable <strong>Silt Jar Manufacturer in India</strong> with nationwide supply.",
-                ],
+                "type": "p",
+                "text": "We supply silt jars in multiple capacities including 250ml, 500ml, 750ml, and 1000ml, ensuring suitability for various testing requirements across construction and material testing applications."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Silt Jars for Accurate Testing"
+            },
+            {
+                "type": "p",
+                "text": "Our Silt Jars are engineered for precision and durability. These jars are used to determine the percentage of silt present in sand, which is a critical factor in ensuring the strength and quality of concrete. Available in both plastic and glass variants, they provide clear visibility and accurate measurement for reliable results."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Available in multiple capacities: 250ml, 500ml, 750ml, and 1000ml",
+                    "Made from high-quality plastic or durable glass",
+                    "Transparent body for easy observation and accurate readings",
+                    "Clearly marked graduations for precise measurement",
+                    "Lightweight, portable, and easy to handle",
+                    "Resistant to chemicals and wear",
+                    "Ideal for laboratory and on-site testing"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites for sand quality testing",
+                    "Material testing laboratories",
+                    "Ready Mix Concrete (RMC) plants",
+                    "Civil engineering and infrastructure projects",
+                    "Quality control of fine aggregates"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction testing equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with durable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for testing requirements"
+                ]
+            }
         ],
         specs: [
             { label: "Material", value: "Plastic / Glass" },
@@ -5762,14 +5807,15 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Silt Jar Plastic / Glass (250ml, 500ml, 750ml, 1000ml) - Soil Testing Equipment",
+            "Silt Jar Plastic / Glass Importer in India (250ml, 500ml, 750ml, 1000ml)",
         metaDescription:
-            "Buy Silt Jar Plastic / Glass (250ml, 500ml, 750ml, 1000ml) from Shree Shakti Infratech. Durable and accurate soil testing silt jars with clear graduations for laboratory and construction quality control.",
+            "Leading importer of Silt Jars in India. Available in plastic and glass (250ml–1000ml) for accurate silt content testing in sand and aggregates.",
     },
 
     // new product
     {
         id: 55,
+        price: 5000,
         slug: "sieve-set-brass",
         name: "Sieve Shaker GI/Brass",
         category: "lab-testing-equipment",
@@ -5787,48 +5833,79 @@ export const products = [
         ],
 
         description: [
-            { type: "h2", text: "Product Overview of Sieve Shaker GI/Brass" },
             {
-                type: "ul",
-                items: [
-                    "The <strong>Sieve Shaker GI/Brass</strong> is a precision instrument designed for accurate particle size analysis in laboratories.",
-                    "Constructed with <strong>GI (Galvanized Iron)</strong> or <strong>Brass Sieves</strong>, it provides durability and resistance against corrosion.",
-                    "Widely used in construction, soil, cement, and aggregate testing laboratories.",
-                    "Ensures consistent and reliable test results with minimal operator effort.",
-                ],
+                "type": "h2",
+                "text": "Sieve Shaker GI / Brass Importer in India"
             },
-            { type: "h2", text: "Key Features of Sieve Shaker GI/Brass" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Durable Build:</strong> Available in GI and Brass construction for long-lasting performance.",
-                    "<strong>Accurate Sieving:</strong> Provides precise separation of particles as per IS/BS/ASTM standards.",
-                    "<strong>Easy Operation:</strong> Simple clamping system and user-friendly design.",
-                    "<strong>Different Sizes Available:</strong> Can be supplied with sieves ranging from 75 microns to 4.75 mm.",
-                    "<strong>Low Maintenance:</strong> Sturdy construction ensures reliable operation with minimal upkeep.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Sieve Shaker GI / Brass in India, offering precise and reliable solutions for particle size analysis in construction materials and laboratory testing. Our imported sieve shakers are designed to ensure accurate grading of materials such as sand, aggregates, soil, and cement."
             },
-            { type: "h2", text: "Applications of Sieve Shaker GI/Brass" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Soil Testing:</strong> Used in geotechnical laboratories for particle size distribution.",
-                    "<strong>Cement Testing:</strong> Ensures fineness of cement samples.",
-                    "<strong>Aggregate Testing:</strong> Determines gradation of sand and aggregates.",
-                    "<strong>Research & Educational Labs:</strong> Ideal for teaching and research in civil engineering institutions.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced sieve shakers compatible with GI (Galvanized Iron) and Brass sieves, making them ideal for laboratories, RMC plants, construction companies, and research institutions across India."
             },
-            { type: "h2", text: "Why Choose Our Sieve Shaker?" },
+
             {
-                type: "ul",
-                items: [
-                    "<strong>High Accuracy:</strong> Manufactured to deliver consistent and reliable test results.",
-                    "<strong>Wide Range:</strong> Available in GI and Brass models with multiple sieve sizes.",
-                    "<strong>Trusted Quality:</strong> Made as per industry standards with precision engineering.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solution for laboratory testing.",
-                    "<strong>After-Sales Support:</strong> Full service and spare parts availability.",
-                ],
+                "type": "h2",
+                "text": "High-Performance Sieve Shaker (GI / Brass Compatible)"
             },
+            {
+                "type": "p",
+                "text": "Our Sieve Shaker GI / Brass is engineered to provide uniform vibration and consistent sieving results. Designed to work efficiently with both GI and brass test sieves, it ensures accurate separation and grading of particles for quality control and testing purposes."
+            },
+            {
+                "type": "p",
+                "text": "Built with robust components and modern technology, it is suitable for continuous operation in both laboratory and on-site environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Compatible with GI and Brass test sieves",
+                    "Uniform vibration for accurate particle size analysis",
+                    "Heavy-duty construction for long service life",
+                    "Suitable for sand, aggregates, soil, and cement testing",
+                    "User-friendly operation with minimal maintenance",
+                    "Stable and compact design for laboratory use",
+                    "Ensures consistent and repeatable results"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction material testing laboratories",
+                    "Soil testing and geotechnical engineering",
+                    "Ready Mix Concrete (RMC) plants",
+                    "Civil engineering research and development",
+                    "Road, highway, and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of testing and construction equipment in India",
+                    "Machines sourced from globally reputed manufacturers",
+                    "Competitive pricing with high accuracy and performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for material testing requirements"
+                ]
+            }
         ],
 
         specs: [
@@ -5845,14 +5922,15 @@ export const products = [
             { label: "Operation", value: "Manual / Motorized (optional)" },
         ],
 
-        metaTitle: "Sieve Shaker GI/Brass - Laboratory Testing Equipment | SSI",
+        metaTitle: "Sieve Shaker GI / Brass Importer in India",
         metaDescription:
-            "Buy high-quality Sieve Shaker GI/Brass for soil, cement, and aggregate testing. Durable GI/Brass sieves, accurate particle size analysis, available in multiple sieve sizes. Trusted lab testing equipment supplier in India.",
+            "Leading importer of Sieve Shaker GI / Brass in India. High-precision machines compatible with GI and brass sieves for accurate particle size analysis in construction and lab testing.",
     },
 
     // new product
     {
         id: 56,
+        price: 5000,
         slug: "rebound-hammer",
         name: "Rebound Hammer",
         category: "lab-testing-equipment",
@@ -5863,48 +5941,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Rebound Hammer" },
             {
-                type: "ul",
-                items: [
-                    "The <strong>Rebound Hammer</strong> is a non-destructive testing (NDT) instrument used to measure the surface hardness of concrete.",
-                    "Provides a quick and reliable indication of the compressive strength of concrete structures.",
-                    "Widely used in quality control and inspection of buildings, bridges, and civil engineering projects.",
-                    "Portable, easy-to-use design for on-site testing.",
-                ],
+                "type": "h2",
+                "text": "Rebound Hammer Importer in India"
             },
-            { type: "h2", text: "Key Features of Rebound Hammer" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Durable Construction:</strong> Built with robust metal body for long-lasting performance.",
-                    "<strong>Accurate Readings:</strong> Provides rebound values correlated to compressive strength.",
-                    "<strong>Portable Design:</strong> Lightweight and easy to carry for field applications.",
-                    "<strong>Wide Range:</strong> Suitable for testing concrete of varying grades and hardness.",
-                    "<strong>Low Maintenance:</strong> Simple mechanism ensures long-term use with minimal upkeep.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Rebound Hammers in India, offering reliable and non-destructive solutions for testing the compressive strength of concrete. Our imported rebound hammers are designed to deliver quick and accurate results, making them essential for construction sites, civil engineering projects, and quality control inspections."
             },
-            { type: "h2", text: "Applications of Rebound Hammer" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Strength Testing:</strong> Determines compressive strength of concrete on-site.",
-                    "<strong>Structural Assessment:</strong> Used for bridges, dams, tunnels, and buildings.",
-                    "<strong>Quality Control:</strong> Ensures uniformity of concrete during construction.",
-                    "<strong>Educational Labs:</strong> Useful in civil engineering labs for training and research.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced rebound hammers that meet international standards, making them ideal for engineers, contractors, consultants, and infrastructure developers across India."
             },
-            { type: "h2", text: "Why Choose Our Rebound Hammer?" },
+
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Performance:</strong> Ensures consistent and accurate test results.",
-                    "<strong>Portable & User-Friendly:</strong> Designed for easy handling and quick testing.",
-                    "<strong>Standard Compliance:</strong> Manufactured as per IS, ASTM, and BS standards.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solution for field and lab testing.",
-                    "<strong>After-Sales Support:</strong> Complete service and spare parts availability.",
-                ],
+                "type": "h2",
+                "text": "High-Performance Rebound Hammer"
             },
+            {
+                "type": "p",
+                "text": "Our Rebound Hammer is engineered to assess the surface hardness and estimate the compressive strength of concrete without causing any damage to the structure. It is a portable and easy-to-use device that provides instant readings, helping professionals evaluate the quality and uniformity of concrete in existing structures."
+            },
+            {
+                "type": "p",
+                "text": "Built with durable components and precision engineering, it ensures long-term reliability and consistent performance in field conditions."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Non-destructive testing (NDT) for concrete strength assessment",
+                    "Quick and accurate rebound value readings",
+                    "Portable and lightweight for easy on-site use",
+                    "Easy-to-operate design with minimal training required",
+                    "Durable construction for long service life",
+                    "Suitable for vertical, horizontal, and overhead testing",
+                    "Low maintenance and high reliability"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites for on-site concrete testing",
+                    "Structural audits and building inspections",
+                    "Bridges, dams, and infrastructure projects",
+                    "Quality control and assurance of concrete",
+                    "Civil engineering and rehabilitation projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction testing equipment in India",
+                    "High-quality products sourced from reliable global manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Customized solutions for testing requirements"
+                ]
+            }
         ],
 
         specs: [
@@ -5915,15 +6024,15 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
 
-        metaTitle: "Rebound Hammer - Concrete Testing Equipment | SSI",
+        metaTitle: "Rebound Hammer Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Rebound Hammer for non-destructive concrete strength testing. Portable, durable, and accurate device for quick on-site compressive strength measurement. Trusted lab testing equipment supplier in India.",
+            "Leading importer of Rebound Hammers in India. Portable and accurate non-destructive testing equipment for measuring concrete strength and surface hardness.",
     },
 
     // safety instruments
-
     {
         id: 57,
+        price: 500,
         slug: "caution-tape",
         name: "Caution Tape",
         category: "safety-instrument",
@@ -5934,63 +6043,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Caution Tape" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Caution Tape Manufacturer</strong> in India, supplying high-quality <strong>Warning Tapes</strong> for safety and hazard marking.",
-                    "Our <strong>Caution Tapes</strong> are designed to provide clear visual warnings at construction sites, industrial areas, and restricted zones.",
-                    "We manufacture durable <strong>Barricade Tapes</strong> with bold text and bright colors to ensure maximum visibility.",
-                    "These tapes are widely used for <strong>hazard identification, crowd control, and site safety management</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Caution Tape" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Visibility:</strong> Bright yellow and red colors with bold printed text for clear warnings.",
-                    "<strong>Durable Material:</strong> Made from strong, tear-resistant polyethylene or PVC.",
-                    "<strong>Lightweight & Portable:</strong> Easy to carry and use at any site.",
-                    "<strong>Weather Resistant:</strong> Withstands outdoor conditions for extended use.",
-                    "<strong>Reusable:</strong> Can be used multiple times depending on site requirements.",
-                    "<strong>Custom Printing:</strong> Available with customized warning messages.",
-                ],
-            },
-            { type: "h2", text: "Applications of Caution Tape" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> For marking hazardous areas, excavations, and restricted zones.",
-                    "<strong>Road Safety:</strong> Used for diversions, accident sites, and maintenance work.",
-                    "<strong>Industrial Safety:</strong> Helps identify danger zones in factories and plants.",
-                    "<strong>Event Management:</strong> Used for crowd control and restricted entry areas.",
-                    "<strong>Public Safety:</strong> Suitable for police, fire departments, and emergency services.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Caution Tape" },
-            {
-                type: "ul",
-                items: [
-                    "Available in standard sizes as well as customized roll lengths.",
-                    "Bold printed warning messages like <strong>CAUTION</strong>, <strong>DANGER</strong>, or custom text.",
-                    "Lightweight and easy to deploy across large areas.",
-                    "Cost-effective solution for quick hazard marking.",
-                ],
+                "type": "h2",
+                "text": "Caution Tape Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Caution Tape Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Caution Tape in India, offering reliable safety solutions for construction sites, industrial areas, and public spaces. Our imported caution tapes are designed to provide clear visual warnings, helping prevent accidents and ensure safety compliance across various environments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Strong, durable tapes designed for all safety needs.",
-                    "<strong>Wide Range:</strong> Available in different sizes, colors, and print options.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising durability.",
-                    "<strong>Trusted Brand:</strong> Reliable <strong>Caution Tape Manufacturer in India</strong> with nationwide supply.",
-                    "<strong>Custom Solutions:</strong> Personalized printing available for branding or specific warnings.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced caution tapes that meet safety standards, making them ideal for contractors, builders, industrial units, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Caution Tape for Safety Applications"
+            },
+            {
+                "type": "p",
+                "text": "Our Caution Tape is manufactured using durable and weather-resistant materials, ensuring long-lasting performance even in harsh outdoor conditions. With bright colors and bold warning messages, it effectively restricts access to hazardous areas and enhances on-site safety."
+            },
+            {
+                "type": "p",
+                "text": "Available in multiple colors and custom printing options, our caution tapes are suitable for both temporary and long-term use."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-visibility colors for clear warning indication",
+                    "Durable and weather-resistant material",
+                    "Tear-resistant and long-lasting performance",
+                    "Available in various widths and roll lengths",
+                    "Customizable printing (e.g., “Caution”, “Danger”, “Under Construction”)",
+                    "Lightweight and easy to install",
+                    "Suitable for indoor and outdoor use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and infrastructure projects",
+                    "Road safety and traffic control",
+                    "Industrial and factory safety zones",
+                    "Public event crowd control",
+                    "Hazardous area marking and restricted zones"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and safety equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with durable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for safety and compliance needs"
+                ]
+            }
         ],
         specs: [
             { label: "Material", value: "Polyethylene / PVC" },
@@ -6005,13 +6130,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Caution Tape - Safety Barricade & Warning Tape Manufacturer in India",
+            "Caution Tape Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Caution Tape from Shree Shakti Infratech. Durable, tear-resistant warning and safety barricade tape for construction, industrial, and public safety applications.",
+            "Leading importer of Caution Tape in India. Durable, high-visibility safety tapes for construction sites, industrial areas, and hazard marking applications.",
     },
 
     {
         id: 58,
+        price: 500,
         slug: "gum-boot",
         name: "Gum Boot",
         category: "safety-instrument",
@@ -6022,63 +6148,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Gum Boot" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Gum Boot Manufacturer</strong> in India, providing high-quality <strong>Industrial Safety Footwear</strong> for workers across industries.",
-                    "Our <strong>PVC Gum Boots</strong> are designed for superior protection against water, mud, oil, and hazardous chemicals.",
-                    "We manufacture <strong>Industrial Safety Gum Boots</strong> that combine comfort, durability, and safety standards.",
-                    "These boots are ideal for <strong>construction sites, factories, chemical plants, and agricultural use</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Gum Boot" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Construction:</strong> Made from high-quality PVC and rubber materials for long-lasting performance.",
-                    "<strong>Waterproof Design:</strong> Ensures complete protection in wet and muddy environments.",
-                    "<strong>Anti-Slip Sole:</strong> Provides strong grip and traction to prevent workplace accidents.",
-                    "<strong>Chemical Resistance:</strong> Protects against oils, acids, and hazardous chemicals.",
-                    "<strong>Comfort Fit:</strong> Lightweight design with cushioned inner lining for extended wear.",
-                    "<strong>Available Sizes:</strong> Wide range of sizes to suit workers across industries.",
-                ],
-            },
-            { type: "h2", text: "Applications of Gum Boot" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Protects workers from mud, water, and sharp objects on site.",
-                    "<strong>Industrial Plants:</strong> Ensures safety against chemicals, oils, and slippery floors.",
-                    "<strong>Agriculture:</strong> Useful for farmers working in wet fields and muddy conditions.",
-                    "<strong>Chemical Industry:</strong> Provides resistance against hazardous chemical spills.",
-                    "<strong>Public Works:</strong> Ideal for municipal and utility workers in drainage and cleaning operations.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Gum Boot" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>ankle-length</strong> and <strong>knee-length</strong> designs.",
-                    "Offered in black, white, and yellow colors as per industry needs.",
-                    "Meets industry safety standards for <strong>workplace protection</strong>.",
-                    "Lightweight yet strong design ensures long working comfort.",
-                ],
+                "type": "h2",
+                "text": "Gum Boot Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Gum Boot Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Gum Boots in India, offering reliable safety footwear solutions for construction, industrial, and agricultural applications. Our imported gum boots are designed to provide superior protection, comfort, and durability in challenging working environments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Quality:</strong> Durable gum boots manufactured with premium raw materials.",
-                    "<strong>Wide Range:</strong> Available in different sizes, designs, and colors.",
-                    "<strong>Competitive Prices:</strong> Affordable without compromising safety standards.",
-                    "<strong>Reliable Supplier:</strong> Recognized <strong>Gum Boot Manufacturer in India</strong> with bulk supply capability.",
-                    "<strong>Customer Support:</strong> Dedicated service for bulk orders and custom requirements.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced gum boots that meet safety standards, making them ideal for workers, contractors, and industries requiring protection against water, chemicals, mud, and hazardous materials."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Gum Boots for Safety & Protection"
+            },
+            {
+                "type": "p",
+                "text": "Our Gum Boots are manufactured using premium-quality rubber or PVC materials, ensuring excellent resistance to water, chemicals, and abrasion. Designed for long hours of use, these boots provide comfort, grip, and safety for workers in demanding conditions."
+            },
+            {
+                "type": "p",
+                "text": "With anti-slip soles and ergonomic design, they ensure stability and reduce the risk of workplace accidents."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Waterproof and chemical-resistant material",
+                    "Anti-slip sole for enhanced grip and safety",
+                    "Durable and long-lasting construction",
+                    "Comfortable fit for extended wear",
+                    "Resistant to oil, mud, and harsh conditions",
+                    "Available in multiple sizes and colors",
+                    "Easy to clean and maintain"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and infrastructure projects",
+                    "Industrial and factory environments",
+                    "Agriculture and farming activities",
+                    "Chemical and wastewater handling",
+                    "Mining and heavy-duty work areas"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of safety and construction equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for workplace safety"
+                ]
+            }
         ],
         specs: [
             { label: "Material", value: "PVC / Rubber" },
@@ -6093,13 +6235,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Gum Boot - Industrial Safety PVC Gum Boots Manufacturer in India",
+            "Gum Boot Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy premium quality Gum Boots from Shree Shakti Infratech. Durable, waterproof, chemical-resistant PVC Gum Boots for construction, industrial, and agricultural use.",
+            "Leading importer of Gum Boots in India. Durable, waterproof, and anti-slip safety boots for construction, industrial, and agricultural applications.",
     },
 
     {
         id: 59,
+        price: 500,
         slug: "safety-belt",
         name: "Safety Belt",
         category: "safety-instrument",
@@ -6119,63 +6262,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Safety Belt" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Safety Belt Manufacturer</strong> in India, offering high-quality <strong>fall protection equipment</strong> for industrial and construction applications.",
-                    "Our <strong>Safety Belts and Harnesses</strong> are designed to safeguard workers from fall-related hazards at heights.",
-                    "We supply <strong>Full Body Safety Belts</strong> and <strong>Industrial Safety Harnesses</strong> that ensure maximum safety and comfort.",
-                    "Trusted by construction companies, industries, and contractors across India for reliable <strong>fall protection solutions</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Safety Belt" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Webbing:</strong> Made from high-strength polyester/nylon for long-lasting use.",
-                    "<strong>Full Body Protection:</strong> Available in single and double lanyard options.",
-                    "<strong>Shock Absorber:</strong> Reduces impact force during accidental falls.",
-                    "<strong>Adjustable Straps:</strong> Comfortable fit for different body sizes.",
-                    "<strong>Strong Metal Buckles:</strong> Rust-proof buckles ensure maximum reliability.",
-                    "<strong>Lightweight & Comfortable:</strong> Designed for prolonged working hours at heights.",
-                ],
-            },
-            { type: "h2", text: "Applications of Safety Belt" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> For workers at building sites, scaffolding, and rooftops.",
-                    "<strong>Industrial Maintenance:</strong> Used in factories, warehouses, and heavy machinery servicing.",
-                    "<strong>Telecom & Electrical Work:</strong> Essential for linemen and technicians working on poles and towers.",
-                    "<strong>Rescue Operations:</strong> Provides safety in emergency rescue and evacuation operations.",
-                    "<strong>Infrastructure Projects:</strong> Bridges, highways, and high-rise projects for fall protection.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Safety Belt" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>full body harness</strong> and <strong>half body belt</strong> options.",
-                    "Tested for international <strong>safety and durability standards</strong>.",
-                    "Offered in various models for different industrial requirements.",
-                    "Designed for maximum comfort without compromising worker safety.",
-                ],
+                "type": "h2",
+                "text": "Safety Belt Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Safety Belt Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Safety Belts in India, offering reliable fall protection solutions for construction, industrial, and maintenance work. Our imported safety belts are designed to ensure maximum safety, durability, and comfort for workers operating at heights."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Strong, durable safety belts designed for industrial use.",
-                    "<strong>Wide Range:</strong> Full body harnesses, half body belts, and customized fall protection gear.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising safety standards.",
-                    "<strong>Trusted Brand:</strong> Reliable <strong>Safety Belt Manufacturer in India</strong> with bulk supply capability.",
-                    "<strong>Customer Support:</strong> Dedicated after-sales service and technical guidance.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced safety belts that meet industry safety standards, making them ideal for construction workers, engineers, technicians, and industrial professionals across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Safety Belts for Fall Protection"
+            },
+            {
+                "type": "p",
+                "text": "Our Safety Belts are engineered to provide secure support and protection during height-related tasks. Made from high-strength webbing materials with robust buckles and connectors, they help prevent falls and reduce the risk of injuries in hazardous working conditions."
+            },
+            {
+                "type": "p",
+                "text": "Designed for comfort and reliability, these belts ensure ease of movement while maintaining safety compliance."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-strength webbing for maximum safety",
+                    "Durable metal buckles and secure locking system",
+                    "Adjustable design for a comfortable fit",
+                    "Lightweight and easy to wear for long durations",
+                    "Resistant to wear, tear, and environmental conditions",
+                    "Complies with safety standards for industrial use",
+                    "Available in different types (full body harness, waist belt, etc.)"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and high-rise building projects",
+                    "Industrial maintenance and repair work",
+                    "Electrical and utility work at heights",
+                    "Scaffolding and roofing operations",
+                    "Infrastructure and engineering projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and safety equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for worker safety and compliance"
+                ]
+            }
         ],
         specs: [
             { label: "Material", value: "Polyester / Nylon with Metal Buckles" },
@@ -6190,13 +6349,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Safety Belt - Full Body Harness & Industrial Safety Belt Manufacturer in India",
+            "Safety Belt Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Safety Belts from Shree Shakti Infratech. Durable industrial safety harnesses and fall protection belts for construction, telecom, rescue, and industrial applications.",
+            "Leading importer of Safety Belts in India. Durable and reliable fall protection equipment for construction, industrial, and high-rise work applications.",
     },
 
     {
         id: 60,
+        price: 500,
         slug: "safety-gloves",
         name: "Safety Gloves",
         category: "safety-instrument",
@@ -6212,63 +6372,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Safety Gloves" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Safety Gloves Manufacturer</strong> in India, supplying high-quality <strong>Industrial Safety Gloves</strong> for construction and industrial applications.",
-                    "Our <strong>Rubber Safety Gloves</strong> are designed to protect workers’ hands from injuries, chemicals, abrasions, and harsh working conditions.",
-                    "These <strong>Protective Hand Gloves</strong> ensure comfort and durability, making them suitable for long working hours.",
-                    "Widely used across <strong>construction sites, industrial plants, and maintenance works</strong> for reliable hand protection.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Safety Gloves" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Material:</strong> Made from high-quality rubber for long-lasting use.",
-                    "<strong>Comfortable Fit:</strong> Large size ensures ease of wear and flexibility during work.",
-                    "<strong>Protective Design:</strong> Safeguards against cuts, abrasions, and chemical exposure.",
-                    "<strong>Cuff Length:</strong> 1-5 inch cuff for additional wrist protection.",
-                    "<strong>Anti-Slip Grip:</strong> Provides strong grip while handling tools and equipment.",
-                    "<strong>Suitable for Heavy-Duty Use:</strong> Ideal for construction, industrial, and maintenance jobs.",
-                ],
-            },
-            { type: "h2", text: "Applications of Safety Gloves" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Industry:</strong> Protects hands from sharp edges, tools, and heavy materials.",
-                    "<strong>Industrial Work:</strong> Suitable for factories, warehouses, and workshops.",
-                    "<strong>Electrical & Mechanical Tasks:</strong> Provides protection while handling equipment and machinery.",
-                    "<strong>Maintenance & Repair:</strong> Ensures safety during routine servicing and fieldwork.",
-                    "<strong>Chemical Handling:</strong> Rubber gloves safeguard hands from mild chemical exposure.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Safety Gloves" },
-            {
-                type: "ul",
-                items: [
-                    "Available in different <strong>sizes and colors</strong> as per requirement.",
-                    "Manufactured using <strong>premium-grade rubber</strong> for durability.",
-                    "Lightweight and flexible design ensures long working comfort.",
-                    "Adheres to <strong>industrial safety standards</strong> for reliable performance.",
-                ],
+                "type": "h2",
+                "text": "Safety Gloves Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Safety Gloves Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Safety Gloves in India, offering reliable hand protection solutions for construction, industrial, and commercial applications. Our imported safety gloves are designed to provide superior protection, comfort, and durability for workers in hazardous environments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Products:</strong> Designed for maximum protection and durability.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising safety.",
-                    "<strong>Wide Applications:</strong> Suitable for construction, industrial, and maintenance jobs.",
-                    "<strong>Trusted Brand:</strong> Leading <strong>Safety Gloves Manufacturer in India</strong>.",
-                    "<strong>Customer Support:</strong> Reliable after-sales service and bulk supply capability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced safety gloves that meet industry standards, making them ideal for construction workers, factory operators, technicians, and industrial professionals across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Safety Gloves for Hand Protection"
+            },
+            {
+                "type": "p",
+                "text": "Our Safety Gloves are manufactured using premium materials such as rubber, nitrile, latex, leather, and cut-resistant fabrics. These gloves are designed to protect hands from cuts, abrasions, chemicals, heat, and other workplace hazards while ensuring flexibility and comfort during use."
+            },
+            {
+                "type": "p",
+                "text": "With ergonomic design and strong grip, they enhance safety and efficiency in various work conditions."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High durability and long-lasting performance",
+                    "Protection against cuts, chemicals, heat, and abrasion",
+                    "Anti-slip grip for better handling and control",
+                    "Comfortable fit for extended use",
+                    "Available in multiple materials and sizes",
+                    "Resistant to wear and tear",
+                    "Suitable for industrial and construction environments"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Industrial and manufacturing units",
+                    "Chemical handling and maintenance work",
+                    "Mechanical and engineering operations",
+                    "Warehousing and material handling"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of safety and construction equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for workplace safety"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Construction" },
@@ -6281,13 +6457,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Safety Gloves - Industrial Rubber Hand Protection Gloves for Construction",
+            "Safety Gloves Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Safety Gloves from Shree Shakti Infratech. Durable rubber hand protection gloves for construction, industrial, and maintenance applications.",
+            "Leading importer of Safety Gloves in India. Durable and high-quality gloves for protection against cuts, chemicals, and industrial hazards.",
     },
 
     {
         id: 61,
+        price: 500,
         slug: "safety-helmet",
         name: "Safety Helmet",
         category: "safety-instrument",
@@ -6298,63 +6475,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Safety Helmet" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Safety Helmet Manufacturer</strong> in India, offering durable and comfortable <strong>Industrial Safety Helmets</strong> for maximum head protection.",
-                    "Our <strong>Construction Safety Helmets</strong> are engineered to protect workers from falling objects, impacts, and electrical hazards.",
-                    "Designed with <strong>lightweight yet robust material</strong>, these helmets ensure long-lasting safety and comfort.",
-                    "Widely used across <strong>construction sites, factories, workshops, and industrial plants</strong> for reliable head protection.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Safety Helmet" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Material:</strong> Made from high-quality ABS/HDPE material for maximum impact resistance.",
-                    "<strong>Adjustable Headband:</strong> Ensures a secure and comfortable fit for all head sizes.",
-                    "<strong>Ventilation Slots:</strong> Designed for air circulation to keep the wearer cool during long hours.",
-                    "<strong>Chin Strap:</strong> Provides extra stability and prevents slipping during work.",
-                    "<strong>Lightweight Design:</strong> Comfortable for extended usage without strain.",
-                    "<strong>Shock Absorption:</strong> Internal suspension system minimizes impact for enhanced safety.",
-                ],
-            },
-            { type: "h2", text: "Applications of Safety Helmet" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Essential for protecting workers from falling debris and tools.",
-                    "<strong>Industrial Plants:</strong> Provides safety in heavy machinery and production environments.",
-                    "<strong>Electrical Work:</strong> Prevents risks from accidental contact with electrical sources (insulated models).",
-                    "<strong>Mining & Infrastructure:</strong> Ensures safety in underground and large-scale projects.",
-                    "<strong>Maintenance & Utility Services:</strong> Widely used in fieldwork, inspection, and repair tasks.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Safety Helmet" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>multiple colors</strong> such as yellow, white, blue, green, and red as per site safety standards.",
-                    "Lightweight, durable, and ergonomically designed for long hours of use.",
-                    "Complies with <strong>IS and ANSI safety standards</strong> for industrial head protection.",
-                    "Customization available with <strong>company logo printing</strong>.",
-                ],
+                "type": "h2",
+                "text": "Safety Helmet Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Safety Helmet Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Safety Helmets in India, offering reliable head protection solutions for construction, industrial, and infrastructure projects. Our imported safety helmets are designed to ensure maximum safety, comfort, and durability for workers operating in hazardous environments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Reliable and impact-resistant helmets for maximum protection.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective without compromising safety.",
-                    "<strong>Wide Range:</strong> Multiple models, colors, and sizes available.",
-                    "<strong>Trusted Brand:</strong> Leading <strong>Safety Helmet Supplier in India</strong> for industrial and construction projects.",
-                    "<strong>Customer Support:</strong> Bulk supply and dedicated after-sales service.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced safety helmets that meet industry safety standards, making them ideal for construction workers, engineers, contractors, and industrial professionals across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Safety Helmets for Head Protection"
+            },
+            {
+                "type": "p",
+                "text": "Our Safety Helmets are manufactured using high-impact resistant materials such as HDPE and ABS, providing excellent protection against falling objects, impacts, and workplace hazards. Designed with adjustable suspension systems and ventilation features, these helmets ensure comfort during long working hours."
+            },
+            {
+                "type": "p",
+                "text": "With a strong and lightweight design, they enhance safety without compromising ease of use."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-impact resistant shell for maximum protection",
+                    "Lightweight and comfortable design for extended wear",
+                    "Adjustable headband and suspension system",
+                    "Ventilation slots for improved airflow",
+                    "Chin strap for secure fitting",
+                    "Available in multiple colors and designs",
+                    "Complies with safety standards for industrial use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Industrial and manufacturing units",
+                    "Mining and heavy-duty work environments",
+                    "Electrical and maintenance work",
+                    "Warehousing and logistics operations"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of safety and construction equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for workplace safety and compliance"
+                ]
+            }
         ],
         specs: [
             { label: "Usage/Application", value: "Construction / Industrial Safety" },
@@ -6365,13 +6558,14 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-SH-01" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Safety Helmet - Industrial & Construction Head Protection",
+        metaTitle: "Safety Helmet Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy durable Safety Helmets from Shree Shakti Infratech. High-quality industrial and construction safety helmets with adjustable fit, chin strap, and impact-resistant design.",
+            "Leading importer of Safety Helmets in India. Durable and high-impact helmets for head protection in construction, industrial, and hazardous work environments.",
     },
 
     {
         id: 62,
+        price: 500,
         slug: "safety-jacket",
         name: "Safety Jacket",
         category: "safety-instrument",
@@ -6382,63 +6576,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Safety Jacket" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Safety Jacket Manufacturer</strong> in India, delivering high-quality <strong>Reflective Safety Jackets</strong> designed for worker visibility and protection.",
-                    "Our <strong>Industrial Safety Jackets</strong> are widely used in <strong>construction sites, road projects, mining, and industrial operations</strong> to ensure worker safety.",
-                    "These jackets are made from <strong>durable, lightweight, and breathable materials</strong>, ensuring comfort during extended working hours.",
-                    "Designed with <strong>reflective strips</strong>, our safety vests enhance visibility in low-light and night conditions.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Safety Jacket" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Visibility Design:</strong> Equipped with reflective strips for maximum safety during day and night work.",
-                    "<strong>Durable Material:</strong> Made from high-quality polyester fabric for long-lasting performance.",
-                    "<strong>Lightweight & Breathable:</strong> Ensures comfort and reduces fatigue during long shifts.",
-                    "<strong>Multiple Colors:</strong> Available in fluorescent orange, green, and yellow for different site requirements.",
-                    "<strong>Easy to Wear:</strong> Adjustable fitting suitable for all body types.",
-                    "<strong>Washable & Reusable:</strong> Designed for multiple uses with easy maintenance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Safety Jacket" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Provides visibility and protection for workers on active projects.",
-                    "<strong>Road & Highway Projects:</strong> Essential for traffic controllers, drivers, and road maintenance workers.",
-                    "<strong>Industrial Work:</strong> Suitable for factories, warehouses, and mining operations.",
-                    "<strong>Emergency & Rescue Teams:</strong> Ideal for disaster management and night operations.",
-                    "<strong>Event Management:</strong> Commonly used in crowd management and security operations.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Safety Jacket" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>sizes Small, Medium, Large, and XL</strong>.",
-                    "Offered in <strong>mesh fabric and solid fabric variants</strong>.",
-                    "Custom logo printing and branding available for corporate safety gear.",
-                    "Complies with <strong>IS and international PPE standards</strong>.",
-                ],
+                "type": "h2",
+                "text": "Safety Jacket Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Safety Jacket Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Safety Jackets in India, offering reliable visibility and protection solutions for construction, industrial, and roadside applications. Our imported safety jackets are designed to ensure maximum visibility, comfort, and durability for workers in high-risk environments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Jackets designed with durable materials and high-visibility strips.",
-                    "<strong>Wide Range:</strong> Multiple designs, colors, and size options available.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective safety solution for workers and industries.",
-                    "<strong>Bulk Supply:</strong> Reliable production and delivery for large-scale projects.",
-                    "<strong>Trusted Brand:</strong> Leading <strong>Safety Jacket Supplier in India</strong> for construction and industrial projects.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced safety jackets that meet industry safety standards, making them ideal for construction workers, traffic personnel, engineers, and industrial professionals across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Safety Jackets for Visibility & Protection"
+            },
+            {
+                "type": "p",
+                "text": "Our Safety Jackets are manufactured using premium-quality fluorescent fabrics with reflective strips, ensuring high visibility in low-light and high-risk conditions. These jackets are designed to enhance worker safety by making them easily noticeable from a distance."
+            },
+            {
+                "type": "p",
+                "text": "Lightweight and breathable, they provide comfort during long working hours while maintaining safety compliance in various environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-visibility fluorescent material",
+                    "Reflective strips for enhanced visibility in low-light conditions",
+                    "Lightweight and breathable fabric",
+                    "Comfortable fit for extended wear",
+                    "Durable and long-lasting construction",
+                    "Available in multiple sizes and colors",
+                    "Complies with safety standards for industrial use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and infrastructure projects",
+                    "Road safety and traffic management",
+                    "Industrial and factory environments",
+                    "Warehouse and logistics operations",
+                    "Emergency and maintenance services"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of safety and construction equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for workplace safety and compliance"
+                ]
+            }
         ],
         specs: [
             {
@@ -6453,13 +6663,14 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-SJ-01" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Safety Jacket - High Visibility Reflective Safety Vest",
+        metaTitle: "Safety Jacket Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Safety Jackets from Shree Shakti Infratech. Durable reflective safety vests for construction, industrial, road, and emergency use. Available in multiple colors and sizes.",
+            "Leading importer of Safety Jacket in India. Durable and high-impact jacket for construction, industrial, and hazardous work environments.",
     },
 
     {
         id: 63,
+        price: 500,
         slug: "safety-net",
         name: "Safety Net",
         category: "safety-instrument",
@@ -6475,63 +6686,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Safety Net" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Safety Net Manufacturer</strong> in India, supplying high-quality <strong>Construction Safety Nets</strong> designed to prevent accidents and ensure worker safety.",
-                    "Our <strong>Fall Protection Safety Nets</strong> are widely used in <strong>building construction, industrial plants, warehouses, and high-rise projects</strong>.",
-                    "Manufactured from <strong>durable nylon and HDPE materials</strong>, our nets provide excellent strength, weather resistance, and long service life.",
-                    "These <strong>Industrial Safety Nets</strong> are rigorously tested to meet <strong>international safety standards</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Safety Net" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Strength Material:</strong> Made from premium nylon or HDPE ropes for maximum durability.",
-                    "<strong>UV Resistant:</strong> Withstands harsh weather and sun exposure without weakening.",
-                    "<strong>Custom Sizes:</strong> Available in multiple sizes and mesh thickness as per site requirements.",
-                    "<strong>Shock Absorption:</strong> Effectively absorbs fall impact, reducing injury risks.",
-                    "<strong>Easy Installation:</strong> Lightweight design with strong knots for quick setup.",
-                    "<strong>Long-Lasting:</strong> Designed for repeated use in tough working environments.",
-                ],
-            },
-            { type: "h2", text: "Applications of Safety Net" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Prevents worker falls from high-rise structures and scaffolding.",
-                    "<strong>Industrial Plants:</strong> Used for worker and equipment protection in large factories.",
-                    "<strong>Warehouses:</strong> Provides safety for workers operating at elevated platforms.",
-                    "<strong>Bridges & Dams:</strong> Essential for large infrastructure projects.",
-                    "<strong>Event Safety:</strong> Used in stadiums and temporary setups for public safety.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Safety Net" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>different mesh sizes</strong> to suit diverse applications.",
-                    "Customized colors such as <strong>green, orange, and blue</strong> offered on demand.",
-                    "Complies with <strong>IS safety standards</strong> for reliable protection.",
-                    "Suitable for both <strong>indoor and outdoor applications</strong>.",
-                ],
+                "type": "h2",
+                "text": "Safety Net Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Safety Net Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Safety Nets in India, offering reliable fall protection and safety solutions for construction, industrial, and infrastructure projects. Our imported safety nets are designed to provide maximum protection for workers and prevent accidents in high-risk environments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Strong, durable nets built for industrial-grade performance.",
-                    "<strong>Wide Range:</strong> Multiple sizes, mesh thicknesses, and material options available.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective safety solutions for all industries.",
-                    "<strong>Trusted Supplier:</strong> Reliable <strong>Construction Safety Net Manufacturer in India</strong> with proven expertise.",
-                    "<strong>Customer Support:</strong> Dedicated after-sales service and bulk order support.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced safety nets that meet industry safety standards, making them ideal for construction sites, building projects, and industrial applications across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Safety Nets for Protection & Fall Prevention"
+            },
+            {
+                "type": "p",
+                "text": "Our Safety Nets are manufactured using high-strength materials such as nylon, polypropylene, and HDPE, ensuring excellent durability and load-bearing capacity. These nets are designed to prevent falls, catch debris, and enhance safety at elevated work sites."
+            },
+            {
+                "type": "p",
+                "text": "With strong knotting, UV resistance, and weatherproof construction, they provide long-lasting performance even in harsh environmental conditions."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High tensile strength for maximum safety",
+                    "Durable and long-lasting materials",
+                    "UV and weather-resistant construction",
+                    "Lightweight and easy to install",
+                    "Strong knotting for enhanced load capacity",
+                    "Available in various sizes and mesh types",
+                    "Suitable for heavy-duty industrial use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and high-rise projects",
+                    "Building and infrastructure development",
+                    "Fall protection for workers at heights",
+                    "Debris containment and safety barriers",
+                    "Industrial and maintenance work areas"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and safety equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for workplace safety and compliance"
+                ]
+            }
         ],
         specs: [
             {
@@ -6545,15 +6772,15 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-SN-01" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Safety Net - Construction & Industrial Fall Protection Nets",
+        metaTitle: "Safety Net Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Safety Nets from Shree Shakti Infratech. Durable nylon and HDPE construction safety nets for fall protection, industrial use, and high-rise construction sites.",
+            "Leading importer of Safety Net in India. Durable and high-impact net for construction, industrial, and hazardous work environments.",
     },
 
     // new product added in safety instruments
-
     {
         id: 64,
+        price: 500,
         slug: "safety-boots",
         name: "Safety Boots",
         category: "safety-instrument",
@@ -6564,48 +6791,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Safety Boots" },
             {
-                type: "ul",
-                items: [
-                    "Our <strong>Safety Boots</strong> are designed to provide maximum protection and comfort in challenging industrial environments.",
-                    "Made with durable materials, these boots ensure resistance against <strong>oil, chemicals, and heat</strong>.",
-                    "Equipped with <strong>anti-slip soles</strong>, they prevent accidents on slippery surfaces.",
-                    "Lightweight yet tough, these boots reduce fatigue during long working hours.",
-                ],
+                "type": "h2",
+                "text": "Safety Boots Importer in India"
             },
-            { type: "h2", text: "Key Features of Safety Boots" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Steel Toe Protection:</strong> Safeguards feet from heavy objects and compression.",
-                    "<strong>Oil & Chemical Resistance:</strong> Ensures safety in hazardous industrial environments.",
-                    "<strong>Anti-Slip Sole:</strong> Provides excellent grip on wet and oily floors.",
-                    "<strong>Comfortable Fit:</strong> Ergonomically designed for all-day wear.",
-                    "<strong>Durable Construction:</strong> Made with high-quality leather and strong stitching.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Safety Boots in India, offering reliable foot protection solutions for construction, industrial, and hazardous work environments. Our imported safety boots are designed to provide maximum safety, durability, and comfort for workers operating in demanding conditions."
             },
-            { type: "h2", text: "Applications of Safety Boots" },
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Protects workers from heavy machinery and sharp objects.",
-                    "<strong>Factories & Warehouses:</strong> Essential for workers handling heavy loads and equipment.",
-                    "<strong>Chemical Plants:</strong> Shields against spills and hazardous chemicals.",
-                    "<strong>Agriculture & Outdoor Work:</strong> Provides comfort and safety in rugged conditions.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced safety boots that meet industry safety standards, making them ideal for construction workers, engineers, factory staff, and industrial professionals across India."
             },
-            { type: "h2", text: "Why Choose Our Safety Boots?" },
+
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Quality:</strong> Manufactured as per international safety standards.",
-                    "<strong>Long-Lasting:</strong> Durable build ensures extended service life.",
-                    "<strong>Affordable Pricing:</strong> Best quality at competitive prices.",
-                    "<strong>Wide Range:</strong> Available in multiple sizes and styles.",
-                    "<strong>Comfort & Safety:</strong> Perfect balance of protection and wearability.",
-                ],
+                "type": "h2",
+                "text": "High-Quality Safety Boots for Maximum Protection"
             },
+            {
+                "type": "p",
+                "text": "Our Safety Boots are manufactured using premium materials such as leather, PVC, and rubber, ensuring excellent resistance to impact, abrasion, water, and chemicals. Equipped with steel toe caps and anti-slip soles, these boots provide enhanced protection against workplace hazards."
+            },
+            {
+                "type": "p",
+                "text": "Designed for long working hours, they offer comfort, stability, and durability in tough environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Steel toe protection against heavy impacts",
+                    "Anti-slip sole for enhanced grip and safety",
+                    "Water-resistant and chemical-resistant materials",
+                    "Durable and long-lasting construction",
+                    "Comfortable design for extended wear",
+                    "Shock-absorbing sole for reduced fatigue",
+                    "Available in multiple sizes and styles"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Industrial and manufacturing units",
+                    "Mining and heavy-duty work environments",
+                    "Oil, gas, and chemical industries",
+                    "Warehousing and logistics operations"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of safety and construction equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with superior durability",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and customization options",
+                    "Reliable solutions for workplace safety and compliance"
+                ]
+            }
         ],
 
         specs: [
@@ -6618,13 +6876,15 @@ export const products = [
             { label: "Sole", value: "Anti-Slip, Oil Resistant" },
         ],
 
-        metaTitle: "Safety Boots - Durable Industrial Footwear | SSI",
+        metaTitle: "Safety Boots Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Safety Boots designed for construction, industrial, and chemical plant use. Features include steel toe protection, oil & slip resistance, and long-lasting comfort. Trusted safety footwear supplier in India.",
+            "Leading importer of Safety Boots in India. Durable, anti-slip, and steel-toe boots for construction, industrial, and hazardous work environments.",
     },
+
     // surveying instruments
     {
         id: 65,
+        price: 10000,
         slug: "auto-level",
         name: "Auto Level",
         category: "surveying-instrument",
@@ -6644,62 +6904,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Auto Level" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Auto Level Supplier</strong> in India, offering reliable <strong>surveying instruments</strong> for accurate measurement and leveling tasks.",
-                    "Our <strong>Automatic Levels</strong> are designed for <strong>civil engineering, construction, and land surveying</strong> applications.",
-                    "These instruments provide <strong>high precision, easy setup, and durable build quality</strong>, ensuring reliable performance in all field conditions.",
-                    "Widely used by <strong>surveyors, contractors, and engineers</strong> for precise alignment and leveling.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Auto Level" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Precision Optics:</strong> Ensures clear vision and accurate measurement in long-distance surveys.",
-                    "<strong>Magnification Power:</strong> Equipped with powerful magnification lenses for precise readings.",
-                    "<strong>Durable & Weather Resistant:</strong> Built to withstand tough outdoor conditions.",
-                    "<strong>Automatic Compensator:</strong> Provides quick leveling adjustments for error-free surveys.",
-                    "<strong>Lightweight & Portable:</strong> Easy to carry and set up at construction and project sites.",
-                ],
-            },
-            { type: "h2", text: "Applications of Auto Level" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Projects:</strong> Used for accurate leveling of foundations, roads, and structures.",
-                    "<strong>Surveying:</strong> Essential for land surveying, contour mapping, and layout works.",
-                    "<strong>Civil Engineering:</strong> Widely used in bridges, dams, and infrastructure projects.",
-                    "<strong>Road & Railway Works:</strong> Ensures precise alignment in transportation projects.",
-                    "<strong>Irrigation & Canal Projects:</strong> Helps in slope and gradient measurements.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Auto Level" },
-            {
-                type: "ul",
-                items: [
-                    "Available with different <strong>magnification options</strong> (20X, 24X, 32X).",
-                    "Compatible with <strong>tripods and leveling staffs</strong>.",
-                    "Compact and easy to maintain design.",
-                    "Supplied with <strong>carrying case and accessories</strong> for field use.",
-                ],
+                "type": "h2",
+                "text": "Auto Level Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Auto Level Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Auto Level instruments in India, offering precise and reliable leveling solutions for construction, surveying, and civil engineering applications. Our imported auto levels are designed to deliver accurate measurements, ensuring efficiency and precision in every project."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Accuracy:</strong> Ensures precise measurements for professional surveying.",
-                    "<strong>Wide Range:</strong> Multiple models available for different project requirements.",
-                    "<strong>Durable Build:</strong> Long-lasting instruments for field and construction use.",
-                    "<strong>Competitive Pricing:</strong> Affordable Auto Levels without compromising quality.",
-                    "<strong>Trusted Supplier:</strong> Leading <strong>Surveying Instrument Supplier in India</strong> with nationwide service.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced auto level instruments that meet industry standards, making them ideal for surveyors, engineers, contractors, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Precision Auto Level for Surveying & Construction"
+            },
+            {
+                "type": "p",
+                "text": "Our Auto Level instruments are engineered with advanced optics and automatic leveling compensators to provide highly accurate horizontal measurements. Designed for ease of use and durability, these instruments perform efficiently even in tough site conditions."
+            },
+            {
+                "type": "p",
+                "text": "With clear optics and stable performance, our auto levels help professionals achieve precise alignment and leveling in construction and surveying tasks."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-accuracy optical system for precise measurements",
+                    "Automatic leveling compensator for stable readings",
+                    "Durable and rugged design for outdoor use",
+                    "Clear and sharp image quality",
+                    "Easy setup and operation",
+                    "Weather-resistant construction",
+                    "Long-lasting and low maintenance"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Land surveying and site leveling",
+                    "Road and bridge construction",
+                    "Real estate and civil engineering projects",
+                    "Industrial layout and alignment work"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and surveying equipment in India",
+                    "High-quality instruments sourced from reliable manufacturers",
+                    "Competitive pricing with assured accuracy",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for precision measurement"
+                ]
+            }
         ],
         specs: [
             {
@@ -6715,13 +6992,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Auto Level - Surveying Instrument for Construction & Engineering",
+            "Auto Level Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy Auto Level Surveying Instruments from Shree Shakti Infratech. High-precision automatic levels for construction, land surveying, and civil engineering applications.",
+            "Leading importer of Auto Level instruments in India. High-precision leveling equipment for surveying, construction, and civil engineering applications.",
     },
 
     {
         id: 66,
+        price: 10000,
         slug: "dumpy-level",
         name: "Dumpy Level",
         category: "surveying-instrument",
@@ -6732,62 +7010,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Dumpy Level" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Dumpy Level Supplier</strong> in India, delivering highly reliable <strong>surveying instruments</strong> for civil engineering and construction applications.",
-                    "Our <strong>Dumpy Level</strong> is a precise optical instrument designed for <strong>horizontal and vertical measurements</strong> in land surveying.",
-                    "It is widely used by <strong>surveyors, contractors, and engineers</strong> for accurate leveling and alignment tasks.",
-                    "The instrument offers <strong>robust construction, ease of use, and long-lasting accuracy</strong> in the field.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Dumpy Level" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Accuracy:</strong> Ensures precise leveling results over long distances.",
-                    "<strong>Sturdy Design:</strong> Rugged metal body suitable for rough construction sites.",
-                    "<strong>Clear Optics:</strong> High-quality lenses provide sharp and bright images.",
-                    "<strong>Simple Setup:</strong> Quick and easy to mount on standard tripods.",
-                    "<strong>Durable Performance:</strong> Long service life with minimal maintenance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Dumpy Level" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Land Surveying:</strong> Used for accurate horizontal and vertical measurements.",
-                    "<strong>Construction Projects:</strong> Ensures proper leveling of foundations, roads, and buildings.",
-                    "<strong>Civil Engineering Works:</strong> Essential for bridges, canals, and infrastructure projects.",
-                    "<strong>Road & Rail Projects:</strong> Helps in alignment and grading tasks.",
-                    "<strong>Irrigation & Water Supply:</strong> Useful in slope, drainage, and canal construction.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Dumpy Level" },
-            {
-                type: "ul",
-                items: [
-                    "Available in different <strong>magnification ranges</strong> such as 20X, 24X, and 32X.",
-                    "Compatible with <strong>aluminum and wooden tripods</strong>.",
-                    "Lightweight, portable, and easy to operate.",
-                    "Supplied with a <strong>carrying case and accessories</strong>.",
-                ],
+                "type": "h2",
+                "text": "Dumpy Level Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Dumpy Level Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Dumpy Level instruments in India, offering reliable and accurate leveling solutions for construction and surveying applications. Our imported dumpy levels are designed to provide precise horizontal measurements, making them essential tools for engineers, surveyors, and construction professionals."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Accuracy:</strong> Delivers dependable results for professional surveying tasks.",
-                    "<strong>Durable Build:</strong> Designed to withstand harsh field conditions.",
-                    "<strong>Wide Range:</strong> Multiple models available for different project requirements.",
-                    "<strong>Affordable Pricing:</strong> High-quality Dumpy Levels at competitive rates.",
-                    "<strong>Trusted Partner:</strong> Leading <strong>Surveying Instrument Supplier in India</strong> with strong customer support.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced dumpy level instruments that meet industry standards, ensuring dependable performance across various site conditions."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Accuracy Dumpy Level for Surveying Applications"
+            },
+            {
+                "type": "p",
+                "text": "Our Dumpy Level is a traditional yet highly reliable surveying instrument known for its robust construction and consistent accuracy. Designed with fixed optics and a stable setup, it ensures precise leveling over long distances, even in rugged environments."
+            },
+            {
+                "type": "p",
+                "text": "With easy operation and minimal maintenance requirements, dumpy levels are ideal for both small-scale and large infrastructure projects."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-precision optical system for accurate leveling",
+                    "Strong and durable construction for long-term use",
+                    "Stable and reliable performance in tough environments",
+                    "Fixed telescope for consistent measurements",
+                    "Easy to operate and maintain",
+                    "Weather-resistant design for outdoor applications",
+                    "Long service life with minimal calibration"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Land surveying and site leveling",
+                    "Road, bridge, and railway construction",
+                    "Irrigation and drainage projects",
+                    "Civil engineering and layout work"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of surveying and construction equipment in India",
+                    "High-quality instruments sourced from reliable manufacturers",
+                    "Competitive pricing with assured accuracy",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for precise measurement needs"
+                ]
+            }
         ],
         specs: [
             {
@@ -6803,13 +7098,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Dumpy Level - Surveying Instrument for Construction & Land Survey",
+            "Dumpy Level Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy Dumpy Level Surveying Instruments from Shree Shakti Infratech. High-accuracy leveling equipment for construction, civil engineering, and land surveying applications.",
+            "Leading importer of Dumpy Level instruments in India. Accurate and durable leveling equipment for construction, surveying, and civil engineering applications.",
     },
 
     {
         id: 67,
+        price: 10000,
         slug: "theodolite-manual-digital",
         name: "Theodolite (Manual / Digital)",
         category: "surveying-instrument",
@@ -6829,63 +7125,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Theodolite (Manual / Digital)" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reliable <strong>Theodolite Supplier</strong> in India, offering both <strong>manual and digital theodolites</strong> for precise angle measurement in surveying applications.",
-                    "A <strong>Theodolite</strong> is a high-accuracy <strong>surveying instrument</strong> used for measuring horizontal and vertical angles with superior precision.",
-                    "Our <strong>manual theodolites</strong> are durable and easy to operate, while <strong>digital theodolites</strong> provide enhanced accuracy and faster data recording.",
-                    "Engineers, contractors, and surveyors trust our theodolites for <strong>infrastructure, construction, and land development projects</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Theodolite (Manual / Digital)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Precision Measurement:</strong> Provides exact horizontal and vertical angle readings.",
-                    "<strong>Manual & Digital Options:</strong> Available in traditional manual and advanced digital models.",
-                    "<strong>Durable Construction:</strong> Built with high-quality materials for rugged site conditions.",
-                    "<strong>Easy to Operate:</strong> Simple design ensures smooth operation on the field.",
-                    "<strong>Data Handling:</strong> Digital models include LCD displays and memory storage.",
-                    "<strong>Versatile Use:</strong> Suitable for both land surveying and construction alignment tasks.",
-                ],
-            },
-            { type: "h2", text: "Applications of Theodolite" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Surveying & Mapping:</strong> Essential for land measurement and boundary marking.",
-                    "<strong>Construction Projects:</strong> Used for alignment, leveling, and angular measurements.",
-                    "<strong>Road & Rail Works:</strong> Assists in accurate alignment for highways and railway tracks.",
-                    "<strong>Mining & Geology:</strong> Useful in tunnel surveying, slope measurements, and excavation works.",
-                    "<strong>Infrastructure Development:</strong> Bridges, dams, and large-scale engineering projects.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Theodolite" },
-            {
-                type: "ul",
-                items: [
-                    "Manual and digital models available in different <strong>magnification levels</strong> (20X, 24X, 30X).",
-                    "Digital models feature <strong>auto power-off, dual displays, and memory functions</strong>.",
-                    "Compatible with <strong>tripods and survey accessories</strong>.",
-                    "Supplied with <strong>protective carrying case</strong> for safe transport.",
-                ],
+                "type": "h2",
+                "text": "Theodolite (Manual / Digital) Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Theodolite Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Theodolite (Manual & Digital) instruments in India, offering precise angular measurement solutions for surveying, construction, and engineering applications. Our imported theodolites are designed to deliver accurate horizontal and vertical angle measurements, ensuring efficiency and reliability on every project site."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Wide Range:</strong> Manual and Digital Theodolites to suit different project needs.",
-                    "<strong>High Accuracy:</strong> Trusted instruments for professional-grade surveying.",
-                    "<strong>Durable Quality:</strong> Long-lasting performance even in tough environments.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solutions for contractors and surveyors.",
-                    "<strong>Trusted Partner:</strong> Leading <strong>Surveying Instrument Supplier in India</strong> with after-sales support.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced theodolites that meet industry standards, making them ideal for surveyors, civil engineers, contractors, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Precision Theodolite for Surveying & Engineering"
+            },
+            {
+                "type": "p",
+                "text": "Our Theodolite (Manual / Digital) instruments are engineered with advanced optics and precision components to provide highly accurate measurements. Manual theodolites are known for their durability and simplicity, while digital theodolites offer enhanced accuracy with easy-to-read electronic displays."
+            },
+            {
+                "type": "p",
+                "text": "These instruments are built for rugged site conditions, ensuring consistent performance in demanding environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Accurate horizontal and vertical angle measurement",
+                    "Available in manual and digital variants",
+                    "High-quality optics for clear visibility",
+                    "Digital display for easy reading (in digital models)",
+                    "Durable and rugged design for field use",
+                    "Easy calibration and operation",
+                    "Weather-resistant construction"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Land surveying and mapping",
+                    "Construction and infrastructure projects",
+                    "Road, bridge, and railway alignment",
+                    "Mining and excavation projects",
+                    "Civil engineering and layout work"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of surveying and construction equipment in India",
+                    "High-quality instruments sourced from reliable manufacturers",
+                    "Competitive pricing with high accuracy assurance",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical guidance",
+                    "Reliable solutions for precision measurement"
+                ]
+            }
         ],
         specs: [
             {
@@ -6904,13 +7216,14 @@ export const products = [
             { label: "Accessories", value: "Tripod, Plumb Bob, Carrying Case" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Theodolite (Manual / Digital) - Precision Surveying Instrument",
+        metaTitle: "Theodolite (Manual / Digital) Importer in India",
         metaDescription:
-            "Buy Theodolite (Manual & Digital) from Shree Shakti Infratech. High-precision surveying instrument for angle measurement in land surveying, construction, and civil engineering works.",
+            "Leading importer of Manual & Digital Theodolites in India. High-precision instruments for surveying, construction, and engineering applications.",
     },
 
     {
         id: 68,
+        price: 10000,
         slug: "total-station",
         name: "Total Station",
         category: "surveying-instrument",
@@ -6921,63 +7234,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Total Station" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Total Station Supplier</strong> in India, offering advanced <strong>surveying instruments</strong> for accurate land and construction measurements.",
-                    "A <strong>Total Station</strong> is an electronic/optical instrument that combines <strong>theodolite</strong> and <strong>electronic distance measurement (EDM)</strong> technology for precise surveying.",
-                    "Our Total Stations are designed for <strong>construction, civil engineering, land development, and infrastructure projects</strong>.",
-                    "We provide <strong>user-friendly, high-performance Total Stations</strong> trusted by surveyors, engineers, and contractors across India.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Total Station" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Accuracy:</strong> Measures both angles and distances with superior precision.",
-                    "<strong>EDM Technology:</strong> Ensures quick and reliable distance measurement.",
-                    "<strong>Digital Display:</strong> Equipped with large LCD screens for clear data visualization.",
-                    "<strong>Data Storage:</strong> Built-in memory and USB support for storing and transferring data.",
-                    "<strong>Durable Construction:</strong> Rugged body suitable for tough site conditions.",
-                    "<strong>Easy Operation:</strong> Intuitive interface for efficient field usage.",
-                ],
-            },
-            { type: "h2", text: "Applications of Total Station" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Land Surveying:</strong> Accurate boundary marking, mapping, and topographic surveys.",
-                    "<strong>Construction Projects:</strong> Used for alignment, leveling, and layout works.",
-                    "<strong>Infrastructure Development:</strong> Essential in bridges, dams, railways, and highway projects.",
-                    "<strong>Mining & Geology:</strong> Helps in excavation, slope, and tunnel measurements.",
-                    "<strong>Archaeology & Research:</strong> Used for detailed mapping and excavation surveys.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Total Station" },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple <strong>accuracy levels</strong> ranging from 1” to 5”.",
-                    "Equipped with <strong>laser pointers</strong> and long-distance range capability.",
-                    "Rechargeable battery ensures <strong>long working hours on-site</strong>.",
-                    "Compatible with <strong>surveying software and data transfer devices</strong>.",
-                ],
+                "type": "h2",
+                "text": "Total Station Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Total Station Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Total Station instruments in India, offering advanced surveying solutions for construction, engineering, and infrastructure projects. Our imported total stations are designed to provide precise measurements of distances, angles, and coordinates, ensuring high accuracy and efficiency on site."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Wide Range of Models:</strong> Different accuracy and range options available.",
-                    "<strong>Trusted Quality:</strong> Reliable instruments with proven performance.",
-                    "<strong>After-Sales Support:</strong> Training, calibration, and service assistance.",
-                    "<strong>Affordable Pricing:</strong> Competitive rates for contractors and surveyors.",
-                    "<strong>Industry Expertise:</strong> Recognized <strong>Surveying Instrument Supplier</strong> in India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced total stations that meet industry standards, making them ideal for surveyors, civil engineers, contractors, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Precision Total Station for Surveying & Construction"
+            },
+            {
+                "type": "p",
+                "text": "Our Total Station is a modern electronic surveying instrument that combines the functions of a theodolite and an electronic distance measurement (EDM) device. Equipped with digital displays, advanced optics, and data storage capabilities, it enables accurate and efficient field measurements."
+            },
+            {
+                "type": "p",
+                "text": "Designed for rugged environments, these instruments ensure reliable performance even in challenging site conditions."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Accurate measurement of angles, distances, and coordinates",
+                    "Integrated electronic distance measurement (EDM) system",
+                    "Digital display and data storage for easy operation",
+                    "High-quality optics for clear visibility",
+                    "User-friendly interface with advanced functions",
+                    "Durable and weather-resistant design",
+                    "Compatible with surveying software and data transfer systems"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Land surveying and mapping",
+                    "Construction and infrastructure projects",
+                    "Road, bridge, and railway alignment",
+                    "Mining and excavation projects",
+                    "Civil engineering and layout work"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of surveying and construction equipment in India",
+                    "High-quality instruments sourced from reliable manufacturers",
+                    "Competitive pricing with high accuracy assurance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for precision measurement"
+                ]
+            }
         ],
         specs: [
             {
@@ -6998,13 +7327,14 @@ export const products = [
             { label: "Country of Origin", value: "Made in India" },
         ],
         metaTitle:
-            "Total Station - Advanced Surveying Instrument for Land & Construction",
+            "Total Station Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy Total Station from Shree Shakti Infratech. High-precision surveying instrument with EDM technology, angle & distance measurement, dual display, and data storage for construction and land surveying.",
+            "Leading importer of Total Station instruments in India. High-precision surveying equipment for construction, mapping, and engineering applications.",
     },
 
     {
         id: 69,
+        price: 10000,
         slug: "tripod-stand-staff",
         name: "Tripod Stand & Staff",
         category: "surveying-instrument",
@@ -7020,61 +7350,95 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Tripod Stand & Staff" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Tripod Stand & Staff Supplier</strong> in India, providing durable and high-quality accessories for <strong>surveying instruments</strong>.",
-                    "Our <strong>Survey Tripod Stands</strong> are made from <strong>aluminium or wooden material</strong>, ensuring strength, stability, and portability.",
-                    "We offer <strong>Surveying Staffs</strong> in telescopic aluminium or wooden designs with clear, easy-to-read graduation markings.",
-                    "These accessories are compatible with <strong>Auto Levels, Dumpy Levels, Theodolites, and Total Stations</strong>.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Tripod Stand & Staff" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Sturdy Tripod Design:</strong> Strong legs with pointed ends ensure stability on all terrains.",
-                    "<strong>Adjustable Height:</strong> Telescopic tripod legs allow easy height adjustment.",
-                    "<strong>High-Quality Staff:</strong> Telescopic design with precise graduations for accurate readings.",
-                    "<strong>Portable & Lightweight:</strong> Easy to carry and set up at different sites.",
-                    "<strong>Durable Material:</strong> Made from corrosion-resistant aluminium or premium wood.",
-                ],
-            },
-            { type: "h2", text: "Applications of Tripod Stand & Staff" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Surveying:</strong> Essential for accurate measurements with Auto Levels and Theodolites.",
-                    "<strong>Construction:</strong> Used in building layout, leveling, and alignment tasks.",
-                    "<strong>Civil Engineering Projects:</strong> Required for roads, bridges, and infrastructure works.",
-                    "<strong>Land Development:</strong> Useful in mapping, boundary marking, and excavation works.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Tripod Stand & Staff" },
-            {
-                type: "ul",
-                items: [
-                    "Available in <strong>aluminium</strong> and <strong>wooden</strong> variants.",
-                    "Staffs available in <strong>3m, 4m, and 5m lengths</strong> with telescopic design.",
-                    "Tripod stands come with <strong>quick clamps</strong> for easy adjustments.",
-                    "Lightweight yet strong construction for long-term usage.",
-                ],
+                "type": "h2",
+                "text": "Tripod Stand & Staff Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Tripod Stand & Staff Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Tripod Stand & Staff in India, offering essential accessories for surveying and construction measurement equipment. Our imported tripod stands and leveling staffs are designed to provide stability, accuracy, and ease of use for various surveying instruments."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Durable Accessories:</strong> Designed to withstand tough site conditions.",
-                    "<strong>Wide Compatibility:</strong> Suitable for Auto Level, Dumpy Level, Theodolite, and Total Station.",
-                    "<strong>Affordable Prices:</strong> Cost-effective without compromising quality.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a reliable <strong>Surveying Instrument Accessory Supplier</strong> in India.",
-                    "<strong>After-Sales Support:</strong> Guidance and service available when required.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced tripod stands and staffs that meet industry standards, making them ideal for use with auto levels, dumpy levels, theodolites, and total stations across construction and engineering projects."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Quality Tripod Stand & Staff for Surveying"
+            },
+            {
+                "type": "p",
+                "text": "Our Tripod Stands & Staffs are engineered for durability and precision. The tripod stand provides a stable platform for mounting surveying instruments, while the leveling staff ensures accurate height and elevation measurements on-site."
+            },
+            {
+                "type": "p",
+                "text": "Built with robust materials such as aluminum or wood, these accessories are designed to perform efficiently in rugged field conditions."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "p",
+                "text": "<strong>Tripod Stand:</strong>"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Strong and stable support for surveying instruments",
+                    "Adjustable legs for uneven terrain",
+                    "Lightweight yet durable construction",
+                    "Easy locking system for secure positioning",
+                    "Compatible with auto level, theodolite, and total station"
+                ]
+            },
+            {
+                "type": "p",
+                "text": "<strong>Leveling Staff:</strong>"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Clear and precise graduations for accurate readings",
+                    "Extendable design for various height measurements",
+                    "Lightweight and easy to carry",
+                    "Made from durable aluminum or fiberglass",
+                    "Weather-resistant for outdoor use"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Land surveying and site leveling",
+                    "Construction and infrastructure projects",
+                    "Road, bridge, and railway alignment",
+                    "Civil engineering and layout work",
+                    "Industrial and engineering measurements"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of surveying equipment and accessories in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with assured durability",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical guidance",
+                    "Complete solutions for surveying and measurement needs"
+                ]
+            }
         ],
         specs: [
             {
@@ -7089,15 +7453,15 @@ export const products = [
             { label: "Model Name/Number", value: "SSI-TP-01" },
             { label: "Country of Origin", value: "Made in India" },
         ],
-        metaTitle: "Tripod Stand & Staff - Surveying Instrument Accessories",
+        metaTitle: "Tripod Stand & Staff Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Tripod Stand & Staff for Auto Level, Dumpy Level, Theodolite, and Total Station. Available in aluminium/wooden tripod and telescopic staffs (3m, 4m, 5m). Durable, stable, and portable surveying accessories.",
+            "Leading importer of Tripod Stand & Staff in India. Durable and accurate surveying accessories for auto level, theodolite, and total station applications.",
     },
 
     // ride on roll
-
     {
         id: 70,
+        price: 100000,
         slug: "double-drum-roller-walk-behind",
         name: "Double Drum Roller (Walk Behind)",
         category: "ride-on-roller-plate-compactor",
@@ -7116,72 +7480,82 @@ export const products = [
                 alt: "Double Drum Roller for road compaction",
             },
         ],
-
         videoUrl: "https://youtu.be/tKQaLQEPjAc?si=u9cTa7QQMaOa2a8p",
 
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Double Drum Roller (Walk Behind)",
+                "type": "h2",
+                "text": "Double Drum Roller (Walk Behind) Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Double Drum Roller (Walk Behind) Supplier</strong> in India, offering heavy-duty soil and asphalt compaction machinery.",
-                    "Our <strong>Walk Behind Double Drum Rollers</strong> are engineered for durability, high compaction efficiency, and ease of operation.",
-                    "As a trusted <strong>construction machinery supplier</strong>, we provide rollers designed to deliver consistent performance in roadworks, foundations, and large-scale compaction projects.",
-                    "Compact, powerful, and operator-friendly, this <strong>Double Drum Vibratory Roller</strong> ensures smooth surface finishing for soil, asphalt, and granular materials.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Double Drum Roller (Walk Behind)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Dual Drum Design:</strong> Provides uniform compaction across both soil and asphalt layers.",
-                    "<strong>Vibratory Compaction:</strong> High centrifugal force ensures maximum soil and road surface compaction.",
-                    "<strong>Adjustable Walking Speed:</strong> Operator can control speed up to <strong>0-4 Km/H</strong> for flexible usage.",
-                    "<strong>Durable Construction:</strong> Rugged body designed for long service life even under tough site conditions.",
-                    "<strong>Water Tank:</strong> Integrated <strong>35L tank</strong> for smooth asphalt compaction without sticking.",
-                    "<strong>Portable & Compact:</strong> Walk-behind design allows easy maneuverability in narrow spaces.",
-                ],
-            },
-            { type: "h2", text: "Applications of Double Drum Roller (Walk Behind)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Road Construction:</strong> Ideal for compacting asphalt layers on small to medium road projects.",
-                    "<strong>Soil Compaction:</strong> Effective for preparing foundations, pavements, and base layers.",
-                    "<strong>Landscaping & Pathways:</strong> Used for parks, walkways, and driveways requiring smooth finishes.",
-                    "<strong>Repair & Maintenance:</strong> Perfect for patchwork, road repairs, and municipal works.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Double Drum Roller (Walk Behind) machines in India, offering efficient compaction solutions for construction and road work applications. Our imported rollers are designed to deliver superior performance, ensuring smooth and uniform surface compaction."
             },
             {
-                type: "h2",
-                text: "Additional Information on Double Drum Roller (Walk Behind)",
+                "type": "p",
+                "text": "We supply globally sourced walk-behind double drum rollers that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Walk Behind Double Drum Roller"
             },
             {
-                type: "ul",
-                items: [
-                    "Equipped with a powerful vibratory mechanism for <strong>efficient soil compaction up to 30 cm</strong> depth.",
-                    "Strong build with operator-friendly design ensures comfort and safety.",
-                    "Requires minimal maintenance, making it cost-effective for contractors.",
-                    "Available in different configurations for customized project requirements.",
-                ],
+                "type": "p",
+                "text": "Our Double Drum Roller (Walk Behind) is engineered for compacting asphalt, soil, and granular materials with high precision. Featuring dual vibrating drums, it ensures even compaction and excellent surface finishing for small to medium-sized projects."
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Double Drum Roller Supplier?",
+                "type": "p",
+                "text": "With user-friendly controls and robust construction, this machine provides reliable performance in demanding job site conditions."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Machinery:</strong> Tested and proven for performance in Indian construction conditions.",
-                    "<strong>Wide Applications:</strong> Suitable for roads, foundations, landscaping, and patch repairs.",
-                    "<strong>Competitive Pricing:</strong> High efficiency at affordable rates.",
-                    "<strong>After-Sales Support:</strong> Full guidance, servicing, and spare parts availability.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a reliable <strong>Double Drum Roller Supplier</strong> across India.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Dual drum design for uniform compaction",
+                    "Powerful vibration system for efficient performance",
+                    "Compact and easy-to-operate walk-behind model",
+                    "Durable and rugged construction",
+                    "Smooth surface finishing capability",
+                    "Low maintenance and fuel-efficient operation",
+                    "Ideal for confined and small work areas"
+                ]
             },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Road construction and repair work",
+                    "Asphalt compaction and patching",
+                    "Footpaths and sidewalks",
+                    "Parking areas and driveways",
+                    "Small to medium infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines sourced from reliable manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for construction and compaction needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-SMT-S600" },
@@ -7199,13 +7573,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Double Drum Roller (Walk Behind) - Soil & Asphalt Compaction Machine",
+            "Double Drum Roller (Walk Behind) Importer in India",
         metaDescription:
-            "Buy high-quality Double Drum Roller (Walk Behind) for soil and asphalt compaction. Model SSI-SMT-S600 with 13.5KN centrifugal force, 0-4Km/H speed, 35L water tank, and 550Kg weight. Durable and efficient construction machinery supplier in India.",
+            "Leading importer of Walk Behind Double Drum Roller in India. High-performance compaction machines for road construction, asphalt work, and infrastructure projects.",
     },
 
     {
         id: 71,
+        price: 100000,
         slug: "plate-compactor-electric-diesel",
         name: "Plate Compactor (Electric / Diesel)",
         category: "ride-on-roller-plate-compactor",
@@ -7226,70 +7601,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Plate Compactor (Electric / Diesel)",
+                "type": "h2",
+                "text": "Plate Compactor (Electric / Diesel) Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Plate Compactor Supplier</strong> in India, offering robust <strong>Electric and Diesel Plate Compactors</strong> for construction projects.",
-                    "Our <strong>Plate Compactors</strong> are designed for maximum soil, asphalt, and granular material compaction with high efficiency and low maintenance.",
-                    "We provide heavy-duty <strong>construction compactors</strong> that are easy to operate, durable, and suitable for both small and large-scale projects.",
-                    "The <strong>vibratory plate compactor</strong> ensures smooth finishing and consistent compaction depth, making it a reliable choice for contractors and builders.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Plate Compactor (Electric / Diesel) machines in India, offering efficient compaction solutions for construction and infrastructure projects. Our imported plate compactors are designed to deliver excellent soil and surface compaction, ensuring strong and stable foundations."
             },
             {
-                type: "h2",
-                text: "Key Features of Plate Compactor (Electric / Diesel)",
+                "type": "p",
+                "text": "We supply globally sourced plate compactors that meet industry standards, making them ideal for contractors, builders, and civil engineering professionals across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Plate Compactor for Construction Work"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Dual Power Options:</strong> Available in <strong>Diesel</strong> and <strong>Electric</strong> models to suit different site requirements.",
-                    "<strong>High Frequency:</strong> Operates at <strong>7000 bpm</strong> for efficient and uniform compaction.",
-                    "<strong>Compaction Depth:</strong> Achieves up to <strong>12 inches</strong> soil compaction in one pass.",
-                    "<strong>Wide Plate Size:</strong> Equipped with a <strong>42 x 60 cm plate</strong> for covering large areas quickly.",
-                    "<strong>Durable Build:</strong> Heavy-duty frame and components ensure long service life.",
-                    "<strong>Portable & Easy to Operate:</strong> Compact design allows smooth handling at job sites.",
-                ],
+                "type": "p",
+                "text": "Our Plate Compactor (Electric / Diesel) is engineered for compacting soil, gravel, sand, and asphalt surfaces with high efficiency. Available in both electric and diesel variants, these machines provide flexibility based on project requirements and site conditions."
             },
             {
-                type: "h2",
-                text: "Applications of Plate Compactor (Electric / Diesel)",
+                "type": "p",
+                "text": "With a robust base plate and powerful vibration system, they ensure uniform compaction and improved surface strength."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Road Construction:</strong> Perfect for compacting sub-base layers and asphalt patches.",
-                    "<strong>Soil Compaction:</strong> Widely used for foundations, trenches, and pavements.",
-                    "<strong>Landscaping:</strong> Suitable for pathways, driveways, and garden compaction.",
-                    "<strong>Municipal Works:</strong> Used for repair works, patching, and utility projects.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Available in electric and diesel models",
+                    "Strong base plate for uniform compaction",
+                    "High vibration force for effective performance",
+                    "Compact and easy-to-operate design",
+                    "Durable and rugged construction",
+                    "Low maintenance and fuel-efficient operation",
+                    "Suitable for small to medium-sized projects"
+                ]
             },
-            { type: "h2", text: "Additional Information on Plate Compactor" },
+
             {
-                type: "ul",
-                items: [
-                    "Engineered for high efficiency with <strong>770 m² coverage</strong> per hour approx.",
-                    "Compact yet powerful design ensures mobility and heavy-duty performance.",
-                    "Low maintenance and long-lasting parts for cost-effective operations.",
-                    "Available in different configurations to suit various project needs.",
-                ],
+                "type": "h2",
+                "text": "Applications"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Plate Compactor Supplier?",
+                "type": "ul",
+                "items": [
+                    "Road construction and maintenance",
+                    "Soil and trench compaction",
+                    "Pavement and block laying work",
+                    "Landscaping and foundation preparation",
+                    "Infrastructure and civil engineering projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Machines:</strong> Strong and efficient compactors built for Indian site conditions.",
-                    "<strong>Flexible Options:</strong> Diesel and Electric models available for all types of projects.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective solutions without compromising quality.",
-                    "<strong>After-Sales Service:</strong> Dedicated support and spare parts availability.",
-                    "<strong>Trusted Brand:</strong> Recognized as a leading <strong>Plate Compactor Supplier</strong> across India.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for compaction and construction needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-PC01/02" },
@@ -7303,13 +7686,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Plate Compactor (Electric / Diesel) - Soil & Asphalt Compaction Machine",
+            "Plate Compactor (Electric / Diesel) Importer in India",
         metaDescription:
-            "High-performance Plate Compactor (Electric/Diesel) for soil and asphalt compaction. Model SSI-PC01/02 with 7000 bpm frequency, 12-inch compaction depth, 42x60 cm plate size, and 120 Kg weight. Reliable and durable compactor supplier in India.",
+            "Leading importer of Plate Compactor in India. Electric and diesel compactors for soil, asphalt, and construction applications.",
     },
 
     {
         id: 72,
+        price: 100000,
         slug: "ride-on-roller",
         name: "Ride On Roller",
         category: "ride-on-roller-plate-compactor",
@@ -7336,62 +7720,79 @@ export const products = [
         videoUrl: "https://youtu.be/RALuEbmDd2o?si=_ucYYsMJyCJYqLql",
 
         description: [
-            { type: "h2", text: "Product Overview of Ride On Roller" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Ride On Roller Supplier</strong> in India, delivering high-performance compaction machinery for road construction and infrastructure projects.",
-                    "Our <strong>Ride On Vibratory Rollers</strong> are engineered with powerful hydraulic drive systems, ensuring maximum compaction efficiency and operator comfort.",
-                    "Built for <strong>soil compaction</strong>, <strong>asphalt compaction</strong>, and large-scale construction works, this roller guarantees durability and productivity.",
-                    "Compact yet powerful, the <strong>SSI Ride On Roller</strong> is designed for contractors who require smooth and uniform compaction in roadworks and foundation preparation.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Ride On Roller" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Hydraulic Drive:</strong> Equipped with a powerful hydraulic motor for smooth driving performance.",
-                    "<strong>Vibratory Compaction:</strong> High centrifugal force of <strong>25KN</strong> ensures effective compaction of soil and asphalt.",
-                    "<strong>Adjustable Speed:</strong> Walking/driving speed up to <strong>0-4 Km/H</strong> for versatile site applications.",
-                    "<strong>Heavy Duty Frame:</strong> Built with durable materials to withstand tough construction site conditions.",
-                    "<strong>Water Tank:</strong> Integrated <strong>15L tank</strong> for uniform asphalt finishing.",
-                    "<strong>Operator Friendly:</strong> Comfortable seating and easy-to-use controls for long working hours.",
-                ],
-            },
-            { type: "h2", text: "Applications of Ride On Roller" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Road Construction:</strong> Effective for compacting asphalt on highways, city roads, and rural roads.",
-                    "<strong>Soil Compaction:</strong> Ideal for foundations, embankments, and base layers.",
-                    "<strong>Airport & Industrial Floors:</strong> Used for large-scale compaction in airports, factories, and warehouses.",
-                    "<strong>Municipal Works:</strong> Suitable for road repairs, patchwork, and infrastructure maintenance.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Ride On Roller" },
-            {
-                type: "ul",
-                items: [
-                    "Powered by advanced hydraulic drive for efficient performance and easy maneuverability.",
-                    "Compact design ensures high productivity in confined job sites.",
-                    "Strong body and low maintenance make it cost-effective for contractors.",
-                    "Available in multiple models to suit different construction requirements.",
-                ],
+                "type": "h2",
+                "text": "Ride On Roller Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Ride On Roller Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Ride On Roller machines in India, offering advanced compaction solutions for large-scale construction and road projects. Our imported ride-on rollers are designed to deliver superior performance, ensuring efficient and uniform compaction of various surfaces."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Quality:</strong> Machines tested for Indian construction site conditions.",
-                    "<strong>Versatile Applications:</strong> Suitable for road, foundation, and infrastructure projects.",
-                    "<strong>Affordable Pricing:</strong> High compaction performance at competitive rates.",
-                    "<strong>After-Sales Service:</strong> Reliable support with spare parts and servicing.",
-                    "<strong>Trusted Supplier:</strong> Known as a leading <strong>Ride On Roller Manufacturer and Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced ride-on rollers that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Ride On Roller for Heavy-Duty Applications"
+            },
+            {
+                "type": "p",
+                "text": "Our Ride On Roller is engineered for high-capacity compaction tasks, providing excellent results on asphalt, soil, and granular materials. Equipped with powerful engines, dual drum systems, and operator-friendly controls, these machines ensure maximum productivity and ease of operation."
+            },
+            {
+                "type": "p",
+                "text": "Designed for durability and efficiency, ride-on rollers are perfect for large construction sites and continuous operation."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Powerful engine for high-performance compaction",
+                    "Dual drum design for uniform and efficient results",
+                    "Operator-friendly controls with comfortable seating",
+                    "High vibration force for deep compaction",
+                    "Durable and rugged construction",
+                    "Low maintenance and fuel-efficient operation",
+                    "Suitable for large-scale projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Road construction and highway projects",
+                    "Asphalt compaction and surface finishing",
+                    "Industrial flooring and large construction sites",
+                    "Parking areas and infrastructure development",
+                    "Municipal and civil engineering works"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for compaction and infrastructure needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-SMT-700" },
@@ -7409,13 +7810,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Ride On Roller - Hydraulic Vibratory Road Compaction Machine | SSI",
+            "Ride On Roller Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy Ride On Roller SSI-SMT-700 for road and soil compaction. Features 25KN centrifugal force, hydraulic drive motor, 15L water tank, 700Kg weight. Durable, efficient road construction roller supplier in India.",
+            "Leading importer of Ride On Roller in India. High-performance compaction machines for road construction, asphalt work, and infrastructure projects.",
     },
 
     {
         id: 73,
+        price: 100000,
         slug: "single-drum-vibratory-roller",
         name: "Single Drum Vibratory Roller",
         category: "ride-on-roller-plate-compactor",
@@ -7438,65 +7840,79 @@ export const products = [
         videoUrl: "https://youtu.be/mnL3clOWF78?si=4lK4qcdRanuIazWY",
 
         description: [
-            { type: "h2", text: "Product Overview of Single Drum Vibratory Roller" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Single Drum Vibratory Roller Supplier</strong> in India, offering reliable soil and asphalt compaction machinery.",
-                    "Our <strong>Single Drum Rollers</strong> are compact, powerful, and designed with hydraulic drive systems for smooth operation and efficient compaction.",
-                    "Perfect for <strong>road construction, soil stabilization, and patch repair works</strong>, these rollers ensure maximum performance with minimal effort.",
-                    "With easy maneuverability and rugged construction, this <strong>Vibratory Roller</strong> is an ideal choice for contractors working in confined spaces.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Single Drum Vibratory Roller" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Hydraulic Drive Motor:</strong> Ensures powerful performance and smooth operations.",
-                    "<strong>High Centrifugal Force:</strong> 16KN output delivers effective soil and asphalt compaction.",
-                    "<strong>Adjustable Speed:</strong> Walking speed up to <strong>0-4 Km/H</strong> for flexible applications.",
-                    "<strong>Drum Size:</strong> Large <strong>425 x 600 mm</strong> drum for deeper and wider compaction.",
-                    "<strong>Water Tank:</strong> Integrated <strong>15L capacity</strong> for smooth asphalt finishing without sticking.",
-                    "<strong>Compact & Lightweight:</strong> Easy to handle, transport, and operate in tight workspaces.",
-                ],
-            },
-            { type: "h2", text: "Applications of Single Drum Vibratory Roller" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Road Construction:</strong> Best suited for compacting asphalt layers in narrow and small-scale road projects.",
-                    "<strong>Soil Compaction:</strong> Ideal for base preparation, foundations, and embankments.",
-                    "<strong>Municipal Works:</strong> Used for patch repair, street maintenance, and pathways.",
-                    "<strong>Landscaping:</strong> Perfect for parks, driveways, and walkways requiring uniform compaction.",
-                ],
+                "type": "h2",
+                "text": "Single Drum Vibratory Roller Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Single Drum Vibratory Roller",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Single Drum Vibratory Roller machines in India, offering powerful and efficient compaction solutions for construction and infrastructure projects. Our imported rollers are designed to deliver deep compaction, ensuring strong and stable ground surfaces."
             },
             {
-                type: "ul",
-                items: [
-                    "Equipped with hydraulic drive for efficient and easy maneuverability.",
-                    "Strong build quality ensures durability under tough site conditions.",
-                    "Requires low maintenance, making it cost-effective for contractors.",
-                    "Available in multiple configurations to suit different compaction needs.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced single drum vibratory rollers that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Single Drum Vibratory Roller"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Single Drum Roller Supplier?",
+                "type": "p",
+                "text": "Our Single Drum Vibratory Roller is engineered for heavy-duty compaction tasks, especially for soil, gravel, and sub-base layers. Equipped with a powerful vibration mechanism and robust drum design, it ensures deep and uniform compaction even in tough site conditions."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Quality:</strong> Built for Indian construction environments.",
-                    "<strong>Versatile Applications:</strong> Suitable for road, foundation, and municipal projects.",
-                    "<strong>Affordable Pricing:</strong> Durable rollers at competitive rates.",
-                    "<strong>After-Sales Support:</strong> Complete guidance, servicing, and spare parts availability.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a leading <strong>Single Drum Vibratory Roller Supplier</strong> in India.",
-                ],
+                "type": "p",
+                "text": "Designed for efficiency and durability, these rollers provide excellent performance in large-scale construction projects."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Powerful vibration system for deep compaction",
+                    "Single drum design for soil and base layer compaction",
+                    "High-performance engine for heavy-duty operations",
+                    "Strong and durable construction",
+                    "Operator-friendly controls for easy handling",
+                    "Fuel-efficient and low maintenance",
+                    "Suitable for large and demanding projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Road construction and highway projects",
+                    "Soil and sub-base compaction",
+                    "Dam and canal construction",
+                    "Industrial and infrastructure development",
+                    "Earthwork and foundation preparation"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality machines sourced from reliable manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for heavy-duty compaction needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-SMT-600" },
@@ -7515,15 +7931,15 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Single Drum Vibratory Roller - Soil & Asphalt Compaction Machine",
+            "Single Drum Vibratory Roller Importer in India",
         metaDescription:
-            "Buy high-quality Single Drum Vibratory Roller SSI-SMT-600 for soil and asphalt compaction. Features 16KN centrifugal force, hydraulic drive, 425x600mm drum, 0-4 Km/H speed, and 330Kg weight. Durable and efficient compaction roller supplier in India.",
+            "Leading importer of Single Drum Vibratory Roller in India. Heavy-duty compaction machines for road construction, soil compaction, and infrastructure projects.",
     },
 
     // material lifting
-
     {
         id: 74,
+        price: 50000,
         slug: "builder-hoist",
         name: "Builder Hoist",
         category: "material-lifting-equipment",
@@ -7534,62 +7950,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Builder Hoist" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Builder Hoist Supplier</strong> in India, offering durable and efficient <strong>construction hoists</strong> for lifting heavy materials to multi-storey building sites.",
-                    "Our <strong>Builder Hoist Machines</strong> are engineered with strong wire ropes, robust frames, and powerful motors to ensure maximum safety and efficiency.",
-                    "As a trusted <strong>construction machinery supplier</strong>, we provide hoists designed for high-rise projects, reducing manual labor and improving productivity.",
-                    "Reliable, heavy-duty, and operator-friendly, this <strong>Builder Hoist</strong> is an essential material handling equipment for modern construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Builder Hoist" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Lifting Height:</strong> Capable of lifting materials up to <strong>200 feet</strong> efficiently.",
-                    "<strong>Powerful Motor:</strong> Equipped with <strong>10 HP, 3 Phase motor</strong> for smooth lifting operations.",
-                    "<strong>Sturdy Wire Rope:</strong> Heavy-duty <strong>12mm wire rope</strong> ensures safety and durability.",
-                    "<strong>Rugged Frame:</strong> Made with <strong>100mm x 50mm channels</strong> and <strong>40mm x 40mm x 5mm angles</strong> for long-lasting performance.",
-                    "<strong>High Lifting Speed:</strong> Operates at <strong>33 meters per minute</strong> for quick material handling.",
-                    "<strong>Large Bucket:</strong> Spacious <strong>54” x 22” bucket with 30% extra depth</strong> for maximum load capacity.",
-                ],
-            },
-            { type: "h2", text: "Applications of Builder Hoist" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Rise Construction:</strong> Efficiently lifts concrete, cement, sand, and other building materials.",
-                    "<strong>Industrial Projects:</strong> Used in factories and warehouses for material handling.",
-                    "<strong>Infrastructure Projects:</strong> Essential for bridges, towers, and large construction works.",
-                    "<strong>Contractor Use:</strong> Saves labor time and ensures safe vertical transportation of loads.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Builder Hoist" },
-            {
-                type: "ul",
-                items: [
-                    "Built with strong structural steel for heavy-duty performance.",
-                    "Easy to operate and designed with worker safety in mind.",
-                    "Low maintenance requirements make it cost-effective for contractors.",
-                    "Available in various configurations to meet site-specific needs.",
-                ],
+                "type": "h2",
+                "text": "Builder Hoist Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Builder Hoist Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Builder Hoist machines in India, offering efficient and reliable material lifting solutions for construction and infrastructure projects. Our imported builder hoists are designed to ensure safe and smooth vertical transportation of materials at construction sites."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Quality:</strong> Robust design suitable for Indian construction conditions.",
-                    "<strong>Efficient Operations:</strong> Reduces manual effort and saves construction time.",
-                    "<strong>Affordable Pricing:</strong> High-performance hoists at competitive rates.",
-                    "<strong>After-Sales Support:</strong> Full service, maintenance, and spare parts availability.",
-                    "<strong>Reliable Supplier:</strong> Recognized as one of the top <strong>Builder Hoist Suppliers</strong> in India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced builder hoists that meet industry standards, making them ideal for contractors, builders, and real estate developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Builder Hoist for Construction Sites"
+            },
+            {
+                "type": "p",
+                "text": "Our Builder Hoist is engineered to handle heavy loads with ease, providing efficient lifting of construction materials such as cement, bricks, sand, and steel. Built with robust components and advanced safety features, it ensures reliable performance even in demanding site conditions."
+            },
+            {
+                "type": "p",
+                "text": "Designed for durability and ease of operation, these hoists enhance productivity and reduce manual labor on-site."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High load carrying capacity for heavy materials",
+                    "Strong and durable construction",
+                    "Smooth and safe lifting mechanism",
+                    "Easy-to-operate control system",
+                    "Compact design for space efficiency",
+                    "Low maintenance and long service life",
+                    "Equipped with safety features for secure operation"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise building construction",
+                    "Residential and commercial projects",
+                    "Infrastructure and civil engineering works",
+                    "Material handling on construction sites",
+                    "Industrial construction projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for material handling needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MH-03" },
@@ -7602,13 +8035,14 @@ export const products = [
             { label: "Bucket", value: "54” x 22” & 30% Deeps" },
             { label: "Brand", value: "SSI" },
         ],
-        metaTitle: "Builder Hoist - Construction Material Lifting Machine",
+        metaTitle: "Builder Hoist Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Builder Hoist SSI-MH-03 for construction sites. Features 10 HP motor, 12mm wire rope, 33m/min speed, and 200 feet lifting height. Durable and efficient material lifting machine supplier in India.",
+            "Leading importer of Builder Hoist in India. High-performance material lifting machines for construction and infrastructure projects.",
     },
 
     {
         id: 75,
+        price: 50000,
         slug: "monkey-hoist-200-300kg",
         name: "Monkey Hoist (200/300 Kg)",
         category: "material-lifting-equipment",
@@ -7631,65 +8065,79 @@ export const products = [
         videoUrl: "https://youtu.be/lgeDYz2tR1M?si=diGl93QVizP1_kaL",
 
         description: [
-            { type: "h2", text: "Product Overview of Monkey Hoist (200/300 Kg)" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Monkey Hoist Supplier</strong> in India, offering efficient <strong>construction material lifting machines</strong> designed for high-rise buildings and construction projects.",
-                    "Our <strong>Monkey Hoist Machines</strong> are engineered for strength, reliability, and smooth lifting of heavy loads with minimal effort.",
-                    "As a reliable <strong>construction equipment supplier</strong>, we provide hoists that reduce manual labor, increase site safety, and enhance productivity.",
-                    "Compact, operator-friendly, and durable, this <strong>Monkey Hoist (200/300 Kg)</strong> is widely used for lifting cement, bricks, concrete, and other construction materials.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Monkey Hoist (200/300 Kg)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Lifting Capacity:</strong> Available in <strong>200 Kg and 300 Kg</strong> load options.",
-                    "<strong>Sturdy Motor:</strong> Powered by <strong>3 HP or 5 HP, 3 Phase motor</strong> for smooth operation.",
-                    "<strong>Strong Wire Rope:</strong> Comes with <strong>8mm and 10mm wire rope</strong> for safe and reliable lifting.",
-                    "<strong>360° Rotation:</strong> Easy maneuverability with <strong>360° rotation</strong> for flexible material placement.",
-                    "<strong>Compact Design:</strong> Lightweight yet robust structure for easy installation on construction sites.",
-                    "<strong>Durable Construction:</strong> Designed with high-quality steel for long-term use under tough site conditions.",
-                ],
-            },
-            { type: "h2", text: "Applications of Monkey Hoist (200/300 Kg)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Building Construction:</strong> Used for lifting cement, concrete, bricks, and sand to higher floors.",
-                    "<strong>Industrial Use:</strong> Suitable for warehouses and workshops for material handling.",
-                    "<strong>Infrastructure Projects:</strong> Useful in bridges, towers, and multi-storey projects.",
-                    "<strong>Contractor Applications:</strong> Reduces labor effort and speeds up material handling efficiency.",
-                ],
+                "type": "h2",
+                "text": "Monkey Hoist (200/300 Kg) Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Monkey Hoist (200/300 Kg)",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Monkey Hoist (200/300 Kg) machines in India, offering efficient and reliable lifting solutions for construction sites. Our imported monkey hoists are designed for smooth and safe vertical transportation of light to medium-weight materials."
             },
             {
-                type: "ul",
-                items: [
-                    "Equipped with heavy-duty motors and strong ropes for safe lifting.",
-                    "Operator-friendly design ensures smooth and safe operations.",
-                    "Minimal maintenance required, making it cost-effective for contractors.",
-                    "Available in multiple lifting capacities to suit different project requirements.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced monkey hoists that meet industry standards, making them ideal for contractors, builders, and small to medium construction projects across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Monkey Hoist for Material Lifting"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Monkey Hoist Supplier?",
+                "type": "p",
+                "text": "Our Monkey Hoist (200/300 Kg) is engineered to handle materials such as cement, sand, bricks, and tools with ease. With a compact design and powerful motor, it ensures efficient lifting operations while reducing manual labor on-site."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Quality:</strong> Tested and proven in Indian construction conditions.",
-                    "<strong>Efficient Performance:</strong> Saves time and ensures safe material handling.",
-                    "<strong>Affordable Pricing:</strong> High-performing hoists at competitive prices.",
-                    "<strong>After-Sales Service:</strong> Complete guidance, spare parts, and servicing support.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a reliable <strong>Monkey Hoist Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "Designed for durability and ease of use, these hoists are suitable for both residential and commercial construction projects."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Load capacity of 200 kg and 300 kg options",
+                    "Strong and durable construction",
+                    "Smooth and efficient lifting mechanism",
+                    "Compact and space-saving design",
+                    "Easy installation and operation",
+                    "Low maintenance and long service life",
+                    "Equipped with safety features for secure handling"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Residential building construction",
+                    "Small to medium construction projects",
+                    "Material lifting at construction sites",
+                    "Renovation and maintenance work",
+                    "Industrial and warehouse applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Efficient solutions for material handling needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MH-01" },
@@ -7703,12 +8151,13 @@ export const products = [
 
         size: "MONKEY HOIST ( 500/1000 KG )",
         metaTitle:
-            "Monkey Hoist (200/300 Kg) - Construction Material Lifting Machine",
+            "Monkey Hoist (200/300 Kg) Importer in India",
         metaDescription:
-            "Buy high-quality Monkey Hoist (200/300 Kg) for construction sites. Model SSI-MH-01 with 3HP/5HP motor, 100 feet lifting height, 200-300Kg capacity, and 360° rotation. Durable and efficient construction material lifting machine supplier in India.",
+            "Leading importer of Monkey Hoist 200/300 Kg in India. Compact and efficient lifting machines for construction and material handling applications.",
     },
     {
         id: 76,
+        price: 20000,
         slug: "multi-purpose-hoist",
         name: "Multi Purpose Hoist",
         category: "material-lifting-equipment",
@@ -7719,62 +8168,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Multi Purpose Hoist" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Multi Purpose Hoist Supplier</strong> in India, offering high-performance <strong>construction lifting machines</strong> for building and infrastructure projects.",
-                    "Our <strong>Multi Purpose Hoists</strong> are designed to lift heavy construction materials such as cement, bricks, concrete, and steel with ease and efficiency.",
-                    "Built with advanced technology, this <strong>Material Lifting Hoist</strong> ensures safety, durability, and maximum productivity on construction sites.",
-                    "Compact, robust, and reliable, this <strong>Multi Purpose Hoist</strong> is suitable for multi-storey building projects, industrial lifting, and large-scale infrastructure works.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Multi Purpose Hoist" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Load Capacity:</strong> Available with <strong>1000Kg / 1500Kg gross load</strong> and <strong>750Kg / 1200Kg net load</strong> options.",
-                    "<strong>Durable Wire Rope:</strong> Equipped with a <strong>12mm strong rope</strong> for safe and reliable lifting operations.",
-                    "<strong>Powerful Motor:</strong> Comes with <strong>10 HP / 12.5 HP electric motor</strong> and <strong>brake motor</strong> for efficient performance.",
-                    "<strong>Fast Lifting Speed:</strong> Operates at <strong>30 meters per minute</strong> for quick material handling.",
-                    "<strong>High Reach:</strong> Capable of lifting up to <strong>125 meters</strong>, making it ideal for high-rise construction.",
-                    "<strong>Tilting Bucket:</strong> Includes <strong>1 Ton / 1.5 Ton tilting bucket</strong> for easy unloading of materials.",
-                ],
-            },
-            { type: "h2", text: "Applications of Multi Purpose Hoist" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Building Construction:</strong> Perfect for lifting concrete, bricks, sand, and steel to upper floors.",
-                    "<strong>Industrial Lifting:</strong> Useful in factories and warehouses for heavy material handling.",
-                    "<strong>Infrastructure Projects:</strong> Ideal for bridges, towers, and high-rise developments.",
-                    "<strong>Contractor Use:</strong> Reduces manual labor and increases efficiency in construction projects.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Multi Purpose Hoist" },
-            {
-                type: "ul",
-                items: [
-                    "Engineered with high-grade materials for long-lasting performance.",
-                    "Operator-friendly and easy to install at construction sites.",
-                    "Designed with <strong>advanced safety features</strong> to ensure secure lifting operations.",
-                    "Low maintenance requirement, making it a cost-effective solution for contractors.",
-                ],
+                "type": "h2",
+                "text": "Multi Purpose Hoist Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Multi Purpose Hoist Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Multi Purpose Hoist machines in India, offering versatile and efficient lifting solutions for construction and industrial applications. Our imported hoists are designed to handle a wide range of material lifting tasks with safety, reliability, and precision."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Equipment:</strong> Tested and trusted for construction and industrial applications.",
-                    "<strong>High Efficiency:</strong> Enhances productivity and reduces time on-site.",
-                    "<strong>Competitive Pricing:</strong> Premium quality at affordable rates.",
-                    "<strong>After-Sales Service:</strong> Full support with servicing, spare parts, and guidance.",
-                    "<strong>Trusted Supplier:</strong> Recognized across India as a reliable <strong>Material Lifting Hoist Supplier</strong>.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced multi purpose hoists that meet industry standards, making them ideal for contractors, builders, warehouses, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Multi Purpose Hoist for Versatile Applications"
+            },
+            {
+                "type": "p",
+                "text": "Our Multi Purpose Hoist is engineered for lifting various construction materials such as cement, sand, bricks, steel, and tools. With a powerful motor and robust design, it ensures smooth and efficient vertical transportation while minimizing manual effort."
+            },
+            {
+                "type": "p",
+                "text": "Designed for flexibility and durability, these hoists can be used across multiple applications, making them a cost-effective solution for diverse lifting needs."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Versatile design for multiple lifting applications",
+                    "High load carrying capacity",
+                    "Strong and durable construction",
+                    "Smooth and reliable lifting mechanism",
+                    "Compact and easy-to-install structure",
+                    "Low maintenance and long service life",
+                    "Equipped with safety features for secure operation"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Residential and commercial building sites",
+                    "Warehousing and material handling",
+                    "Industrial operations",
+                    "Maintenance and repair work"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and material handling equipment in India",
+                    "High-quality machines sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for lifting and handling needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MPH-02" },
@@ -7789,13 +8255,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Multi Purpose Hoist - Heavy Duty Material Lifting Machine for Construction",
+            "Multi Purpose Hoist Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Multi Purpose Hoist for construction sites. Model SSI-MPH-02 with 1000/1500Kg load, 12mm rope, 10HP/12.5HP motor, 30m/min speed, and 125m height capacity. Durable material lifting hoist supplier in India.",
+            "Leading importer of Multi Purpose Hoist in India. Versatile and high-performance lifting machines for construction, industrial, and material handling applications.",
     },
 
     {
         id: 77,
+        price: 20000,
         slug: "suspended-platform-cradle",
         name: "Suspended Platform (Cradle)",
         category: "material-lifting-equipment",
@@ -7815,65 +8282,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Suspended Platform (Cradle)" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Suspended Platform (Cradle) Supplier</strong> in India, offering high-quality equipment for facade works, building maintenance, and construction.",
-                    "Our <strong>Suspended Cradle Platforms</strong> are designed for safety, durability, and efficiency in working at heights.",
-                    "This <strong>Swing Stage Suspended Platform</strong> ensures smooth vertical access to high-rise buildings, reducing labor efforts and time.",
-                    "Equipped with advanced safety locks and robust suspension mechanisms, this <strong>Suspended Working Platform</strong> guarantees worker protection and reliability.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Suspended Platform (Cradle)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Load Capacity:</strong> Can carry up to <strong>800 Kg</strong>, suitable for multiple workers and tools.",
-                    "<strong>Safety Locks:</strong> Equipped with <strong>2 Anti-Inclination Type Safety Locks</strong> for enhanced protection.",
-                    "<strong>Strong Suspension Mechanism:</strong> Made of durable <strong>steel</strong> for maximum stability.",
-                    "<strong>Efficient Power System:</strong> Operates with <strong>1.8 Kw - 3 Phase Motor</strong> for reliable performance.",
-                    "<strong>Flexible Platform Size:</strong> Extendable up to <strong>7.5 meters</strong> for wider working areas.",
-                    "<strong>Heavy-Duty Wire Rope:</strong> Equipped with <strong>9.1mm / 8.3mm steel wire rope</strong> for durability and safety.",
-                ],
-            },
-            { type: "h2", text: "Applications of Suspended Platform (Cradle)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Facade Works:</strong> Ideal for glass fixing, cladding, and painting of high-rise buildings.",
-                    "<strong>Building Maintenance:</strong> Used for cleaning, plastering, and renovation works.",
-                    "<strong>Bridge & Dam Projects:</strong> Provides safe access for inspections and repairs.",
-                    "<strong>Construction Sites:</strong> Suitable for tall structures requiring elevated access.",
-                ],
+                "type": "h2",
+                "text": "Suspended Platform (Cradle) Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Suspended Platform (Cradle)",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Suspended Platform (Cradle) systems in India, offering safe and efficient access solutions for high-rise construction and maintenance work. Our imported suspended platforms are designed to provide secure working conditions at elevated heights with maximum stability and reliability."
             },
             {
-                type: "ul",
-                items: [
-                    "Designed with advanced safety mechanisms for secure operations at height.",
-                    "Easy installation and dismantling, reducing project downtime.",
-                    "Low maintenance and highly durable construction.",
-                    "Widely used in <strong>high-rise construction projects</strong> across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced cradle systems that meet industry safety standards, making them ideal for contractors, builders, and facility management companies across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Suspended Platform for Height Access"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Suspended Platform Supplier?",
+                "type": "p",
+                "text": "Our Suspended Platform (Cradle) is engineered for working at heights, enabling workers to carry out tasks such as plastering, painting, glass installation, and façade maintenance with ease. Equipped with strong suspension mechanisms and advanced safety features, it ensures smooth vertical movement and stable operation."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Certified Equipment:</strong> Manufactured as per industry safety standards.",
-                    "<strong>High Durability:</strong> Built with premium materials ensuring long service life.",
-                    "<strong>Cost-Effective:</strong> Competitive pricing for contractors and builders.",
-                    "<strong>After-Sales Support:</strong> Complete servicing, training, and spare parts availability.",
-                    "<strong>Trusted Supplier:</strong> Known for supplying <strong>Suspended Platforms</strong> to major construction companies in India.",
-                ],
+                "type": "p",
+                "text": "Designed for durability and precision, these platforms enhance productivity while ensuring worker safety."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Strong and durable platform structure",
+                    "Smooth lifting and lowering mechanism",
+                    "High load carrying capacity",
+                    "Advanced safety locks and braking systems",
+                    "Easy installation and operation",
+                    "Weather-resistant and corrosion-resistant materials",
+                    "Suitable for high-rise applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-rise building construction",
+                    "Exterior plastering and painting work",
+                    "Glass façade installation and maintenance",
+                    "Building cleaning and repair work",
+                    "Industrial and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and access equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for height access and safety"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-ZLP-800" },
@@ -7887,13 +8368,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Suspended Platform (Cradle) - High-Rise Construction Access Equipment",
+            "Suspended Platform (Cradle) Importer in India",
         metaDescription:
-            "Buy high-quality Suspended Platform (Cradle) for facade works, construction, and building maintenance. Model SSI-ZLP-800 with 800Kg capacity, 7.5m platform size, steel suspension, and advanced safety locks. Trusted suspended working platform supplier in India.",
+            "Leading importer of Suspended Platform (Cradle) in India. Safe and efficient access systems for high-rise construction, maintenance, and façade work.",
     },
 
     {
         id: 78,
+        price: 20000,
         slug: "monkey-hoist-500-1000kg",
         name: "Monkey Hoist (500/1000 Kg)",
         category: "material-lifting-equipment",
@@ -7913,65 +8395,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Monkey Hoist (500/1000 Kg)" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Monkey Hoist Supplier in India</strong>, providing durable and powerful lifting solutions for construction sites.",
-                    "Our <strong>Monkey Hoist Machines</strong> are engineered for lifting <strong>bricks, cement, concrete, steel rods, and construction materials</strong> with maximum efficiency.",
-                    "This <strong>Material Lifting Hoist</strong> is designed with high load-bearing capacity of <strong>500 Kg and 1000 Kg</strong>, making it ideal for high-rise building projects.",
-                    "Equipped with a strong motor, heavy-duty wire rope, and <strong>360° rotation</strong>, this hoist ensures safe and smooth lifting operations at construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Monkey Hoist (500/1000 Kg)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Load Capacity:</strong> Available in 500 Kg and 1000 Kg models for versatile lifting applications.",
-                    "<strong>Strong Motor:</strong> Fitted with <strong>7.5 HP or 10 HP, 3 Phase Motor</strong> for continuous operation.",
-                    "<strong>Lifting Height:</strong> Capable of lifting materials up to <strong>100 to 200 feet</strong> efficiently.",
-                    "<strong>Heavy Duty Wire Rope:</strong> Equipped with <strong>10 mm / 12 mm wire rope</strong> for safe and reliable lifting.",
-                    "<strong>360° Rotation:</strong> Offers complete rotation for easy material handling on site.",
-                    "<strong>Rugged Construction:</strong> Designed with a robust steel frame for long service life.",
-                ],
-            },
-            { type: "h2", text: "Applications of Monkey Hoist (500/1000 Kg)" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Used for lifting sand, cement, bricks, and other building materials to higher floors.",
-                    "<strong>High-Rise Buildings:</strong> Perfect for transporting heavy loads to multiple levels quickly.",
-                    "<strong>Industrial Warehouses:</strong> Efficient for shifting raw materials and equipment.",
-                    "<strong>Infrastructure Projects:</strong> Used in bridges, towers, and commercial construction projects.",
-                ],
+                "type": "h2",
+                "text": "Monkey Hoist (500/1000 Kg) Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Monkey Hoist (500/1000 Kg)",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Monkey Hoist (500/1000 Kg) machines in India, offering powerful and reliable lifting solutions for construction and industrial applications. Our imported monkey hoists are designed to handle heavier loads with efficiency, safety, and durability."
             },
             {
-                type: "ul",
-                items: [
-                    "Easy to install and operate, ensuring safe lifting operations.",
-                    "Low maintenance design with high durability for construction environments.",
-                    "Suitable for <strong>builders, contractors, and construction companies</strong> handling heavy loads.",
-                    "Available in multiple capacities to suit small, medium, and large-scale projects.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced monkey hoists that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "Heavy-Duty Monkey Hoist for Efficient Material Lifting"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Monkey Hoist Supplier?",
+                "type": "p",
+                "text": "Our Monkey Hoist (500/1000 Kg) is engineered for lifting heavy construction materials such as cement bags, bricks, sand, steel rods, and equipment. With a high load capacity and robust motor, it ensures smooth and efficient vertical transportation while reducing manual effort on-site."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Equipment:</strong> Built with strong materials to withstand tough construction conditions.",
-                    "<strong>Wide Range:</strong> Available in different models with lifting capacities of 500 Kg & 1000 Kg.",
-                    "<strong>Competitive Pricing:</strong> High performance at affordable cost.",
-                    "<strong>After-Sales Support:</strong> Assistance with installation, servicing, and spare parts.",
-                    "<strong>Trusted Supplier:</strong> Recognized across India as a leading <strong>Monkey Hoist Manufacturer & Supplier</strong>.",
-                ],
+                "type": "p",
+                "text": "Designed for long-term performance, these hoists are suitable for both medium and large-scale construction projects."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Load capacity of 500 kg and 1000 kg options",
+                    "Heavy-duty motor for powerful lifting performance",
+                    "Strong and durable construction",
+                    "Smooth and reliable lifting mechanism",
+                    "Easy installation and operation",
+                    "Low maintenance and long service life",
+                    "Equipped with advanced safety features"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Medium to large construction projects",
+                    "High-rise building construction",
+                    "Industrial material handling",
+                    "Infrastructure and civil engineering works",
+                    "Warehousing and loading operations"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with high performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for heavy-duty lifting needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-MH-02" },
@@ -7983,15 +8479,16 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Monkey Hoist (500/1000 Kg) - Construction Material Lifting Equipment",
+            "Monkey Hoist (500/1000 Kg) Importer in India",
         metaDescription:
-            "Buy Monkey Hoist (500/1000 Kg) for lifting construction materials. Model SSI-MH-02 with 7.5HP/10HP motor, 100-200 feet lifting height, 360° rotation, and heavy-duty wire rope. Durable material lifting equipment from trusted supplier in India.",
+            "Leading importer of Monkey Hoist 500/1000 Kg in India. Heavy-duty lifting machines for construction, industrial, and material handling applications.",
     },
 
     // trolley and vibrator
 
     {
         id: 79,
+        price: 30000,
         slug: "concrete-cutter-electric",
         name: "Concrete Cutter/Electric/Petrol/Diesel",
         category: "trolley-vibrator",
@@ -8015,65 +8512,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Concrete Cutter / Electric" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Concrete Cutter Machine Supplier</strong> in India, offering advanced cutting solutions for roads, pavements, and construction sites.",
-                    "Our <strong>Electric Concrete Cutters</strong> are engineered for precision, high performance, and operator safety.",
-                    "This <strong>Heavy Duty Concrete Cutting Machine</strong> ensures smooth cutting of concrete, asphalt, and reinforced flooring with minimal effort.",
-                    "Designed with robust build quality, the <strong>Concrete Road Cutter</strong> delivers long-lasting durability and superior cutting depth.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Concrete Cutter / Electric" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Powerful Motor:</strong> Equipped with <strong>7.5HP / 10HP 3 Phase Electric Motor</strong> for efficient cutting operations.",
-                    "<strong>Cutting Depth:</strong> Maximum cutting depth of <strong>up to 4 inches</strong> for versatile applications.",
-                    "<strong>Blade Compatibility:</strong> Supports blade sizes ranging from <strong>12 to 20 inches</strong>.",
-                    "<strong>Durable Build:</strong> Strong body ensures long service life in tough site conditions.",
-                    "<strong>Compact Design:</strong> Easy to handle and maneuver at construction sites.",
-                    "<strong>Precision Cutting:</strong> Ensures clean and accurate cuts on concrete and asphalt surfaces.",
-                ],
-            },
-            { type: "h2", text: "Applications of Concrete Cutter / Electric" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Road Construction:</strong> Ideal for cutting asphalt and concrete pavements.",
-                    "<strong>Flooring Works:</strong> Used for precise cutting of reinforced concrete and industrial flooring.",
-                    "<strong>Repair & Maintenance:</strong> Suitable for road repair, patch cutting, and expansion joints.",
-                    "<strong>Construction Projects:</strong> Essential for bridges, buildings, and civil engineering projects.",
-                ],
+                "type": "h2",
+                "text": "Concrete Cutter (Electric / Petrol / Diesel) Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Concrete Cutter / Electric",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Concrete Cutter (Electric / Petrol / Diesel) machines in India, offering efficient and precise cutting solutions for construction and infrastructure projects. Our imported concrete cutters are designed to deliver smooth, accurate, and fast cutting of concrete, asphalt, and other hard surfaces."
             },
             {
-                type: "ul",
-                items: [
-                    "Easy to operate with minimal maintenance requirements.",
-                    "Heavy-duty wheels for easy transportation across worksites.",
-                    "Available in multiple configurations for different project needs.",
-                    "Trusted by contractors for <strong>concrete and asphalt cutting applications</strong>.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced concrete cutting machines that meet industry standards, making them ideal for contractors, builders, road construction companies, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Concrete Cutter for Precision Cutting"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Cutter Supplier?",
+                "type": "p",
+                "text": "Our Concrete Cutter (Electric / Petrol / Diesel) is engineered for high-performance cutting applications. Available in multiple power options, these machines offer flexibility depending on site conditions and project requirements."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Quality:</strong> Engineered with precision for long service life.",
-                    "<strong>High Performance:</strong> Designed for efficient concrete and road cutting.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective solution for contractors and builders.",
-                    "<strong>After-Sales Support:</strong> Complete servicing and spare parts availability.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a reliable <strong>Concrete Cutter Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "With robust construction and powerful engines, they ensure clean cuts with minimal vibration, improving efficiency and safety on-site."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Available in electric, petrol, and diesel variants",
+                    "High-speed cutting for concrete and asphalt surfaces",
+                    "Strong and durable frame construction",
+                    "Adjustable cutting depth for precision work",
+                    "Low vibration and smooth operation",
+                    "Easy to operate and maintain",
+                    "Suitable for indoor and outdoor applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Road construction and repair work",
+                    "Concrete slab cutting and expansion joints",
+                    "Asphalt cutting and pavement maintenance",
+                    "Industrial flooring and demolition work",
+                    "Infrastructure and civil engineering projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with superior cutting performance",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for cutting and construction needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-CC-02" },
@@ -8085,13 +8596,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
         metaTitle:
-            "Concrete Cutter / Electric - Heavy Duty Concrete & Asphalt Cutting Machine",
+            "Concrete Cutter (Electric / Petrol / Diesel) Importer in India",
         metaDescription:
-            "Buy high-quality Electric Concrete Cutter Machine for construction, flooring, and road cutting. Model SSI-CC-02 with 7.5HP/10HP motor, 4-inch cutting depth, and blade size 12-20 inch. Durable and reliable concrete cutting machine supplier in India.",
+            "Leading importer of Concrete Cutter machines in India. Electric, petrol, and diesel cutters for precise cutting of concrete, asphalt, and construction materials.",
     },
 
     {
         id: 80,
+        price: 30000,
         slug: "double-beam-screed-vibrator",
         name: "Double Beam Screed Vibrator",
         category: "trolley-vibrator",
@@ -8102,64 +8614,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Double Beam Screed Vibrator" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech offers a high-performance <strong>Double Beam Screed Vibrator</strong>, designed for superior concrete flooring compaction and surface finishing.",
-                    "Our <strong>Concrete Screed Vibrators</strong> are widely used in construction projects for leveling, compaction, and eliminating air voids from freshly poured concrete.",
-                    "This <strong>Double Beam Vibratory Screed</strong> ensures uniform vibration across large slabs, making it ideal for industrial floors, pavements, and runways.",
-                    "Engineered for durability, portability, and efficiency, the <strong>SSI Screed Vibrator</strong> delivers outstanding performance for contractors and builders.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Double Beam Screed Vibrator" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Heavy-Duty Construction:</strong> Built with strong beams for long-lasting durability in tough site conditions.",
-                    "<strong>Adjustable Height:</strong> Easy customization to suit different flooring thickness requirements.",
-                    "<strong>Vibratory Motor:</strong> Powered with a <strong>1HP motor</strong> for effective vibration and surface finishing.",
-                    "<strong>Dual Beam Design:</strong> Ensures uniform leveling and eliminates honeycombs or air voids in concrete.",
-                    "<strong>Portable & User-Friendly:</strong> Lightweight design for easy handling and transportation.",
-                ],
-            },
-            { type: "h2", text: "Applications of Double Beam Screed Vibrator" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Industrial Flooring:</strong> Perfect for large concrete floor leveling in warehouses, factories, and workshops.",
-                    "<strong>Runways & Pavements:</strong> Ideal for airport runways, highways, and road pavements.",
-                    "<strong>Commercial Projects:</strong> Used in malls, parking lots, and commercial complexes for smooth finishes.",
-                    "<strong>Civil Construction:</strong> Essential for bridges, dams, and other heavy-duty concrete slab projects.",
-                ],
+                "type": "h2",
+                "text": "Double Beam Screed Vibrator Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Double Beam Screed Vibrator",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Double Beam Screed Vibrator machines in India, offering advanced solutions for concrete leveling and surface finishing. Our imported screed vibrators are designed to ensure uniform compaction and smooth finishing of concrete surfaces in construction projects."
             },
             {
-                type: "ul",
-                items: [
-                    "The <strong>Double Beam Screed Vibrator</strong> has a length of <strong>4200mm</strong> for wide coverage in a single pass.",
-                    "Weighing just <strong>79Kg approx</strong>, it is easy to operate and move on-site.",
-                    "Low maintenance design ensures cost-effective operation for contractors.",
-                    "Available in standard and customized sizes to meet project requirements.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced double beam screed vibrators that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Double Beam Screed Vibrator"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Double Beam Screed Vibrator Supplier?",
+                "type": "p",
+                "text": "Our Double Beam Screed Vibrator is engineered for efficient leveling and compaction of freshly poured concrete. With its dual-beam structure, it provides enhanced stability and ensures even vibration across the surface, resulting in a smooth and level finish."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Reliable and durable construction equipment trusted by contractors across India.",
-                    "<strong>High Efficiency:</strong> Provides fast, smooth, and uniform surface finishing.",
-                    "<strong>Affordable Pricing:</strong> Competitive rates with uncompromised quality.",
-                    "<strong>Customer Support:</strong> Full after-sales service and spare parts availability.",
-                    "<strong>Trusted Brand:</strong> Recognized as a leading <strong>construction machinery supplier</strong> in India.",
-                ],
+                "type": "p",
+                "text": "Designed for durability and ease of operation, this machine improves productivity and reduces manual effort on-site."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Dual beam design for better stability and uniform leveling",
+                    "High-performance vibration system for effective compaction",
+                    "Ensures smooth and even concrete surface finish",
+                    "Strong and durable construction",
+                    "Easy to operate and maintain",
+                    "Suitable for large surface areas",
+                    "Enhances efficiency and reduces labor"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Concrete flooring and slab construction",
+                    "Road and pavement construction",
+                    "Industrial flooring projects",
+                    "Bridge and infrastructure work",
+                    "Large surface leveling applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for concrete finishing needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-BSV-02" },
@@ -8171,13 +8698,14 @@ export const products = [
             { label: "Power", value: "1 HP" },
         ],
         metaTitle:
-            "Double Beam Screed Vibrator - Concrete Flooring Compaction Machine",
+            "Double Beam Screed Vibrator Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Double Beam Screed Vibrator for concrete flooring. Model SSI-BSV-02 with 4200mm length, 1HP motor, 79Kg weight, adjustable height, and dual beam design. Durable and efficient concrete finishing machinery supplier in India.",
+            "Leading importer of Double Beam Screed Vibrator in India. High-performance concrete leveling and finishing machines for construction projects.",
     },
 
     {
         id: 81,
+        price: 30000,
         slug: "screed-vibrator",
         name: "Screed Vibrator",
         category: "trolley-vibrator",
@@ -8200,61 +8728,79 @@ export const products = [
         videoUrl: "https://youtu.be/rtJXsiOnGS4?si=cTQxcTP_EaYl08iv",
 
         description: [
-            { type: "h2", text: "Product Overview of Screed Vibrator" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Screed Vibrator Supplier</strong> in India, offering high-performance machines for concrete leveling and surface finishing.",
-                    "Our <strong>Concrete Screed Vibrators</strong> are designed to deliver smooth, durable, and uniform concrete surfaces with maximum efficiency.",
-                    "Available in both <strong>Electric and Petrol Engine</strong> types, these machines are built for versatile use in construction projects.",
-                    "Lightweight, powerful, and easy to operate, the <strong>Screed Vibrator Machine</strong> ensures consistent results in flooring, pavements, and industrial slabs.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Screed Vibrator" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Power Options:</strong> Available in Electric and Petrol engine types for flexible usage.",
-                    "<strong>High-Speed Operation:</strong> Delivers up to <strong>5200 RPM</strong> for efficient concrete compaction.",
-                    "<strong>Multiple Blade Sizes:</strong> Compatible with <strong>2m, 3m, 4m, and 5m blades</strong> as per project requirements.",
-                    "<strong>Portable & Lightweight:</strong> Weighs only <strong>25-35 Kg approx</strong>, making it easy to handle and transport.",
-                    "<strong>Strong Build:</strong> Durable design ensures long service life even in tough working conditions.",
-                ],
-            },
-            { type: "h2", text: "Applications of Screed Vibrator" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Flooring:</strong> Ideal for industrial and commercial concrete floor finishing.",
-                    "<strong>Pavements & Pathways:</strong> Ensures smooth finishing of walkways, driveways, and footpaths.",
-                    "<strong>Slab Work:</strong> Effective in leveling large-scale concrete slabs for residential and commercial projects.",
-                    "<strong>Construction Projects:</strong> Widely used in bridges, warehouses, and industrial construction.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Screed Vibrator" },
-            {
-                type: "ul",
-                items: [
-                    "Ensures even distribution of concrete with minimum labor effort.",
-                    "Reduces manual errors and increases project productivity.",
-                    "Designed for operator comfort and low vibration fatigue.",
-                    "Easy blade attachment for different project requirements.",
-                ],
+                "type": "h2",
+                "text": "Screed Vibrator Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Screed Vibrator Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Screed Vibrator machines in India, offering efficient solutions for concrete leveling and surface finishing. Our imported screed vibrators are designed to deliver uniform compaction and smooth finishing for a wide range of construction applications."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Quality:</strong> Reliable and durable machines for concrete surface finishing.",
-                    "<strong>Versatile Models:</strong> Available in multiple power options and blade sizes.",
-                    "<strong>Affordable Pricing:</strong> High-quality equipment at competitive rates.",
-                    "<strong>After-Sales Support:</strong> Complete servicing, guidance, and spare parts availability.",
-                    "<strong>Nationwide Supply:</strong> Recognized as a leading <strong>Screed Vibrator Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced screed vibrators that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Screed Vibrator for Concrete Finishing"
+            },
+            {
+                "type": "p",
+                "text": "Our Screed Vibrator is engineered to level and compact freshly poured concrete surfaces with precision. By eliminating air pockets and ensuring even distribution, it enhances the strength and durability of concrete structures."
+            },
+            {
+                "type": "p",
+                "text": "With a robust design and powerful vibration system, this machine ensures smooth, level, and high-quality surface finishing, reducing manual effort and increasing productivity."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Efficient vibration system for uniform compaction",
+                    "Ensures smooth and level concrete surface",
+                    "Strong and durable construction",
+                    "Lightweight and easy to operate",
+                    "Suitable for various surface sizes",
+                    "Low maintenance and long service life",
+                    "Improves concrete strength and finish quality"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Concrete flooring and slab construction",
+                    "Road and pavement projects",
+                    "Industrial flooring work",
+                    "Bridge and infrastructure construction",
+                    "Surface leveling applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for concrete finishing and leveling"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-SV-01/02" },
@@ -8265,13 +8811,14 @@ export const products = [
             { label: "Weight", value: "25 to 35 Kg Approx" },
         ],
         metaTitle:
-            "Screed Vibrator - Concrete Surface Finishing & Leveling Machine",
+            "Screed Vibrator Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Screed Vibrator for concrete finishing. Model SSI-SV-01/02 with Electric/Petrol engine, 5200 RPM speed, blade sizes 2-5m, weight 25-35Kg. Durable construction equipment supplier in India.",
+            "Leading importer of Screed Vibrator in India. High-performance concrete leveling and finishing equipment for construction and infrastructure projects.",
     },
 
     {
         id: 82,
+        price: 30000,
         slug: "slab-trolly-metro-trolly",
         name: "Slab Trolly / Metro Trolly",
         category: "trolley-vibrator",
@@ -8282,64 +8829,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Slab Trolly / Metro Trolly" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Slab Trolly / Metro Trolly Supplier</strong> in India, providing robust and efficient material handling solutions for construction sites.",
-                    "Our <strong>Construction Slab Trollies</strong> are designed with a <strong>tilting bucket mechanism</strong> to ensure easy loading and unloading of concrete, debris, and construction materials.",
-                    "Built with <strong>heavy-duty tracks and durable pipe bands</strong>, this <strong>Metro Trolly</strong> ensures safe and smooth material transportation across slabs and elevated surfaces.",
-                    "Ideal for high-rise building projects, this <strong>Slab Trolly</strong> reduces manual effort, increases productivity, and ensures cost-effective operations at construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Slab Trolly / Metro Trolly" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Tilting Bucket:</strong> Easy unloading of materials with a heavy-duty tilting mechanism.",
-                    "<strong>Strong Track System:</strong> Built with <strong>42.9mm pipe and bands</strong> for durability and stability.",
-                    "<strong>Expandable Track Length:</strong> Adjustable from <strong>50Ft to 100Ft</strong> depending on project needs.",
-                    "<strong>Heavy Load Capacity:</strong> Supports up to <strong>0.25 / 250 Ltr capacity</strong> for efficient material handling.",
-                    "<strong>Robust Construction:</strong> High-strength design ensures long life and reliability in rough site conditions.",
-                ],
-            },
-            { type: "h2", text: "Applications of Slab Trolly / Metro Trolly" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Rise Construction:</strong> Used for lifting and transporting concrete, cement, and debris to elevated slabs.",
-                    "<strong>Building Projects:</strong> Ensures quick material handling for multi-story construction works.",
-                    "<strong>Infrastructure Projects:</strong> Effective in metro construction, bridges, and commercial projects.",
-                    "<strong>Material Transport:</strong> Ideal for safe and efficient transfer of construction loads across slab levels.",
-                ],
+                "type": "h2",
+                "text": "Slab Trolley / Metro Trolley Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Slab Trolly / Metro Trolly",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Slab Trolley / Metro Trolley in India, offering efficient material handling solutions for construction and industrial applications. Our imported trolleys are designed to transport heavy construction materials safely and smoothly across job sites."
             },
             {
-                type: "ul",
-                items: [
-                    "Equipped with a <strong>tilting bucket</strong> to reduce manual labor.",
-                    "Constructed with <strong>expandable tracks</strong> for flexible project use.",
-                    "Operator-friendly design for smooth and safe operations.",
-                    "Low maintenance and long service life, making it highly cost-effective.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced slab and metro trolleys that meet industry standards, making them ideal for contractors, builders, warehouses, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "Heavy-Duty Slab & Metro Trolley for Material Handling"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Slab Trolly Supplier?",
+                "type": "p",
+                "text": "Our Slab Trolley / Metro Trolley is engineered to carry heavy loads such as concrete slabs, bricks, cement, and construction materials with ease. Built with a strong frame and high-quality wheels, it ensures smooth movement even on rough surfaces."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Build:</strong> Durable design for heavy-duty construction applications.",
-                    "<strong>Flexible Configurations:</strong> Available with customizable track lengths and bucket sizes.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solution for construction material handling.",
-                    "<strong>Reliable Supplier:</strong> Trusted as a leading <strong>Slab Trolly / Metro Trolly Supplier</strong> across India.",
-                    "<strong>After-Sales Support:</strong> Full servicing, spare parts, and customer assistance provided.",
-                ],
+                "type": "p",
+                "text": "Designed for durability and efficiency, these trolleys help reduce manual effort and improve productivity on-site."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High load carrying capacity",
+                    "Strong and durable steel construction",
+                    "Smooth-rolling wheels for easy movement",
+                    "Stable and balanced design for safe transport",
+                    "Easy to operate and maintain",
+                    "Resistant to wear and heavy-duty usage",
+                    "Suitable for indoor and outdoor applications"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Warehousing and logistics operations",
+                    "Industrial material handling",
+                    "Brick, cement, and slab transportation",
+                    "Factory and workshop environments"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and material handling equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with durable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Efficient solutions for material handling needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-ST-03" },
@@ -8350,13 +8912,14 @@ export const products = [
             { label: "Bucket Size", value: "L1215 x W525 x H660mm" },
         ],
         metaTitle:
-            "Slab Trolly / Metro Trolly - Heavy Duty Construction Material Handling Equipment",
+            "Slab Trolley / Metro Trolley Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy durable Slab Trolly / Metro Trolly for construction sites. Model SSI-ST-03 with 250 Ltr capacity, tilting bucket, expandable 50-100Ft track, and robust design. Reliable construction equipment supplier in India.",
+            "Leading importer of Slab Trolley and Metro Trolley in India. Heavy-duty material handling solutions for construction, industrial, and warehouse applications.",
     },
 
     {
         id: 83,
+        price: 30000,
         slug: "tamping-rammer",
         name: "Tamping Rammer",
         category: "trolley-vibrator",
@@ -8376,62 +8939,79 @@ export const products = [
             },
         ],
         description: [
-            { type: "h2", text: "Product Overview of Tamping Rammer" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Tamping Rammer Supplier</strong> in India, delivering high-performance soil compaction machines for construction projects.",
-                    "Our <strong>Tamping Rammers</strong> are designed for maximum impact force, making them ideal for compacting cohesive soils in confined areas.",
-                    "With powerful <strong>2.2Kw, 3HP motors</strong> and high ramming frequency, this <strong>construction compaction machine</strong> ensures consistent performance on site.",
-                    "Compact, robust, and easy to operate, this <strong>Tamping Rammer</strong> is perfect for foundations, trenches, and road repair works.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Tamping Rammer" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Ramming Frequency:</strong> Operates at <strong>600-700 times/min</strong> for effective compaction.",
-                    "<strong>Advance Speed:</strong> Covers <strong>10-13m/min</strong>, ensuring faster work completion.",
-                    "<strong>Powerful Motor:</strong> Equipped with a <strong>2.2Kw, 3HP motor (415V)</strong> for reliable performance.",
-                    "<strong>Bounce Height:</strong> Provides a <strong>40-70mm bounce</strong> for deep soil compaction.",
-                    "<strong>Durable Build:</strong> Heavy-duty design with strong torque for challenging site conditions.",
-                    "<strong>Portable Design:</strong> Easy to handle and transport, ideal for small and large construction sites.",
-                ],
-            },
-            { type: "h2", text: "Applications of Tamping Rammer" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Soil Compaction:</strong> Perfect for compacting cohesive and granular soils.",
-                    "<strong>Trench Work:</strong> Ensures stable backfilling and compaction in narrow trenches.",
-                    "<strong>Road Repair:</strong> Ideal for patchwork, foundations, and asphalt maintenance.",
-                    "<strong>Construction Sites:</strong> Used in high-rise projects, pavements, and building foundations.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Tamping Rammer" },
-            {
-                type: "ul",
-                items: [
-                    "Delivers consistent impact force for long-lasting compaction results.",
-                    "Operator-friendly design with strong grip handles for safe use.",
-                    "Low maintenance requirements with reliable spare parts availability.",
-                    "Suitable for Indian construction environments with rugged performance.",
-                ],
+                "type": "h2",
+                "text": "Tamping Rammer Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Tamping Rammer Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Tamping Rammer machines in India, offering efficient compaction solutions for construction and infrastructure projects. Our imported tamping rammers are designed to deliver powerful impact force, ensuring proper soil compaction even in confined areas."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Quality Assured:</strong> Tested and proven machines for reliable compaction.",
-                    "<strong>Wide Applications:</strong> Suitable for soil, trenches, roadworks, and foundation preparation.",
-                    "<strong>Competitive Pricing:</strong> Affordable and efficient for contractors and builders.",
-                    "<strong>After-Sales Support:</strong> Includes service, maintenance, and spare parts assistance.",
-                    "<strong>Trusted Brand:</strong> Recognized across India as a leading <strong>Tamping Rammer Supplier</strong>.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced tamping rammers that meet industry standards, making them ideal for contractors, builders, and civil engineering professionals across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Tamping Rammer for Soil Compaction"
+            },
+            {
+                "type": "p",
+                "text": "Our Tamping Rammer is engineered for compacting cohesive soils such as clay and silt with high efficiency. Equipped with a powerful engine and a strong tamping foot, it provides deep compaction, ensuring a stable and durable foundation."
+            },
+            {
+                "type": "p",
+                "text": "Designed for rugged conditions, this machine is easy to operate and highly effective in areas where larger compactors cannot reach."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High impact force for deep and effective compaction",
+                    "Compact design ideal for narrow and confined spaces",
+                    "Powerful engine for reliable performance",
+                    "Durable and rugged construction",
+                    "Easy to handle and operate",
+                    "Low maintenance and fuel-efficient operation",
+                    "Long service life with consistent performance"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trench and pipeline compaction",
+                    "Road repair and maintenance work",
+                    "Foundation and sub-base preparation",
+                    "Construction and infrastructure projects",
+                    "Backfilling and soil compaction in confined areas"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with reliable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for compaction and construction needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-TR-01/02" },
@@ -8442,13 +9022,14 @@ export const products = [
             { label: "Net Torque", value: "7.6 IB=ft (10.3 Nm) @ 2500Rpm" },
             { label: "Gross Weight", value: "90 Kg" },
         ],
-        metaTitle: "Tamping Rammer - Soil Compaction Machine for Construction",
+        metaTitle: "Tamping Rammer Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy durable Tamping Rammer for soil compaction. Model SSI-TR-01/02 with 600-700 times/min ramming frequency, 2.2Kw motor, 40-70mm bounce height, and 90Kg weight. Reliable construction machinery supplier in India.",
+            "Leading importer of Tamping Rammer in India. High-performance soil compaction machines for trench work, foundation preparation, and construction projects.",
     },
 
     {
         id: 84,
+        price: 30000,
         slug: "truss-screeds",
         name: "Truss Screeds",
         category: "trolley-vibrator",
@@ -8459,62 +9040,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Truss Screeds" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Truss Screeds Supplier</strong> in India, delivering high-performance concrete flooring machinery for construction projects.",
-                    "Our <strong>Truss Screed Machines</strong> are designed for accurate leveling and surface finishing of concrete slabs, pavements, and industrial flooring.",
-                    "Built for <strong>heavy-duty construction use</strong>, these screeds provide durability, efficiency, and precise finishing.",
-                    "Available in <strong>Engine, Petrol, and Electric models</strong>, these screeds are ideal for contractors working on large concrete projects.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Truss Screeds" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Heavy-Duty Construction:</strong> Robust frame ensures long-lasting performance on site.",
-                    "<strong>High Vibration Frequency:</strong> Operates at <strong>70Hz</strong> for excellent concrete compaction and leveling.",
-                    "<strong>Reversible Walking Mode:</strong> Easy maneuverability for both forward and backward operations.",
-                    "<strong>Multiple Power Options:</strong> Available in <strong>Engine, Petrol, and Electric models</strong> to suit project needs.",
-                    "<strong>Large Coverage:</strong> Suitable for leveling large concrete slabs and industrial flooring efficiently.",
-                    "<strong>Water Tank Capacity:</strong> Comes with an integrated <strong>35L tank</strong> for smooth operation.",
-                ],
-            },
-            { type: "h2", text: "Applications of Truss Screeds" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Flooring:</strong> Ensures smooth and level surfaces for industrial and commercial projects.",
-                    "<strong>Pavement Construction:</strong> Ideal for large-scale pavement and road concrete finishing.",
-                    "<strong>Bridges & Airports:</strong> Used for high-quality concrete leveling in large-scale infrastructure projects.",
-                    "<strong>Warehouses & Industrial Floors:</strong> Delivers precise finishing required for heavy-duty flooring.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Truss Screeds" },
-            {
-                type: "ul",
-                items: [
-                    "Lightweight yet durable design for easy assembly and transportation.",
-                    "High rotation motor speed of <strong>2200–3000 RPM</strong> for consistent performance.",
-                    "Reduces labor cost and time by covering wide concrete slabs efficiently.",
-                    "Reliable <strong>construction equipment</strong> trusted by contractors across India.",
-                ],
+                "type": "h2",
+                "text": "Truss Screeds Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Truss Screeds Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Truss Screeds in India, offering advanced solutions for large-scale concrete leveling and finishing. Our imported truss screeds are designed to deliver superior surface smoothness and uniform compaction across wide concrete areas."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Performance:</strong> Designed for Indian construction site conditions.",
-                    "<strong>Multiple Variants:</strong> Engine, petrol, and electric options available.",
-                    "<strong>Durable Design:</strong> Built for heavy-duty, long-term usage.",
-                    "<strong>Competitive Pricing:</strong> Cost-effective solutions for contractors.",
-                    "<strong>After-Sales Service:</strong> Full support with spares and maintenance.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced truss screeds that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Truss Screeds for Large Surface Finishing"
+            },
+            {
+                "type": "p",
+                "text": "Our Truss Screeds are engineered to provide accurate leveling and compaction of freshly poured concrete over large spans. With a modular truss design, these machines offer excellent stability and flexibility, allowing them to cover wide surfaces efficiently."
+            },
+            {
+                "type": "p",
+                "text": "Equipped with powerful vibration systems, truss screeds eliminate air pockets and ensure a smooth, level, and durable finish for concrete structures."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Modular truss design for extended working width",
+                    "High-performance vibration for uniform compaction",
+                    "Ensures smooth and level concrete surface",
+                    "Strong and durable construction",
+                    "Suitable for large-scale applications",
+                    "Easy assembly and operation",
+                    "Low maintenance with long service life"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Large concrete slabs and flooring",
+                    "Road and highway construction",
+                    "Industrial flooring projects",
+                    "Bridges, tunnels, and infrastructure works",
+                    "Airport runways and large surface areas"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for concrete finishing equipment"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-TS-01/02" },
@@ -8527,13 +9125,14 @@ export const products = [
             { label: "Vibration Frequency", value: "70 Hz" },
             { label: "Brand", value: "SSI" },
         ],
-        metaTitle: "Truss Screeds - Concrete Leveling & Finishing Machine | SSI",
+        metaTitle: "Truss Screeds Importer in India| Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Truss Screeds for concrete leveling and finishing. Model SSI-TS-01/02 with 3.1m length, 70Hz vibration frequency, 2200/3000 RPM motor speed, and 600kg weight. Available in engine, petrol, and electric models. Durable and efficient concrete flooring machinery supplier in India.",
+            "Leading importer of Truss Screeds in India. High-performance concrete leveling machines for large construction and infrastructure projects.",
     },
 
     {
         id: 85,
+        price: 30000,
         slug: "vacuum-dewatering-pump",
         name: "Vacuum De-Watering Pump",
         category: "trolley-vibrator",
@@ -8544,62 +9143,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Vacuum De-Watering Pump" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Vacuum De-Watering Pump Supplier</strong> in India, offering efficient solutions for concrete flooring projects.",
-                    "Our <strong>Vacuum De-Watering Pumps</strong> are designed to remove excess water from green concrete, ensuring improved strength and durability of slabs.",
-                    "This machine is widely used in <strong>industrial flooring, warehouses, and road construction</strong> for faster setting and higher quality concrete finishing.",
-                    "Compact, durable, and reliable, the <strong>Concrete Vacuum De-Watering Pump</strong> guarantees superior performance on site.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Vacuum De-Watering Pump" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Efficient Water Removal:</strong> Extracts excess water from freshly laid concrete for higher strength.",
-                    "<strong>Vibratory Motor:</strong> Fitted with a high-performance <strong>1 HP vibratory motor</strong> for consistent suction.",
-                    "<strong>Adjustable Height:</strong> Designed with <strong>adjustable height</strong> for convenient site operations.",
-                    "<strong>Sturdy Build:</strong> Heavy-duty construction ensures long-lasting durability in tough working conditions.",
-                    "<strong>Portable Design:</strong> Lightweight and compact, easy to transport across construction sites.",
-                    "<strong>Enhanced Flooring Quality:</strong> Produces dense, durable, and crack-free concrete surfaces.",
-                ],
-            },
-            { type: "h2", text: "Applications of Vacuum De-Watering Pump" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Industrial Flooring:</strong> Used in factories, warehouses, and workshops for durable surfaces.",
-                    "<strong>Road Construction:</strong> Ensures long-lasting and crack-resistant pavements.",
-                    "<strong>Concrete Slabs:</strong> Ideal for dewatering large slab areas in construction projects.",
-                    "<strong>Commercial Projects:</strong> Suitable for malls, airports, and heavy-duty concrete flooring applications.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Vacuum De-Watering Pump" },
-            {
-                type: "ul",
-                items: [
-                    "Removes water efficiently up to large slab lengths ensuring uniform finishing.",
-                    "Reduces drying time and increases productivity at construction sites.",
-                    "Ensures improved tensile and compressive strength of concrete flooring.",
-                    "Trusted by contractors across India for <strong>high-performance concrete dewatering</strong>.",
-                ],
+                "type": "h2",
+                "text": "Vacuum De-Watering Pump Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Vacuum De-Watering Pump Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Vacuum De-Watering Pump systems in India, offering advanced solutions for concrete surface treatment and water removal. Our imported systems are designed to efficiently remove excess water from freshly laid concrete, improving strength, durability, and finishing quality."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Technology:</strong> Designed to meet modern concrete flooring requirements.",
-                    "<strong>Durable Design:</strong> Built with high-quality components for long service life.",
-                    "<strong>Wide Applications:</strong> Ideal for flooring, slabs, roads, and industrial projects.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solution with excellent performance.",
-                    "<strong>After-Sales Service:</strong> Complete support with servicing and spare parts availability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced vacuum de-watering pumps that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Vacuum De-Watering System for Concrete"
+            },
+            {
+                "type": "p",
+                "text": "Our Vacuum De-Watering Pump is engineered to extract surplus water and air from concrete surfaces using vacuum pressure. This process enhances the density and bonding of concrete, resulting in a stronger and more wear-resistant surface."
+            },
+            {
+                "type": "p",
+                "text": "Ideal for large concrete slabs, this system ensures faster setting time and superior finishing, making it an essential tool for modern construction practices."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Efficient removal of excess water from concrete",
+                    "Improves concrete strength and durability",
+                    "Reduces drying and setting time",
+                    "Ensures smooth and high-quality surface finish",
+                    "High vacuum efficiency for better performance",
+                    "Durable and robust construction",
+                    "Easy to operate and maintain"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Industrial flooring projects",
+                    "Large concrete slab construction",
+                    "Warehouses and factory floors",
+                    "Road and pavement construction",
+                    "Infrastructure and civil engineering works"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with advanced technology",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for concrete finishing and strengthening"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-VDP-02" },
@@ -8611,13 +9227,14 @@ export const products = [
             { label: "Power", value: "1 HP" },
             { label: "Brand", value: "SSI" },
         ],
-        metaTitle: "Vacuum De-Watering Pump - Concrete Flooring Machinery | SSI",
+        metaTitle: "Vacuum De-Watering Pump Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy Vacuum De-Watering Pump for concrete flooring. Model SSI-VDP-02 with adjustable height, 1HP vibratory motor, 79Kg weight, and 4200mm length. Durable and efficient construction machinery supplier in India.",
+            "Leading importer of Vacuum De-Watering Pump in India. Advanced concrete water removal system for stronger, durable, and smooth concrete surfaces.",
     },
 
     {
         id: 86,
+        price: 30000,
         slug: "vibrator-nozzle",
         name: "Vibrator/Petrol/Diesel/Electric Nozzle",
         category: "trolley-vibrator",
@@ -8628,65 +9245,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Vibrator / Electric Nozzle" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Concrete Vibrator Supplier in India</strong>, offering high-performance <strong>Electric Vibrators with Nozzles</strong> for reliable concrete compaction.",
-                    "Our <strong>Electric Concrete Vibrators</strong> are designed to remove air voids and ensure strong, durable, and uniform concrete structures.",
-                    "With multiple nozzle sizes (<strong>40mm, 50mm, 60mm</strong>) and lengths up to <strong>6 meters</strong>, this vibrator is suitable for diverse construction applications.",
-                    "Built with a powerful <strong>2HP motor</strong>, our <strong>Concrete Vibrator / Electric Needle Vibrator</strong> ensures maximum efficiency at construction sites.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Vibrator / Electric Nozzle" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High Power Motor:</strong> Fitted with a <strong>2HP motor</strong>, available in Single Phase / 3 Phase options.",
-                    "<strong>Multiple Nozzle Sizes:</strong> Comes with <strong>40mm, 50mm, and 60mm</strong> interchangeable nozzles for flexibility.",
-                    "<strong>Extended Hose Length:</strong> Available in <strong>4 to 6 meter</strong> sizes for deeper concrete compaction.",
-                    "<strong>Electric Operation:</strong> Reliable performance with consistent power supply for continuous operation.",
-                    "<strong>Durable Design:</strong> Rugged construction ensures long service life under heavy site conditions.",
-                    "<strong>Efficient Compaction:</strong> Effectively removes trapped air and voids for superior concrete strength.",
-                ],
-            },
-            { type: "h2", text: "Applications of Vibrator / Electric Nozzle" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Compaction:</strong> Ideal for slabs, beams, columns, and foundations.",
-                    "<strong>Construction Sites:</strong> Ensures uniform and strong concrete for structural durability.",
-                    "<strong>Roads & Bridges:</strong> Used in large infrastructure projects for quality finishing.",
-                    "<strong>Precast Elements:</strong> Suitable for compacting concrete molds, pipes, and blocks.",
-                ],
+                "type": "h2",
+                "text": "Vibrator Nozzle (Petrol / Diesel / Electric) Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Vibrator / Electric Nozzle",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Vibrator Nozzle (Petrol / Diesel / Electric) in India, offering reliable solutions for efficient concrete compaction. Our imported vibrator nozzles are designed to eliminate air pockets and ensure proper settling of concrete for stronger and more durable structures."
             },
             {
-                type: "ul",
-                items: [
-                    "Available in different nozzle sizes and hose lengths for versatile usage.",
-                    "Easy to operate, portable, and low-maintenance design.",
-                    "Ensures high-quality concrete finishing by removing air gaps.",
-                    "Widely used by contractors, builders, and civil engineers across India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced concrete vibrator nozzles that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Vibrator Nozzle for Concrete Compaction"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Concrete Vibrator Supplier?",
+                "type": "p",
+                "text": "Our Vibrator Nozzle (Petrol / Diesel / Electric) is engineered to deliver powerful vibration for uniform concrete compaction. Available in multiple power options, these nozzles provide flexibility to suit different site conditions, whether indoor or outdoor."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Proven Performance:</strong> Reliable concrete vibrators designed for Indian construction needs.",
-                    "<strong>Versatile Options:</strong> Available in multiple sizes, nozzle types, and power modes.",
-                    "<strong>Affordable Pricing:</strong> Durable and efficient equipment at competitive prices.",
-                    "<strong>After-Sales Support:</strong> Complete guidance, servicing, and spare parts availability.",
-                    "<strong>Trusted Supplier:</strong> Recognized as a leading <strong>Concrete Vibrator Manufacturer & Supplier</strong> in India.",
-                ],
+                "type": "p",
+                "text": "With robust construction and high vibration efficiency, they enhance the strength and finish of concrete while improving overall construction quality."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Available in petrol, diesel, and electric variants",
+                    "High-frequency vibration for effective compaction",
+                    "Removes air voids and improves concrete density",
+                    "Durable and wear-resistant nozzle design",
+                    "Easy to operate and handle",
+                    "Suitable for various construction environments",
+                    "Low maintenance and long service life"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Concrete column and beam construction",
+                    "Slab and foundation work",
+                    "Road and infrastructure projects",
+                    "Bridges and high-rise construction",
+                    "Industrial and commercial building projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for concrete compaction equipment"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-VB-02" },
@@ -8696,13 +9327,14 @@ export const products = [
             { label: "Size", value: "4 to 6 Mtr." },
         ],
         metaTitle:
-            "Electric Concrete Vibrator / Nozzle - 2HP Needle Vibrator for Construction",
+            "Vibrator Nozzle (Petrol / Diesel / Electric) Importer in India",
         metaDescription:
-            "Buy Electric Concrete Vibrator / Nozzle (Model SSI-VB-02) with 2HP motor, 40/50/60mm nozzles, and 4-6Mtr hose length. Durable electric needle vibrator for concrete compaction. Trusted construction equipment supplier in India.",
+            "Leading importer of Vibrator Nozzle in India. Petrol, diesel, and electric concrete vibrator nozzles for efficient compaction and strong construction.",
     },
 
     {
         id: 87,
+        price: 30000,
         slug: "vibrating-table",
         name: "Vibrating Table",
         category: "trolley-vibrator",
@@ -8713,62 +9345,79 @@ export const products = [
         },
 
         description: [
-            { type: "h2", text: "Product Overview of Vibrating Table" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a leading <strong>Vibrating Table Supplier in India</strong>, offering high-performance concrete compaction and testing equipment.",
-                    "Our <strong>Industrial Vibrating Tables</strong> are designed for compaction of concrete specimens, blocks, and moulds, ensuring high density and uniformity.",
-                    "The <strong>Heavy Duty Vibrating Table</strong> comes equipped with a powerful <strong>2HP vibrator motor</strong> for efficient vibration and long-lasting performance.",
-                    "Widely used in laboratories, construction sites, and manufacturing units, this <strong>Concrete Vibrating Table</strong> is engineered for durability and accuracy.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Vibrating Table" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Durable Construction:</strong> Built with a robust frame for heavy-duty applications.",
-                    "<strong>Powerful Motor:</strong> Equipped with a <strong>2HP Vibrator Motor</strong> for reliable and efficient operation.",
-                    "<strong>Large Table Size:</strong> Spacious <strong>10 x 2.5 ft</strong> platform suitable for multiple moulds and specimens.",
-                    "<strong>High-Speed Vibration:</strong> Motor rotation speed of <strong>2880 RPM</strong> ensures effective compaction.",
-                    "<strong>Voltage Compatibility:</strong> Works with both <strong>220V and 380V</strong> supply options.",
-                    "<strong>Consistent Performance:</strong> Provides uniform vibration for high-quality concrete finishing.",
-                ],
-            },
-            { type: "h2", text: "Applications of Vibrating Table" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Testing:</strong> Used in labs for testing concrete cubes and cylinders.",
-                    "<strong>Precast Industries:</strong> Ideal for compacting paver blocks, tiles, and precast moulds.",
-                    "<strong>Construction Sites:</strong> Ensures proper compaction of concrete for strength and durability.",
-                    "<strong>Material Handling:</strong> Useful for settling powders, granules, and other materials in containers.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on Vibrating Table" },
-            {
-                type: "ul",
-                items: [
-                    "Designed for easy operation and low maintenance requirements.",
-                    "Ensures consistent compaction, reducing chances of air gaps in concrete.",
-                    "Available in different sizes and configurations as per customer requirements.",
-                    "Widely trusted by contractors, builders, and material testing labs across India.",
-                ],
+                "type": "h2",
+                "text": "Vibrating Table Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Vibrating Table Supplier?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Vibrating Table machines in India, offering efficient solutions for compacting and settling materials in construction and industrial applications. Our imported vibrating tables are designed to ensure uniform distribution and proper compaction of concrete and other materials."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Equipment:</strong> Proven quality for construction and testing needs.",
-                    "<strong>Custom Sizes:</strong> Vibrating tables available in multiple dimensions.",
-                    "<strong>Affordable Pricing:</strong> Best-in-class equipment at competitive rates.",
-                    "<strong>After-Sales Service:</strong> Full support including maintenance and spare parts.",
-                    "<strong>Trusted Brand:</strong> Recognized as a reliable <strong>Vibrating Table Manufacturer & Supplier</strong> in India.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced vibrating tables that meet industry standards, making them ideal for contractors, builders, manufacturers, and infrastructure developers across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Vibrating Table for Material Compaction"
+            },
+            {
+                "type": "p",
+                "text": "Our Vibrating Table is engineered to remove air voids and ensure proper compaction of concrete, molds, and other materials. With a powerful vibration mechanism, it improves material density, strength, and finishing quality."
+            },
+            {
+                "type": "p",
+                "text": "Designed for durability and precision, this machine is widely used in precast industries and construction applications for consistent and reliable results."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-frequency vibration for effective compaction",
+                    "Ensures uniform material distribution",
+                    "Strong and durable table structure",
+                    "Adjustable vibration intensity (optional)",
+                    "Easy to operate and maintain",
+                    "Suitable for continuous industrial use",
+                    "Enhances product quality and strength"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Precast concrete product manufacturing",
+                    "Block and paver production",
+                    "Concrete mold compaction",
+                    "Industrial material settling processes",
+                    "Construction and infrastructure projects"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and industrial machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with superior performance",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for material compaction and processing"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-VT-02" },
@@ -8777,13 +9426,14 @@ export const products = [
             { label: "Voltage", value: "220 / 380 V" },
             { label: "Rotation Speed of Motor", value: "2880 RPM" },
         ],
-        metaTitle: "Vibrating Table for Concrete Compaction & Testing - SSI-VT-02",
+        metaTitle: "Vibrating Table Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy Vibrating Table SSI-VT-02 with 10x2.5ft size, 2HP vibrator motor, 220/380V power, and 2880RPM speed. Ideal for concrete compaction, paver blocks, tiles, and testing labs. Trusted construction equipment supplier in India.",
+            "Leading importer of Vibrating Table in India. High-performance machines for concrete compaction, precast production, and industrial material processing.",
     },
 
     {
         id: 88,
+        price: 30000,
         slug: "wheel-barrow-single-double",
         name: "Wheel Barrow (Single / Double Wheel)",
         category: "trolley-vibrator",
@@ -8804,73 +9454,78 @@ export const products = [
         ],
         description: [
             {
-                type: "h2",
-                text: "Product Overview of Wheel Barrow (Single / Double Wheel)",
+                "type": "h2",
+                "text": "Wheel Barrow (Single / Double Wheel) Importer in India"
             },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a reputed <strong>Wheel Barrow Supplier in India</strong>, offering both <strong>Single Wheel Barrows</strong> and <strong>Double Wheel Barrows</strong> for smooth construction material handling.",
-                    "Our <strong>Heavy Duty Wheel Barrows</strong> are manufactured with strong steel frames and premium quality wheels to ensure long service life and efficient performance.",
-                    "The <strong>Single Wheel Barrow</strong> is lightweight and easy to maneuver, while the <strong>Double Wheel Barrow</strong> provides extra stability for transporting heavy loads.",
-                    "Designed for carrying <strong>sand, cement, concrete, bricks, debris, and construction waste</strong>, these barrows are ideal for construction sites, warehouses, and landscaping applications.",
-                ],
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Wheel Barrow (Single / Double Wheel) in India, offering efficient and durable solutions for material handling in construction and industrial applications. Our imported wheel barrows are designed to transport materials easily and safely across job sites."
             },
             {
-                type: "h2",
-                text: "Key Features of Wheel Barrow (Single / Double Wheel)",
+                "type": "p",
+                "text": "We supply globally sourced wheel barrows that meet industry standards, making them ideal for contractors, builders, warehouses, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "Heavy-Duty Wheel Barrow for Material Handling"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Heavy Duty Frame:</strong> Strong steel construction ensures durability and long-term use.",
-                    "<strong>Wheel Options:</strong> Available in <strong>1 wheel</strong> for easy maneuverability or <strong>2 wheels</strong> for greater stability.",
-                    "<strong>Compact Size:</strong> Dimension <strong>L36 x W18 x H18</strong> makes it ideal for site operations.",
-                    "<strong>Load Handling:</strong> Designed to carry heavy loads of cement, bricks, and concrete with ease.",
-                    "<strong>Operator-Friendly:</strong> Fitted with ergonomic handles for smooth handling and control.",
-                    "<strong>Durable Wheels:</strong> Strong, reliable wheels designed for rough construction terrains.",
-                ],
+                "type": "p",
+                "text": "Our Wheel Barrow (Single / Double Wheel) is engineered to carry construction materials such as sand, cement, bricks, concrete, and debris with ease. Available in both single-wheel and double-wheel variants, these barrows provide flexibility for different load capacities and site conditions."
             },
             {
-                type: "h2",
-                text: "Applications of Wheel Barrow (Single / Double Wheel)",
+                "type": "p",
+                "text": "With a strong frame and sturdy wheels, they ensure smooth movement, stability, and long-lasting performance even in rough working environments."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Construction Sites:</strong> Transporting sand, cement, bricks, and debris with ease.",
-                    "<strong>Industrial Use:</strong> Shifting raw materials and components in factories and warehouses.",
-                    "<strong>Landscaping:</strong> Carrying soil, gravel, plants, and garden waste for landscaping projects.",
-                    "<strong>Municipal Work:</strong> Handling garbage, debris, and maintenance materials efficiently.",
-                ],
+                "type": "ul",
+                "items": [
+                    "Available in single and double wheel options",
+                    "Strong and durable steel construction",
+                    "High load carrying capacity",
+                    "Easy maneuverability and balance",
+                    "Smooth rolling wheels for rough terrains",
+                    "Ergonomic design for operator comfort",
+                    "Low maintenance and long service life"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
             },
             {
-                type: "h2",
-                text: "Additional Information on Wheel Barrow (Single / Double Wheel)",
+                "type": "ul",
+                "items": [
+                    "Construction sites and infrastructure projects",
+                    "Industrial and warehouse material handling",
+                    "Gardening and landscaping work",
+                    "Brick, sand, and cement transportation",
+                    "Loading and unloading operations"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
             },
             {
-                type: "ul",
-                items: [
-                    "Available in both <strong>Single Wheel</strong> and <strong>Double Wheel</strong> models for different site needs.",
-                    "Strong and lightweight construction for easy movement.",
-                    "Requires minimal maintenance and offers long service life.",
-                    "Best suited for <strong>construction contractors, industrial warehouses, and municipal projects</strong>.",
-                ],
-            },
-            {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Wheel Barrow Supplier?",
-            },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Products:</strong> Durable and reliable Wheel Barrows designed for tough site conditions.",
-                    "<strong>Wide Applications:</strong> Suitable for construction, landscaping, industrial, and municipal use.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective solution for efficient material handling.",
-                    "<strong>After-Sales Service:</strong> Full customer support and spare parts availability.",
-                    "<strong>Trusted Brand:</strong> Recognized as a reliable <strong>Wheel Barrow Supplier</strong> across India.",
-                ],
-            },
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction and material handling equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with durable performance",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Efficient solutions for material handling needs"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-WV-01/02" },
@@ -8880,13 +9535,14 @@ export const products = [
             { label: "Material", value: "Heavy Duty Steel" },
         ],
         metaTitle:
-            "Wheel Barrow (Single / Double Wheel) - Heavy Duty Construction Material Handling",
+            "Wheel Barrow (Single / Double Wheel) Importer in India",
         metaDescription:
-            "Buy high-quality Wheel Barrow (Single / Double Wheel) for construction material handling. Model SSI-WV-01/02, size L36xW18xH18, 40Kg approx, durable steel frame with 1 or 2 wheels. Best supplier of heavy duty Wheel Barrows in India.",
+            "Leading importer of Wheel Barrow in India. Single and double wheel barrows for construction, industrial, and material handling applications.",
     },
 
     {
         id: 89,
+        price: 30000,
         slug: "power-floater-power-trowel",
         name: "Power Floater / Power Trowel",
         category: "trolley-vibrator",
@@ -8909,65 +9565,79 @@ export const products = [
         videoUrl: "https://youtu.be/v9-EjQtZse8?si=sTH_uC7IIBoUw1he",
 
         description: [
-            { type: "h2", text: "Product Overview of Power Floater / Power Trowel" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech is a trusted <strong>Power Floater / Power Trowel Supplier</strong> in India, delivering high-performance concrete finishing machinery.",
-                    "Our <strong>Power Trowel Machines</strong> are designed for achieving smooth, durable, and level concrete surfaces in construction projects.",
-                    "Built with strong blades and powerful engines, our <strong>Concrete Power Floaters</strong> are suitable for industrial flooring, warehouses, and slab finishing.",
-                    "Easy to operate and maintain, these machines ensure cost-effective and efficient finishing for contractors.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Power Floater / Power Trowel" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>High-Quality Blades:</strong> Ensures superior concrete finishing with smooth and even surfaces.",
-                    "<strong>Powerful Engine Options:</strong> Available with <strong>Diesel, Petrol, or Electric</strong> engines for flexible usage.",
-                    "<strong>Durable Build:</strong> Rugged construction ensures long-lasting performance in heavy-duty worksites.",
-                    "<strong>Variable Plate Sizes:</strong> Available in <strong>36 inches, 42 inches, 900mm, and 1000mm</strong> options.",
-                    "<strong>Fast Finishing:</strong> Round speed of <strong>123m/min</strong> for quick and efficient slab finishing.",
-                    "<strong>Operator Friendly:</strong> Ergonomic design reduces fatigue and improves handling.",
-                ],
-            },
-            { type: "h2", text: "Applications of Power Floater / Power Trowel" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Concrete Flooring:</strong> Used for industrial floors, warehouses, and commercial buildings.",
-                    "<strong>Road & Bridge Construction:</strong> Ideal for smooth finishing of concrete surfaces.",
-                    "<strong>Slab Finishing:</strong> Provides a dense and polished finish for concrete slabs.",
-                    "<strong>Large-Scale Projects:</strong> Perfect for factories, parking lots, and airports requiring durable concrete surfaces.",
-                ],
+                "type": "h2",
+                "text": "Power Floater / Power Trowel Importer in India"
             },
             {
-                type: "h2",
-                text: "Additional Information on Power Floater / Power Trowel",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Power Floater / Power Trowel machines in India, offering advanced solutions for concrete surface finishing. Our imported machines are designed to deliver smooth, level, and durable concrete surfaces with high efficiency."
             },
             {
-                type: "ul",
-                items: [
-                    "Equipped with <strong>Honda 5Hp/6.5Hp engine</strong> for reliable performance.",
-                    "Available in both <strong>single and double blade configurations</strong>.",
-                    "Ensures faster surface finishing compared to manual troweling.",
-                    "Low maintenance and long service life make it a cost-effective choice.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced power floaters and power trowels that meet industry standards, making them ideal for contractors, builders, and infrastructure developers across India."
+            },
+
+            {
+                "type": "h2",
+                "text": "High-Performance Power Floater for Concrete Finishing"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech as Your Power Trowel Supplier?",
+                "type": "p",
+                "text": "Our Power Floater / Power Trowel is engineered to provide superior finishing of concrete surfaces by smoothing, leveling, and compacting freshly laid concrete. It enhances surface strength, reduces cracks, and delivers a polished finish suitable for industrial and commercial flooring."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Premium Quality:</strong> Manufactured using high-grade materials and advanced technology.",
-                    "<strong>Wide Range:</strong> Available in multiple sizes and engine types.",
-                    "<strong>Affordable Pricing:</strong> Best-in-class performance at competitive rates.",
-                    "<strong>Expert Support:</strong> Full after-sales support including servicing and spare parts.",
-                    "<strong>Trusted Supplier:</strong> Known as a reliable <strong>Power Floater Supplier</strong> across India.",
-                ],
+                "type": "p",
+                "text": "Available in petrol and electric variants, these machines ensure flexibility and high performance in different working conditions."
             },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "High-speed rotating blades for smooth finishing",
+                    "Ensures level, dense, and polished concrete surface",
+                    "Available in petrol and electric variants",
+                    "Strong and durable construction",
+                    "Easy to operate and control",
+                    "Low maintenance and long service life",
+                    "Improves surface strength and finish quality"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Industrial flooring projects",
+                    "Warehouses and factory floors",
+                    "Concrete slab finishing",
+                    "Commercial and residential construction",
+                    "Infrastructure and large surface finishing work"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of construction machinery in India",
+                    "High-quality equipment sourced from reliable manufacturers",
+                    "Competitive pricing with superior finishing performance",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for concrete finishing equipment"
+                ]
+            }
         ],
         specs: [
             { label: "Model", value: "SSI-PF-01" },
@@ -8980,17 +9650,16 @@ export const products = [
             { label: "Round Speed", value: "123 m/min" },
         ],
         metaTitle:
-            "Power Floater / Power Trowel - Concrete Surface Finishing Machine | SSI",
+            "Power Floater / Power Trowel Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-quality Power Floater / Power Trowel for concrete surface finishing. Model SSI-PF-01 available in Diesel, Petrol & Electric options with 36/42 inch plate sizes and 123m/min speed. Trusted supplier of concrete finishing machinery in India.",
+            "Leading importer of Power Floater and Power Trowel in India. High-performance concrete finishing machines for smooth and durable surfaces.",
     },
 
     // category 10 (air quality)
-
     // product 1
-
     {
         id: 90,
+        price: 30000,
         slug: "air-quality-index-monitor",
         name: "Air Quality Index Monitor",
         category: "air-quality-index",
@@ -9013,63 +9682,79 @@ export const products = [
         // "videoUrl": "https://youtu.be/v9-EjQtZse8?si=sTH_uC7IIBoUw1he",
 
         description: [
-            { type: "h2", text: "Product Overview of Air Quality Index Monitor" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech provides advanced <strong>Air Quality Index (AQI) Monitors</strong> designed to measure and display real-time air quality levels.",
-                    "Our <strong>Air Quality Monitoring Devices</strong> detect harmful pollutants including PM2.5, PM10, CO₂, VOCs, and other gases.",
-                    "Equipped with <strong>high-precision sensors</strong>, these monitors are suitable for homes, offices, schools, hospitals, and industries.",
-                    "Easy-to-use and portable, our monitors provide reliable data to ensure a healthier living and working environment.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Air Quality Index Monitor" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Real-Time Monitoring:</strong> Displays AQI levels instantly with accurate readings.",
-                    "<strong>Multi-Pollutant Detection:</strong> Monitors PM2.5, PM10, CO₂, VOCs, and temperature/humidity.",
-                    "<strong>Digital Display:</strong> Bright and clear LCD/LED screen for easy readability.",
-                    "<strong>Portable Design:</strong> Lightweight and compact, ideal for both indoor and outdoor use.",
-                    "<strong>Data Accuracy:</strong> Equipped with advanced sensors for reliable results.",
-                    "<strong>Long Battery Life:</strong> Rechargeable battery ensures extended monitoring without interruption.",
-                ],
-            },
-            { type: "h2", text: "Applications of Air Quality Index Monitor" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Homes & Apartments:</strong> Track indoor air pollution for healthier living.",
-                    "<strong>Offices & Workspaces:</strong> Maintain a safe environment for employees.",
-                    "<strong>Hospitals & Schools:</strong> Ensure clean air for patients, staff, and students.",
-                    "<strong>Industrial Areas:</strong> Monitor pollution levels for compliance and safety.",
-                    "<strong>Outdoor Monitoring:</strong> Measure AQI in residential and commercial areas.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on AQI Monitor" },
-            {
-                type: "ul",
-                items: [
-                    "Available with <strong>USB charging support</strong> and rechargeable battery.",
-                    "Compact design makes it <strong>easy to carry</strong> anywhere.",
-                    "Provides detailed air quality reports for <strong>better decision making</strong>.",
-                    "Low maintenance and durable build ensures long service life.",
-                ],
+                "type": "h2",
+                "text": "Air Quality Index Monitor Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech for AQI Monitors?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Air Quality Index (AQI) Monitors in India, offering advanced solutions for real-time air quality monitoring. Our imported AQI monitors are designed to accurately measure pollution levels and help maintain a safe and healthy environment across industrial, commercial, and public spaces."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Trusted Supplier:</strong> Reliable brand for quality monitoring devices.",
-                    "<strong>Advanced Technology:</strong> Equipped with latest sensor technology.",
-                    "<strong>Affordable Pricing:</strong> High-quality AQI monitors at competitive rates.",
-                    "<strong>Wide Applications:</strong> Suitable for domestic, commercial, and industrial use.",
-                    "<strong>After-Sales Support:</strong> Dedicated assistance with service and spare parts.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced air quality monitoring devices that meet industry standards, making them ideal for construction sites, factories, offices, and environmental monitoring agencies across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Precision Air Quality Monitoring System"
+            },
+            {
+                "type": "p",
+                "text": "Our Air Quality Index Monitor is engineered to detect and measure key air pollutants such as PM2.5, PM10, CO₂, temperature, and humidity. With real-time data display and high-sensitivity sensors, it provides accurate insights into air quality conditions."
+            },
+            {
+                "type": "p",
+                "text": "Designed for both indoor and outdoor applications, these monitors help organizations ensure compliance with environmental regulations and improve workplace safety."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Real-time monitoring of air quality parameters",
+                    "Measures PM2.5, PM10, CO₂, temperature, and humidity",
+                    "High-precision sensors for accurate readings",
+                    "Digital display for easy data interpretation",
+                    "Portable and easy-to-install design",
+                    "Data logging and connectivity options (optional)",
+                    "Suitable for indoor and outdoor environments"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites and dust monitoring",
+                    "Industrial and manufacturing units",
+                    "Offices, malls, and commercial spaces",
+                    "Environmental monitoring and research",
+                    "Hospitals, schools, and public areas"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of environmental and construction equipment in India",
+                    "High-quality devices sourced from reliable manufacturers",
+                    "Competitive pricing with advanced technology",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for air quality monitoring and safety"
+                ]
+            }
         ],
 
         specs: [
@@ -9084,13 +9769,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
 
-        metaTitle: "Air Quality Index Monitor | SSI",
+        metaTitle: "Air Quality Index Monitor Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-performance Air Quality Index Monitor with real-time AQI, PM2.5, PM10, CO₂, and VOC detection. Portable, accurate, and ideal for homes, offices, hospitals, and industries. Trusted supplier of AQI monitors in India.",
+            "Leading importer of Air Quality Index Monitor in India. Advanced AQI monitoring systems for measuring PM2.5, PM10, CO₂, and environmental conditions.",
     },
 
     {
         id: 91,
+        price: 30000,
         slug: "air-quality-index-display",
         name: "Air Quality Display",
         category: "air-quality-index",
@@ -9109,63 +9795,79 @@ export const products = [
         // "videoUrl": "https://youtu.be/v9-EjQtZse8?si=sTH_uC7IIBoUw1he",
 
         description: [
-            { type: "h2", text: "Product Overview of Air Quality Index Display" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech offers advanced <strong>Air Quality Index (AQI) Displays</strong> that provide clear and real-time visibility of air pollution levels.",
-                    "Our <strong>AQI Display Boards</strong> are designed to showcase PM2.5, PM10, CO₂, VOCs, temperature, and humidity readings in a highly visible format.",
-                    "Equipped with <strong>bright LED/LCD panels</strong>, these displays are ideal for both indoor and outdoor monitoring applications.",
-                    "Durable and easy to install, these units help raise awareness of air quality in public places, institutions, and industries.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Air Quality Index Display" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Real-Time AQI Data:</strong> Displays PM2.5, PM10, CO₂, VOCs, temperature, and humidity instantly.",
-                    "<strong>High-Visibility Display:</strong> Bright LED/LCD panels ensure clear readability even from a distance.",
-                    "<strong>Indoor & Outdoor Use:</strong> Weather-resistant build suitable for multiple environments.",
-                    "<strong>Customizable Layout:</strong> Display format and parameters can be configured as per requirements.",
-                    "<strong>Remote Connectivity:</strong> Supports cloud integration and data sharing for smart monitoring.",
-                    "<strong>Durable Design:</strong> Long service life with minimal maintenance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Air Quality Index Display" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Public Spaces:</strong> Installed in parks, metro stations, and streets for public awareness.",
-                    "<strong>Schools & Colleges:</strong> Ensure a healthy environment for students and staff.",
-                    "<strong>Hospitals:</strong> Monitor and display air quality for patient safety.",
-                    "<strong>Industries:</strong> Show compliance with air quality regulations.",
-                    "<strong>Commercial Buildings:</strong> Display indoor air quality data for visitors and employees.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on AQI Display" },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple sizes and display types (LED/LCD).",
-                    "Supports both <strong>wired and wireless data transmission</strong>.",
-                    "Energy-efficient design with <strong>low power consumption</strong>.",
-                    "Easy installation with wall-mounted or stand-alone options.",
-                ],
+                "type": "h2",
+                "text": "Air Quality Display Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech for AQI Displays?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Air Quality Display systems in India, offering advanced solutions for real-time environmental monitoring and public awareness. Our imported displays are designed to clearly present air quality data, helping organizations monitor pollution levels and ensure safety compliance."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Supplier:</strong> Known for high-quality monitoring and display devices.",
-                    "<strong>Custom Solutions:</strong> Displays available in multiple formats and specifications.",
-                    "<strong>Advanced Technology:</strong> Equipped with modern sensors and cloud support.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective displays without compromising quality.",
-                    "<strong>After-Sales Support:</strong> Full service and spare parts availability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced air quality display systems that meet industry standards, making them ideal for construction sites, industrial units, commercial spaces, and public areas across India."
             },
+
+            {
+                "type": "h2",
+                "text": "Advanced Air Quality Display System"
+            },
+            {
+                "type": "p",
+                "text": "Our Air Quality Display is engineered to provide real-time visualization of environmental parameters such as AQI, PM2.5, PM10, temperature, and humidity. Equipped with bright LED screens and high-precision integration capabilities, it ensures clear visibility even from a distance."
+            },
+            {
+                "type": "p",
+                "text": "Designed for both indoor and outdoor use, these displays help in spreading awareness and maintaining compliance with environmental regulations."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Real-time display of AQI and pollution parameters",
+                    "High-brightness LED screen for clear visibility",
+                    "Displays PM2.5, PM10, temperature, and humidity",
+                    "Weather-resistant design for outdoor applications",
+                    "Easy integration with AQI monitoring systems",
+                    "Customizable display formats and sizes",
+                    "Low power consumption and long service life"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction sites for pollution monitoring",
+                    "Industrial and manufacturing facilities",
+                    "Smart city and municipal projects",
+                    "Commercial buildings and public spaces",
+                    "Environmental monitoring stations"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of environmental monitoring equipment in India",
+                    "High-quality products sourced from reliable manufacturers",
+                    "Competitive pricing with advanced technology",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Reliable solutions for air quality awareness and compliance"
+                ]
+            }
         ],
         specs: [
             { label: "Minimum Order Quantity", value: "1 Piece" },
@@ -9176,13 +9878,14 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
 
-        metaTitle: "Air Quality Index Display | SSI",
+        metaTitle: "Air Quality Display Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-performance Air Quality Index Display with real-time AQI, PM2.5, PM10, CO₂, and VOC detection. Portable, accurate, and ideal for homes, offices, hospitals, and industries. Trusted supplier of AQI Display in India.",
+            "Leading importer of Air Quality Display in India. LED display systems for real-time AQI monitoring, pollution data display, and environmental awareness.",
     },
 
     {
         id: 92,
+        price: 30000,
         slug: "air-quality-sensor",
         name: "Air Quality Sensor",
         category: "air-quality-index",
@@ -9206,80 +9909,96 @@ export const products = [
         // "videoUrl": "https://youtu.be/v9-EjQtZse8?si=sTH_uC7IIBoUw1he",
 
         description: [
-            { type: "h2", text: "Product Overview of Air Quality Index Display" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech offers advanced <strong>Air Quality Index (AQI) Displays</strong> that provide clear and real-time visibility of air pollution levels.",
-                    "Our <strong>AQI Display Boards</strong> are designed to showcase PM2.5, PM10, CO₂, VOCs, temperature, and humidity readings in a highly visible format.",
-                    "Equipped with <strong>bright LED/LCD panels</strong>, these displays are ideal for both indoor and outdoor monitoring applications.",
-                    "Durable and easy to install, these units help raise awareness of air quality in public places, institutions, and industries.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Air Quality Index Display" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Real-Time AQI Data:</strong> Displays PM2.5, PM10, CO₂, VOCs, temperature, and humidity instantly.",
-                    "<strong>High-Visibility Display:</strong> Bright LED/LCD panels ensure clear readability even from a distance.",
-                    "<strong>Indoor & Outdoor Use:</strong> Weather-resistant build suitable for multiple environments.",
-                    "<strong>Customizable Layout:</strong> Display format and parameters can be configured as per requirements.",
-                    "<strong>Remote Connectivity:</strong> Supports cloud integration and data sharing for smart monitoring.",
-                    "<strong>Durable Design:</strong> Long service life with minimal maintenance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Air Quality Index Display" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Public Spaces:</strong> Installed in parks, metro stations, and streets for public awareness.",
-                    "<strong>Schools & Colleges:</strong> Ensure a healthy environment for students and staff.",
-                    "<strong>Hospitals:</strong> Monitor and display air quality for patient safety.",
-                    "<strong>Industries:</strong> Show compliance with air quality regulations.",
-                    "<strong>Commercial Buildings:</strong> Display indoor air quality data for visitors and employees.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on AQI Display" },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple sizes and display types (LED/LCD).",
-                    "Supports both <strong>wired and wireless data transmission</strong>.",
-                    "Energy-efficient design with <strong>low power consumption</strong>.",
-                    "Easy installation with wall-mounted or stand-alone options.",
-                ],
+                "type": "h2",
+                "text": "Air Quality Sensor Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech for AQI Displays?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Air Quality Sensors in India, offering advanced solutions for accurate and real-time environmental monitoring. Our imported sensors are designed to detect air pollutants and provide precise data for maintaining a safe and healthy environment."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Supplier:</strong> Known for high-quality monitoring and display devices.",
-                    "<strong>Custom Solutions:</strong> Displays available in multiple formats and specifications.",
-                    "<strong>Advanced Technology:</strong> Equipped with modern sensors and cloud support.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective displays without compromising quality.",
-                    "<strong>After-Sales Support:</strong> Full service and spare parts availability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced air quality sensors that meet industry standards, making them ideal for construction sites, industrial units, smart city projects, and environmental monitoring applications across India."
             },
+
+            {
+                "type": "h2",
+                "text": "High-Precision Air Quality Sensor for Accurate Monitoring"
+            },
+            {
+                "type": "p",
+                "text": "Our Air Quality Sensor is engineered to measure critical environmental parameters such as PM2.5, PM10, CO₂, VOCs, temperature, and humidity. With advanced sensing technology, it ensures reliable and real-time data for better decision-making and pollution control."
+            },
+            {
+                "type": "p",
+                "text": "These sensors can be easily integrated with monitoring systems and display units, making them suitable for both indoor and outdoor installations."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Accurate detection of air pollutants (PM2.5, PM10, CO₂, VOCs)",
+                    "Real-time data monitoring and reporting",
+                    "High-sensitivity and precision sensors",
+                    "Compact and easy-to-install design",
+                    "Compatible with AQI monitoring systems",
+                    "Suitable for indoor and outdoor use",
+                    "Low maintenance and energy-efficient"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction and infrastructure projects",
+                    "Industrial and manufacturing facilities",
+                    "Smart city and environmental monitoring systems",
+                    "Offices, malls, and commercial buildings",
+                    "Hospitals, schools, and public spaces"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of environmental monitoring equipment in India",
+                    "High-quality sensors sourced from reliable manufacturers",
+                    "Competitive pricing with advanced technology",
+                    "Nationwide delivery and prompt service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for air quality monitoring systems"
+                ]
+            }
         ],
         specs: [
             { label: "Minimum Order Quantity", value: "1 Piece" },
-
             { label: "Warranty", value: "1 Year" },
             { label: "Usage/Application", value: "Indoor Air Quality" },
             { label: "Color", value: "Black and White" },
             { label: "Brand", value: "SSI" },
         ],
 
-        metaTitle: "Air Quality Index Display | SSI",
+        metaTitle: "Air Quality Sensor Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-performance Air Quality Index Display with real-time AQI, PM2.5, PM10, CO₂, and VOC detection. Portable, accurate, and ideal for homes, offices, hospitals, and industries. Trusted supplier of AQI Display in India.",
+            "Leading importer of Air Quality Sensors in India. High-precision sensors for monitoring PM2.5, PM10, CO₂, VOCs, and environmental conditions.",
     },
 
     {
         id: 93,
+        price: 30000,
         slug: "portable-air-quality-monitor",
         name: "Portable Air Quality Monitor",
         category: "air-quality-index",
@@ -9297,66 +10016,80 @@ export const products = [
             },
         ],
 
-
-
         description: [
-            { type: "h2", text: "Product Overview of Air Quality Index Display" },
             {
-                type: "ul",
-                items: [
-                    "Shree Shakti Infratech offers advanced <strong>Air Quality Index (AQI) Displays</strong> that provide clear and real-time visibility of air pollution levels.",
-                    "Our <strong>AQI Display Boards</strong> are designed to showcase PM2.5, PM10, CO₂, VOCs, temperature, and humidity readings in a highly visible format.",
-                    "Equipped with <strong>bright LED/LCD panels</strong>, these displays are ideal for both indoor and outdoor monitoring applications.",
-                    "Durable and easy to install, these units help raise awareness of air quality in public places, institutions, and industries.",
-                ],
-            },
-            { type: "h2", text: "Key Features of Air Quality Index Display" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Real-Time AQI Data:</strong> Displays PM2.5, PM10, CO₂, VOCs, temperature, and humidity instantly.",
-                    "<strong>High-Visibility Display:</strong> Bright LED/LCD panels ensure clear readability even from a distance.",
-                    "<strong>Indoor & Outdoor Use:</strong> Weather-resistant build suitable for multiple environments.",
-                    "<strong>Customizable Layout:</strong> Display format and parameters can be configured as per requirements.",
-                    "<strong>Remote Connectivity:</strong> Supports cloud integration and data sharing for smart monitoring.",
-                    "<strong>Durable Design:</strong> Long service life with minimal maintenance.",
-                ],
-            },
-            { type: "h2", text: "Applications of Air Quality Index Display" },
-            {
-                type: "ul",
-                items: [
-                    "<strong>Public Spaces:</strong> Installed in parks, metro stations, and streets for public awareness.",
-                    "<strong>Schools & Colleges:</strong> Ensure a healthy environment for students and staff.",
-                    "<strong>Hospitals:</strong> Monitor and display air quality for patient safety.",
-                    "<strong>Industries:</strong> Show compliance with air quality regulations.",
-                    "<strong>Commercial Buildings:</strong> Display indoor air quality data for visitors and employees.",
-                ],
-            },
-            { type: "h2", text: "Additional Information on AQI Display" },
-            {
-                type: "ul",
-                items: [
-                    "Available in multiple sizes and display types (LED/LCD).",
-                    "Supports both <strong>wired and wireless data transmission</strong>.",
-                    "Energy-efficient design with <strong>low power consumption</strong>.",
-                    "Easy installation with wall-mounted or stand-alone options.",
-                ],
+                "type": "h2",
+                "text": "Portable Air Quality Monitor Importer in India"
             },
             {
-                type: "h2",
-                text: "Why Choose Shree Shakti Infratech for AQI Displays?",
+                "type": "p",
+                "text": "<strong>Shree Shakti Infratech</strong> is a trusted importer of high-quality Portable Air Quality Monitors in India, offering compact and efficient solutions for real-time air quality monitoring. Our imported devices are designed for easy mobility, enabling users to measure pollution levels anytime and anywhere."
             },
             {
-                type: "ul",
-                items: [
-                    "<strong>Reliable Supplier:</strong> Known for high-quality monitoring and display devices.",
-                    "<strong>Custom Solutions:</strong> Displays available in multiple formats and specifications.",
-                    "<strong>Advanced Technology:</strong> Equipped with modern sensors and cloud support.",
-                    "<strong>Affordable Pricing:</strong> Cost-effective displays without compromising quality.",
-                    "<strong>After-Sales Support:</strong> Full service and spare parts availability.",
-                ],
+                "type": "p",
+                "text": "We supply globally sourced portable air quality monitors that meet industry standards, making them ideal for on-site inspections, industrial use, and personal environmental monitoring across India."
             },
+
+            {
+                "type": "h2",
+                "text": "Compact & High-Precision Portable Air Quality Monitor"
+            },
+            {
+                "type": "p",
+                "text": "Our Portable Air Quality Monitor is engineered to deliver accurate and real-time data on key environmental parameters such as PM2.5, PM10, CO₂, VOCs, temperature, and humidity. With a lightweight and user-friendly design, it is perfect for professionals who need quick and reliable air quality assessments on the go."
+            },
+            {
+                "type": "p",
+                "text": "These monitors are equipped with advanced sensors and digital displays, ensuring precise readings and easy data interpretation."
+            },
+
+            {
+                "type": "h2",
+                "text": "Key Features"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Portable and lightweight design for easy handling",
+                    "Real-time monitoring of air quality parameters",
+                    "Measures PM2.5, PM10, CO₂, VOCs, temperature, and humidity",
+                    "High-precision sensors for accurate readings",
+                    "Digital display for instant data viewing",
+                    "Rechargeable battery with long backup",
+                    "Easy to operate and low maintenance"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Applications"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Construction site inspections",
+                    "Industrial and factory environments",
+                    "Indoor air quality testing",
+                    "Environmental monitoring and research",
+                    "Offices, homes, and public spaces"
+                ]
+            },
+
+            {
+                "type": "h2",
+                "text": "Why Choose Shree Shakti Infratech?"
+            },
+            {
+                "type": "ul",
+                "items": [
+                    "Trusted importer of environmental monitoring equipment in India",
+                    "High-quality devices sourced from reliable manufacturers",
+                    "Competitive pricing with advanced technology",
+                    "Nationwide delivery and timely service",
+                    "Strong after-sales support and technical assistance",
+                    "Complete solutions for air quality monitoring needs"
+                ]
+            }
         ],
         specs: [
             { label: "Minimum Order Quantity", value: "1 Piece" },
@@ -9367,10 +10100,126 @@ export const products = [
             { label: "Brand", value: "SSI" },
         ],
 
-        metaTitle: "Air Quality Index Display | SSI",
+        metaTitle: "Portable Air Quality Monitor Importer in India | Shree Shakti Infratech",
         metaDescription:
-            "Buy high-performance Air Quality Index Display with real-time AQI, PM2.5, PM10, CO₂, and VOC detection. Portable, accurate, and ideal for homes, offices, hospitals, and industries. Trusted supplier of AQI Display in India.",
+            "Leading importer of Portable Air Quality Monitor in India. Compact and accurate devices for measuring PM2.5, PM10, CO₂, VOCs, and indoor/outdoor air quality.",
     },
+];
 
-
+export const serviceLocations = [
+    { href: "/bar-bending-machine-importer-in-rajasthan", label: "Rajasthan", id: 1 },
+    { href: "/bar-bending-machine-importer-in-uttar-pradesh", label: "Uttar Pradesh", id: 2 },
+    { href: "/bar-bending-machine-importer-in-uttarakhand", label: "Uttarakhand", id: 3 },
+    { href: "/bar-bending-machine-importer-in-patna", label: "Patna", id: 4 },
+    { href: "/bar-bending-machine-importer-in-delhi-ncr", label: "Delhi NCR", id: 5 },
+    { href: "/bar-bending-machine-importer-in-delhi", label: "Delhi", id: 6 },
+    { href: "/bar-bending-machine-importer-in-bahadurgarh", label: "Bahadurgarh", id: 7 },
+    { href: "/bar-bending-machine-importer-in-bengaluru", label: "Bengaluru", id: 8 },
+    { href: "/bar-bending-machine-importer-in-bhiwadi", label: "Bhiwadi", id: 9 },
+    { href: "/bar-bending-machine-importer-in-bhopal", label: "Bhopal", id: 10 },
+    { href: "/bar-bending-machine-importer-in-bhubaneswar", label: "Bhubaneswar", id: 11 },
+    { href: "/bar-bending-machine-importer-in-bihar", label: "Bihar", id: 12 },
+    { href: "/bar-bending-machine-importer-in-chandigarh", label: "Chandigarh", id: 13 },
+    { href: "/bar-bending-machine-importer-in-chennai", label: "Chennai", id: 14 },
+    { href: "/bar-bending-machine-importer-in-chhattisgarh", label: "Chhattisgarh", id: 15 },
+    { href: "/bar-bending-machine-importer-in-daman", label: "Daman", id: 16 },
+    { href: "/bar-bending-machine-importer-in-dehradun", label: "Dehradun", id: 17 },
+    { href: "/bar-bending-machine-importer-in-delhi", label: "Delhi", id: 18 },
+    { href: "/bar-bending-machine-importer-in-gandhinagar", label: "Gandhinagar", id: 19 },
+    { href: "/bar-bending-machine-importer-in-ghaziabad", label: "Ghaziabad", id: 20 },
+    { href: "/bar-bending-machine-importer-in-goa", label: "Goa", id: 21 },
+    { href: "/bar-bending-machine-importer-in-greater-noida", label: "Greater Noida", id: 22 },
+    { href: "/bar-bending-machine-importer-in-gujarat", label: "Gujarat", id: 23 },
+    { href: "/bar-bending-machine-importer-in-gurgaon", label: "Gurgaon", id: 24 },
+    { href: "/bar-bending-machine-importer-in-guwahati", label: "Guwahati", id: 25 },
+    { href: "/bar-bending-machine-importer-in-gwalior", label: "Gwalior", id: 26 },
+    { href: "/bar-bending-machine-importer-in-haridwar", label: "Haridwar", id: 27 },
+    { href: "/bar-bending-machine-importer-in-haryana", label: "Haryana", id: 28 },
+    { href: "/bar-bending-machine-importer-in-himachal-pradesh", label: "Himachal Pradesh", id: 29 },
+    { href: "/bar-bending-machine-importer-in-hyderabad", label: "Hyderabad", id: 30 },
+    { href: "/bar-bending-machine-importer-in-indore", label: "Indore", id: 31 },
+    { href: "/bar-bending-machine-importer-in-jaipur", label: "Jaipur", id: 32 },
+    { href: "/bar-bending-machine-importer-in-jammu-&-kashmir", label: "Jammu & Kashmir", id: 33 },
+    { href: "/bar-bending-machine-importer-in-jharkhand", label: "Jharkhand", id: 34 },
+    { href: "/bar-bending-machine-importer-in-kanpur", label: "Kanpur", id: 35 },
+    { href: "/bar-bending-machine-importer-in-karnataka", label: "Karnataka", id: 36 },
+    { href: "/bar-bending-machine-importer-in-kerala", label: "Kerala", id: 37 },
+    { href: "/bar-bending-machine-importer-in-kolkata", label: "Kolkata", id: 38 },
+    { href: "/bar-bending-machine-importer-in-kundli", label: "Kundli", id: 39 },
+    { href: "/bar-bending-machine-importer-in-leh", label: "Leh", id: 40 },
+    { href: "/bar-bending-machine-importer-in-lucknow", label: "Lucknow", id: 41 },
+    { href: "/bar-bending-machine-importer-in-ludhiana", label: "Ludhiana", id: 42 },
+    { href: "/bar-bending-machine-importer-in-madhya-pradesh", label: "Madhya Pradesh", id: 43 },
+    { href: "/bar-bending-machine-importer-in-maharashtra", label: "Maharashtra", id: 44 },
+    { href: "/bar-bending-machine-importer-in-manali", label: "Manali", id: 45 },
+    { href: "/bar-bending-machine-importer-in-manesar", label: "Manesar", id: 46 },
+    { href: "/bar-bending-machine-importer-in-mathura", label: "Mathura", id: 47 },
+    { href: "/bar-bending-machine-importer-in-meerut", label: "Meerut", id: 48 },
+    { href: "/bar-bending-machine-importer-in-mumbai", label: "Mumbai", id: 49 },
+    { href: "/bar-bending-machine-importer-in-nagpur", label: "Nagpur", id: 50 },
+    { href: "/bar-bending-machine-importer-in-noida", label: "Noida", id: 51 },
+    { href: "/bar-bending-machine-importer-in-orissa", label: "Orissa", id: 52 },
+    { href: "/bar-bending-machine-importer-in-panipat", label: "Panipat", id: 53 },
+    { href: "/bar-bending-machine-importer-in-patna", label: "Patna", id: 54 },
+    { href: "/bar-bending-machine-importer-in-pune", label: "Pune", id: 55 },
+    { href: "/bar-bending-machine-importer-in-punjab", label: "Punjab", id: 56 },
+    { href: "/bar-bending-machine-importer-in-raipur", label: "Raipur", id: 57 },
+    { href: "/bar-bending-machine-importer-in-rajasthan", label: "Rajasthan", id: 58 },
+    { href: "/bar-bending-machine-importer-in-ranchi", label: "Ranchi", id: 59 },
+    { href: "/bar-bending-machine-importer-in-rohtak", label: "Rohtak", id: 60 },
+    { href: "/bar-bending-machine-importer-in-roorkee", label: "Roorkee", id: 61 },
+    { href: "/bar-bending-machine-importer-in-rudrapur", label: "Rudrapur", id: 62 },
+    { href: "/bar-bending-machine-importer-in-shimla", label: "Shimla", id: 63 },
+    { href: "/bar-bending-machine-importer-in-sikkim", label: "Sikkim", id: 64 },
+    { href: "/bar-bending-machine-importer-in-sonipat", label: "Sonipat", id: 65 },
+    { href: "/bar-bending-machine-importer-in-srinagar", label: "Srinagar", id: 66 },
+    { href: "/bar-bending-machine-importer-in-tamil-nadu", label: "Tamil Nadu", id: 67 },
+    { href: "/bar-bending-machine-importer-in-telangana", label: "Telangana", id: 68 },
+    { href: "/bar-bending-machine-importer-in-thiruvananthapuram", label: "Thiruvananthapuram", id: 69, },
+    { href: "/bar-bending-machine-importer-in-uttar-pradesh", label: "Uttar Pradesh", id: 70 },
+    { href: "/bar-bending-machine-importer-in-uttaranchal", label: "Uttaranchal", id: 71 },
+    { href: "/bar-bending-machine-importer-in-west-bengal", label: "West Bengal", id: 72 },
+    { href: "/bar-bending-machine-importer-in-ayodhya", label: "Ayodhya", id: 73 },
+    { href: "/bar-bending-machine-importer-in-haora", label: "Haora", id: 77 },
+    { href: "/bar-bending-machine-importer-in-hugli", label: "Hugli", id: 78 },
+    { href: "/bar-bending-machine-importer-in-nadia", label: "Nadia", id: 79 },
+    { href: "/bar-bending-machine-importer-in-murshidabad", label: "Murshidabad", id: 80 },
+    { href: "/bar-bending-machine-importer-in-faridabad", label: "Faridabad", id: 81 },
+    { href: "/bar-bending-machine-importer-in-bhiwani", label: "Bhiwani", id: 82 },
+    { href: "/bar-bending-machine-importer-in-sirsa", label: "Sirsa", id: 83 },
+    { href: "/bar-bending-machine-importer-in-jind", label: "Jind", id: 84 },
+    { href: "/bar-bending-machine-importer-in-yamuna-nagar", label: "Yamuna Nagar", id: 85 },
+    { href: "/bar-bending-machine-importer-in-karnal", label: "Karnal", id: 86 },
+    { href: "/bar-bending-machine-importer-in-kurukshetra", label: "Kurukshetra", id: 87 },
+    { href: "/bar-bending-machine-importer-in-ambala", label: "Ambala", id: 88 },
+    { href: "/bar-bending-machine-importer-in-jhajjar", label: "Jhajjar", id: 89 },
+    { href: "/bar-bending-machine-importer-in-rewari", label: "Rewari", id: 90 },
+    { href: "/bar-bending-machine-importer-in-punchkula", label: "Punchkula", id: 91 },
+    { href: "/bar-bending-machine-importer-in-mohali", label: "Mohali", id: 92 },
+    { href: "/bar-bending-machine-importer-in-kapurthala", label: "Kapurthala", id: 93 },
+    { href: "/bar-bending-machine-importer-in-patiala", label: "Patiala", id: 94 },
+    { href: "/bar-bending-machine-importer-in-bhatinda", label: "Bhatinda", id: 95 },
+    { href: "/bar-bending-machine-importer-in-hoshiyarpur", label: "Hoshiyarpur", id: 96 },
+    { href: "/bar-bending-machine-importer-in-gurdaspur", label: "Gurdaspur", id: 97 },
+    { href: "/bar-bending-machine-importer-in-allahabad", label: "Allahabad", id: 98 },
+    { href: "/bar-bending-machine-importer-in-moradabad", label: "Moradabad", id: 99 },
+    { href: "/bar-bending-machine-importer-in-bareilly", label: "Bareilly", id: 100 },
+    { href: "/bar-bending-machine-importer-in-hardoi", label: "Hardoi", id: 101 },
+    { href: "/bar-bending-machine-importer-in-varanasi", label: "Varanasi", id: 102 },
+    { href: "/bar-bending-machine-importer-in-aligarh", label: "Aligarh", id: 103 },
+    { href: "/bar-bending-machine-importer-in-bulandshahar", label: "Bulandshahar", id: 104 },
+    { href: "/bar-bending-machine-importer-in-shahjahanpur", label: "Shahjahanpur", id: 105 },
+    { href: "/bar-bending-machine-importer-in-jhansi", label: "Jhansi", id: 106 },
+    { href: "/bar-bending-machine-importer-in-alwar", label: "Alwar", id: 107 },
+    { href: "/bar-bending-machine-importer-in-ajmer", label: "Ajmer", id: 108 },
+    { href: "/bar-bending-machine-importer-in-kota", label: "Kota", id: 109 },
+    { href: "/bar-bending-machine-importer-in-bikaner", label: "Bikaner", id: 110 },
+    { href: "/bar-bending-machine-importer-in-jodhpur", label: "Jodhpur", id: 111 },
+    { href: "/bar-bending-machine-importer-in-surat", label: "Surat", id: 112 },
+    { href: "/bar-bending-machine-importer-in-vadodra", label: "vadodra", id: 113 },
+    { href: "/bar-bending-machine-importer-in-rajkot", label: "Rajkot", id: 114 },
+    { href: "/bar-bending-machine-importer-in-muzaffarpur", label: "Muzaffarpur", id: 115 },
+    { href: "/bar-bending-machine-importer-in-madurai", label: "Madurai", id: 116 },
+    { href: "/bar-bending-machine-importer-in-puducherry", label: "Puducherry", id: 117 },
+    { href: "/bar-bending-machine-importer-in-faizabad", label: "Faizabad", id: 118 },
 ];

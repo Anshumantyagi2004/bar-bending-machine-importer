@@ -8,6 +8,7 @@ import IndustriesSection from "@/components/Home/IndustriesSection";
 import TrustedPartner from "@/components/Home/TrustedPartner";
 import WhyUs from "@/components/Home/WhyUs";
 import FormSection from "@/components/Main/FormSection";
+import CitesKeyword from "@/components/Home/CityKeyword";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <ContactCTA />
       <TrustedPartner />
       <FormSection />
+      <CitesKeyword />
     </div>
   );
 }

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Phone, X } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   const [open, setOpen] = useState(false);
@@ -36,11 +37,12 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">About</h3>
           <ul className="space-y-2 text-base">
-            <li><a href="/" className="hover:text-amber-400">Home</a></li>
-            <li><a href="/about-us" className="hover:text-amber-400">About Us</a></li>
-            <li><a href="/articles" className="hover:text-amber-400">Articles</a></li>
-            <li><a href="/products" className="hover:text-amber-400">Products</a></li>
-            <li><a href="/contact-us" className="hover:text-amber-400">Contact Us</a></li>
+            <li><Link href="/" className="hover:text-amber-400">Home</Link></li>
+            <li><Link href="/about-us" className="hover:text-amber-400">About Us</Link></li>
+            <li><Link href="/articles" className="hover:text-amber-400">Articles</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Products</Link></li>
+            <li><Link href="/contact-us" className="hover:text-amber-400">Contact Us</Link></li>
+            <li><Link href="/sitemap" className="hover:text-amber-400">Sitemap</Link></li>
           </ul>
         </div>
 

@@ -84,13 +84,26 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
       <div className="grid md:grid-cols-2 gap-10 max-w-7xl mx-auto">
         <div className="space-y-4 md:sticky md:top-24 h-fit">
           <div className="w-full h-[350px] md:h-[450px] bg-white rounded-xl shadow-lg border overflow-hidden flex items-center justify-center">
-            <Image
-              src={activeImage.src}
-              alt={product.name}
-              width={600}
-              height={400}
-              className="object-contain w-full h-full"
-            />
+            {activeImage.isVideo ? (
+              <iframe
+                width="100%"
+                height="100%"
+                src={activeImage.src.replace("watch?v=", "embed/")}
+                title="Product Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            ) : (
+              <Image
+                src={activeImage.src}
+                alt={product.name}
+                width={600}
+                height={400}
+                className="object-contain w-full h-full"
+              />
+            )}
           </div>
 
           <div className="flex gap-3 overflow-x-auto">
@@ -113,6 +126,46 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
                 />
               </button>
             ))}
+            {product.videoUrl && (
+              <button
+                onClick={() => {
+                  let videoSrc = product.videoUrl;
+
+                  // Convert to embed format
+                  if (videoSrc.includes("youtu.be/")) {
+                    videoSrc = `https://www.youtube.com/embed/${videoSrc.split("youtu.be/")[1].split("?")[0]
+                      }`;
+                  } else if (videoSrc.includes("watch?v=")) {
+                    videoSrc = videoSrc
+                      .replace("watch?v=", "embed/")
+                      .split("&")[0];
+                  }
+
+                  setActiveImage({
+                    src: videoSrc,
+                    alt: `${product.name} Video`,
+                    isVideo: true,
+                  });
+                }}
+                className={`relative w-16 h-16 md:w-20 md:h-20 rounded-lg border shadow-sm overflow-hidden flex-shrink-0 ${activeImage.isVideo ? "ring-2 ring-yellow-500" : ""
+                  }`}
+              >
+                {/* ✅ Show YouTube thumbnail instead of black box */}
+                <Image
+                  src={`https://img.youtube.com/vi/${product.videoUrl.split("youtu.be/")[1]?.split("?")[0] ||
+                    product.videoUrl.split("v=")[1]?.split("&")[0]
+                    }/hqdefault.jpg`}
+                  alt={`${product.name} Video Thumbnail`}
+                  width={100}
+                  height={100}
+                  unoptimized
+                  className="object-cover w-full h-full"
+                />
+                <span className="absolute inset-0 flex items-center justify-center text-white text-xl bg-black/40">
+                  ▶
+                </span>
+              </button>
+            )}
           </div>
         </div>
 
@@ -235,7 +288,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
             </div>
 
             <div className="mt-auto flex justify-center pt-4">
-              <button                onClick={() => setShowPopup(true)}
+              <button onClick={() => setShowPopup(true)}
                 className="flex items-center gap-2 border border-amber-500 text-amber-500 px-6 py-3 rounded-lg hover:bg-amber-500 hover:text-white transition font-semibold"
               >
                 <MessageCircle size={18} />
