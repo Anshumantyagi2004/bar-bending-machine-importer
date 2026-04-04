@@ -65,7 +65,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3">
             <Link href="/" className={linkClass("/")}>
               <Home size={18} /> Home
             </Link>
@@ -96,7 +96,7 @@ export default function Navbar() {
             </button>
           </div>
 
-          <div className="md:hidden items-center flex gap-3">
+          <div className="lg:hidden items-center flex gap-3">
             <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 text-[#3C2012] px-3 py-2 rounded-lg transition font-semibold">
               <ShoppingCart size={24} />
               <span className="absolute -top-1.5 -right-1.5 bg-amber-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
@@ -110,7 +110,7 @@ export default function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="mt-4 flex flex-col gap-3 md:hidden animate-fadeIn">
+          <div className="mt-4 flex flex-col gap-3 lg:hidden animate-fadeIn">
             <Link href="/" className={linkClass("/")}>
               <Home size={18} /> Home
             </Link>
