@@ -6,7 +6,7 @@ const TrustedPartner = () => {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div className="w-full">
           <img
-            src="/products/cm/CONCRETE MIXER/1.webp"
+            src="/1.png"
             alt="Construction Machinery"
             className="w-full h-[350px] object-contain rounded-xl shadow-sm"
           />

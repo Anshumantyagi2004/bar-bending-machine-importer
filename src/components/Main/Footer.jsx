@@ -4,9 +4,12 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Phone, X } from "lucide-react";
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
 export default function Footer() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const adminLayout = pathname.startsWith("/admin")
+  if (adminLayout) return null;
   return (
     <footer className="bg-gray-900 text-gray-300">
       {/* Top Grid */}

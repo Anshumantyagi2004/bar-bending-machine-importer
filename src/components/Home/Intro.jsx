@@ -5,6 +5,9 @@ import { Users, Briefcase, Award, Headphones } from "lucide-react";
 import Link from "next/link";
 export default function Intro() {
     const images = [
+        '/1.png',
+        '/2.png',
+        '/3.png',
         '/products/bpm/SPIRAL BENDING MACHINE/1.webp',
         "/smog-gun.webp",
         "/products/cm/180230Ltr. MINI CONCRETE MIXER/1.webp",
@@ -134,7 +137,7 @@ export default function Intro() {
                         className="mx-auto mb-3 text-[#3C2012] group-hover:scale-110 transition duration-300"
                         size={40}
                     />
-                    <h3 className="text-3xl font-bold text-[#3C2012]">10+</h3>
+                    <h3 className="text-3xl font-bold text-[#3C2012]">13+</h3>
                     <p className="text-black text-base mt-1">Years Experience</p>
                 </div>
 

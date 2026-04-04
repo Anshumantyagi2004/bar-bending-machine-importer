@@ -1,5 +1,5 @@
 "use client";
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import FormSection from '@/components/Main/FormSection';
@@ -83,6 +83,23 @@ export default function CityPage() {
         },
     ];
 
+    const images = [
+        '/1.png',
+        '/2.png',
+        '/3.png',
+        "/ctaimg1.webp",
+        "/feature2.webp",
+        "/whychooseimg.webp",
+    ];
+
+    const [current, setCurrent] = useState(0);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrent((prev) => (prev + 1) % images.length);
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
+
     return (<>
         <section className="relative h-[60vh] flex items-center justify-center bg-cover bg-center"
             style={{ backgroundImage: "url('/banner-1.webp')" }}>
@@ -97,10 +114,10 @@ export default function CityPage() {
             </motion.h1>
         </section>
 
-        <CoreProduct />
+        <CoreProduct isButton={true} />
 
-        <section className="flex flex-col md:flex-row items-center justify-between bg-amber-50 py-10 px-4 md:px-15 text-black">
-            <div className="md:w-1/2 space-y-4">
+        <section className="grid md:grid-cols-2 items-center bg-amber-50 py-10 px-4 md:px-15 text-black">
+            <div className="space-y-4">
                 <h1 className="text-4xl font-bold">Bar Bending Machine Importer in {cityName}</h1>
                 <p className="text-lg">
                     Looking for a reliable <Link href={"/"} className='text-amber-500 font-bold'>Bar Bending Machine Importer in {cityName}?</Link> Shree Shakti Infratech is  a leading importer and supplier of high-quality rebar bending machines designed for modern construction and infrastructure projects. Our imported machines are known for precision, durability, and high performance, making them ideal for contractors, builders, and construction companies.
@@ -109,12 +126,16 @@ export default function CityPage() {
                     {cityName} NCR is one of India’s fastest-growing construction hubs, with continuous demand for efficient machinery. Our imported bar bending machines help improve productivity, reduce manual labor, and ensure accurate bending of steel bars for all types of construction work.
                 </p>
             </div>
-            <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center h-96">
-                <img
-                    src="/feature2.webp"
-                    alt="Bar Bending Machine"
-                    className="rounded-xl hover:scale-105 transition-transform duration-500 object-contain"
-                />
+            <div className="relative w-full h-75 md:h-96 rounded-2xl overflow-hidden shadow-sm">
+                {images.map((img, index) => (
+                    <img
+                        key={index}
+                        src={img}
+                        alt="About Shree Shakti"
+                        className={`absolute inset-0 w-full h-full object-contain transition-all duration-1000 
+                            ${index === current ? "opacity-100 scale-100" : "opacity-0 scale-110"}`}
+                    />
+                ))}
             </div>
         </section>
 

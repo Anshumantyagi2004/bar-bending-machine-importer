@@ -48,7 +48,8 @@ export default function Navbar() {
   }, []);
 
   const pathname = usePathname();
-
+  const adminLayout = pathname.startsWith("/admin")
+  if (adminLayout) return null;
   const linkClass = (path) =>
     `flex items-center gap-1 px-4 py-2 rounded-full text-base font-medium transition-all duration-200 ${pathname === path
       ? "bg-[#3C2012] text-white shadow-md scale-105"

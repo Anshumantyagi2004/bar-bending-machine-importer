@@ -2,8 +2,11 @@
 import { Phone } from "lucide-react";
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
-
+import { usePathname } from "next/navigation";
 const StickyButtons = () => {
+    const pathname = usePathname();
+    const adminLayout = pathname.startsWith("/admin")
+    if (adminLayout) return null;
     return (<>
         <a href="https://wa.me/+918826544443" target="_blank"
             rel="noopener noreferrer" aria-label="Chat on WhatsApp with Shree Shakti Infratech"
@@ -18,7 +21,7 @@ const StickyButtons = () => {
         >
             <Phone size={27} />
         </a>
-   </> );
+    </>);
 };
 
 export default StickyButtons;

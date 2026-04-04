@@ -8268,12 +8268,12 @@ export const products = [
         category: "material-lifting-equipment",
         model: "SSI-ZLP-800",
         image: {
-            src: "/products/ml/SUSPENDED PLATFORM (CRADLE)/1.webp",
+            src: "/products/ml/SUSPENDED PLATFORM (CRADLE)/2.webp",
             alt: "Suspended Platform Cradle for Construction",
         },
         images: [
             {
-                src: "/products/ml/SUSPENDED PLATFORM (CRADLE)/2.webp",
+                src: "/products/ml/SUSPENDED PLATFORM (CRADLE)/1.webp",
                 alt: "Construction Suspended Platform Cradle",
             },
             {

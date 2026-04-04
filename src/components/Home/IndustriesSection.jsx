@@ -91,7 +91,7 @@ export default function IndustriesSection() {
                         outcomes while reducing operational costs and ensuring long-term efficiency.
                     </p>
 
-                    <button onClick={() => setShowPopup(true)} className="border border-[#3C2012] text-[#3C2012] hover:bg-[#3C2012] hover:text-white px-7 py-3 rounded-lg transition">
+                    <button onClick={() => setShowPopup(true)} className="border bg-[#3C2012] text-white hover:bg-[#341b0f] px-7 py-3 rounded-lg transition">
                         Contact Now
                     </button>
                 </div>

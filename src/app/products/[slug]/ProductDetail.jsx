@@ -184,7 +184,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
               Add to Cart
             </button>
 
-            <a href={`https://wa.me/+918826544443?text=Hello, I am interested in ${product.name}`}
+            <a href={`https://wa.me/+918826544443?text=Hi, I have seen your product on https://barbendingmachineimporter.com and I am interested in ${product.name}`}
               target="_blank"
               className="flex items-center justify-center gap-2 border border-green-500 text-green-500 px-6 py-3 rounded-lg hover:bg-green-500 hover:text-white transition font-semibold"
             >

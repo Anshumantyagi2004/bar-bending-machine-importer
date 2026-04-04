@@ -55,7 +55,7 @@ export default function CheckoutPage() {
       .join("\n");
 
     const message = `
-*New Order - Mr Dates*
+*New Order - Bar Bending Machine Importer*
 
 👤 Customer Details
 Name: ${form.firstName} ${form.lastName}
