@@ -108,7 +108,7 @@ export default function CityPage() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
-                className="text-3xl md:text-5xl font-extrabold text-white leading-tight relative"
+                className="text-3xl md:text-5xl font-extrabold text-white leading-tight relative text-center"
             >
                 Bar Bending Machine Importer in {cityName}
             </motion.h1>

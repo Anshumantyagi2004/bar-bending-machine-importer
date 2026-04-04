@@ -58,7 +58,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-white backdrop-blur-md px-6 py-4 shadow-sm border-b sticky top-0 z-40">
+      <nav className="bg-white backdrop-blur-md px-6 py-2 shadow-sm border-b sticky top-0 z-40">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <img src="/logo.webp" alt="logo" className="h-15 w-35" />

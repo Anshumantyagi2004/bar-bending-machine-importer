@@ -8,7 +8,7 @@ export default function Popup({ showPopup, setShowPopup }) {
       onClick={() => setShowPopup(false)}>
       <div className="bg-white rounded-2xl overflow-hidden w-full max-w-4xl shadow-2xl flex flex-col md:flex-row animate-fadeIn"
         onClick={(e) => e.stopPropagation()}>
-        <div className="md:w-1/2 bg-gradient-to-br from-amber-400 to-amber-600 text-white p-8 flex flex-col justify-between">
+        <div className="md:w-1/2 bg-gradient-to-br from-amber-400 to-amber-600 text-white p-8 hidden md:flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-3">Get Your Quote</h2>
             <p className="text-sm opacity-90">
