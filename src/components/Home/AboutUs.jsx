@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 
 export default function AboutUs() {
     const images = [
-        "/ctaimg1.webp",
+        '/1.png',
+        '/2.png',
+        '/3.png',
         "/feature2.webp",
         "/whychooseimg.webp",
     ];

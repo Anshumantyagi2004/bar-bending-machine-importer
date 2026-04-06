@@ -22,7 +22,7 @@ export default function Slider() {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const checkScreen = () => {
-      setIsMobile(window.innerWidth < 910);
+      setIsMobile(window.innerWidth < 1025);
     };
 
     checkScreen();
@@ -52,7 +52,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="relative w-full h-[55vh] lg:h-[88vh] overflow-hidden">
+    <div className="relative w-full h-[50vh] md:h-[75vh] lg:h-[70vh] xl:h-[88vh] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div key={current}
           initial={{ opacity: 0, x: 50 }}
@@ -71,13 +71,13 @@ export default function Slider() {
       </AnimatePresence>
 
       <button onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow hover:bg-amber-500 hover:text-white z-10"
+        className="sm:block hidden absolute left-4 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow hover:bg-amber-500 hover:text-white z-10"
       >
         <ChevronLeft />
       </button>
 
       <button onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow hover:bg-amber-500 hover:text-white z-10"
+        className="sm:block hidden absolute right-4 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow hover:bg-amber-500 hover:text-white z-10"
       >
         <ChevronRight />
       </button>

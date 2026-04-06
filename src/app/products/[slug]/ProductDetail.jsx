@@ -1,12 +1,13 @@
 "use client";
 import Image from "next/image";
 import { Heart, ShoppingCart, MessageCircle } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import Popup from "@/components/Main/Popup";
 import toast from "react-hot-toast";
 import { CheckCircle } from "lucide-react";
+import CartSidebar from "@/components/Main/CartSidebar";
 
 export default function ProductDetail({ product, relatedProducts = [] }) {
   const [activeImage, setActiveImage] = useState(product.image);
@@ -76,6 +77,35 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
       currentSection?.content.push(block);
     }
   });
+
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [cartItems, setCartItems] = useState([]);
+
+  useEffect(() => {
+    const storedCart = localStorage.getItem("cart");
+    if (storedCart) {
+      setCartItems(JSON.parse(storedCart));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+  }, [cartItems]);
+
+  useEffect(() => {
+    const updateCart = () => {
+      const storedCart = localStorage.getItem("cart");
+      if (storedCart) {
+        setCartItems(JSON.parse(storedCart));
+      }
+    };
+
+    window.addEventListener("cartUpdated", updateCart);
+
+    return () => {
+      window.removeEventListener("cartUpdated", updateCart);
+    };
+  }, []);
 
   if (currentSection) sections.push(currentSection);
 
@@ -178,8 +208,8 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
             ₹ {product.price}/Piece <a href="tel:+918826544443" className="ml-2 transition hover:underline hover:text-amber-500 text-base text-[#3C2012]">Get Latest Price</a>
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
-            <button onClick={() => addToCart(product)} className="flex items-center justify-center gap-2 bg-[#3C2012] text-white px-6 py-3 rounded-lg hover:bg-amber-500 transition font-semibold">
+          <div className="flex flex-col lg:flex-row gap-4 flex-wrap">
+            <button onClick={() => { addToCart(product); setIsCartOpen(true) }} className="flex items-center justify-center gap-2 bg-[#3C2012] text-white px-6 py-3 rounded-lg hover:bg-amber-500 transition font-semibold">
               <ShoppingCart size={18} />
               Add to Cart
             </button>
@@ -223,7 +253,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
       </div>
 
       <div className="max-w-7xl mx-auto mt-12 px-4">
-        <h2 className="text-3xl font-bold text-[#3C2012] mb-6 text-center">
+        <h2 className="text-3xl font-bold text-[#3C2012] mb-6 text-center flex flex-col justify-center items-center">
           Product Overview
           <span className="block h-1 w-30 bg-amber-500 mt-2 rounded-sm justify-self-center"></span>
         </h2>
@@ -303,14 +333,14 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
     {/* Related Products */}
     {relatedProducts?.length > 0 && (
       <div className="p-4 md:p-8">
-        <h2 className="text-2xl md:text-5xl text-center text-amber-500 font-semibold mb-6">
+        <h2 className="text-2xl md:text-5xl text-center text-amber-500 font-semibold mb-6 flex flex-col justify-center items-center">
           Related Products
           <span className="block h-1 w-30 bg-[#3C2012] mt-4 rounded-sm justify-self-center"></span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {relatedProducts.map((product) => (
             <Link href={`/products/${product?.slug}`} key={product.id} className="group border border-gray-200 hover:border-gray-400 rounded-xl p-2 bg-white shadow-sm hover:shadow-lg transition flex flex-col h-full">
-              <div className="h-60 w-82 bg-gray-50 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
+              <div className="h-60 w-82 bg-gray-50 rounded-lg mb-2 flex items-center justify-center overflow-hidden!">
                 <img
                   src={product.image?.src}
                   alt={product.name}
@@ -349,5 +379,12 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
     </div>
 
     <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
+
+    <CartSidebar
+      isOpen={isCartOpen}
+      setIsOpen={setIsCartOpen}
+      cartItems={cartItems}
+      setCartItems={setCartItems}
+    />
   </>);
 }

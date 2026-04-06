@@ -82,12 +82,12 @@ export default function Navbar() {
               <Phone size={18} /> Contact
             </Link>
 
-            <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 bg-[#3C2012] text-white px-5 py-2 rounded-full font-semibold transition-all duration-200 shadow-md hover:scale-105">
+            {/* <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 bg-[#3C2012] text-white px-5 py-2 rounded-full font-semibold transition-all duration-200 shadow-md hover:scale-105">
               <ShoppingCart size={18} /> Cart
               <span className="absolute -top-2 -right-2 bg-amber-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                 {cartItems.length}
               </span>
-            </button>
+            </button> */}
 
             <button onClick={() => setShowPopup(true)}
               className="bg-[#faac18] text-white px-5 py-2 rounded-full font-semibold hover:bg-amber-500 transition-all duration-200 shadow-md hover:scale-105"
@@ -97,12 +97,12 @@ export default function Navbar() {
           </div>
 
           <div className="lg:hidden items-center flex gap-3">
-            <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 text-[#3C2012] px-3 py-2 rounded-lg transition font-semibold">
+            {/* <button onClick={() => setIsCartOpen(true)} className="relative flex items-center justify-center gap-2 text-[#3C2012] px-3 py-2 rounded-lg transition font-semibold">
               <ShoppingCart size={24} />
               <span className="absolute -top-1.5 -right-1.5 bg-amber-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                 {cartItems.length}
               </span>
-            </button>
+            </button> */}
             <button className="bg-amber-500 hover:bg-amber-600 px-3 py-2 rounded-md text-white" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
