@@ -131,7 +131,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t flex justify-around border-gray-700 text-center py-4 text-base text-gray-300">
         <p>© 2025 Shree Shakti Infratech, All Rights Reserved.</p>
-        <p>Managed and Developed By Promozione Branding Pvt Ltd.</p>
+        <p>Website Designed By <a target="blank" className='hover:underline' href="https://promozionebranding.com/">Promozione Branding Pvt Ltd.</a></p>
       </div>
     </footer>
   );

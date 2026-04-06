@@ -17,10 +17,10 @@ export default function Home() {
       <Category />
       <Intro />
       <AboutUs />
+      <ContactCTA />
       <WhyUs />
       <CoreProduct />
       <IndustriesSection />
-      <ContactCTA />
       <TrustedPartner />
       <FormSection />
       <CitesKeyword />
