@@ -306,7 +306,7 @@ export default function ProductDetail({ product, relatedProducts = [] }) {
               </h3>
 
               <p className="text-black text-base mb-2">
-                If you are looking for a dependable Bar Bending Machine importer, Shree
+                If you are looking for a dependable Bar Bending Machine Importer, Shree
                 Shakti Infratech provides the perfect combination of quality,
                 performance, and affordability.
               </p>

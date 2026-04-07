@@ -5,15 +5,15 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
   "/bar importer banner.webp",
-  "/Bar Bending Machine banne.webp",
+  "/importer banner.webp",
   "/bar importer banner.webp",
-  "/Bar Bending Machine banne.webp",
+  "/importer banner.webp",
 ];
 
 const slidesMobile = [
-  "/mobile banner 2 (5).webp",
+  "/importer mobile banne.webp",
   "/mobile importe 1.webp",
-  "/mobile banner 2 (5).webp",
+  "/importer mobile banne.webp",
   "/mobile importe 1.webp",
 ];
 

@@ -61,7 +61,7 @@ export default function About() {
                     </h2>
 
                     <p className="text-gray-800 mb-4 leading-relaxed">
-                        <strong>Shree Shakti Infratech</strong> is a trusted name in the construction machinery industry, recognized as a leading <strong>Bar Bending Machine importer in India</strong>. With a strong commitment to quality, innovation, and customer satisfaction, we have established ourselves as a reliable partner for contractors, builders, and infrastructure companies across the country.
+                        <strong>Shree Shakti Infratech</strong> is a trusted name in the construction machinery industry, recognized as a leading <strong>Bar Bending Machine Importer in India</strong>. With a strong commitment to quality, innovation, and customer satisfaction, we have established ourselves as a reliable partner for contractors, builders, and infrastructure companies across the country.
                     </p>
 
                     <p className="text-gray-800 leading-relaxed">
