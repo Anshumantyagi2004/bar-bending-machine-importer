@@ -4,17 +4,17 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
-  "/bar importer banner.webp",
-  "/importer banner.webp",
-  "/bar importer banner.webp",
-  "/importer banner.webp",
+  "/Bar Bending banner (1).webp",
+  "/bar importer.webp",
+  "/Bar Bending banner (1).webp",
+  "/bar importer.webp",
 ];
 
 const slidesMobile = [
-  "/importer mobile banne.webp",
-  "/mobile importe 1.webp",
-  "/importer mobile banne.webp",
-  "/mobile importe 1.webp",
+  "/mobile banner (7).webp",
+  "/bar importer mobile banner.webp",
+  "/mobile banner (7).webp",
+  "/bar importer mobile banner.webp",
 ];
 
 export default function Slider() {
@@ -52,7 +52,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="relative w-full h-[50vh] md:h-[75vh] lg:h-[70vh] xl:h-[88vh] overflow-hidden">
+    <div className="relative w-full h-[52vh] md:h-[75vh] lg:h-[70vh] xl:h-[88vh] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div key={current}
           initial={{ opacity: 0, x: 50 }}

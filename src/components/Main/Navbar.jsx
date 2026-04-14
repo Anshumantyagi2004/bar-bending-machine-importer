@@ -60,8 +60,9 @@ export default function Navbar() {
     <>
       <nav className="bg-white backdrop-blur-md px-6 py-2 shadow-sm border-b sticky top-0 z-40">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center relative">
             <img src="/logo.webp" alt="logo" className="h-15 w-35" />
+            <span className="absolute top-0 right-0 text-sm font-bold text-black">®</span>
           </Link>
 
           {/* Desktop Menu */}
