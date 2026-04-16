@@ -53,16 +53,16 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Products</h3>
           <ul className="space-y-2 text-base">
-            <li>Bar Processing Machines</li>
-            <li>Concrete Mixers</li>
-            <li>Anti-Fog Cannon Machine</li>
-            <li>Lab Testing Equipment</li>
-            <li>Material Lifting Equipment</li>
-            <li>Safety Instruments</li>
-            <li>Ride On Roller / Plate Compactor</li>
-            <li>Surveying Instruments</li>
-            <li>Trolley Vibrator</li>
-            <li>Air Quality Index</li>
+            <li><Link href="/products" className="hover:text-amber-400">Bar Processing Machines</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Concrete Mixers</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Anti-Fog Cannon Machine</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Lab Testing Equipment</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Material Lifting Equipment</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Safety Instruments</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Ride On Roller / Plate Compactor</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Surveying Instruments</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Trolley Vibrator</Link></li>
+            <li><Link href="/products" className="hover:text-amber-400">Air Quality Index</Link></li>
           </ul>
         </div>
 

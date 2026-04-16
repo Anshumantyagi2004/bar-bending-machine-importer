@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion";
 import Popup from '../Main/Popup';
+import Link from 'next/link';
 
 export default function CoreProduct({ isButton }) {
   const products = [
@@ -9,26 +10,31 @@ export default function CoreProduct({ isButton }) {
       title: "Bar Bending Machines",
       desc: "Advanced machines for accurate and efficient bending.",
       img: "/feature2.webp",
+      id: '/products/bar-bending-machine',
     },
     {
       title: "Bar Cutting Machines",
       desc: "Fast, clean, and precise cutting solutions.",
       img: "/whychooseimg.webp",
+      id: '/products/bar-cutting-machine',
     },
     {
       title: "Concrete Mixers",
       desc: "Uniform mixing for durable construction.",
       img: "/ctaimg1.webp",
+      id: '/products/180-230ltr-mini-concrete-mixer',
     },
     {
       title: "Hoists & Lifting Equipment",
       desc: "Safe handling of heavy materials.",
       img: "/2.webp",
+      id: '/products/builder-hoist',
     },
     {
       title: "Safety Equipment",
       desc: "Complete worker safety solutions.",
       img: "/1.webp",
+      id: '/products/safety-jacket',
     },
   ];
   const [showPopup, setShowPopup] = useState(false);
@@ -56,7 +62,7 @@ export default function CoreProduct({ isButton }) {
           }}
         >
           {loopProducts.map((item, index) => (
-            <div key={index}
+            <Link href={`${item.id}`} key={index}
               className="flex flex-col justify-between shrink-0 w-[260px] md:w-[280px] lg:w-[300px]
                 bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 p-5 text-center">
               {/* IMAGE */}
@@ -80,7 +86,7 @@ export default function CoreProduct({ isButton }) {
                 <button onClick={() => setShowPopup(true)} className="bg-[#3C2012] cursor-pointer mt-auto px-3 py-3 rounded-md text-white justify-self-center">
                   Inquiry Now
                 </button>}
-            </div>
+            </Link>
           ))}
         </motion.div>
         <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
