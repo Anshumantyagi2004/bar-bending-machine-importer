@@ -1,21 +1,42 @@
 export const dynamic = "force-dynamic";
+
 import { products, serviceLocations } from "@/Data/data";
 
-const res = await fetch(`${baseUrl}/api/blog`, {
-  cache: "no-store", // ensures fresh data
-});
-
-const blogs = await res.json();
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
 
 export async function GET() {
   const baseUrl = "https://barbendingmachineimporter.com";
 
-  // Fetch blogs
-  // const blogs = await getAllBlogs();
+  // Fetch blogs safely
+  let blogs = [];
+  try {
+    const res = await fetch(`${baseUrl}/api/blog`, {
+      cache: "no-store",
+    });
+    blogs = await res.json();
+  } catch (err) {
+    console.error("Blog fetch failed:", err);
+  }
 
+  const now = new Date().toISOString();
 
+  // Homepage
+  const homepage = `
+    <url>
+      <loc>${escapeXml(baseUrl)}</loc>
+      <lastmod>${now}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>`;
 
-  // Static pages (About, Contact, Blog Listing)
+  // Static pages
   const staticPages = [
     { loc: `${baseUrl}/about-us`, priority: 0.8, changefreq: "yearly" },
     { loc: `${baseUrl}/contact-us`, priority: 0.8, changefreq: "yearly" },
@@ -24,84 +45,68 @@ export async function GET() {
   ]
     .map(
       (page) => `
-      <url>
-        <loc>${page.loc}</loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>${page.changefreq}</changefreq>
-        <priority>${page.priority}</priority>
-      </url>
-    `
+    <url>
+      <loc>${escapeXml(page.loc)}</loc>
+      <lastmod>${now}</lastmod>
+      <changefreq>${page.changefreq}</changefreq>
+      <priority>${page.priority}</priority>
+    </url>`
     )
     .join("");
-
-  // Homepage
-  const homepage = `
-    <url>
-      <loc>${baseUrl}</loc>
-      <lastmod>${new Date().toISOString()}</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>1.0</priority>
-    </url>
-  `;
 
   // Products
-  const productUrls = products.map((product) => `
-      <url>
-        <loc>${baseUrl}/products/${product.id}</loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-      </url>
-    `
-  )
+  const productUrls = products
+    .map(
+      (product) => `
+    <url>
+      <loc>${escapeXml(`${baseUrl}/products/${product.slug}`)}</loc>
+      <lastmod>${now}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>`
+    )
     .join("");
-
+  // console.log(blogs)
+  // Blogs
   const blogUrls = blogs
-    .map((blog) => {
-      if (!blog.slug) return "";
-
-      return `
-      <url>
-        <loc>${baseUrl}/blog/${blog.slug}</loc>
-        <lastmod>${blog.date
-          ? new Date(blog.date).toISOString()
-          : new Date().toISOString()
-        }</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-      </url>
-    `;
-    })
+    .filter((blog) => blog?.permalink)
+    .map((blog) => `
+    <url>
+      <loc>${escapeXml(`${baseUrl}/articles/${blog.permalink}`)}</loc>
+      <lastmod>${blog.date ? new Date(blog.date).toISOString() : now
+      }</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>`)
     .join("");
 
+  // 🔥 Remove duplicate locations
+  const uniqueLocations = Array.from(
+    new Map(serviceLocations.map((loc) => [loc.href, loc])).values()
+  );
 
-
-
-  const locationUrls = serviceLocations
+  const locationUrls = uniqueLocations
     .map(
       (loc) => `
-      <url>
-        <loc>${baseUrl}${loc.href}</loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-      </url>
-    `
+    <url>
+      <loc>${escapeXml(`${baseUrl}${loc.href}`)}</loc>
+      <lastmod>${now}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>`
     )
     .join("");
 
-
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    ${homepage}
-      ${staticPages}
-    ${productUrls}
-    ${locationUrls}
-   ${blogUrls}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${homepage}
+${staticPages}
+${productUrls}
+${locationUrls}
+${blogUrls}
+</urlset>`;
 
-  </urlset>`;
-
-  return new Response(sitemap, {
+  return new Response(sitemap.trim(), {
     headers: {
       "Content-Type": "application/xml",
     },
