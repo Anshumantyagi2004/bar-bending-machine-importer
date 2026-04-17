@@ -1,6 +1,5 @@
 export const dynamic = "force-dynamic";
-import {   serviceLocations } from "@/Data";
-import { products } from "@/Data/data";
+import { products, serviceLocations } from "@/Data/data";
 
 const res = await fetch(`${baseUrl}/api/blog`, {
   cache: "no-store", // ensures fresh data
