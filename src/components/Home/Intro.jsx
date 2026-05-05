@@ -24,15 +24,15 @@ export default function Intro() {
     }, []);
 
     return (<>
-        <section className="bg-amber-50 py-10 px-4 md:px-15 overflow-hidden">
-            <div className="grid md:grid-cols-2 gap-10 items-center">
+        <section className="bg-amber-50 py-5 md:py-10 px-6 md:px-15 overflow-hidden">
+            <div className="grid md:grid-cols-2 gap-10 items-center pl-2 ">
                 <motion.div
                     initial={{ opacity: 0, x: -40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                     className="items-center md:items-start flex flex-col"
                 >
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-2">
+                    <h1 className="text-3xl text-center md:text-start md:text-5xl font-bold text-gray-900 leading-tight mb-2">
                         India’s Trusted{" "}
                         <span className="text-amber-500">
                             Bar Bending Machine
@@ -40,11 +40,11 @@ export default function Intro() {
                         Importer
                     </h1>
 
-                    <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-4">
+                    <h2 className="text-lg text-center md:text-start md:text-xl font-semibold text-gray-800 mb-4">
                         High-Quality Imported Construction Machinery for Modern Infrastructure
                     </h2>
 
-                    <p className="text-gray-600 leading-relaxed mb-4">
+                    <p className="text-gray-600 leading-relaxed mb-4 text-center md:text-start">
                         Founded in 2013, <strong>Shree Shakti Infratech</strong> has established
                         itself as a trusted and leading{" "}
                         <strong>Bar Bending Machine Importer in India</strong>, delivering
@@ -52,7 +52,7 @@ export default function Intro() {
                         durability, and long-term reliability.
                     </p>
 
-                    <p className="text-gray-600 leading-relaxed mb-4">
+                    <p className="text-gray-600 leading-relaxed mb-4 text-center md:text-start">
                         As an ISO-certified company, we are committed to providing advanced
                         imported machines that meet the evolving demands of modern construction
                         and infrastructure projects. Our solutions are designed to enhance
@@ -60,7 +60,7 @@ export default function Intro() {
                     </p>
 
                     {/* BUTTONS */}
-                    <div className="flex gap-4 flex-wrap">
+                    <div className="flex gap-4 mt-3 flex-wrap">
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
@@ -108,7 +108,7 @@ export default function Intro() {
             </div>
         </section>
 
-        <section className="py-15 px-4 md:px-15 w-full bg-cover bg-center relative"
+        <section className="py-7 md:py-15 px-4 md:px-15 w-full bg-cover bg-center relative"
             style={{ backgroundImage: "url('/bannner.webp')" }}
         >
             {/* Overlay */}

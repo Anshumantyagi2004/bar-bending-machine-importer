@@ -5,10 +5,10 @@ import Popup from "../Main/Popup";
 const ContactCTA = () => {
   const [showPopup, setShowPopup] = useState(false);
   return (<>
-    <section className="bg-[#3C2012] py-10 px-4 md:px-15 w-full">
+    <section className="bg-[#3C2012] py-8 md:py-10 px-4 md:px-15 w-full">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-white md:max-w-2xl">
-          <h2 className="text-3xl md:text-5xl font-bold mb-3">
+          <h2 className="text-4xl md:text-5xl font-bold mb-3">
             Contact Us Today
           </h2>
 

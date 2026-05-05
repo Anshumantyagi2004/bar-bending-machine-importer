@@ -20,10 +20,10 @@ export default function AboutUs() {
     }, []);
 
     return (
-        <section className="px-4 md:px-15 py-10 bg-white">
+        <section className="px-4 md:px-15 py-6 md:py-10 bg-white">
             <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div>
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-2 leading-tight">
+                    <h2 className="text-3xl md:text-5xl text-center md:text-start font-bold text-gray-900 mb-2 leading-tight">
                         About{" "}
                         <span className="text-amber-500">
                             Shree Shakti Infratech
@@ -31,7 +31,7 @@ export default function AboutUs() {
                     </h2>
                     <div className="w-20 h-1 bg-[#3C2012] mb-6 justify-self-center"></div>
 
-                    <p className="text-gray-800 leading-relaxed mb-4 text-[18px]">
+                    <p className="text-gray-800 text-center md:text-start leading-relaxed mb-4 text-[18px]">
                        <strong>Shree Shakti Infratech</strong> is not just a supplier—we are a
                         complete solution provider for construction machinery in India.
                         Our journey began with a vision to bridge the gap between
@@ -39,14 +39,14 @@ export default function AboutUs() {
                         the Indian construction sector.
                     </p>
 
-                    <p className="text-gray-800 leading-relaxed mb-4 text-[18px]">
+                    <p className="text-gray-800 text-center md:text-start leading-relaxed mb-4 text-[18px]">
                         Today, we proudly offer a wide range of imported construction
                         machines engineered for performance and built to last.
                         Our expertise in sourcing machinery from trusted global
                         manufacturers ensures our customers receive only the best.
                     </p>
 
-                    <p className="text-gray-800 leading-relaxed text-[18px]">
+                    <p className="text-gray-800 text-center md:text-start leading-relaxed text-[18px]">
                         We focus on delivering value through quality products,
                         technical expertise, and unmatched after-sales service,
                         making us a preferred choice among construction professionals

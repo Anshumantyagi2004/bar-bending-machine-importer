@@ -41,7 +41,7 @@ export default function CoreProduct({ isButton }) {
   const loopProducts = [...products, ...products, ...products, ...products];
 
   return (
-    <section className="pt-10 px-4 md:px-15 bg-gray-100 overflow-hidden">
+    <section className="pt-5 md:pt-10 px-4 md:px-15 bg-gray-100 overflow-hidden">
       <div className="text-center mb-6">
         <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
           Our Core <span className="text-amber-500">Products</span>

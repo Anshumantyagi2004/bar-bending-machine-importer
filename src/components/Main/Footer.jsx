@@ -129,7 +129,7 @@ export default function Footer() {
       </AnimatePresence>
 
       {/* Bottom Bar */}
-      <div className="border-t flex justify-around border-gray-700 text-center py-4 text-base text-gray-300">
+      <div className="border-t flex flex-col md:flex-row justify-start gap-5 md:justify-around border-gray-700 text-center py-4 text-base text-gray-300">
         <p>© 2025 Shree Shakti Infratech, All Rights Reserved.</p>
         <p>Website Designed By <a target="blank" className='hover:underline' href="https://promozionebranding.com/">Promozione Branding Pvt Ltd.</a></p>
       </div>

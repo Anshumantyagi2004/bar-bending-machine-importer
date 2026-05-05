@@ -11,7 +11,7 @@ export default function IndustriesSection() {
         { title: "Real Estate Development", icon: FaHome, color: "bg-green-100 text-green-600" },
         { title: "Road and Highway Construction", icon: FaRoad, color: "bg-blue-100 text-blue-600" },
         { title: "Industrial Projects", icon: FaIndustry, color: "bg-purple-100 text-purple-600" },
-        { title: "Builders and Contractors", icon: FaBuilding, color: "bg-pink-100 text-pink-600" },
+        // { title: "Builders and Contractors", icon: FaBuilding, color: "bg-pink-100 text-pink-600" },
     ];
 
     const cardVariants = {
@@ -33,14 +33,14 @@ export default function IndustriesSection() {
             <div className="absolute inset-0 bg-black/30"></div>
 
             <div className="relative">
-                <div className="text-center mb-6">
-                    <h2 className="text-3xl md:text-5xl font-bold text-white">
+                <div className="text-center mb-3 md:mb-6">
+                    <h2 className="text-4xl md:text-5xl font-bold text-white">
                         Industries We Serve
                     </h2>
                     <div className="w-24 h-1 bg-[#3C2012] mx-auto mt-2 rounded"></div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {industries.map((item, index) => {
                         const Icon = item.icon;
                         return (
@@ -73,7 +73,7 @@ export default function IndustriesSection() {
             </div>
         </section>
 
-        <section className="py-10 px-4 md:px-15 bg-amber-50">
+        <section className="py-5 md:py-10 px-4 md:px-15 bg-amber-50">
             <div className="grid md:grid-cols-2 gap-10 items-start">
                 <div className='items-center md:items-start flex flex-col'>
                     <h2 className="text-3xl md:text-5xl font-bold text-black mb-4 leading-tight">

@@ -2,7 +2,7 @@ import React from "react";
 
 const TrustedPartner = () => {
   return (
-    <section className="py-10 px-4 md:px-15 w-full bg-white">
+    <section className="py-3 md:py-10 px-4 md:px-15 w-full bg-white">
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div className="w-full">
           <img
