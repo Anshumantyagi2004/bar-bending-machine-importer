@@ -7945,7 +7945,7 @@ export const products = [
         category: "material-lifting-equipment",
         model: "SSI-MH-03",
         image: {
-            src: "/products/ml/BUILDER HOIST/1.webp",
+            src: "/products/ml/MONKEY HOIST ( 200300 KG )/3.webp",
             alt: "Builder Hoist for Construction",
         },
 
