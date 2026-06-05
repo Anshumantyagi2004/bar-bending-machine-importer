@@ -51,7 +51,7 @@ export default function CityPage() {
             ],
         },
         {
-            title: `Applications in ${cityName} NCR`,
+            title: `Applications in ${cityName}`,
             items: [
                 "Residential & commercial construction",
                 "Flyovers & metro projects",
@@ -77,7 +77,7 @@ export default function CityPage() {
                 "High-quality imported machines",
                 "Competitive pricing & bulk deals",
                 "Ready stock availability",
-                `Fast delivery across ${cityName} NCR`,
+                `Fast delivery across ${cityName}`,
                 "After-sales support & spare parts",
             ],
         },
@@ -116,14 +116,14 @@ export default function CityPage() {
 
         <CoreProduct isButton={true} />
 
-        <section className="grid md:grid-cols-2 items-center bg-amber-50 py-10 px-4 md:px-15 text-black">
+        <section className="grid md:grid-cols-2 gap-10 items-center bg-amber-50 py-10 px-4 md:px-15 text-black">
             <div className="space-y-4">
                 <h1 className="text-4xl font-bold">Bar Bending Machine Importer in {cityName}</h1>
                 <p className="text-lg">
                     Looking for a reliable <Link href={"/"} className='text-amber-500 font-bold'>Bar Bending Machine Importer in {cityName}?</Link> Shree Shakti Infratech is  a leading importer and supplier of high-quality rebar bending machines designed for modern construction and infrastructure projects. Our imported machines are known for precision, durability, and high performance, making them ideal for contractors, builders, and construction companies.
                 </p>
                 <p className="text-lg">
-                    {cityName} NCR is one of India’s fastest-growing construction hubs, with continuous demand for efficient machinery. Our imported bar bending machines help improve productivity, reduce manual labor, and ensure accurate bending of steel bars for all types of construction work.
+                    {cityName} is one of India’s fastest-growing construction hubs, with continuous demand for efficient machinery. Our imported bar bending machines help improve productivity, reduce manual labor, and ensure accurate bending of steel bars for all types of construction work.
                 </p>
             </div>
             <div className="relative w-full h-75 md:h-96 rounded-2xl overflow-hidden shadow-sm">

@@ -83,7 +83,7 @@ export default function CoreProduct({ isButton }) {
                 {item.desc}
               </p>
               {isButton &&
-                <button onClick={() => setShowPopup(true)} className="bg-[#3C2012] cursor-pointer mt-auto px-3 py-3 rounded-md text-white justify-self-center">
+                <button onClick={(e) => { setShowPopup(true); e.preventDefault(); }} className="bg-[#3C2012] cursor-pointer mt-auto px-3 py-3 rounded-md text-white justify-self-center">
                   Inquiry Now
                 </button>}
             </Link>
