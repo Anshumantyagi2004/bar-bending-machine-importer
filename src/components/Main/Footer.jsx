@@ -2,9 +2,10 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Phone, X } from "lucide-react";
+import { Mail, MapPin, Phone, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -33,6 +34,25 @@ export default function Footer() {
               4A, S-Block, Vishwas Park, Raja Puri Main Road, Opp. Sec – 3,
               Dwarka, New Delhi – 110059
             </span>
+          </div>
+
+          <div className="mt-4 flex gap-8">
+            <a href="mailto:shreeshaktiinfratech@gmail.com" target="_blank" rel="noopener noreferrer"
+              className="text-gray-300 hover:text-amber-400">
+              <Mail size={24} />
+            </a>
+            <a href="https://www.facebook.com/ShreeShaktiInfratech" target="_blank" rel="noopener noreferrer"
+              className="text-gray-300 hover:text-amber-400">
+              <FaFacebook size={24} />
+            </a>
+            <a href="https://www.youtube.com/@ShreeShaktiInfratech" target="_blank" rel="noopener noreferrer"
+              className="text-gray-300 hover:text-amber-400">
+              <FaYoutube size={24} />
+            </a>
+            <a href="https://www.instagram.com/shree_shakti_infratech_delhi/" target="_blank" rel="noopener noreferrer"
+              className="text-gray-300 hover:text-amber-400">
+              <FaInstagram size={24} />
+            </a>
           </div>
         </div>
 
@@ -132,13 +152,13 @@ export default function Footer() {
       <div className="border-t flex flex-col md:flex-row justify-start gap-5 md:justify-around border-gray-700 text-center py-4 text-base text-gray-300">
         <p>© 2025 Shree Shakti Infratech, All Rights Reserved.</p>
         <p>Website Designed By   Inquiry Bazaar Pvt. Ltd.  {" "}
-        <a
-          target="_blank"
-          href="https://inquirybazaar.com/"
-          className="text-[#FAAC18] hover:underline"
-        >
-           B2B Marketplace
-        </a></p>
+          <a
+            target="_blank"
+            href="https://inquirybazaar.com/"
+            className="text-[#FAAC18] hover:underline"
+          >
+            B2B Marketplace
+          </a></p>
       </div>
     </footer>
   );
